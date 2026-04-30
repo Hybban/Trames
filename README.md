@@ -51,6 +51,7 @@ python scripts/generate_srd.py
 
 ## 💾 Gestion de Versions (Git)
 Le projet est versionné avec Git. Le fichier `.gitignore` est configuré pour exclure automatiquement les PDFs du dossier `Générations` ainsi que les fichiers temporaires Python. 
+
 Pour lier votre dépôt local à GitHub :
 ```bash
 git branch -M main
