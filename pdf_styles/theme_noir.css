@@ -1,0 +1,22 @@
+:root {
+    --primary-bg: #1a1a1a;
+    --text-color: #eeeeee;
+    --accent-color: #f6e05e; /* Bright Gold */
+    --box-bg: #2d2d2d;
+    --box-border: #63b3ed; /* Light Blue */
+    --table-header-bg: #2a4365; /* Dark Blue */
+    --table-header-text: #ffffff;
+    --muted-text: #888888;
+}
+
+@page {
+    background-color: #1a1a1a;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+td {
+    border-bottom: 1px solid #3d3d3d;
+}

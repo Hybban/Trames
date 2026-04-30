@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Inter:wght@400;700&display=swap');
+
+:root {
+    /* Default variables (will be overridden by theme files) */
+    --primary-bg: #ffffff;
+    --text-color: #1a1a1a;
+    --accent-color: #1a365d;
+    /* Deep Blue */
+    --box-bg: #f8f9fa;
+    --box-border: #d4af37;
+    /* Gold */
+    --table-header-bg: #1a365d;
+    /* Deep Blue */
+    --table-header-text: #ffffff;
+    --muted-text: #666666;
+}
+
+@page {
+    size: A5;
+    margin: 1.5cm;
+
+    @bottom-right {
+        content: counter(page);
+        font-family: 'Outfit', sans-serif;
+        color: var(--accent-color);
+        font-weight: bold;
+    }
+
+    @bottom-left {
+        content: "Système 100 - SRD";
+        font-family: 'Outfit', sans-serif;
+        font-size: 8pt;
+        color: var(--muted-text);
+    }
+}
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+}
+
+.content p {
+    text-align: justify;
+    /* Justification uniquement sur les paragraphes de texte */
+    margin-bottom: 0.4cm;
+}
+
+.single-column {
+    column-span: all;
+    break-before: page;
+}
+
+strong {
+    text-align: left;
+    color: var(--accent-color);
+    text-transform: bold;
+    /* Évite les étirements bizarres sur le gras */
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Outfit', sans-serif;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+    /* Pas de justification pour les titres */
+}
+
+h1 {
+    font-size: 18pt;
+    margin-top: 0;
+    border-bottom: 4px solid var(--accent-color);
+    padding-bottom: 0.5cm;
+    column-span: all;
+    margin-bottom: 1cm;
+}
+
+h1:not(:first-child) {
+    break-before: page;
+    /* Saut de page pour chaque nouveau chapitre, sauf le premier */
+}
+
+h2 {
+    font-size: 14pt;
+    border-bottom: 1px solid var(--accent-color);
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 12pt;
+    margin-top: 0;
+}
+
+/* Encadrés (Notes, Exemples) */
+blockquote {
+    margin: 0.5cm 0;
+    padding: 0.5cm;
+    background-color: var(--box-bg);
+    border-left: 8px solid var(--box-border);
+    font-style: italic;
+    position: relative;
+    break-inside: avoid;
+    /* Évite de couper l'encadré entre deux colonnes */
+}
+
+blockquote strong {
+    color: var(--accent-color);
+    font-size: 12pt;
+    display: block;
+    margin-bottom: 0.5cm;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+hr {
+    display: none;
+}
+
+/* Tableaux */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.5cm 0;
+    break-inside: avoid;
+    /* Évite de couper le tableau entre deux colonnes */
+}
+
+th {
+    background-color: var(--table-header-bg);
+    color: var(--table-header-text);
+    text-align: left;
+    padding: 0.2cm;
+    font-family: 'Outfit', sans-serif;
+}
+
+td {
+    padding: 0.2cm;
+    border-bottom: 1px solid var(--muted-text);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* Listes */
+ul {
+    padding-left: 0.4cm;
+}
+
+li::marker {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+/* Couverture */
+.cover-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    break-after: page;
+}
+
+.cover-title {
+    font-size: 60pt;
+    color: var(--accent-color);
+    margin: 0;
+    font-weight: 700;
+}
+
+.cover-subtitle {
+    font-size: 18pt;
+    color: var(--text-color);
+    margin-top: 0.5cm;
+    letter-spacing: 4px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    break-inside: avoid;
+    display: block;
+    margin: 0.5cm auto;
+    border-radius: 4px;
+}

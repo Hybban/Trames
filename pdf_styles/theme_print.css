@@ -1,0 +1,18 @@
+:root {
+    --primary-bg: #ffffff;
+    --text-color: #1a1a1a;
+    --accent-color: #1a365d; /* Deep Blue */
+    --box-bg: #f2f2f2;
+    --box-border: #d4af37; /* Gold */
+    --table-header-bg: #333333;
+    --table-header-text: #ffffff;
+    --muted-text: #999999;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+td {
+    border-bottom: 1px solid #eeeeee;
+}
