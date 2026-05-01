@@ -6,26 +6,20 @@ import re
 from playwright.sync_api import sync_playwright
 
 # Configuration
-SOURCE_DIR = "Sources"
 OUTPUT_DIR = "Générations"
 STYLE_DIR = "pdf_styles"
 
 def aggregate_html(directory):
-    """Lit chaque fichier MD, le convertit en HTML, et enveloppe les fichiers 99_ dans une div spécifique."""
+    """Lit chaque fichier MD et le convertit en HTML."""
     md_files = sorted(glob.glob(os.path.join(directory, "*.md")))
     full_html = ""
     
     for filename in md_files:
-        basename = os.path.basename(filename)
         with open(filename, 'r', encoding='utf-8') as f:
             content = f.read()
             
         html_segment = markdown2.markdown(content, extras=['tables', 'fenced-code-blocks', 'header-ids'])
-        
-        if basename.startswith("99_"):
-            full_html += f'\n<div class="single-column">\n{html_segment}\n</div>\n'
-        else:
-            full_html += f"\n{html_segment}\n"
+        full_html += f"\n{html_segment}\n"
             
     return full_html
 
@@ -47,9 +41,9 @@ def embed_images_in_html(html_content, base_dir):
         return match.group(0)
     return re.sub(r'src=["\'](.*?)["\']', replacer, html_content)
 
-def generate_pdf(playwright, html_body, theme_name, output_file):
+def generate_pdf(playwright, html_body, theme_name, output_file, lang, cover_title, cover_subtitle, source_dir):
     """Génère un PDF à partir du contenu HTML et du thème spécifié utilisant Playwright."""
-    html_body = embed_images_in_html(html_body, SOURCE_DIR)
+    html_body = embed_images_in_html(html_body, source_dir)
     
     # Lecture des CSS pour injection directe
     with open(os.path.join(STYLE_DIR, "base.css"), 'r', encoding='utf-8') as f:
@@ -57,10 +51,12 @@ def generate_pdf(playwright, html_body, theme_name, output_file):
     with open(os.path.join(STYLE_DIR, f"theme_{theme_name}.css"), 'r', encoding='utf-8') as f:
         theme_css = f.read()
 
+    srd_text = "Document de Référence (SRD)" if lang == "fr" else "System Reference Document (SRD)"
+
     # Template HTML complet
     full_html = f"""
     <!DOCTYPE html>
-    <html lang="fr">
+    <html lang="{lang}">
     <head>
         <meta charset="UTF-8">
         <style>
@@ -70,9 +66,9 @@ def generate_pdf(playwright, html_body, theme_name, output_file):
     </head>
     <body>
         <div class="cover-page">
-            <h1 class="cover-title">Trames</h1>
-            <p class="cover-subtitle">Tisser les fils du Destin</p>
-            <p class="cover-subtitle">Document de Référence (SRD)</p>
+            <h1 class="cover-title">{cover_title}</h1>
+            <p class="cover-subtitle">{cover_subtitle}</p>
+            <p class="cover-subtitle">{srd_text}</p>
         </div>
         <div class="content">
             {html_body}
@@ -114,14 +110,25 @@ def main():
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
         
-    html_body = aggregate_html(SOURCE_DIR)
+    configs = [
+        {"lang": "fr", "dir": "Sources_fr", "title": "Trames", "subtitle": "Tisser les fils du Destin"},
+        {"lang": "en", "dir": "Sources_en", "title": "Threads", "subtitle": "Weaving the Threads of Fate"}
+    ]
     
     with sync_playwright() as playwright:
-        # 1. Version Noir
-        generate_pdf(playwright, html_body, "noir", os.path.join(OUTPUT_DIR, "Trames_SRD_Noir.pdf"))
-        
-        # 2. Version Print
-        generate_pdf(playwright, html_body, "print", os.path.join(OUTPUT_DIR, "Trames_SRD_Print.pdf"))
+        for config in configs:
+            source_dir = config["dir"]
+            if not os.path.exists(source_dir):
+                print(f"Dossier introuvable : {source_dir}, génération ignorée pour {config['lang']}.")
+                continue
+                
+            html_body = aggregate_html(source_dir)
+            
+            # 1. Version Noir
+            generate_pdf(playwright, html_body, "noir", os.path.join(OUTPUT_DIR, f"{config['title']}_SRD_Noir_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir)
+            
+            # 2. Version Print
+            generate_pdf(playwright, html_body, "print", os.path.join(OUTPUT_DIR, f"{config['title']}_SRD_Print_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir)
     
     print("\nSuccès ! Vos PDFs sont disponibles dans le dossier 'Générations'.")
 

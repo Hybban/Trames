@@ -9,7 +9,8 @@ Le projet suit une règle stricte de féminisation des termes techniques :
 - **Accords** : Veiller à ce que les adjectifs et déterminants suivent cette règle (ex: "la joueuse est épuisée").
 
 ## 📂 Structure du Projet
-- `/Sources` : Les chapitres de base du système (générés sous forme de manuel complet).
+- `/Sources_fr` : Les chapitres de base du système en français (générés sous forme de manuel complet).
+- `/Sources_en` : Les chapitres traduits pour la génération en anglais.
 - `/img` : Images et illustrations à intégrer aux documents.
 - `/pdf_styles` : Les feuilles de style CSS (`base.css`, `theme_noir.css`, `theme_print.css`).
 - `/scripts` : Outils d'automatisation Python.
@@ -29,15 +30,15 @@ pip install -r scripts/requirements.txt
 playwright install chromium
 ```
 
-Pour générer le **Manuel Complet** :
+Pour générer le **Manuel Complet** (dans toutes les langues disponibles) :
 ```bash
 python scripts/generate_srd.py
 ```
 
 ## 🎨 Standards Visuels
 - **Format** : Les PDFs sont générés au format **A5** avec des marges de 1,5 cm pour une lecture optimale et un rendu adapté aux manuels de jeu de rôle.
-- **Colonnes** : Mise en page sur deux colonnes (justifiée pour le texte `p`, alignée à gauche pour les titres et le gras). **Exception :** Les fichiers préfixés par `99_` (ex: `99_fiche_de_personnage.md`) sont automatiquement générés sur une seule colonne pleine largeur.
-- **Sauts de page** : Automatiques avant chaque `h1` (sauf le premier du document) et avant chaque section en colonne unique (fichiers `99_`).
+- **Colonnes** : Mise en page sur une seule colonne, justifiée pour le texte `p`, alignée à gauche pour les titres et le gras. 
+- **Sauts de page** : Automatiques avant chaque `h1` (sauf le premier du document).
 - **Encadrés** : Utiliser la syntaxe blockquote `> **Titre :** Contenu`. Vous pouvez également utiliser le préfixe `**Encadré** ` puis exécuter le script `python scripts/fix_encadres.py` pour formater automatiquement le bloc. Ils sont stylisés aux couleurs du jeu (bordure or).
 - **Thèmes (Bleu et Or)** : Le design abandonne l'ancien rouge pour un thème Bleu et Or. Il est décliné en version Print/Base (fond blanc, bleu nuit profond) et Noir (fond anthracite "full bleed", bleu ciel et or vif).
 
