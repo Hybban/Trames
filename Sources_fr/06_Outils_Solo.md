@@ -72,10 +72,3 @@ Quand vous rencontrez un PNJ, déterminez sa disposition initiale avec **1d12** 
 * **Journal de bord :** Notez une phrase par scène pour garder le fil.
 * **Lexique des Trames :** Listez les PNJ rencontrés et leur attitude actuelle.
 * **Visualisation :** Gardez vos horloges et vos cases de dégâts bien en vue.
-
-## 5. La "Trame Brûlée" (Le sacrifice héroïque)
-C’est une option de "dernière chance" pour le jeu solo, là où la mort ou l'échec total mettrait fin à l'histoire prématurément.
-
-**Mécanique :** Lorsque tu subis une blessure mortelle ou un échec critique, tu peux décider de "brûler une trame". Tu réussis automatiquement ton action avec une réussite totale (9-12), mais tu supprimes définitivement l'un de tes traits (il est arraché à ton destin).
-
-**Impact :** Cela crée des personnages marqués, "élagués" par le destin, qui deviennent de plus en plus spécialisés et tragiques au fil de l'aventure.
