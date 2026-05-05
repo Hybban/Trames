@@ -26,7 +26,7 @@
 
 ---
 
-## SANTÉ & DOMMAGES
+## SANTÉ & DÉGÂTS
 *Cochez les cases au fur et à mesure. Les paliers sont indépendants.*
 
 **[  ] [  ] [  ] BLESSURES LÉGÈRES** *(Aucun malus.)*

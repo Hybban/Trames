@@ -72,3 +72,10 @@ When you meet an NPC, determine their initial disposition with **1d12**:
 * **Logbook:** Note one sentence per scene to keep track.
 * **Lexicon of Threads:** List the NPCs encountered and their current attitude.
 * **Visualization:** Keep your clocks and wound boxes in plain sight.
+
+## 5. The "Burnt Thread" (Heroic Sacrifice)
+It's a "last chance" option for solo play, where death or total failure would prematurely end the story.
+
+**Mechanic:** When you suffer a mortal wound or a critical failure, you can decide to "burn a thread". You automatically succeed your action with a total success (9-12), but you permanently remove one of your traits (it is torn from your destiny).
+
+**Impact:** This creates marked characters, "pruned" by destiny, who become increasingly specialized and tragic throughout the adventure.

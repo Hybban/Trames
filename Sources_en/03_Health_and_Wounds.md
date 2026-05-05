@@ -24,12 +24,12 @@ The time and resources required to heal depend on the depth of the injuries:
 * **Light Recovery:** All light wound boxes are automatically cleared at the **end of the scene**.
 * **Deep Recovery:** To clear **Serious** or **Mortal** wound boxes, a simple pause is not enough. The hero must engage in a dedicated resting scene and justify adequate support (medical care, therapy, a sanctuary, or help from a specialized ally).
 
-### Level of Heroism and Realism (table to be finalized XXX)
+### Level of Heroism and Realism
 Depending on the desired level of heroism for the campaign, the Game Master may modify the damage tiers as well as the way they can be healed. Here are a few examples of possible modifications:
 
 | Level | Light boxes | Serious boxes | Mortal boxes | Light Recovery | Deep Recovery |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Realistic** | 5 | 3 | 3 | End of scene | 1 resting scene |
+| **Realistic** | 1 | 2 | 2 | End of scene | 1 resting scene + Help  |
 | **Normal** | 3 | 3 | 3 | End of scene | 1 resting scene |
-| **Heroic** | 3 | 3 | 3 | End of scene | 1 resting scene |
-| **Legendary** | 3 | 3 | 3 | End of scene | 1 resting scene |
+| **Heroic** | 5 | 4 | 3 | Immediate (post-conflict) | Simple resting scene |
+| **Legendary** | 6 | 6 | 4 | Immediate (post-roll) | Automatic (end of scene) |
