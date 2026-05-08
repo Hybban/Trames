@@ -41,14 +41,14 @@ def embed_images_in_html(html_content, base_dir):
         return match.group(0)
     return re.sub(r'src=["\'](.*?)["\']', replacer, html_content)
 
-def generate_pdf(playwright, html_body, theme_name, output_file, lang, cover_title, cover_subtitle, source_dir):
+def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_subtitle, source_dir, theme_css_path):
     """Génère un PDF à partir du contenu HTML et du thème spécifié utilisant Playwright."""
     html_body = embed_images_in_html(html_body, source_dir)
     
     # Lecture des CSS pour injection directe
     with open(os.path.join(STYLE_DIR, "base.css"), 'r', encoding='utf-8') as f:
         base_css = f.read()
-    with open(os.path.join(STYLE_DIR, f"theme_{theme_name}.css"), 'r', encoding='utf-8') as f:
+    with open(theme_css_path, 'r', encoding='utf-8') as f:
         theme_css = f.read()
 
     srd_text = "Document de Référence (SRD)" if lang == "fr" else "System Reference Document (SRD)"
@@ -124,11 +124,57 @@ def main():
                 
             html_body = aggregate_html(source_dir)
             
+            # Paths to default themes
+            default_noir_css = os.path.join(STYLE_DIR, "theme_noir.css")
+            default_print_css = os.path.join(STYLE_DIR, "theme_print.css")
+
             # 1. Version Noir
-            generate_pdf(playwright, html_body, "noir", os.path.join(OUTPUT_DIR, f"{config['title']}_SRD_Noir_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir)
+            generate_pdf(playwright, html_body, os.path.join(OUTPUT_DIR, f"{config['title']}_SRD_Noir_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir, default_noir_css)
             
             # 2. Version Print
-            generate_pdf(playwright, html_body, "print", os.path.join(OUTPUT_DIR, f"{config['title']}_SRD_Print_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir)
+            generate_pdf(playwright, html_body, os.path.join(OUTPUT_DIR, f"{config['title']}_SRD_Print_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir, default_print_css)
+            
+            # --- Supplements Generation ---
+            supplements_dir = os.path.join(source_dir, "Suppléments")
+            if os.path.exists(supplements_dir):
+                for supp_name in os.listdir(supplements_dir):
+                    supp_path = os.path.join(supplements_dir, supp_name)
+                    if os.path.isdir(supp_path):
+                        supp_html_body = aggregate_html(supp_path)
+                        
+                        # Check for custom themes in the supplement folder
+                        supp_noir_css = os.path.join(supp_path, "theme_noir.css")
+                        supp_print_css = os.path.join(supp_path, "theme_print.css")
+                        
+                        final_noir_css = supp_noir_css if os.path.exists(supp_noir_css) else default_noir_css
+                        final_print_css = supp_print_css if os.path.exists(supp_print_css) else default_print_css
+                        
+                        supp_output_dir = os.path.join(OUTPUT_DIR, supp_name)
+                        if not os.path.exists(supp_output_dir):
+                            os.makedirs(supp_output_dir)
+
+                        print(f"Génération du supplément : {supp_name} ({config['lang']})")
+                        generate_pdf(
+                            playwright, 
+                            supp_html_body, 
+                            os.path.join(supp_output_dir, f"{supp_name}_Noir_{config['lang'].upper()}.pdf"), 
+                            config["lang"], 
+                            supp_name, 
+                            config["subtitle"], 
+                            supp_path, 
+                            final_noir_css
+                        )
+                        
+                        generate_pdf(
+                            playwright, 
+                            supp_html_body, 
+                            os.path.join(supp_output_dir, f"{supp_name}_Print_{config['lang'].upper()}.pdf"), 
+                            config["lang"], 
+                            supp_name, 
+                            config["subtitle"], 
+                            supp_path, 
+                            final_print_css
+                        )
     
     print("\nSuccès ! Vos PDFs sont disponibles dans le dossier 'Générations'.")
 

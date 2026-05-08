@@ -32,3 +32,21 @@ La valeur d'un trait fluctue durant la partie. À la fin d'une scène, tous les 
 * **L'Archétype :** Ce trait est le cœur de votre identité ; il ne peut **jamais descendre en dessous du d6**.
 * **Autres Traits :** Si un trait (Comportement ou Capacité) doit descendre en dessous du d6, il devient **inutilisable** pour le reste de la scène. Il ne pourra être sollicité à nouveau qu'après une période de repos ou un changement de contexte narratif.
 * **Autres cas :** Si un trait doit descendre et que vous n'avez pas envie de le descendre (ou que vous ne pouvez pas) : on pourra aussi sacrifier une ressource ou prendre une blessure légère à la place. De même, si vous deviez augmenter un trait et que celui-ci atteint son maximum, le joueur ou la joueuse pourra guérir une case de blessure à la place. Utilisez à bon escient ces flexibilités pour servir le récit.
+
+## 4. Le Métier des Moires
+
+Le "Métier à Tisser" remplace les points de chance classiques. C'est un système d'échange entre vos convictions, votre destinée et vos failles.
+
+### A. La Réserve du Métier
+* **En Groupe :** La Meneuse de jeu placera un nombre de jetons égal au **nombre de joueurs + 1** au centre de la table.
+* **En Solo :** La joueuse commence avec **2 jetons** disponibles.
+
+### B. Invoquer les Fils
+L'utilisation des fils permet de dépasser la limite habituelle de 3 dés par jet.
+
+* **Le Fil de Lachésis (Le Destin) :** Une fois par session, si vous agissez pour accomplir votre destinée, ajoutez **+1d12** à votre jet. Cet usage ne coûte pas de point du métier, mais est limité par sa rareté.
+    *Solo :* Limité à une fois par "arc narratif" (ou horloge majeure).
+
+* **Le Fil de Clotho (La Conviction) :** Si votre action est portée par votre conviction profonde, dépensez **1 jeton** du Métier pour ajouter **+1d12** à votre jet. Le jeton est alors donné à la MJ (ou "engagé" en solo).
+
+* **Le Fil d'Atropos (Le Péché) :** Si vous cédez à vos mauvais instincts ou à votre vice, vous pouvez **regagner 1 jeton** (pris à la MJ ou "réactivé" en solo). En contrepartie, vous devez ajouter **+1d4** à votre jet actuel, augmentant drastiquement les chances de tirer un "1" (complication).

@@ -1,4 +1,4 @@
-# CHARACTER SHEET - THREADS
+# CHARACTER SHEET - TRAMES
 
 **CHARACTER NAME:** ______________________________ 
 
@@ -6,7 +6,17 @@
 
 ---
 
-## TRAITS (Maximum 8 at the start)
+## THE LOOM OF THE FATES
+* **CLOTHO (Conviction):** _______________________________________
+    *(Spend 1 token for +1d12)*
+* **LACHESIS (Destiny):** _________________________________________
+    *(1/session: +1d12 free)*
+* **ATROPOS (Sin):** ___________________________________________
+    *(Gain 1 token by adding +1d4 to the roll)*
+
+---
+
+## TRAITS (Maximum 8 at start)
 *Note: Indicate the maximum value (e.g., d12) and track the current state during the scene.*
 
 | Trait Name | Max | Current State (During the scene) |
@@ -26,7 +36,7 @@
 
 ---
 
-## HEALTH & WOUNDS
+## HEALTH & DAMAGE
 *Check the boxes as you go. The tiers are independent.*
 
 **[  ] [  ] [  ] LIGHT WOUNDS** *(No penalty.)*
@@ -38,7 +48,7 @@
 ---
 
 ## RESOURCES (1 to 5)
-*Use: Narrative automatism OR double a trait die (allows exceeding the limit of 3 rolled dice).*
+*Use: Narrative automatism OR double a trait die (allows you to exceed the limit of 3 dice rolled).*
 
 1. ______________________________________________________
 2. ______________________________________________________
@@ -50,3 +60,5 @@
 
 ## IV. NOTES & CLOCKS
 *Use this space to draw your clocks (4 or 6 segments) and note your objectives.*
+
+

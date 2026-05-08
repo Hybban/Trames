@@ -6,6 +6,16 @@
 
 ---
 
+## LE MÉTIER DES MOIRES
+* **CLOTHO (Conviction) :** _______________________________________
+    *(Dépenser 1 jeton pour +1d12)*
+* **LACHÉSIS (Destin) :** _________________________________________
+    *(1/session : +1d12 gratuit)*
+* **ATROPOS (Péché) :** ___________________________________________
+    *(Gagner 1 jeton en ajoutant +1d4 au jet)*
+
+---
+
 ## TRAITS (Maximum 8 au départ)
 *Note : Indiquez la valeur maximale (ex: d12) et suivez l'état actuel pendant la scène.*
 

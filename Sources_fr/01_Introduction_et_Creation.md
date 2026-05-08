@@ -1,6 +1,6 @@
 # I. Introduction et Création
 
-TRAMES est un système de jeu de rôle où votre héros n’est pas défini par des statistiques figées, mais par des traits descriptifs qui tissent son identité. Ces traits servent de base à toutes vos actions et évoluent au fil de votre récit.
+TRAMES est un système de jeu de rôle narratif et descriptif. Il est conçu pour faciliter la mise en place rapide de campagnes et pour permettre une grande souplesse d'interprétation. Dans TRAMES, l'identité du héros est définie par un ensemble de traits qui peuvent évoluer au fil de l'histoire.
 
 **De l'utilisation des genres :** Autour de la table de jeu, qu'elle soit virtuelle ou physique, se trouvent des personnes de tous genres possibles. Mais comme ce sont des personnes et que ce mot est féminin, nous aurons donc des joueuses à la table. Dans la fiction, nous aurons des personnages et ce mot, lui, est masculin. Donc, quelque soit leur genre, les personnages seront des héros. Donc pour faire simple, quand on parle de personnes humaines, on utilise le féminin. Quand on parle de personnage de fiction, on utilise le masculin. Vive le français.
 
@@ -40,3 +40,12 @@ En plus de ses traits, un héros possède entre **1 et 5 ressources** (objets un
 * **Accessibilité :** Une ressource peut devenir inaccessible suite à un échec ou une complication.
 
 > **Note sur les ressources :** Les ressources sont définies par la joueuse, mais doivent être validées par la Meneuse de jeu pour garantir qu'elles sont cohérentes avec l'univers et le scénario. Aussi, tout comme pour les traits, il est possible de définir des ressources au cours de la partie au gré des besoins narratifs et en respectant la limite de 5.
+
+## 4. Le Métier des Moires : Les Trois Fils
+À la création, vous devez définir trois énoncés narratifs qui représentent l'âme de votre personnage. Ces fils interagissent avec la réserve de jetons du Métier à Tisser.
+
+* **Le Fil de Clotho (La Conviction) :** Une phrase décrivant ce en quoi votre héros croit ou sa boussole morale. C'est ce qui le pousse à se dépasser.
+* **Le Fil de Lachésis (Le Destin) :** Une prophétie, une quête ou un but ultime. C'est la direction que prend sa vie.
+* **Le Fil d'Atropos (Le Péché) :** Un vice, une faiblesse ou un instinct sombre. C'est ce qui causera sa perte ou le fera chuter.
+
+> **Note sur les Fils :** Les Fils sont définis par la joueuse, mais doivent être validés par la Meneuse de jeu, et les autres joueuses si nécessaire, pour garantir qu'ils sont cohérents avec l'univers et le scénario. Il est également possible de définir des Fils au cours de la partie au gré des besoins narratifs, mais attention, cela ne doit pas se faire à la légère.

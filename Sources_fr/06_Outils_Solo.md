@@ -72,3 +72,13 @@ Quand vous rencontrez un PNJ, déterminez sa disposition initiale avec **1d12** 
 * **Journal de bord :** Notez une phrase par scène pour garder le fil.
 * **Lexique des Trames :** Listez les PNJ rencontrés et leur attitude actuelle.
 * **Visualisation :** Gardez vos horloges et vos cases de dégâts bien en vue.
+
+## 5. La Trame Brûlée (Le Sacrifice Ultime)
+La Trame Brûlée est une règle de survie tragique conçue principalement pour le jeu solo, afin d'éviter qu'une mort prématurée ne brise l'arc narratif.
+
+*   **L'Activation :** Utilisable uniquement face à une issue fatale (blessure mortelle finale ou échec d'un objectif de fin d'arc).
+*   **L'Effet :** Votre action est transformée instantanément en **Réussite Totale (9-12)**. Le danger est écarté ou l'ennemi vaincu.
+*   **Le Prix :** Vous devez **effacer définitivement** l'un de vos traits de votre fiche. Ce trait est "brûlé" : il ne peut plus être utilisé, réécrit ou augmenté. 
+    *   *Note sur l'Archétype :* Si vous brûlez votre Archétype, votre personnage survit mais perd son essence. Vous devez créer un nouvel Archétype au score de **d6**, représentant un héros brisé qui doit se reconstruire.
+
+Il doit être possible de l'utiliser en mode groupe pour éviter la mort tragique d'un personnage. Dans ce cas, les joueuses devront décider ensemble quel trait sacrifier, et ce sacrifice devra avoir des conséquences importantes sur la suite de l'histoire.
