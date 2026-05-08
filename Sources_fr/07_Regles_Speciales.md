@@ -28,4 +28,4 @@ La Trame Brûlée est une règle de survie tragique conçue principalement pour 
 *   **Le Prix :** Vous devez **effacer définitivement** l'un de vos traits de votre fiche. Ce trait est "brûlé" : il ne peut plus être utilisé, réécrit ou augmenté. 
     *   *Note sur l'Archétype :* Si vous brûlez votre Archétype, votre personnage survit mais perd son essence. Vous devez créer un nouvel Archétype au score de **d6**, représentant un héros brisé qui doit se reconstruire.
 
-SIl doit être possible de l'utiliser en mode groupe pour éviter la mort tragique d'un personnage. Dans ce cas, les joueuses devront décider ensemble quel trait sacrifier, et ce sacrifice devra avoir des conséquences importantes sur la suite de l'histoire.
+Il doit être possible de l'utiliser en mode groupe pour éviter la mort tragique d'un personnage. Dans ce cas, les joueuses devront décider ensemble quel trait sacrifier, et ce sacrifice devra avoir des conséquences importantes sur la suite de l'histoire.
