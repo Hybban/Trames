@@ -4,6 +4,7 @@ Dans **TRAMES d'Ombre**, interagir avec l'invisible n'est jamais anodin. Le Voil
 
 ### 1. Sonder le Voile (Investigation Maudite)
 À utiliser pour percevoir les trames magiques, repérer une entité cachée ou lire les résidus d'un rituel impie. Regarder la vérité en face a un prix.
+
 * **Réussite totale (9-12) :** Vous percevez la vérité sans que l'Abîme ne vous remarque. Vous obtenez un avantage narratif.
 * **Réussite avec prix (5-8) :** Vous obtenez l'information, mais le Voile réagit à votre regard. La conséquence dépend de votre niveau de jeu :
     * *Réaliste :* L'horreur est viscérale. Vous subissez systématiquement une **Blessure Mentale** (Légère ou Sérieuse selon l'horreur).
@@ -13,6 +14,7 @@ Dans **TRAMES d'Ombre**, interagir avec l'invisible n'est jamais anodin. Le Voil
 
 ### 2. Canaliser la Corruption (Usage de la Magie)
 *(Uniquement pour les modes Normal et Héroïque).* À utiliser pour lancer un sort, invoquer un pouvoir surnaturel ou utiliser un artefact majeur de l'Abîme.
+
 * **Réussite totale (9-12) :** Le pouvoir se plie à votre volonté avec une précision redoutable.
 * **Réussite avec prix (5-8) :** L'effet s'accomplit, mais la magie est instable. Le trait diminue et vous devez faire un choix terrible :
     * **Absorber le contrecoup :** Vous encaissez le choc de la trame. Vous subissez une Blessure Physique ou Mentale.
@@ -24,6 +26,7 @@ Dans **TRAMES d'Ombre**, interagir avec l'invisible n'est jamais anodin. Le Voil
 
 ### 4. S'ancrer dans la Réalité (Le Soin Psychologique)
 L'horreur use l'esprit. Pour guérir de Blessures Mentales ou Sociales **Sérieuses** ou **Mortelles**, une simple nuit de sommeil est inutile.
+
 * **La Mécanique :** Vous devez initier une scène de repos où vous interagissez avec le monde purement humain ou agissez selon votre **Fil de Clotho (Conviction)** (ex: passer du temps avec un proche ignorant tout de l'occulte, faire son travail mondain avec intégrité).
 * **Le Twist Tragique :** La lumière attire les prédateurs. S'ancrer dans la réalité expose cette même réalité au Voile.
     * *Réaliste :* Le danger est immédiat. Vos proches peuvent être ciblés physiquement par ce qui vous traque.

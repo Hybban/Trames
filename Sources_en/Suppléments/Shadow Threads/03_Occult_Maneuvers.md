@@ -4,6 +4,7 @@ In **Shadow Threads**, interacting with the invisible is never trivial. The Veil
 
 ### 1. Probe the Veil (Cursed Investigation)
 To be used to perceive magical threads, spot a hidden entity, or read the residue of an unholy ritual. Looking truth in the face has a price.
+
 * **Total success (9-12):** You perceive the truth without the Abyss noticing you. You gain a narrative advantage.
 * **Success with a cost (5-8):** You obtain the information, but the Veil reacts to your gaze. The consequence depends on your play level:
     * *Realistic:* The horror is visceral. You systematically suffer a **Mental Wound** (Light or Serious depending on the horror).
@@ -13,6 +14,7 @@ To be used to perceive magical threads, spot a hidden entity, or read the residu
 
 ### 2. Channel Corruption (Use of Magic)
 *(Only for Normal and Heroic modes).* To be used to cast a spell, invoke a supernatural power, or use a major artifact from the Abyss.
+
 * **Total success (9-12):** The power bends to your will with fearsome precision.
 * **Success with a cost (5-8):** The effect is achieved, but the magic is unstable. The trait decreases and you must make a terrible choice:
     * **Absorb the backlash:** You take the shock of the thread. You suffer a Physical or Mental Wound.
@@ -24,6 +26,7 @@ To be used to haggle with demons, spirits, or cultists. These beings don't want 
 
 ### 4. Anchor in Reality (Psychological Healing)
 Horror wears the mind down. To heal from **Serious** or **Mortal** Mental or Social Wounds, a simple night's sleep is useless.
+
 * **The Mechanic:** You must initiate a scene of rest where you interact with the purely human world or act according to your **Clotho's Thread (Conviction)** (e.g., spending time with a loved one ignorant of the occult, doing your mundane job with integrity).
 * **The Tragic Twist:** Light attracts predators. Anchoring yourself in reality exposes this same reality to the Veil.
     * *Realistic:* The danger is immediate. Your loved ones can be physically targeted by what is hunting you.

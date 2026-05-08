@@ -8,7 +8,8 @@ Ce scénario court est conçu pour lancer votre première chronique solo dans **
 
 ### L'Horloge du Scénario : L'Effacement (4 Segments)
 Créez une horloge à 4 segments appelée **L'Effacement**. 
-* *Règle :* Cochez un segment chaque fois que vous obtenez un **Échec (1-4)** lors d'une action majeure de cette enquête. Si l'horloge se remplit, l'entité qui a tué Elias finit de le rayer de la réalité : tout le monde (sauf vous) oublie son existence, son appartement devient un terrain vague, et la chose se tourne vers vous.
+
+**Règle :** Cochez un segment chaque fois que vous obtenez un **Échec (1-4)** lors d'une action majeure de cette enquête. Si l'horloge se remplit, l'entité qui a tué Elias finit de le rayer de la réalité : tout le monde (sauf vous) oublie son existence, son appartement devient un terrain vague, et la chose se tourne vers vous.
 
 ---
 
@@ -21,6 +22,7 @@ Vous arrivez chez Elias. La porte est entrouverte, l'odeur de cuivre et d'ozone 
 
 ### Scène 2 : Suivre la Trame (L'Exploration)
 La bobine nerveuse "tire" dans une direction précise, vers un lieu de la ville. 
+
 * **Utilisez l'Oracle :** Posez une question pour définir le lieu (ex: "Est-ce que cela mène vers les vieux entrepôts du port ?"). Lancez 1d12.
 * **L'Obstacle (La Faille) :** Sur le chemin, la réalité se distord. Les passants n'ont soudain plus de visage et l'espace s'étire. Vous devez **Braver le Danger** (Obstacle Environnemental - Niveau de Menace : Blessure Sérieuse Mentale). 
     * *Le Métier des Moires :* C'est le bon moment pour justifier l'usage de votre **Fil de Clotho (Conviction)** pour dépenser un jeton et ajouter +1d12 à votre jet, afin de garder l'esprit clair face à cette distorsion.
@@ -35,5 +37,6 @@ Vous arrivez à la source. L'endroit est un espace limbique, décoré de peaux h
 
 ### Scène 4 : Épilogue et Conséquences
 Une fois la scène résolue (victoire, fuite, ou pacte), l'horloge s'arrête. 
+
 * **Si vous avez sauvé la bobine :** Elle devient une **Ressource Maudite**. Elle peut vous guider vers n'importe qui, mais chaque utilisation vous inflige une Blessure Légère.
 * **Évolution :** L'expérience vous a changé. Rédigez une phrase de résumé dans votre Journal de Bord et vérifiez si cette épreuve justifie l'augmentation d'un de vos traits (ou la transformation d'un trait de Comportement pour refléter votre nouveau cynisme).

@@ -8,6 +8,7 @@ In this universe, magic is not a divine gift, but a **Corruption**. Using supern
 
 ### 2. Moods and Influences
 The game sits at the crossroads of occult investigation and visceral horror:
+
 * **Carnal Horror:** The body is a malleable material; scars, mutations, and pain are the bargaining chips of power.
 * **Urban Corruption:** The city is a living organism, often sick, where every alley can lead to a liminal space or a forgotten cult.
 * **Transformation:** The central theme is the loss of self. By dint of "Probing the Threads" or "Braving the Supernatural Danger," the character irreparably moves away from their human nature.
@@ -22,6 +23,7 @@ Depending on your campaign, you will choose the characters' level of involvement
 | **Heroic** | Hybrid beings or members of powerful factions acting on both sides of the Veil. Their humanity is already compromised. | **Heroic** (5 light boxes) |
 
 ### 4. Glossary of Shadows
+
 * **The Abyss:** What lies behind the Veil. A space of chaos and impossible shapes.
 * **Initiates:** Those who have seen the truth and can no longer turn back.
 * **The Flesh:** Term used to designate physical reality, often considered a prison by the entities of the Abyss.

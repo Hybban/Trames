@@ -8,6 +8,7 @@ Dans cet univers, la magie n'est pas un don divin, mais une **Corruption**. Util
 
 ### 2. Ambiances et Influences
 Le jeu se situe à la croisée de l'enquête occulte et de l'horreur viscérale :
+
 * **Horreur Charnelle :** Le corps est une matière malléable ; les cicatrices, les mutations et la douleur sont les monnaies d'échange du pouvoir.
 * **Corruption Urbaine :** La ville est un organisme vivant, souvent malade, où chaque ruelle peut mener à un espace limbique ou à un culte oublié.
 * **Transformation :** Le thème central est la perte de soi. À force de "Sonder les Trames" ou de "Braver le Danger" surnaturel, le personnage s'éloigne irrémédiablement de sa nature humaine.
@@ -22,6 +23,7 @@ Selon votre campagne, vous choisirez le degré d'implication des personnages fac
 | **Héroïque** | Êtres hybrides ou membres de factions puissantes agissant des deux côtés du Voile. Leur humanité est déjà entamée. | **Héroïque** (5 cases légères) |
 
 ### 4. Glossaire de l'Ombre
+
 * **L'Abîme :** Ce qui se trouve derrière le Voile. Un espace de chaos et de formes impossibles.
 * **Initiés :** Ceux qui ont vu la vérité et qui ne peuvent plus faire marche arrière.
 * **La Chair :** Terme utilisé pour désigner la réalité physique, souvent considérée comme une prison par les entités de l'Abîme.

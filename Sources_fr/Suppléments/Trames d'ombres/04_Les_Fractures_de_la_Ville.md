@@ -6,6 +6,7 @@ Dans l'univers de **TRAMES d'Ombre**, les adversaires ne sont pas de simples mon
 Pour créer une menace imprévisible, tirez au sort (ou choisissez) une Origine, une Motivation et une Torsion.
 
 **A. L'Origine (1d6)**
+
 1. **L'Humain Évidé :** Une personne mondaine dont l'esprit a été remplacé par une entité.
 2. **La Nuée Corrompue :** Un essaim d'animaux urbains agissant avec une intelligence unique et cruelle.
 3. **L'Objet Hanté / L'Artefact :** Un lieu ou un objet inanimé qui plie la réalité autour de lui.
@@ -14,6 +15,7 @@ Pour créer une menace imprévisible, tirez au sort (ou choisissez) une Origine,
 6. **L'Écho Limbique :** La projection d'une émotion extrême ou d'un traumatisme passé qui prend forme physique.
 
 **B. La Motivation Obscure (1d6)**
+
 1. **Dévorer l'Identité :** Veut voler vos souvenirs ou prendre votre place dans le monde mondain.
 2. **Propager la Faille :** Cherche à déchirer le Voile un peu plus pour faire passer ses maîtres.
 3. **Imposer sa Douleur :** Ne ressent plus rien et utilise la souffrance des autres comme un substitut.
@@ -22,6 +24,7 @@ Pour créer une menace imprévisible, tirez au sort (ou choisissez) une Origine,
 6. **Corrompre l'Innocence :** S'attaque spécifiquement à ce qui vous relie à votre humanité (votre Conviction).
 
 **C. La Torsion (La touche d'horreur viscérale) (1d6)**
+
 1. Possède des yeux, des bouches ou des dents sous la peau, à des endroits improbables.
 2. Saigne d'une sève noire, d'acide, ou de cendres froides.
 3. Parle avec la voix de vos proches décédés ou utilise vos propres regrets contre vous.
@@ -34,6 +37,7 @@ Pour créer une menace imprévisible, tirez au sort (ou choisissez) une Origine,
 ### 2. Exemples de Menaces par Niveau
 
 #### Mode RÉALISTE (L'Horreur Humaine et l'Inconnu)
+
 * **Le Culte du Nouveau Sang (Groupe d'Opposition) :** Des citoyens ordinaires hypnotisés. 
     * *Niveau de Menace :* Blessure Légère physique, mais infligée en nombre.
     * *Complication :* Frapper des innocents attaque votre Fil de Clotho (Conviction).
@@ -42,6 +46,7 @@ Pour créer une menace imprévisible, tirez au sort (ou choisissez) une Origine,
     * *Complication :* Il prend pour cible un élément de votre vie mondaine si vous échouez.
 
 #### Mode NORMAL (Les Cauchemars de l'Abîme)
+
 * **Le Dévoreur de Noms (Entité Limbique) :** Une ombre qui se nourrit de l'identité.
     * *Niveau de Menace :* Blessure Sérieuse (Mentale).
     * *Complication :* En cas d'échec, vous perdez temporairement l'accès à l'une de vos Ressources (un contact vous oublie, un objet perd sa fonction).
@@ -50,6 +55,7 @@ Pour créer une menace imprévisible, tirez au sort (ou choisissez) une Origine,
     * *Complication :* Une "Réussite avec prix" ferme la faille mais imprègne le personnage d'une odeur de soufre qui alertera d'autres entités.
 
 #### Mode HÉROÏQUE (Les Seigneurs de l'Ombre)
+
 * **L'Ange de Chair (Antagoniste Majeur) :** Un être immense, magnifique et terrifiant, fait de corps fusionnés en prière.
     * *Niveau de Menace :* Blessure Mortelle (Mentale et Physique).
     * *Complication :* Attaque directement le Fil de Lachésis (Destin). Une réussite avec prix oblige l'Initié à sacrifier un Trait pour ne pas être assimilé par l'Ange.
