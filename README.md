@@ -1,6 +1,6 @@
 # TRAMES - Outils de Documentation
 
-Ce projet contient les sources Markdown et les outils de génération pour créer un pdf à partir de ces sources.
+Ce projet contient les sources Markdown et les outils de génération pour créer des pdf à partir de ces sources.
 
 ## 🖋️ Philosophie de rédaction : Féminisation
 Le projet suit une règle stricte de féminisation des termes techniques :
@@ -8,9 +8,15 @@ Le projet suit une règle stricte de féminisation des termes techniques :
 - **Fiction (personnages)** : Les personnages sont désignés comme des **héros** (masculin neutre pour la fiction).
 - **Accords** : Veiller à ce que les adjectifs et déterminants suivent cette règle (ex: "la joueuse est épuisée").
 
+## Gestion du projet
+- Quand on ajoute un nouveau supplément, il faut ajouter le sous-dossier correspondant dans le dossier `Sources_fr/Suppléments` et `Sources_en/Supplements`.
+- Quand des modifications ont été validées, il faut noter les impacts dans le fichier README.md.
+
 ## 📂 Structure du Projet
 - `/Sources_fr` : Les chapitres de base du système en français (générés sous forme de manuel complet).
+- `/Sources_fr/Suppléments` : Les suppléments d'univers en français.
 - `/Sources_en` : Les chapitres traduits pour la génération en anglais.
+- `/Sources_en/Supplements` : Les suppléments d'univers en anglais.
 - `/img` : Images et illustrations à intégrer aux documents.
 - `/pdf_styles` : Les feuilles de style CSS (`base.css`, `theme_noir.css`, `theme_print.css`).
 - `/scripts` : Outils d'automatisation Python.
@@ -41,6 +47,7 @@ python scripts/generate_srd.py
 - **Sauts de page** : Automatiques avant chaque `h1` (sauf le premier du document).
 - **Encadrés** : Utiliser la syntaxe blockquote `> **Titre :** Contenu`. Vous pouvez également utiliser le préfixe `**Encadré** ` puis exécuter le script `python scripts/fix_encadres.py` pour formater automatiquement le bloc. Ils sont stylisés aux couleurs du jeu (bordure or).
 - **Thèmes (Bleu et Or)** : Le design abandonne l'ancien rouge pour un thème Bleu et Or. Il est décliné en version Print/Base (fond blanc, bleu nuit profond) et Noir (fond anthracite "full bleed", bleu ciel et or vif).
+- **Thèmes des suppléments (Gris et Turquoise)** : Le design abandonne l'ancien rouge pour un thème Gris et Turquoise. Il est décliné en version Print/Base (fond blanc, gris foncé) et Noir (fond anthracite "full bleed", gris foncé et turquoise vif).
 
 ## ⚠️ Notes de formatage Markdown
 - **Listes** : Toujours laisser une **ligne vide** avant de commencer une liste (`*` ou `-`), sinon le rendu sera fusionné dans le paragraphe précédent.
