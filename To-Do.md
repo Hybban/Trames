@@ -11,6 +11,7 @@
 
 ## Spécifique Trames d'Ombres
 
+-   Redécomposer le fichier 01-Trames_d'Ombres-setting.md en plusieurs fichiers.
 -   Les lois de la magie et les pouvoirs des investigateurs sont-ils bien établis ?
 -   Quelles sont les factions occultes et comment fonctionnent-elles ?
 -   Quelles sont les différentes menaces et comment fonctionnent-elles ?
@@ -24,7 +25,6 @@
 ## Mise en forme
 
 -   Ajouter des images pour les couvertures et dans le texte
--   Mettre en page les pdf générés pour qu'il soit agréable à lire (implémenter des sauts de page manuels)
 -   Rajouter une table des matières cliquable et des signets dans le pdf
 -   Rajouter des en-têtes de page qui correspondent au chapitre
 -   Séparer les parties Introduction et Creation du chapitre 1 en deux fichiers différents

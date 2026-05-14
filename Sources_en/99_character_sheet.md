@@ -1,64 +1,76 @@
-# CHARACTER SHEET - TRAMES
+# CHARACTER SHEET — THREADS
+## IDENTITY
 
-**CHARACTER NAME:** ______________________________ 
+**Hero Name:** _______________________________________________
 
-**ARCHETYPE:**         ______________________________
+**Archetype:** _________________________________________________
 
 ---
 
 ## THE LOOM OF THE FATES
-* **CLOTHO (Conviction):** _______________________________________
-    *(Spend 1 token for +1d12)*
-* **LACHESIS (Destiny):** _________________________________________
-    *(1/session: +1d12 free)*
-* **ATROPOS (Sin):** ___________________________________________
-    *(Gain 1 token by adding +1d4 to the roll)*
+
+| Thread | Statement | Mechanic |
+|---|---|---|
+| **Clotho** — Conviction | ___________________________________ | Spend 1 token → +1d12 |
+| **Lachesis** — Destiny | ___________________________________ | 1×/session, free → +1d12 |
+| **Atropos** — Sin | ___________________________________ | Gain 1 token → +1d4 to roll |
+
+## TRAITS *(8 maximum at start)*
+
+| Trait Name | Max | Current state *(during the scene)* |
+|---|---|---|
+| **Archetype:** __________________ | d12 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+| _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+| _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+| _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+| _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+| _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+| _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+| _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+| _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+| _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 
 ---
 
-## TRAITS (Maximum 8 at start)
-*Note: Indicate the maximum value (e.g., d12) and track the current state during the scene.*
+## THREAD SOLIDITY *(Health)*
 
-| Trait Name | Max | Current State (During the scene) |
-| :--- | :---: | :--- |
-| **Archetype:** | **d12** | [ ] d12 [ ] d10 [ ] d8 [ ] d6 |
-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
+| Tier | Boxes | Mechanical penalty |
+|---|---|---|
+| **Frayed Thread** *(Light wounds)* | `☐ ☐ ☐` | None |
+| **Taut Thread** *(Serious wounds)* | `☐ ☐ ☐` | +1d4 to all rolls *(Tangled Threads)* |
+| **Thread at Breaking Point** *(Mortal wounds)* | `☐ ☐ ☐` | +3d4 to all rolls *(Tangled Threads)* |
 
 ---
 
-## HEALTH & DAMAGE
-*Check the boxes as you go. The tiers are independent.*
+## RESOURCES *(1 to 5)*
 
-**[  ] [  ] [  ] LIGHT WOUNDS** *(No penalty.)*
+> A resource can make an action automatically successful if the situation allows.
+> During a roll, a resource allows you to double one of the rolled trait dice.
+> A resource can become inaccessible following a failure or a snag.
 
-**[  ] [  ] [  ] SERIOUS WOUNDS** *(Penalty: Add **+1d4** to all your rolls.)*
-
-**[  ] [  ] [  ] MORTAL WOUNDS** *(Penalty: Add **+3d4** to all your rolls.)*
-
----
-
-## RESOURCES (1 to 5)
-*Use: Narrative automatism OR double a trait die (allows you to exceed the limit of 3 dice rolled).*
-
-1. ______________________________________________________
-2. ______________________________________________________
-3. ______________________________________________________
-4. ______________________________________________________
-5. ______________________________________________________
+1. _______________________________________________________________
+2. _______________________________________________________________
+3. _______________________________________________________________
+4. _______________________________________________________________
+5. _______________________________________________________________
 
 ---
 
-## IV. NOTES & CLOCKS
-*Use this space to draw your clocks (4 or 6 segments) and note your objectives.*
+## NOTES & CLOCKS
 
+> Draw your clocks here (circles of 4 or 6 segments) and note your current objectives.
+> Reminder: each failure or success at a cost ticks a segment. If the clock is full, the threat triggers.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+---
+
+*THREADS — Weaving the threads of Fate*

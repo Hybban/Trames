@@ -17,6 +17,8 @@ def aggregate_html(directory):
     for filename in md_files:
         with open(filename, 'r', encoding='utf-8') as f:
             content = f.read()
+        # Replace --pb-- tag with a page break div before markdown conversion
+        content = content.replace('--pb--', '<div class="page-break"></div>')
             
         html_segment = markdown2.markdown(content, extras=['tables', 'fenced-code-blocks', 'header-ids'])
         full_html += f"\n{html_segment}\n"
@@ -50,6 +52,9 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
         base_css = f.read()
     with open(theme_css_path, 'r', encoding='utf-8') as f:
         theme_css = f.read()
+
+    footer_text = "Trames - SRD" if lang == "fr" else "Threads - SRD"
+    base_css = base_css.replace("FOOTER_TEXT_PLACEHOLDER", footer_text)
 
     srd_text = "Document de Référence (SRD)" if lang == "fr" else "System Reference Document (SRD)"
 
@@ -124,15 +129,19 @@ def main():
                 
             html_body = aggregate_html(source_dir)
             
+            lang_output_dir = os.path.join(OUTPUT_DIR, config["lang"])
+            if not os.path.exists(lang_output_dir):
+                os.makedirs(lang_output_dir)
+                
             # Paths to default themes
             default_noir_css = os.path.join(STYLE_DIR, "theme_noir.css")
             default_print_css = os.path.join(STYLE_DIR, "theme_print.css")
 
             # 1. Version Noir
-            generate_pdf(playwright, html_body, os.path.join(OUTPUT_DIR, f"{config['title']}_SRD_Noir_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir, default_noir_css)
+            generate_pdf(playwright, html_body, os.path.join(lang_output_dir, f"{config['title']}_SRD_Noir_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir, default_noir_css)
             
             # 2. Version Print
-            generate_pdf(playwright, html_body, os.path.join(OUTPUT_DIR, f"{config['title']}_SRD_Print_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir, default_print_css)
+            generate_pdf(playwright, html_body, os.path.join(lang_output_dir, f"{config['title']}_SRD_Print_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir, default_print_css)
             
             # --- Supplements Generation ---
             supplements_dir = os.path.join(source_dir, "Suppléments")
@@ -149,7 +158,7 @@ def main():
                         final_noir_css = supp_noir_css if os.path.exists(supp_noir_css) else default_noir_css
                         final_print_css = supp_print_css if os.path.exists(supp_print_css) else default_print_css
                         
-                        supp_output_dir = os.path.join(OUTPUT_DIR, supp_name)
+                        supp_output_dir = os.path.join(lang_output_dir, supp_name)
                         if not os.path.exists(supp_output_dir):
                             os.makedirs(supp_output_dir)
 

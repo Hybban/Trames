@@ -1,0 +1,230 @@
+﻿diff --git a/Sources_fr/01_Introduction_et_Creation.md b/Sources_fr/01_Introduction_et_Creation.md
+index 41e0c02..aa4a664 100644
+--- a/Sources_fr/01_Introduction_et_Creation.md
++++ b/Sources_fr/01_Introduction_et_Creation.md
+@@ -4,7 +4,7 @@ TRAMES est un syst├¿me de jeu de r├┤le narratif et descriptif. Il est con├ºu pou
+ 
+ **De l'utilisation des genres :** Autour de la table de jeu, qu'elle soit virtuelle ou physique, se trouvent des personnes de tous genres possibles. Mais comme ce sont des personnes et que ce mot est f├⌐minin, nous aurons donc des joueuses ├á la table. Dans la fiction, nous aurons des personnages et ce mot, lui, est masculin. Donc, quelque soit leur genre, les personnages seront des h├⌐ros. Donc pour faire simple, quand on parle de personnes humaines, on utilise le f├⌐minin. Quand on parle de personnage de fiction, on utilise le masculin. Vive le fran├ºais.
+ 
+-**S├⌐curit├⌐ ├⌐motionnelle :**  Le jeu de r├┤le est avant tout un loisir, un passe-temps. Le but est de passer un bon moment entre ami.e.s. Il n'y a donc aucune raison qu'une personne se sente mal ├á l'aise ou en danger. C'est pourquoi, nous vous recommandons d'├⌐tablir des r├¿gles de s├⌐curit├⌐ pour votre table. Ces r├¿gles doivent ├¬tre ├⌐tablies au d├⌐but de chaque partie, et ├¬tre rappel├⌐es ├á chaque d├⌐but de campagne.
++**S├⌐curit├⌐ ├⌐motionnelle :**  Le jeu de r├┤le est avant tout un loisir, un passe-temps. Le but est de passer un bon moment entre amies. Il n'y a donc aucune raison qu'une personne se sente mal ├á l'aise ou en danger. C'est pourquoi, nous vous recommandons d'├⌐tablir des r├¿gles de s├⌐curit├⌐ pour votre table. Ces r├¿gles doivent ├¬tre ├⌐tablies au d├⌐but de chaque partie, et ├¬tre rappel├⌐es ├á chaque d├⌐but de campagne.
+ 
+ **Inspirations :** Not the End, Cortex (Prime/Plus), Powered by the Apocalypse, Drakonym, et quelques autres encore. Merci ├á tous ces excellents syst├¿mes pour leur contributions, m├¬me partielles, ├á TRAMES. Et surtout pour avoir tisser les fils qui tissent la **trame** de ma cr├⌐ation
+ 
+@@ -42,10 +42,25 @@ En plus de ses traits, un h├⌐ros poss├¿de entre **1 et 5 ressources** (objets un
+ > **Note sur les ressources :** Les ressources sont d├⌐finies par la joueuse, mais doivent ├¬tre valid├⌐es par la Meneuse de jeu pour garantir qu'elles sont coh├⌐rentes avec l'univers et le sc├⌐nario. Aussi, tout comme pour les traits, il est possible de d├⌐finir des ressources au cours de la partie au gr├⌐ des besoins narratifs et en respectant la limite de 5.
+ 
+ ## 4. Le M├⌐tier des Moires : Les Trois Fils
+-├Ç la cr├⌐ation, vous devez d├⌐finir trois ├⌐nonc├⌐s narratifs qui repr├⌐sentent l'├óme de votre personnage. Ces fils interagissent avec la r├⌐serve de jetons du M├⌐tier ├á Tisser.
++Dans la mythologie grecque, les Moires sont les d├⌐esses du destin. Elles sont trois : Clotho, Lach├⌐sis et Atropos. Elles filent, mesurent et coupent le fil de la vie de chaque mortel. TRAMES reprend cette imagerie pour d├⌐finir le destin du h├⌐ros. 
+ 
+-* **Le Fil de Clotho (La Conviction) :** Une phrase d├⌐crivant ce en quoi votre h├⌐ros croit ou sa boussole morale. C'est ce qui le pousse ├á se d├⌐passer.
+-* **Le Fil de Lach├⌐sis (Le Destin) :** Une proph├⌐tie, une qu├¬te ou un but ultime. C'est la direction que prend sa vie.
+-* **Le Fil d'Atropos (Le P├⌐ch├⌐) :** Un vice, une faiblesse ou un instinct sombre. C'est ce qui causera sa perte ou le fera chuter.
++├Ç la cr├⌐ation, vous d├⌐finissez trois ├⌐nonc├⌐s narratifs qui repr├⌐sentent l'├óme de votre personnage. Ce sont vos Fils ΓÇö et ils ne sont pas que de la fiction. Ils interagissent directement avec la r├⌐serve de jetons du M├⌐tier ├á Tisser, le moteur d'├⌐nergie dramatique du jeu.
++
++**La R├⌐serve du M├⌐tier** : En d├⌐but de session, la Meneuse place au centre de la table un nombre de jetons ├⌐gal au nombre de joueuses + 1. Cette r├⌐serve appartient aux joueuses au d├⌐part, mais peut vite se retrouver entre les mains de la Meneuse au fil des Fils invoqu├⌐s.
++
++### Le Fil de Clotho (La Conviction)
++Une phrase d├⌐crivant ce en quoi votre h├⌐ros croit ou sa boussole morale. C'est ce qui le pousse ├á se d├⌐passer. 
++
++* **Clotho file le fil.** Elle cr├⌐e, elle donne de l'├⌐lan. Agir depuis sa Conviction, c'est puiser dans ses propres r├⌐serves, br├╗ler quelque chose de soi pour avancer. ├ça co├╗te un jeton parce que la foi se d├⌐pense. Quand votre action est port├⌐e par cette Conviction profonde, vous pouvez d├⌐penser 1 jeton du M├⌐tier pour ajouter +1d12 ├á votre jet. Le jeton est donn├⌐ ├á la Meneuse. Clotho file ΓÇö elle vous co├╗te quelque chose, parce que cr├⌐er demande un effort.
++
++### Le Fil de Lach├⌐sis (Le Destin)
++Une proph├⌐tie, une qu├¬te ou un but ultime. C'est la direction que prend sa vie.
++
++* **Lach├⌐sis mesure le fil.** Elle ne cr├⌐e pas, elle reconna├«t. Quand le Destin s'accomplit, ce n'est pas le h├⌐ros qui force ΓÇö c'est l'univers qui s'aligne. Si vous agissez directement pour accomplir votre Destin, ajoutez +1d12 ├á votre jet. Cet usage est gratuit ΓÇö Lach├⌐sis mesure, elle reconna├«t. Mais attention, les moments o├╣ le Destin s'accomplit sont rares : une seule fois par session.
++
++### Le Fil d'Atropos (Le P├⌐ch├⌐)
++Un vice, une faiblesse ou un instinct sombre. C'est ce qui causera sa perte ou le fera chuter.
++
++* **Atropos coupe le fil.** Elle est la plus redout├⌐e des trois. C├⌐der au P├⌐ch├⌐, c'est l'inviter ├á s'approcher de votre trame. Si vous laissez Atropos guider votre main ΓÇö si vous c├⌐dez ├á votre vice ou ├á vos instincts sombres ΓÇö vous regagnez 1 jeton pris ├á la Meneuse. En contrepartie, ajoutez +1d4 ├á votre jet actuel. Ce d├⌐ ne peut pas vous aider, mais il peut tout compliquer. Atropos coupe ΓÇö elle vous revigore tout en effilochant votre fil.
+ 
+ > **Note sur les Fils :** Les Fils sont d├⌐finis par la joueuse, mais doivent ├¬tre valid├⌐s par la Meneuse de jeu, et les autres joueuses si n├⌐cessaire, pour garantir qu'ils sont coh├⌐rents avec l'univers et le sc├⌐nario. Il est ├⌐galement possible de d├⌐finir des Fils au cours de la partie au gr├⌐ des besoins narratifs, mais attention, cela ne doit pas se faire ├á la l├⌐g├¿re.
+diff --git a/Sources_fr/05_Evolution_du_Personnage.md b/Sources_fr/05_Evolution_du_Personnage.md
+index 3f7dff5..6bad700 100644
+--- a/Sources_fr/05_Evolution_du_Personnage.md
++++ b/Sources_fr/05_Evolution_du_Personnage.md
+@@ -3,15 +3,27 @@
+ Dans TRAMES, l'├⌐volution est purement narrative : elle ne d├⌐pend pas de calculs, mais de l'impact des ├⌐v├⌐nements sur le r├⌐cit.
+ 
+ ## 1. Am├⌐lioration par les Faits d'Armes
+-Lorsqu'un h├⌐ros atteint un **jalon narratif** (fin d'un arc, accomplissement d'un objectif personnel), il peut augmenter la valeur maximale de l'un de ses traits d'un cran.
++Un h├⌐ros ne progresse pas par accumulation d'exp├⌐rience. Il progresse parce que les Moires ont remarqu├⌐ que son fil a chang├⌐. Cela se produit lorsqu'un n┼ôud d'arc est atteint ΓÇö un moment o├╣ l'histoire bascule, et o├╣ le h├⌐ros en sort diff├⌐rent.
++Un n┼ôud d'arc est reconnu lorsqu'au moins l'une de ces conditions est remplie :
+ 
+-* Le **d12** est le sommet de la ma├«trise et doit ├¬tre justifi├⌐ par l'histoire.
+-* **Nouveaux Traits :** L'histoire peut justifier l'apparition d'un nouveau trait (apprentissage, nouveau titre). Il commence g├⌐n├⌐ralement ├á la valeur **d6**.
++* Le Fil de Lach├⌐sis a ├⌐t├⌐ honor├⌐ : le h├⌐ros a accompli une ├⌐tape significative vers son Destin, ou l'a vu se transformer sous ses yeux.
++* Le Fil de Clotho a ├⌐t├⌐ ├⌐prouv├⌐ : la Conviction du h├⌐ros a ├⌐t├⌐ mise ├á l'├⌐preuve, qu'il l'ait tenue ou non. L'important est qu'il ait d├╗ choisir.
++* Le Fil d'Atropos a ├⌐t├⌐ tir├⌐ : le h├⌐ros a c├⌐d├⌐ ├á son P├⌐ch├⌐ et en a subi les cons├⌐quences, ou au contraire y a r├⌐sist├⌐ ├á un moment critique.
++
++La Meneuse valide le n┼ôud d'arc en accord avec la table. Ce n'est pas une r├⌐compense automatique ΓÇö c'est une reconnaissance collective que quelque chose d'important vient de se tisser. Si c'est le cas, le h├⌐ros peut augmenter la valeur maximale de l'un de ses traits d'un cran. La trame de son destin devient plus solide, avec une forme plus complexe et plus belle. Il peut aussi cr├⌐er un nouveau trait. S'il le cr├⌐e, il commence g├⌐n├⌐ralement ├á la valeur **d6**.
++
++### Les Niveaux de Traits
++* **d6 :** D├⌐couverte. Le h├⌐ros commence ├á d├⌐velopper une comp├⌐tence ou une aptitude.
++* **d8 :** Ma├«trise. Le h├⌐ros est comp├⌐tent et fiable dans ce domaine.
++* **d10 :** Expertise. Le h├⌐ros est reconnu pour son haut niveau de comp├⌐tence.
++* **d12 :** Perfection. Le h├⌐ros atteint le sommet de son art. C'est le plus haut niveau de ma├«trise possible et doit ├¬tre justifi├⌐ par l'histoire. Ce sont les fils les plus solides et les plus complexes de la trame du h├⌐ros.
++
++* **Nouveaux Traits :** L'histoire peut justifier l'apparition d'un nouveau trait (apprentissage, nouveau titre). Il commence g├⌐n├⌐ralement ├á la valeur **d6**. On rajoute des fils ├á la trame du h├⌐ros, renfor├ºant sa complexit├⌐ et sa beaut├⌐.
+ 
+ ## 2. Souplesse Narrative
+ 
+-* **R├⌐├⌐criture :** ├Ç tout moment, si un trait ne correspond plus ├á la r├⌐alit├⌐ du h├⌐ros, vous pouvez le transformer (le renommer) tout en conservant sa valeur de d├⌐ actuelle.
+-* **Affaiblissement durable :** Un traumatisme peut bloquer un trait ├á la valeur **d6** tant que la cause persiste.
+-* **Suppression :** Si un trait perd totalement son sens dans le r├⌐cit, il peut ├¬tre simplement supprim├⌐.
++* **Retisser la Trame :** ├Ç tout moment, si un trait ne correspond plus ├á la r├⌐alit├⌐ du h├⌐ros, vous pouvez le transformer (le renommer) tout en conservant sa valeur de d├⌐ actuelle.
++* **Un Fil Cass├⌐ :** Un traumatisme peut bloquer un trait ├á la valeur **d6** tant que la cause persiste.
++* **Supprimer un Fil :** Si un trait perd totalement son sens dans le r├⌐cit, il peut ├¬tre simplement supprim├⌐.
+ 
+ > **Note finale :** Privil├⌐giez la coh├⌐rence, la souplesse et lΓÇÖimpact narratif plut├┤t quΓÇÖun syst├¿me de niveaux rigide. Le h├⌐ros doit porter les marques de son voyage.
+\ No newline at end of file
+diff --git a/Sources_fr/99_fiche_de_personnage.md b/Sources_fr/99_fiche_de_personnage.md
+index 42c75f9..ca82158 100644
+--- a/Sources_fr/99_fiche_de_personnage.md
++++ b/Sources_fr/99_fiche_de_personnage.md
+@@ -1,63 +1,104 @@
+-# FICHE DE PERSONNAGE - TRAMES
++# FICHE DE PERSONNAGE ΓÇö TRAMES
++> *Les personnes autour de la table sont des **joueuses**. Les personnages qu'elles incarnent sont des **h├⌐ros**.*
+ 
+-**NOM DU PERSONNAGE :** ______________________________ 
++---
++
++## IDENTIT├ë
++
++**Nom du h├⌐ros :** _______________________________________________
+ 
+-**ARCH├ëTYPE :**         ______________________________
++**Arch├⌐type :** _________________________________________________
+ 
+ ---
+ 
+ ## LE M├ëTIER DES MOIRES
+-* **CLOTHO (Conviction) :** _______________________________________
+-    *(D├⌐penser 1 jeton pour +1d12)*
+-* **LACH├ëSIS (Destin) :** _________________________________________
+-    *(1/session : +1d12 gratuit)*
+-* **ATROPOS (P├⌐ch├⌐) :** ___________________________________________
+-    *(Gagner 1 jeton en ajoutant +1d4 au jet)*
++
++| Fil | ├ënonc├⌐ | M├⌐canique |
++|---|---|---|
++| **Clotho** ΓÇö La Conviction | ___________________________________ | D├⌐penser 1 jeton ΓåÆ +1d12 |
++| **Lach├⌐sis** ΓÇö Le Destin | ___________________________________ | 1├ù/session, gratuit ΓåÆ +1d12 |
++| **Atropos** ΓÇö Le P├⌐ch├⌐ | ___________________________________ | Gagner 1 jeton ΓåÆ +1d4 au jet |
++
++**R├⌐serve du M├⌐tier :** `Γùï Γùï Γùï Γùï Γùï Γùï Γùï`
++*(Nombre de joueuses + 1 au d├⌐but de chaque session)*
+ 
+ ---
+ 
+-## TRAITS (Maximum 8 au d├⌐part)
+-*Note : Indiquez la valeur maximale (ex: d12) et suivez l'├⌐tat actuel pendant la sc├¿ne.*
++## TRAITS *(8 maximum au d├⌐part)*
++
++> Indiquez la valeur maximale de chaque trait et cochez son ├⌐tat actuel pendant la sc├¿ne.
++> ├Ç la fin de chaque sc├¿ne, tous les traits retrouvent leur valeur maximale.
+ 
+-| Nom du Trait | Max | ├ëtat Actuel (Pendant la sc├¿ne) |
+-| :--- | :---: | :--- |
+-| **Arch├⌐type :** | **d12** | [ ] d12 [ ] d10 [ ] d8 [ ] d6 |
+-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
+-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
+-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
+-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
+-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
+-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
+-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
+-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
+-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
+-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
+-| | | [  ] d12 [  ] d10 [  ] d8 [  ] d6 |
++| Nom du Trait | Max | ├ëtat actuel *(pendant la sc├¿ne)* |
++|---|---|---|
++| **Arch├⌐type :** __________________ | d12 | `ΓÿÉ d12` `ΓÿÉ d10` `ΓÿÉ d8` `ΓÿÉ d6` |
++| _________________________________ | ____ | `ΓÿÉ d12` `ΓÿÉ d10` `ΓÿÉ d8` `ΓÿÉ d6` |
++| _________________________________ | ____ | `ΓÿÉ d12` `ΓÿÉ d10` `ΓÿÉ d8` `ΓÿÉ d6` |
++| _________________________________ | ____ | `ΓÿÉ d12` `ΓÿÉ d10` `ΓÿÉ d8` `ΓÿÉ d6` |
++| _________________________________ | ____ | `ΓÿÉ d12` `ΓÿÉ d10` `ΓÿÉ d8` `ΓÿÉ d6` |
++| _________________________________ | ____ | `ΓÿÉ d12` `ΓÿÉ d10` `ΓÿÉ d8` `ΓÿÉ d6` |
++| _________________________________ | ____ | `ΓÿÉ d12` `ΓÿÉ d10` `ΓÿÉ d8` `ΓÿÉ d6` |
++| _________________________________ | ____ | `ΓÿÉ d12` `ΓÿÉ d10` `ΓÿÉ d8` `ΓÿÉ d6` |
++
++*Traits laiss├⌐s vides ├á la cr├⌐ation : ├á nommer en cours de partie en piochant dans les d├⌐s restants.*
+ 
+ ---
+ 
+-## SANT├ë & D├ëG├éTS
+-*Cochez les cases au fur et ├á mesure. Les paliers sont ind├⌐pendants.*
++## SOLIDIT├ë DU FIL *(Sant├⌐)*
+ 
+-**[  ] [  ] [  ] BLESSURES L├ëG├êRES** *(Aucun malus.)*
++> Cochez les cases de gauche ├á droite. Les paliers sont ind├⌐pendants.
++> La fiction de la blessure doit ├¬tre coh├⌐rente avec sa r├⌐cup├⌐ration ΓÇö une blessure sociale ne se soigne pas chez un m├⌐decin.
+ 
+-**[  ] [  ] [  ] BLESSURES S├ëRIEUSES** *(Malus : Ajoutez **+1d4** ├á tous vos jets.)*
++| Palier | Cases | Malus m├⌐canique |
++|---|---|---|
++| **Fil Effiloch├⌐** *(Blessures l├⌐g├¿res)* | `ΓÿÉ ΓÿÉ ΓÿÉ` | Aucun |
++| **Fil Tendu** *(Blessures s├⌐rieuses)* | `ΓÿÉ ΓÿÉ ΓÿÉ` | +1d4 ├á tous les jets *(Fils Emm├¬l├⌐s)* |
++| **Fil au Bord de la Rupture** *(Blessures mortelles)* | `ΓÿÉ ΓÿÉ ΓÿÉ` | +3d4 ├á tous les jets *(Fils Emm├¬l├⌐s)* |
+ 
+-**[  ] [  ] [  ] BLESSURES MORTELLES** *(Malus : Ajoutez **+3d4** ├á tous vos jets.)*
++**R├⌐cup├⌐ration :**
++- *Fil Effiloch├⌐* ΓåÆ effac├⌐ automatiquement en fin de sc├¿ne.
++- *Fil Tendu / Fil au Bord de la Rupture* ΓåÆ n├⌐cessite une sc├¿ne de repos d├⌐di├⌐e et un soutien ad├⌐quat.
+ 
+ ---
+ 
+-## RESSOURCES (1 ├á 5)
+-*Usage : Automatisme narratif OU doubler un d├⌐ de trait (permet de passer la limite de 3 d├⌐s lanc├⌐s).*
++## RESSOURCES *(1 ├á 5)*
++
++> Une ressource peut rendre une action automatiquement r├⌐ussie si la situation s'y pr├¬te.
++> Lors d'un jet, une ressource permet de doubler l'un des d├⌐s de trait lanc├⌐s.
++> Une ressource peut devenir inaccessible suite ├á un ├⌐chec ou un accroc.
+ 
+-1. ______________________________________________________
+-2. ______________________________________________________
+-3. ______________________________________________________
+-4. ______________________________________________________
+-5. ______________________________________________________
++1. _______________________________________________________________
++2. _______________________________________________________________
++3. _______________________________________________________________
++4. _______________________________________________________________
++5. _______________________________________________________________
+ 
+ ---
+ 
+-## IV. NOTES & HORLOGES
+-*Utilisez cet espace pour dessiner vos horloges (4 ou 6 segments) et noter vos objectifs.*
++## TRAME BR├¢L├ëE
++
++> Utilisable uniquement face ├á une issue fatale. Transforme l'action en R├⌐ussite Totale.
++> **Prix : effacer d├⌐finitivement l'un de ses traits.** Ce fil est coup├⌐ ΓÇö il ne peut plus ├¬tre utilis├⌐, renomm├⌐ ou augment├⌐.
++
++Trait br├╗l├⌐ : _________________________ | Raison narrative : _____________________________
++
++---
++
++## NOTES & HORLOGES
++
++> Dessinez ici vos horloges (cercles de 4 ou 6 segments) et notez vos objectifs en cours.
++> Rappel : chaque ├⌐chec ou r├⌐ussite avec prix coche un segment. Si l'horloge est pleine, la menace se d├⌐clenche.
++
++&nbsp;
++
++&nbsp;
++
++&nbsp;
++
++&nbsp;
++
++&nbsp;
++
++---
+ 
++*TRAMES ΓÇö Tisser les fils du Destin*

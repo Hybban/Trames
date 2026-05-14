@@ -15,6 +15,11 @@
     --muted-text: #666666;
 }
 
+.page-break {
+    page-break-before: always;
+    break-before: page;
+}
+
 @page {
     size: A5;
     margin: 1.5cm;
@@ -27,7 +32,7 @@
     }
 
     @bottom-left {
-        content: "Système 100 - SRD";
+        content: "FOOTER_TEXT_PLACEHOLDER";
         font-family: 'Outfit', sans-serif;
         font-size: 8pt;
         color: var(--muted-text);

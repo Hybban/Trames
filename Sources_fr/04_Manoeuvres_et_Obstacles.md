@@ -1,27 +1,30 @@
 # IV. Manœuvres et Actions de Jeu
 
-Les manœuvres ne sont pas des règles rigides, mais des **options suggérées** pour structurer votre récit. Elles illustrent comment le système de dés s'articule avec la narration.
+Les Moires ne dictent pas chaque geste, mais elles tissent des moments de tension. Les manœuvres sont des nœuds dans la trame — les moments où votre fil croise celui d'un obstacle, d'un adversaire, ou du monde. Chaque manœuvre a deux visages : une mécanique fixe qui s'applique toujours, et une coloration narrative qui appartient à votre histoire. La première est une règle. La seconde est une invitation.
+
+Bien sûr, il existe bien d'autres actions possibles. Celles présentées ici sont celles qui définissent la plupart des interactions possibles. Elles servent de base pour créer de nombreuses situations nouvelles.
 
 ## 1. Les Manœuvres Fondamentales
 
-* **Braver le Danger :** À utiliser face à une menace immédiate.
-    * **9-12 :** Succès total, l'obstacle est surmonté et un trait s'améliore.
-    * **5-8 :** Succès avec prix, vous passez mais un trait diminue ou vous subissez une blessure légère.
-    * **1-4 :** Échec, la menace vous frappe de plein fouet.
-* **Sonder les Trames :** Pour analyser une situation ou un PNJ.
-    * **9-12 :** Informations claires et avantage narratif.
-    * **5-8 :** Vous trouvez l'information, mais cela prend trop de temps ou attire l'attention.
-    * **1-4 :** Conclusion erronée ou piège. 
-* **Engager le Conflit :** Pour s'imposer par la force, la magie ou la rhétorique.
+* **Tendre le Fil (affronter une menace immédiate) :** 
+    * **9-12 :** L'obstacle est surmonté. Augmentez un trait utilisé d'un cran.
+    * **5-8 :** Vous passez, mais un trait diminue d'un cran ou vous recevez un Fil Effiloché.
+    * **1-4 :** La menace vous frappe de plein fouet. Conséquences immédiates.
+
+--pb--
+
+* **Lire la Trame (analyser, observer une situation ou un personnage) :** 
+    * **9-12 :** Informations claires. La Meneuse doit répondre honnêtement à une question.
+    * **5-8 :** L'information est trouvée, mais cela prend du temps ou attire l'attention.
+    * **1-4 :** Conclusion erronée ou piège tendu. 
+* **Couper le Fil (S'imposer par la force, la magie ou la rhétorique.) :** 
     * **9-12 :** L'adversaire est repoussé ou vaincu.
-    * **5-8 :** Victoire amère, vous subissez une blessure légère et un trait diminue.
-    * **1-4 :** L'adversaire prend le dessus (blessure sérieuse ou mortelle).
-* **Puiser dans ses Ressources :** Pour obtenir de l'aide ou utiliser un équipement rare.
+    * **5-8 :** Victoire amère, un trait diminue d'un cran et vous recevez un Fil Effiloché.
+    * **1-4 :** L'adversaire prend le dessus (blessure sérieuse ou pire).
+* **Tisser un nouveau Fil (agir, utiliser ses ressources) :** Pour obtenir de l'aide ou utiliser un équipement rare.
     * **9-12 :** La ressource est parfaitement employée et reste disponible.
     * **5-8 :** L'objectif est atteint, mais la ressource est entamée ou temporairement inaccessible.
     * **1-4 :** La ressource fait défaut ou se retourne contre vous.
-
-*Conseil Solo : Interprétez la première idée qui vous vient, mais introduisez un rebondissement qui prouve votre erreur au pire moment.*
 
 ## 2. Adversité et Horloges
 Certains défis complexes sont représentés par des **Horloges** (cercles de 4 ou 6 segments).

@@ -1,15 +1,17 @@
-# III. La Santé et les Blessures
+# III. La Solidité du Fil
 
-Dans TRAMES, la santé ne se limite pas au physique. Elle représente votre intégrité globale : votre corps, votre esprit et votre réputation sociale. Ces trois aspects sont gérés sur une échelle de dégâts unique composée de trois paliers indépendants. Cela représente les dégats physiques, sociaux et mentaux que le personnage peut encaisser.
+Dans TRAMES, les Moires ne distinguent pas ce qui use votre fil. Une lame, une humiliation, une nuit sans sommeil — tout s'accumule sur la même trame. Ce qui compte, c'est l'état du fil, pas la nature de la blessure.
+
+C'est à la Meneuse et aux joueuses de nommer ce que représente chaque case cochée. Une blessure sérieuse peut être une jambe cassée, une réputation détruite, ou une conviction ébranlée. La mécanique est la même. La fiction, elle, doit être précise.
 
 ## 1. Les Paliers de Dégâts
 Les dégâts sont cumulés selon leur gravité. Tant que les dégâts sont légers, l'impact mécanique est nul, mais ils servent de tampon avant les états plus critiques.
 
-* **Blessures Légères (3 cases) :** Aucun impact mécanique immédiat. Si vous subissez un dégât alors que ces cases sont pleines, vous basculez dans les dégâts graves.
-* **Blessures Sérieuses (3 cases) :** Vous devez ajouter **1d4** à tous vos jets de dés. 
-* **Blessures Mortelles (3 cases) :** La situation est critique. Vous devez ajouter **3d4** à tous vos jets de dés.
+* **Fil effiloché (3 encoches) :** Les blessures sont légères et superficielles, aucun impact mécanique immédiat. Si vous subissez un dégât alors que ces cases sont pleines, vous basculez dans les dégâts graves.
+* **Fil tendu (3 encoches) :** Les blessures sont sérieuses et handicapantes, mais le personnage peut encore tenir bon. Vous ajoutez **1d4** à tous vos jets de dés. 
+* **Fil à la limite (3 encoches) :** Les blessures sont graves et le personnage est au bord de la rupture. Vous ajoutez **3d4** à tous vos jets de dés.
 
-> **L'effet "Poids Mort" :** Les d4 ajoutés par les blessures sont considérés comme des dés de trait lancés pour l'action. Il ne peuvent pas dépasser 4 et n'apportent donc aucune possibilité de réussite, même partielle. Leur rôle principal est d'augmenter la probabilité d'obtenir des 1, déclenchant ainsi des complications ou la dégradation de vos ressources. Ils représentent donc la fatigue et la douleur du personnage de façon mécanique.
+> **L'effet "Fils emmêlés" :** Les d4 ajoutés par les blessures sont des fils abîmés qui s'emmêlent dans votre action. Ils ne peuvent pas dépasser 4 et n'apportent donc aucune possibilité de réussite, même partielle. Leur seul effet est d'augmenter la probabilité d'un accroc — déclenchant complications et dégradation de ressources. Ils représentent mécaniquement ce que la douleur et la fatigue font à une trame : l'encombrer sans la renforcer.
 
 ## 2. Prendre des dégâts
 Les dégâts sont souvent pris dans le cas du résultat d'un jet de dé : 
@@ -24,12 +26,19 @@ Le temps et les ressources nécessaires pour guérir dépendent de la profondeur
 * **Récupération Légère :** Toutes les cases de blessures légères sont effacées automatiquement à la **fin de la scène**.
 * **Récupération Profonde :** Pour effacer des cases de blessures **Sérieuses** ou **Mortelles**, une simple pause ne suffit pas. Le héros doit s'engager dans une scène de repos dédiée et justifier d'un soutien adéquat (soins médicaux, thérapie, sanctuaire, ou aide d'un allié spécialisé).
 
-### Niveau d'héroïsme et de réalisme
-Selon le niveau d'héroisme souhaité pour la campagne, la Meneuse de jeu pourra modifier les paliers de dégâts ainsi que la manière dont on peut les soigner. Voici quelques exemples de modifications possibles :
+> **Note sur la récupération narrative :** Les cases se récupèrent mécaniquement selon les règles habituelles. Mais une blessure sociale ne se soigne pas chez un médecin, et un traumatisme mental ne disparaît pas après une nuit de repos. La Meneuse veillera à ce que la fiction de la récupération soit cohérente avec la fiction de la blessure.
 
-| Niveau | Cases légères | Cases sérieuses | Cases mortelles | Récupération légère | Récupération profonde |
+### Le Calibre de la Trame
+Avant la première scène, les Moires ont déjà choisi l'épaisseur de votre fil. Certains héros sont tissés pour durer — ils encaissent, ils rebondissent, leur trame est dense et résistante. D'autres sont des fils fins, tendus à l'extrême, où chaque nœud pourrait être le dernier. La Meneuse choisit le calibre de la trame en accord avec le ton de la campagne.
+
+* **Fil de Lin :** Les héros sont mortels. Chaque blessure compte. L'histoire est sombre et les cicatrices, permanentes.
+* **Fil de Laine :** Le standard de TRAMES. Les héros sont solides mais vulnérables. Les pertes ont du poids.
+* **Fil de Soie :** Les héros sont taillés pour l'aventure. Ils tombent, mais se relèvent. L'épopée prime sur la tragédie.
+* **Fil d'Or :** Les héros sont légendaires. Le destin les protège autant qu'il les éprouve. Les Moires elles-mêmes regardent.
+
+| Niveau | Fil effiloché | Fil tendu | Fil à la limite | Récupération légère | Récupération profonde |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Réaliste** | 1 | 2 | 2 | Fin de scène | Scène de repos + Aide  |
-| **Normal** | 3 | 3 | 3 | Fin de scène | 1 scène de repos |
-| **Héroïque** | 5 | 4 | 3 | Immédiat (post-conflit) | Scène de repos simple |
-| **Légendaire** | 6 | 6 | 4 | Immédiat (post-jet) | Automatique (fin de scène) |
+| **Fil de Lin** | 1 | 2 | 2 | Fin de scène | Scène de repos + Aide  |
+| **Fil de Laine** | 3 | 3 | 3 | Fin de scène | 1 scène de repos |
+| **Fil de Soie** | 5 | 4 | 3 | Immédiat (post-conflit) | Scène de repos simple |
+| **Fil d'or** | 6 | 6 | 4 | Immédiat (post-jet) | Automatique (fin de scène) |
