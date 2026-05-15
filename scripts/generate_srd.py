@@ -161,8 +161,7 @@ def main():
             # Paths to default themes
             default_noir_css = os.path.join(STYLE_DIR, "theme_noir.css")
             default_print_css = os.path.join(STYLE_DIR, "theme_print.css")
-            
-            main_logo_path = os.path.join("Images", "Trames", "Logo_Trames.png")
+            main_logo_path = os.path.join("Images", "Trames", f"Logo_Trames_{config['lang']}.png")
 
             # 1. Version Noir
             generate_pdf(playwright, html_body, os.path.join(lang_output_dir, f"{config['title']}_SRD_Noir_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir, default_noir_css, cover_logo_path=main_logo_path)
