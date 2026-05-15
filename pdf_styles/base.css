@@ -177,6 +177,8 @@ li::marker {
     align-items: center;
     text-align: center;
     break-after: page;
+    padding-bottom: 15vh;
+    box-sizing: border-box;
 }
 
 .cover-title {
@@ -191,6 +193,12 @@ li::marker {
     color: var(--text-color);
     margin-top: 0.5cm;
     letter-spacing: 4px;
+}
+
+.cover-logo {
+    margin-top: 1.5cm;
+    max-width: 75%;
+    height: auto;
 }
 
 /* Images */

@@ -43,7 +43,7 @@ def embed_images_in_html(html_content, base_dir):
         return match.group(0)
     return re.sub(r'src=["\'](.*?)["\']', replacer, html_content)
 
-def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_subtitle, source_dir, theme_css_path):
+def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_subtitle, source_dir, theme_css_path, cover_logo_path=None):
     """Génère un PDF à partir du contenu HTML et du thème spécifié utilisant Playwright."""
     html_body = embed_images_in_html(html_body, source_dir)
     
@@ -62,6 +62,16 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
     base_css = base_css.replace("FOOTER_TEXT_PLACEHOLDER", footer_text)
 
     srd_text = "Document de Référence (SRD)" if lang == "fr" else "System Reference Document (SRD)"
+    
+    logo_html = ""
+    if cover_logo_path and os.path.exists(cover_logo_path):
+        with open(cover_logo_path, 'rb') as img_file:
+            encoded_logo = base64.b64encode(img_file.read()).decode('utf-8')
+        ext = os.path.splitext(cover_logo_path)[1].lower()
+        mime = 'image/jpeg' if ext in ['.jpg', '.jpeg'] else 'image/png'
+        if ext == '.svg': mime = 'image/svg+xml'
+        elif ext == '.gif': mime = 'image/gif'
+        logo_html = f'<img src="data:{mime};base64,{encoded_logo}" class="cover-logo" alt="Logo">'
 
     # Template HTML complet
     full_html = f"""
@@ -79,6 +89,7 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
             <h1 class="cover-title">{cover_title}</h1>
             <p class="cover-subtitle">{cover_subtitle}</p>
             <p class="cover-subtitle">{srd_text}</p>
+            {logo_html}
         </div>
         <div class="content">
             {html_body}
@@ -150,12 +161,14 @@ def main():
             # Paths to default themes
             default_noir_css = os.path.join(STYLE_DIR, "theme_noir.css")
             default_print_css = os.path.join(STYLE_DIR, "theme_print.css")
+            
+            main_logo_path = os.path.join("Images", "Trames", "Logo_Trames.png")
 
             # 1. Version Noir
-            generate_pdf(playwright, html_body, os.path.join(lang_output_dir, f"{config['title']}_SRD_Noir_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir, default_noir_css)
+            generate_pdf(playwright, html_body, os.path.join(lang_output_dir, f"{config['title']}_SRD_Noir_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir, default_noir_css, cover_logo_path=main_logo_path)
             
             # 2. Version Print
-            generate_pdf(playwright, html_body, os.path.join(lang_output_dir, f"{config['title']}_SRD_Print_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir, default_print_css)
+            generate_pdf(playwright, html_body, os.path.join(lang_output_dir, f"{config['title']}_SRD_Print_{config['lang'].upper()}.pdf"), config["lang"], config["title"], config["subtitle"], source_dir, default_print_css, cover_logo_path=main_logo_path)
             
             # --- Supplements Generation ---
             supplements_dir = os.path.join(source_dir, "Suppléments")
