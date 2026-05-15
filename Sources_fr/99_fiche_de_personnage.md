@@ -3,9 +3,7 @@
 
 **Nom du héros :** _______________________________________________
 
-**Archétype :** _________________________________________________
-
----
+**Nom de la joueuse :** _______________________________________________
 
 ## LE MÉTIER DES MOIRES
 
@@ -14,6 +12,8 @@
 | **Clotho** — La Conviction | ___________________________________ | Dépenser 1 jeton → +1d12 |
 | **Lachésis** — Le Destin | ___________________________________ | 1×/session, gratuit → +1d12 |
 | **Atropos** — Le Péché | ___________________________________ | Gagner 1 jeton → +1d4 au jet |
+
+--pb--
 
 ## TRAITS *(8 maximum au départ)*
 
@@ -29,8 +29,10 @@
 | _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+| _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+| _________________________________ | ____ | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 
----
+--pb--
 
 ## SOLIDITÉ DU FIL *(Santé)*
 
@@ -54,9 +56,9 @@
 4. _______________________________________________________________
 5. _______________________________________________________________
 
----
+--pb--
 
-## NOTES & HORLOGES
+### NOTES & HORLOGES
 
 > Dessinez ici vos horloges (cercles de 4 ou 6 segments) et notez vos objectifs en cours.
 > Rappel : chaque échec ou réussite avec prix coche un segment. Si l'horloge est pleine, la menace se déclenche.
@@ -71,6 +73,3 @@
 
 &nbsp;
 
----
-
-*TRAMES — Tisser les fils du Destin*

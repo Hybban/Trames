@@ -1,0 +1,22 @@
+:root {
+    --primary-bg: #111111; /* Darker background for shadow theme */
+    --text-color: #dddddd;
+    --accent-color: #48bb78; /* Green accent */
+    --box-bg: #222222;
+    --box-border: #2f855a; /* Deep Green */
+    --table-header-bg: #22543d; /* Dark Green */
+    --table-header-text: #ffffff;
+    --muted-text: #777777;
+}
+
+@page {
+    background-color: #111111;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(72, 187, 120, 0.05);
+}
+
+td {
+    border-bottom: 1px solid #333333;
+}

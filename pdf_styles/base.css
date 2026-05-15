@@ -22,7 +22,7 @@
 
 @page {
     size: A5;
-    margin: 1.5cm;
+    margin: 1.3cm;
 
     @bottom-right {
         content: counter(page);
@@ -34,7 +34,7 @@
     @bottom-left {
         content: "FOOTER_TEXT_PLACEHOLDER";
         font-family: 'Outfit', sans-serif;
-        font-size: 8pt;
+        font-size: 7pt;
         color: var(--muted-text);
     }
 }
@@ -44,7 +44,7 @@ body {
     color: var(--text-color);
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    font-size: 11pt;
+    font-size: 10pt;
     margin: 0;
     padding: 0;
 }
@@ -70,7 +70,9 @@ strong {
 h1,
 h2,
 h3,
-h4 {
+h4,
+.h3,
+.h4 {
     font-family: 'Outfit', sans-serif;
     color: var(--accent-color);
     text-transform: uppercase;
@@ -80,7 +82,7 @@ h4 {
 }
 
 h1 {
-    font-size: 18pt;
+    font-size: 16pt;
     margin-top: 0;
     border-bottom: 4px solid var(--accent-color);
     padding-bottom: 0.5cm;
@@ -94,20 +96,21 @@ h1:not(:first-child) {
 }
 
 h2 {
-    font-size: 14pt;
+    font-size: 12pt;
     border-bottom: 1px solid var(--accent-color);
     margin-top: 0;
 }
 
-h3 {
-    font-size: 12pt;
+h3,
+.h3 {
+    font-size: 11pt;
     margin-top: 0;
 }
 
 /* Encadrés (Notes, Exemples) */
 blockquote {
-    margin: 0.5cm 0;
-    padding: 0.5cm;
+    margin: 0;
+    padding: 0.3cm;
     background-color: var(--box-bg);
     border-left: 8px solid var(--box-border);
     font-style: italic;
@@ -118,9 +121,9 @@ blockquote {
 
 blockquote strong {
     color: var(--accent-color);
-    font-size: 12pt;
+    font-size: 10pt;
     display: block;
-    margin-bottom: 0.5cm;
+    margin-bottom: 0;
     font-style: normal;
     text-transform: uppercase;
 }

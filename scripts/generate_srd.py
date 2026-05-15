@@ -47,6 +47,11 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
     """Génère un PDF à partir du contenu HTML et du thème spécifié utilisant Playwright."""
     html_body = embed_images_in_html(html_body, source_dir)
     
+    # Transform h3-h6 into divs so only h1 and h2 are picked up by the PDF outline (bookmarks)
+    for i in range(3, 7):
+        html_body = re.sub(rf'<h{i}\b([^>]*)>', rf'<div class="h{i}"\1>', html_body)
+        html_body = re.sub(rf'</h{i}>', '</div>', html_body)
+    
     # Lecture des CSS pour injection directe
     with open(os.path.join(STYLE_DIR, "base.css"), 'r', encoding='utf-8') as f:
         base_css = f.read()
@@ -98,6 +103,8 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
             path=output_file,
             format="A5",
             print_background=True,
+            outline=True,
+            tagged=True,
             margin={
                 "top": "0px", # Marges déjà gérées dans le CSS @page
                 "bottom": "0px",
@@ -119,6 +126,13 @@ def main():
         {"lang": "fr", "dir": "Sources_fr", "title": "Trames", "subtitle": "Tisser les fils du Destin"},
         {"lang": "en", "dir": "Sources_en", "title": "Threads", "subtitle": "Weaving the Threads of Fate"}
     ]
+    
+    # Mapping for English supplement names to their French style directories
+    supp_style_map = {
+        "Solo Mode": "Mode solo",
+        "Shadow Threads": "Trames d'ombres",
+        "Shadow Threads Solo": "Trames d'ombres Solo"
+    }
     
     with sync_playwright() as playwright:
         for config in configs:
@@ -151,9 +165,12 @@ def main():
                     if os.path.isdir(supp_path):
                         supp_html_body = aggregate_html(supp_path)
                         
-                        # Check for custom themes in the supplement folder
-                        supp_noir_css = os.path.join(supp_path, "theme_noir.css")
-                        supp_print_css = os.path.join(supp_path, "theme_print.css")
+                        # Retrieve the proper style directory name
+                        style_folder_name = supp_style_map.get(supp_name, supp_name)
+                        
+                        # Check for custom themes in pdf_styles/Suppléments/ directory
+                        supp_noir_css = os.path.join(STYLE_DIR, "Suppléments", style_folder_name, "theme_noir.css")
+                        supp_print_css = os.path.join(STYLE_DIR, "Suppléments", style_folder_name, "theme_print.css")
                         
                         final_noir_css = supp_noir_css if os.path.exists(supp_noir_css) else default_noir_css
                         final_print_css = supp_print_css if os.path.exists(supp_print_css) else default_print_css

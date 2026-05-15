@@ -1,10 +1,10 @@
 :root {
     --primary-bg: #111111; /* Darker background for shadow theme */
     --text-color: #dddddd;
-    --accent-color: #9f7aea; /* Purple accent */
+    --accent-color: #e53e3e; /* Carmine/Red accent */
     --box-bg: #222222;
-    --box-border: #805ad5; /* Deep Purple */
-    --table-header-bg: #44337a; /* Dark Purple */
+    --box-border: #c53030; /* Deep Carmine */
+    --table-header-bg: #742a2a; /* Dark Carmine */
     --table-header-text: #ffffff;
     --muted-text: #777777;
 }
@@ -14,7 +14,7 @@
 }
 
 tr:nth-child(even) {
-    background-color: rgba(159, 122, 234, 0.05);
+    background-color: rgba(229, 62, 62, 0.05);
 }
 
 td {

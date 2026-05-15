@@ -26,9 +26,7 @@ Trames/
 │   └── Suppléments/
 │       ├── Mode solo/                   # Le Fil Solitaire (6 chapitres)
 │       ├── Trames d'ombres/             # Supplément d'univers urban fantasy
-│       │   ├── 01-Trames_d'Ombres-setting.md
-│       │   ├── theme_noir.css           # Thème CSS custom
-│       │   └── theme_print.css
+│       │   └── 01-Trames_d'Ombres-setting.md
 │       └── Trames d'ombres Solo/        # Solo pour Trames d'ombres
 │
 ├── Sources_en/                          # Sources anglaises (SRD)
@@ -41,15 +39,17 @@ Trames/
 │   └── Suppléments/
 │       ├── Solo Mode/                   # The Solitary Thread (6 chapters)
 │       ├── Shadow Threads/              # Shadow Threads setting (EN)
-│       │   ├── 01–06 (6 chapitres .md)
-│       │   ├── theme_noir.css
-│       │   └── theme_print.css
+│       │   └── 01–06 (6 chapitres .md)
 │       └── Shadow Threads Solo/         # Solo for Shadow Threads
 │
-├── pdf_styles/                          # Styles CSS globaux
-│   ├── base.css
-│   ├── theme_noir.css
-│   └── theme_print.css
+├── pdf_styles/                          # Styles CSS
+│   ├── base.css                         # Style global partagé
+│   ├── theme_noir.css                   # Thème de base (Noir)
+│   ├── theme_print.css                  # Thème de base (Print)
+│   └── Suppléments/                     # Thèmes des suppléments
+│       ├── Mode solo/
+│       ├── Trames d'ombres/
+│       └── Trames d'ombres Solo/
 │
 ├── scripts/                             # Outils d'automatisation
 │   ├── generate_srd.py                  # Générateur principal de PDFs
@@ -99,7 +99,7 @@ Quand les fichiers du répertoire `Sources_fr` sont mis à jour, il faut mettre 
 - **Sauts de page** : Automatiques avant chaque `h1` (sauf le premier du document).
 - **Encadrés** : Utiliser la syntaxe blockquote `> **Titre :** Contenu`. Vous pouvez également utiliser le préfixe `**Encadré** ` puis exécuter le script `python scripts/fix_encadres.py` pour formater automatiquement le bloc. Ils sont stylisés aux couleurs du jeu (bordure or).
 - **Thèmes (Bleu et Or)** : Le design abandonne l'ancien rouge pour un thème Bleu et Or. Il est décliné en version Print/Base (fond blanc, bleu nuit profond) et Noir (fond anthracite "full bleed", bleu ciel et or vif).
-- **Thèmes des suppléments (Gris et Turquoise)** : Le design abandonne l'ancien rouge pour un thème Gris et Turquoise. Il est décliné en version Print/Base (fond blanc, gris foncé) et Noir (fond anthracite "full bleed", gris foncé et turquoise vif).
+- **Thèmes des suppléments** : Les suppléments possèdent des thèmes personnalisés. *Trames d'ombres* utilise un thème **Gris et Turquoise**, le *Mode solo* (Le Fil Solitaire) utilise un thème **Vert**, et *Trames d'ombres Solo* un thème **Carmin**. Ils sont tous déclinés en version Print/Base et Noir.
 
 ## ⚠️ Notes de formatage Markdown
 - **Listes** : Toujours laisser une **ligne vide** avant de commencer une liste (`*` ou `-`), sinon le rendu sera fusionné dans le paragraphe précédent.

@@ -1,0 +1,18 @@
+:root {
+    --primary-bg: #ffffff;
+    --text-color: #1a1a1a;
+    --accent-color: #9b2c2c; /* Deep Carmine */
+    --box-bg: #fff5f5; /* Very light red */
+    --box-border: #c53030; /* Carmine */
+    --table-header-bg: #63171b;
+    --table-header-text: #ffffff;
+    --muted-text: #666666;
+}
+
+tr:nth-child(even) {
+    background-color: #fff5f5;
+}
+
+td {
+    border-bottom: 1px solid #fed7d7;
+}
