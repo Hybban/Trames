@@ -17,6 +17,10 @@ def aggregate_html(directory):
     for filename in md_files:
         with open(filename, 'r', encoding='utf-8') as f:
             content = f.read()
+        
+        # Convert [IMG](...) (without exclamation mark) to standard markdown image ![IMG](...)
+        content = re.sub(r'(?<!\!)\[IMG\]\((.*?)\)', r'![IMG](\1)', content, flags=re.IGNORECASE)
+        
         # Replace --pb-- tag with a page break div before markdown conversion
         content = content.replace('--pb--', '<div class="page-break"></div>')
             
@@ -30,7 +34,17 @@ def embed_images_in_html(html_content, base_dir):
         img_src = match.group(1)
         if img_src.startswith('http') or img_src.startswith('data:'):
             return match.group(0)
-        img_path = os.path.normpath(os.path.join(base_dir, img_src))
+        
+        # Normalize and strip leading slashes to prevent join from breaking
+        clean_src = img_src.lstrip('/\\')
+        
+        # 1. Try to resolve relative to source_dir (base_dir)
+        img_path = os.path.normpath(os.path.join(base_dir, clean_src))
+        
+        # 2. Fallback to project root directory
+        if not os.path.exists(img_path):
+            img_path = os.path.normpath(os.path.join(os.getcwd(), clean_src))
+            
         if os.path.exists(img_path):
             with open(img_path, 'rb') as img_file:
                 encoded = base64.b64encode(img_file.read()).decode('utf-8')
@@ -39,7 +53,7 @@ def embed_images_in_html(html_content, base_dir):
             if ext == '.svg': mime = 'image/svg+xml'
             elif ext == '.gif': mime = 'image/gif'
             return f'src="data:{mime};base64,{encoded}"'
-        print(f"Image introuvable : {img_path}")
+        print(f"Image introuvable : {img_path} (source: {img_src})")
         return match.group(0)
     return re.sub(r'src=["\'](.*?)["\']', replacer, html_content)
 

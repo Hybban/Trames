@@ -17,7 +17,8 @@ Le projet suit une règle stricte de féminisation des termes techniques :
 ```
 Trames/
 ├── Sources_fr/                          # Sources françaises (SRD)
-│   ├── 01_Introduction_et_Creation.md
+│   ├── 00_Introduction.md
+│   ├── 01_Creation.md
 │   ├── 02_Mecanique_de_Resolution.md
 │   ├── 03_Sante_et_Blessures.md
 │   ├── 04_Manoeuvres_et_Obstacles.md
@@ -30,7 +31,8 @@ Trames/
 │       └── Trames d'ombres Solo/        # Solo pour Trames d'ombres
 │
 ├── Sources_en/                          # Sources anglaises (SRD)
-│   ├── 01_Introduction_and_Creation.md
+│   ├── 00_Introduction.md
+│   ├── 01_Creation.md
 │   ├── 02_Resolution_Mechanic.md
 │   ├── 03_Health_and_Wounds.md
 │   ├── 04_Maneuvers_and_Obstacles.md
@@ -105,6 +107,7 @@ Quand les fichiers du répertoire `Sources_fr` sont mis à jour, il faut mettre 
 - **Listes** : Toujours laisser une **ligne vide** avant de commencer une liste (`*` ou `-`), sinon le rendu sera fusionné dans le paragraphe précédent.
 - **Titres** : Commencer chaque fichier par un titre de niveau 1 (`#`) pour la page de garde automatique.
 - **Sauts de page manuels** : Insérer le tag `--pb--` seul sur une ligne (entouré de lignes vides) pour forcer un saut de page dans le PDF généré.
+- **Images** : Pour intégrer une illustration dans le texte, utilisez la syntaxe Markdown standard `![Nom](Images/Trames/Image.png)` ou le raccourci `[IMG](Images/Trames/Image.png)`. Les images du dossier `Images/Trames/` seront encodées en Base64 et intégrées automatiquement au PDF généré sans erreur de chemin.
 
 ## 🔧 Dépannage
 - **PermissionError lors de la génération** : Si le script affiche une erreur mentionnant que la permission est refusée pour un fichier PDF, c'est généralement parce que vous avez laissé le PDF ouvert dans votre lecteur (Acrobat, navigateur, etc.). Fermez-le simplement et relancez le script.

@@ -19,4 +19,6 @@ TRAMES est un système de jeu de rôle narratif et descriptif. Il est conçu pou
 - La plupart des illustrations sont des créations assistées par IA, en attendant d'avoir les moyens de payer un artiste digne de ce nom.
 - Le logo de TRAMES est réalisé par moi-même pour le moment.
 
+[IMG](Images/Trames/Images00.png)
+
 Merci à toutes ces personnes pour leur contribution, même partielle, à TRAMES : Laurent Leplaideur.
