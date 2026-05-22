@@ -4,15 +4,14 @@ Les Moires ne dictent pas chaque geste, mais elles tissent des moments de tensio
 
 Bien sûr, il existe bien d'autres actions possibles. Celles présentées ici sont celles qui définissent la plupart des interactions possibles. Elles servent de base pour créer de nombreuses situations nouvelles.
 
+[IMG](Images/Trames/Images04.png)
+
 ## 1. Les Manœuvres Fondamentales
 
 * **Tendre le Fil (affronter une menace immédiate) :** 
     * **9-12 :** L'obstacle est surmonté. Augmentez un trait utilisé d'un cran.
     * **5-8 :** Vous passez, mais un trait diminue d'un cran ou vous recevez un Fil Effiloché.
     * **1-4 :** La menace vous frappe de plein fouet. Conséquences immédiates.
-
---pb--
-
 * **Lire la Trame (analyser, observer une situation ou un personnage) :** 
     * **9-12 :** Informations claires. La Meneuse doit répondre honnêtement à une question.
     * **5-8 :** L'information est trouvée, mais cela prend du temps ou attire l'attention.

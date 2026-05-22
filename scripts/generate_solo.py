@@ -16,17 +16,19 @@ def main():
     configs = [
         {
             "lang": "fr", 
-            "dir": "Sources_fr", 
-            "title": "Trames", 
+            "dir": "Sources_fr/Suppléments/Mode solo", 
+            "title": "Mode solo", 
             "subtitle": "Tisser les fils du Destin",
-            "footer": "Trames - SRD"
+            "style_dir_name": "Mode solo",
+            "footer": "Trames - Mode solo"
         },
         {
             "lang": "en", 
-            "dir": "Sources_en", 
-            "title": "Threads", 
+            "dir": "Sources_en/Suppléments/Solo Mode", 
+            "title": "Solo Mode", 
             "subtitle": "Weaving the Threads of Fate",
-            "footer": "Threads - SRD"
+            "style_dir_name": "Mode solo", # English uses the French style directory
+            "footer": "Threads - Solo Mode"
         }
     ]
     
@@ -39,44 +41,47 @@ def main():
                 
             html_body = pdf_generator_core.aggregate_html(source_dir)
             
-            lang_output_dir = os.path.join(OUTPUT_DIR, config["lang"])
+            lang_output_dir = os.path.join(OUTPUT_DIR, config["lang"], config["title"])
             if not os.path.exists(lang_output_dir):
                 os.makedirs(lang_output_dir)
                 
-            # Thèmes par défaut
+            # Thèmes personnalisés et par défaut en fallback
             default_noir_css = os.path.join(STYLE_DIR, "theme_noir.css")
             default_print_css = os.path.join(STYLE_DIR, "theme_print.css")
-            main_logo_path = os.path.join("Images", "Trames", f"Logo_Trames_{config['lang']}.png")
+            
+            custom_noir_css = os.path.join(STYLE_DIR, "Suppléments", config["style_dir_name"], "theme_noir.css")
+            custom_print_css = os.path.join(STYLE_DIR, "Suppléments", config["style_dir_name"], "theme_print.css")
+            
+            final_noir_css = custom_noir_css if os.path.exists(custom_noir_css) else default_noir_css
+            final_print_css = custom_print_css if os.path.exists(custom_print_css) else default_print_css
 
             # 1. Version Noir
             pdf_generator_core.generate_pdf(
                 playwright=playwright,
                 html_body=html_body,
-                output_file=os.path.join(lang_output_dir, f"{config['title']}_SRD_Noir_{config['lang'].upper()}.pdf"),
+                output_file=os.path.join(lang_output_dir, f"{config['title']}_Noir_{config['lang'].upper()}.pdf"),
                 lang=config["lang"],
                 cover_title=config["title"],
                 cover_subtitle=config["subtitle"],
                 source_dir=source_dir,
-                theme_css_path=default_noir_css,
-                footer_text=config["footer"],
-                cover_logo_path=main_logo_path
+                theme_css_path=final_noir_css,
+                footer_text=config["footer"]
             )
             
             # 2. Version Print
             pdf_generator_core.generate_pdf(
                 playwright=playwright,
                 html_body=html_body,
-                output_file=os.path.join(lang_output_dir, f"{config['title']}_SRD_Print_{config['lang'].upper()}.pdf"),
+                output_file=os.path.join(lang_output_dir, f"{config['title']}_Print_{config['lang'].upper()}.pdf"),
                 lang=config["lang"],
                 cover_title=config["title"],
                 cover_subtitle=config["subtitle"],
                 source_dir=source_dir,
-                theme_css_path=default_print_css,
-                footer_text=config["footer"],
-                cover_logo_path=main_logo_path
+                theme_css_path=final_print_css,
+                footer_text=config["footer"]
             )
             
-    print("\nSuccès ! Vos PDFs de référence (SRD) sont disponibles dans le dossier 'Générations'.")
+    print("\nSuccès ! Vos PDFs Mode Solo sont disponibles dans le dossier 'Générations'.")
 
 if __name__ == "__main__":
     main()

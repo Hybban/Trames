@@ -87,13 +87,31 @@ pip install -r scripts/requirements.txt
 playwright install chromium
 ```
 
-Pour générer le **Manuel Complet** (dans toutes les langues disponibles) :
+Pour générer les ouvrages individuellement (dans toutes les langues disponibles) :
+- **Livre de base (SRD)** :
 ```bash
 python scripts/generate_srd.py
 ```
+- **Mode Solo** :
+```bash
+python scripts/generate_solo.py
+```
+- **Trames d'ombres** :
+```bash
+python scripts/generate_trames_d_ombres.py
+```
+- **Trames d'ombres Solo** :
+```bash
+python scripts/generate_trames_d_ombres_solo.py
+```
+
+Pour générer **tous les ouvrages** d'un coup :
+```bash
+python scripts/generate_all.py
+```
 
 ## Traductions
-Quand les fichiers du répertoire `Sources_fr` sont mis à jour, il faut mettre à jour les fichiers du répertoire `Sources_en`.
+Quand les fichiers du répertoire `Sources_fr` sont modifiés, il faut mettre à jour les fichiers du répertoire `Sources_en`.
 
 ## 🎨 Standards Visuels
 - **Format** : Les PDFs sont générés au format **A5** avec des marges de 1,5 cm pour une lecture optimale et un rendu adapté aux manuels de jeu de rôle.
