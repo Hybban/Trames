@@ -19,15 +19,15 @@ Le jeu se situe à la croisée de l'enquête occulte et de l'horreur viscérale 
 **Transformation :** Le thème central est la perte de soi. À force de sonder les trames ou de braver les dangers surnaturels, le personnage s'éloigne irrémédiablement de sa nature humaine.
 
 ## 3. LES TROIS NIVEAUX DE RÉALITÉ
-Selon votre campagne, vous choisirez le degré d'implication des personnages face au Voile. Chaque niveau correspond à un calibre du SRD de base et à un profil de personnage spécifique à cet univers.
+Selon votre campagne, vous choisirez le degré d'implication des personnages face au Voile. Chaque niveau correspond à un calibre du livre de base et à un profil de personnage spécifique à cet univers.
 
-| Niveau | Nom dans l'Ombre | Calibre SRD | Mode de Santé |
+| Niveau | Nom dans l'Ombre | Calibre de base | Mode de Santé |
 |---|---|---|---|
 | 1 | **L'Aveugle** | Fil de Lin | Réaliste (1 case légère par type) |
 | 2 | **L'Initiée** | Fil de Laine | Normal (3 cases légères par type) |
 | 3 | **La Transfuge** | Fil de Soie | Héroïque (5 cases légères par type) |
 
-> **Note :** Le calibre Fil d'Or du SRD n'est pas utilisé dans TRAMES d'Ombres. Dans cet univers, personne n'est légendaire — on est simplement plus ou moins corrompu.
+> **Note :** Le calibre Fil d'Or du livre de base n'est pas utilisé dans TRAMES d'Ombres. Dans cet univers, personne n'est légendaire — on est simplement plus ou moins corrompu.
 
 ## 4. GLOSSAIRE DE L'OMBRE
 

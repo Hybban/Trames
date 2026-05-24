@@ -5,7 +5,7 @@
 
 # I. JOUER SEULE
 
-Ce supplément s'adresse à une joueuse qui connaît déjà TRAMES. Il ne réexplique pas les règles — il les adapte et les étend pour le jeu en solo. Gardez le SRD à portée de main.
+Ce supplément s'adresse à une joueuse qui connaît déjà TRAMES. Il ne réexplique pas les règles — il les adapte et les étend pour le jeu en solo. Gardez le livre de base à portée de main.
 
 ---
 
@@ -25,7 +25,7 @@ Deux conséquences pratiques découlent de cette dualité.
 
 ## Ce que ce supplément apporte
 
-Le SRD vous donne les règles de base pour jouer seule. Ce supplément vous donne les outils pour jouer *longtemps* et *bien*.
+Le livre de base vous donne les règles de base pour jouer seule. Ce supplément vous donne les outils pour jouer *longtemps* et *bien*.
 
 - **Le Moteur Narratif** (chapitre II) remplace la Meneuse au quotidien — pour trancher les questions ouvertes, générer des PNJ, et relancer une scène qui stagne.
 - **Les Structures de Campagne** (chapitre III) vous permettent de tenir une histoire sur plusieurs sessions, avec des horloges longues qui donnent du relief et de la direction à votre récit.

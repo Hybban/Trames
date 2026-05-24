@@ -186,6 +186,7 @@ li::marker {
     color: var(--accent-color);
     margin: 0;
     font-weight: 700;
+    text-align: center;
 }
 
 .cover-subtitle {

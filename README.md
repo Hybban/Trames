@@ -12,11 +12,20 @@ Le projet suit une règle stricte de féminisation des termes techniques :
 - Quand on ajoute un nouveau supplément, il faut ajouter le sous-dossier correspondant dans le dossier `Sources_fr/Suppléments` et `Sources_en/Suppléments`.
 - Quand des modifications ont été validées, il faut noter les impacts dans le fichier README.md.
 
+### 📝 Modifications récentes et impacts (Session en cours)
+- **Retrait complet de la mention "SRD"** : Remplacement par "Livre de base" (fr) et "Core Rulebook" (en) dans l'ensemble des sources Markdown, documentations et scripts.
+- **Renommage du script principal** : Le script de génération du livre de base `generate_srd.py` a été renommé en `generate_base.py`.
+- **Nouveaux noms de PDFs générés** : Les PDFs générés pour le Livre de base s'appellent désormais `Trames_Livre_de_base_[Theme]_FR.pdf` (FR) et `Threads_Core_Rulebook_[Theme]_EN.pdf` (EN).
+- **Amélioration visuelle des couvertures** :
+  - Centrage horizontal automatique de tous les titres de couverture (notamment ceux sur plusieurs lignes tels que `Trames d'ombres` et `Trames d'ombres Solo`) via l'ajout de `text-align: center` dans `base.css`.
+  - Affichage précis du type de document sur la couverture des suppléments ("Supplément Solo", "Supplément d'univers") plutôt que "Livre de base".
+- **Renommage et alignement de la gamme Solo** : Les titres du Mode Solo ont été harmonisés en `"Trames Mode solo"` (FR) et `"Threads Solo Mode"` (EN) sur les couvertures et dans l'arborescence de génération.
+
 ## 📂 Structure du Projet
 
 ```
 Trames/
-├── Sources_fr/                          # Sources françaises (SRD)
+├── Sources_fr/                          # Sources françaises (Livre de base)
 │   ├── 00_Introduction.md
 │   ├── 01_Creation.md
 │   ├── 02_Mecanique_de_Resolution.md
@@ -30,7 +39,7 @@ Trames/
 │       │   └── 01-Trames_d'Ombres-setting.md
 │       └── Trames d'ombres Solo/        # Solo pour Trames d'ombres
 │
-├── Sources_en/                          # Sources anglaises (SRD)
+├── Sources_en/                          # Sources anglaises (Livre de base)
 │   ├── 00_Introduction.md
 │   ├── 01_Creation.md
 │   ├── 02_Resolution_Mechanic.md
@@ -54,21 +63,21 @@ Trames/
 │       └── Trames d'ombres Solo/
 │
 ├── scripts/                             # Outils d'automatisation
-│   ├── generate_srd.py                  # Générateur principal de PDFs
+│   ├── generate_base.py                  # Générateur principal de PDFs
 │   ├── fix_encadres.py                  # Formateur d'encadrés Markdown
 │   └── requirements.txt
 │
 └── Générations/                         # Sortie (PDFs générés)
     ├── fr/
-    │   ├── Trames_SRD_Noir_FR.pdf
-    │   ├── Trames_SRD_Print_FR.pdf
-    │   ├── Mode solo/
+    │   ├── Trames_Livre_de_base_Noir_FR.pdf
+    │   ├── Trames_Livre_de_base_Print_FR.pdf
+    │   ├── Trames Mode solo/
     │   ├── Trames d'ombres/
     │   └── Trames d'ombres Solo/
     └── en/
-        ├── Threads_SRD_Noir_EN.pdf
-        ├── Threads_SRD_Print_EN.pdf
-        ├── Solo Mode/
+        ├── Threads_Core_Rulebook_Noir_EN.pdf
+        ├── Threads_Core_Rulebook_Print_EN.pdf
+        ├── Threads Solo Mode/
         ├── Shadow Threads/
         └── Shadow Threads Solo/
 ```
@@ -88,9 +97,9 @@ playwright install chromium
 ```
 
 Pour générer les ouvrages individuellement (dans toutes les langues disponibles) :
-- **Livre de base (SRD)** :
+- **Livre de base** :
 ```bash
-python scripts/generate_srd.py
+python scripts/generate_base.py
 ```
 - **Mode Solo** :
 ```bash

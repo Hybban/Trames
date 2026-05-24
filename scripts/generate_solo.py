@@ -17,18 +17,20 @@ def main():
         {
             "lang": "fr", 
             "dir": "Sources_fr/Suppléments/Mode solo", 
-            "title": "Mode solo", 
+            "title": "Trames Mode solo", 
             "subtitle": "Tisser les fils du Destin",
             "style_dir_name": "Mode solo",
-            "footer": "Trames - Mode solo"
+            "footer": "Trames - Mode solo",
+            "document_type_text": "Supplément Solo"
         },
         {
             "lang": "en", 
             "dir": "Sources_en/Suppléments/Solo Mode", 
-            "title": "Solo Mode", 
+            "title": "Threads Solo Mode", 
             "subtitle": "Weaving the Threads of Fate",
             "style_dir_name": "Mode solo", # English uses the French style directory
-            "footer": "Threads - Solo Mode"
+            "footer": "Threads - Solo Mode",
+            "document_type_text": "Solo Supplement"
         }
     ]
     
@@ -54,7 +56,7 @@ def main():
             
             final_noir_css = custom_noir_css if os.path.exists(custom_noir_css) else default_noir_css
             final_print_css = custom_print_css if os.path.exists(custom_print_css) else default_print_css
-
+ 
             # 1. Version Noir
             pdf_generator_core.generate_pdf(
                 playwright=playwright,
@@ -65,7 +67,8 @@ def main():
                 cover_subtitle=config["subtitle"],
                 source_dir=source_dir,
                 theme_css_path=final_noir_css,
-                footer_text=config["footer"]
+                footer_text=config["footer"],
+                document_type_text=config["document_type_text"]
             )
             
             # 2. Version Print
@@ -78,7 +81,8 @@ def main():
                 cover_subtitle=config["subtitle"],
                 source_dir=source_dir,
                 theme_css_path=final_print_css,
-                footer_text=config["footer"]
+                footer_text=config["footer"],
+                document_type_text=config["document_type_text"]
             )
             
     print("\nSuccès ! Vos PDFs Mode Solo sont disponibles dans le dossier 'Générations'.")

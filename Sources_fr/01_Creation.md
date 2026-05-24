@@ -72,7 +72,7 @@ Un vice, une faiblesse ou un instinct sombre. C'est ce qui causera sa perte ou l
 
 > **Note sur les Fils :** Les Fils sont définis par la joueuse, mais doivent être validés par la Meneuse de jeu, et les autres joueuses si nécessaire, pour garantir qu'ils sont cohérents avec l'univers et le scénario. Il est également possible de définir des Fils au cours de la partie au gré des besoins narratifs, mais attention, cela ne doit pas se faire à la légère.
 
-## Le Calibre de la Trame
+## 6. Le Calibre de la Trame
 Avant la première scène, les Moires ont déjà choisi l'épaisseur de votre fil. Certains héros sont tissés pour durer — ils encaissent, ils rebondissent, leur trame est dense et résistante. D'autres sont des fils fins, tendus à l'extrême, où chaque nœud pourrait être le dernier. La Meneuse choisit le calibre de la trame en accord avec le ton de la campagne.
 
 * **Fil de Lin :** Les héros sont mortels. Chaque blessure compte. L'histoire est sombre et les cicatrices, permanentes.

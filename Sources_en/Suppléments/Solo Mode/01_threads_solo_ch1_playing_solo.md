@@ -5,7 +5,7 @@
 
 # I. PLAYING SOLO
 
-This supplement is intended for a player who already knows THREADS. It does not re-explain the rules — it adapts and extends them for solo play. Keep the SRD within reach.
+This supplement is intended for a player who already knows THREADS. It does not re-explain the rules — it adapts and extends them for solo play. Keep the Core Rulebook within reach.
 
 ---
 
@@ -25,7 +25,7 @@ Two practical consequences stem from this duality.
 
 ## What this supplement provides
 
-The SRD gives you the base rules for playing solo. This supplement gives you the tools to play *for a long time* and *well*.
+The Core Rulebook gives you the base rules for playing solo. This supplement gives you the tools to play *for a long time* and *well*.
 
 - **The Narrative Engine** (chapter II) replaces the Game Master on a daily basis — to decide open questions, generate NPCs, and restart a stalling scene.
 - **Campaign Structures** (chapter III) allow you to sustain a story over multiple sessions, with long clocks that give depth and direction to your narrative.

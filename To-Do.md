@@ -2,10 +2,9 @@
 
 ## Mécaniques de règles
 
--   Des règles sur la gestion des scènes et du rythme des parties ? Un chapitre de la Meuneuse en général.
+-   Un chapitre de la Meuneuse en général. (déjà commencé avec la base des explications sur les scènes)
 -   Expliquer comment fonctionne un scénario type et comment le scénario se développe au fil de la partie.
--   Rajouter des exemples d'horloges, d'obstacles et d'ennemis dans le chapitre 04
--   Rajouter des exemples, surtout sur l'utilisation des horloges (un voyage, une exploration, un combat). Avoir un exemple classique de création de personnage (basé sur un personnage de fiction connu ?) qui servira ensuite dans tous les exemples du livre.
+-   Avoir un exemple classique de création de personnage (basé sur un personnage de fiction connu ?) qui servira ensuite dans tous les exemples du livre.
 
 ## Spécifique Trames d'Ombres
 

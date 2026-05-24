@@ -47,7 +47,7 @@ L'horreur use l'esprit. Pour guérir de Blessures Mentales ou Sociales Sérieuse
 ## 5.La Solidité du Fil dans l'Ombre
 Dans TRAMES d'Ombres, les Moires distinguent ce qui use votre fil — parce que l'Abîme, lui, le distingue. Une lame blesse la chair. Une vision cauchemardesque blesse l'esprit. Une révélation publique blesse l'identité. Ces trois dimensions ont leur propre résistance, leur propre fragilité, et leur propre chemin vers la guérison.
 
-Le système de paliers du SRD est conservé — Fil Effiloché, Fil Tendu, Fil au Bord de la Rupture — mais il s'applique indépendamment sur trois colonnes.
+Le système de paliers du livre de base est conservé — Fil Effiloché, Fil Tendu, Fil au Bord de la Rupture — mais il s'applique indépendamment sur trois colonnes.
 
 | Palier | Physique | Mental | Social |
 |---|---|---|---|
@@ -99,6 +99,6 @@ La fiction de la blessure détermine comment elle se soigne — et dans cet univ
 
 ---
 
-> **Note de design :** Cette extension du système de santé du SRD est délibérée. Dans TRAMES d'Ombres, l'Abîme cible chaque dimension de l'humanité séparément — et les Moires, ici, regardent de près. Un héros physiquement intact mais mentalement brisé n'est pas intact. Le fil a trois couleurs, et chacune peut se défaire indépendamment.
+> **Note de design :** Cette extension du système de santé du livre de base est délibérée. Dans TRAMES d'Ombres, l'Abîme cible chaque dimension de l'humanité séparément — et les Moires, ici, regardent de près. Un héros physiquement intact mais mentalement brisé n'est pas intact. Le fil a trois couleurs, et chacune peut se défaire indépendamment.
 ---
 

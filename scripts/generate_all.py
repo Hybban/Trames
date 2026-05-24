@@ -19,7 +19,7 @@ def run_script(script_path):
 def main():
     # Base directory is the project root (assumed to run from there)
     scripts = [
-        "scripts/generate_srd.py",
+        "scripts/generate_base.py",
         "scripts/generate_solo.py",
         "scripts/generate_trames_d_ombres.py",
         "scripts/generate_trames_d_ombres_solo.py"

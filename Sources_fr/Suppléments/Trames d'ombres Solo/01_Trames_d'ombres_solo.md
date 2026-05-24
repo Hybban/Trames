@@ -7,7 +7,7 @@
 
 *Le Fil Solitaire — Ombres* est un supplément solo spécifique à l'univers de TRAMES d'Ombres. Il nécessite deux documents :
 
-- **Le SRD de base** — pour toutes les règles fondamentales.
+- **Le livre de base** — pour toutes les règles fondamentales.
 - **TRAMES d'Ombres** — pour le setting, les manœuvres occultes, et les Fractures.
 
 Ce document remplace et adapte certains outils du *Fil Solitaire* (le supplément solo générique) pour les teinter de l'atmosphère de l'Abîme. Là où le *Fil Solitaire* propose un Oracle neutre, ce supplément propose un Oracle corrompu. Là où les tables génériques offrent de l'inspiration ouverte, les tables de ce document sont volontairement ambiguës et dérangeantes.

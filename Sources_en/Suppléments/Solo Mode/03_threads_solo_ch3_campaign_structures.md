@@ -1,6 +1,6 @@
 # III. CAMPAIGN STRUCTURES
 
-The SRD proposes short clocks — 4 to 6 segments — to represent immediate threats or scene objectives. In solo, a campaign needs longer structures that provide depth, direction, and a sense of progression across multiple sessions.
+The Core Rulebook proposes short clocks — 4 to 6 segments — to represent immediate threats or scene objectives. In solo, a campaign needs longer structures that provide depth, direction, and a sense of progression across multiple sessions.
 
 This chapter proposes three complementary tools: the Narrative Arc to track the progression of Destiny, the Clock of Sin to give weight to Atropos invocations, and Crossed Threads to manage factions and opposing forces.
 
@@ -24,7 +24,7 @@ If you do not yet know what duration you are aiming for, start at 8. It is alway
 
 ### Progressing through the Arc
 
-A segment is ticked when an **arc knot** is reached — as defined in the SRD (section V). Reminder: an arc knot is recognized when one of the three Threads has been honored, tested, or pulled in a significant way.
+A segment is ticked when an **arc knot** is reached — as defined in the Core Rulebook (section V). Reminder: an arc knot is recognized when one of the three Threads has been honored, tested, or pulled in a significant way.
 
 In solo, it is you who evaluates whether a knot has been reached. Ask yourself honestly after each important scene: *"Has something changed in who my hero is, or in the direction their story is taking?"* If yes, tick a segment. If you are unsure, consult the Oracle — *"Does this moment deserve an arc knot?"*
 

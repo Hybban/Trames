@@ -7,7 +7,7 @@ Toutes les tables utilisent le d12, cohérent avec le reste du système.
 ---
 
 ## TABLE A — ACTION & OBJET
-*Reprise du SRD*
+*Reprise du livre de base*
 
 Pour donner une direction à une scène ou une intention à un événement. Lancez une fois pour le Verbe, une fois pour le Nom — ou une seule fois si vous n'avez besoin que d'une colonne.
 
@@ -29,7 +29,7 @@ Pour donner une direction à une scène ou une intention à un événement. Lanc
 ---
 
 ## TABLE B — AMBIANCE
-*Reprise du SRD*
+*Reprise du livre de base*
 
 Pour colorer sensoriellement un lieu ou une rencontre. Lancez une fois pour le Sentiment, une fois pour l'Odeur — ou combinez les deux en une impression d'ensemble.
 

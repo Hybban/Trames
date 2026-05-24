@@ -19,14 +19,14 @@ def main():
             "dir": "Sources_fr", 
             "title": "Trames", 
             "subtitle": "Tisser les fils du Destin",
-            "footer": "Trames - SRD"
+            "footer": "Trames - Livre de base"
         },
         {
             "lang": "en", 
             "dir": "Sources_en", 
             "title": "Threads", 
             "subtitle": "Weaving the Threads of Fate",
-            "footer": "Threads - SRD"
+            "footer": "Threads - Core Rulebook"
         }
     ]
     
@@ -48,11 +48,13 @@ def main():
             default_print_css = os.path.join(STYLE_DIR, "theme_print.css")
             main_logo_path = os.path.join("Images", "Trames", f"Logo_Trames_{config['lang']}.png")
 
+            suffix = "Livre_de_base" if config["lang"] == "fr" else "Core_Rulebook"
+
             # 1. Version Noir
             pdf_generator_core.generate_pdf(
                 playwright=playwright,
                 html_body=html_body,
-                output_file=os.path.join(lang_output_dir, f"{config['title']}_SRD_Noir_{config['lang'].upper()}.pdf"),
+                output_file=os.path.join(lang_output_dir, f"{config['title']}_{suffix}_Noir_{config['lang'].upper()}.pdf"),
                 lang=config["lang"],
                 cover_title=config["title"],
                 cover_subtitle=config["subtitle"],
@@ -66,7 +68,7 @@ def main():
             pdf_generator_core.generate_pdf(
                 playwright=playwright,
                 html_body=html_body,
-                output_file=os.path.join(lang_output_dir, f"{config['title']}_SRD_Print_{config['lang'].upper()}.pdf"),
+                output_file=os.path.join(lang_output_dir, f"{config['title']}_{suffix}_Print_{config['lang'].upper()}.pdf"),
                 lang=config["lang"],
                 cover_title=config["title"],
                 cover_subtitle=config["subtitle"],
@@ -76,7 +78,7 @@ def main():
                 cover_logo_path=main_logo_path
             )
             
-    print("\nSuccès ! Vos PDFs de référence (SRD) sont disponibles dans le dossier 'Générations'.")
+    print("\nSuccès ! Vos PDFs du Livre de base sont disponibles dans le dossier 'Générations'.")
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,6 @@
 # IV. LA TRAME BRÛLÉE EN SOLO
 
-La Trame Brûlée est définie dans le SRD. Ce chapitre n'en réexplique pas la mécanique — il traite d'une question spécifique au solo : **quand l'activer ?**
+La Trame Brûlée est définie dans le livre de base. Ce chapitre n'en réexplique pas la mécanique — il traite d'une question spécifique au solo : **quand l'activer ?**
 
 En groupe, la table régule naturellement ce moment. Une joueuse qui voudrait activer la Trame Brûlée à la moindre difficulté sera freinée par les autres. En solo, cette régulation vient de vous seule — et c'est là que réside le risque.
 
@@ -38,7 +38,7 @@ Un NON de l'Oracle face à une issue fatale est l'un des moments les plus puissa
 
 Posez-vous alors ces questions dans l'ordre :
 
-1. **Y a-t-il une ressource à sacrifier ?** Une ressource peut absorber une conséquence à la place d'un trait (voir SRD).
+1. **Y a-t-il une ressource à sacrifier ?** Une ressource peut absorber une conséquence à la place d'un trait (voir livre de base).
 2. **Y a-t-il un Fil à invoquer ?** Le Fil de Lachésis est-il encore disponible ce session ? La Conviction est-elle suffisamment forte pour justifier une dépense de jeton ?
 3. **L'échec peut-il être narrativement intégré ?** Certaines défaites ne tuent pas — elles transforment. Un héros capturé, humilié, ou brisé reste un héros dont l'histoire continue.
 4. **Est-ce la fin ?** Si aucune de ces options n'est disponible ou satisfaisante, cette campagne se termine ici. C'est une issue valide. Les Moires ont coupé le fil.

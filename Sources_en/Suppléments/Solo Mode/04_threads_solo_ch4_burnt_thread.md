@@ -1,6 +1,6 @@
 # IV. THE BURNT THREAD IN SOLO
 
-The Burnt Thread is defined in the SRD. This chapter does not re-explain the mechanic — it addresses a question specific to solo play: **when to activate it?**
+The Burnt Thread is defined in the Core Rulebook. This chapter does not re-explain the mechanic — it addresses a question specific to solo play: **when to activate it?**
 
 In a group, the table naturally regulates this moment. A player who would activate the Burnt Thread at the slightest difficulty will be reined in by the others. In solo, this regulation comes from you alone — and that is where the risk lies.
 
@@ -38,7 +38,7 @@ A NO from the Oracle in the face of a fatal outcome is one of the most powerful 
 
 Then ask yourself these questions in order:
 
-1. **Is there a resource to sacrifice?** A resource can absorb a consequence instead of a trait (see SRD).
+1. **Is there a resource to sacrifice?** A resource can absorb a consequence instead of a trait (see Core Rulebook).
 2. **Is there a Thread to invoke?** Is Lachesis's Thread still available this session? Is the Conviction strong enough to justify spending a token?
 3. **Can the failure be narratively integrated?** Some defeats do not kill — they transform. A hero captured, humiliated, or broken remains a hero whose story continues.
 4. **Is this the end?** If none of these options is available or satisfying, this campaign ends here. It is a valid outcome. The Moirai have cut the thread.

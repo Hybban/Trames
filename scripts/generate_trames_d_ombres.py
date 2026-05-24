@@ -20,7 +20,8 @@ def main():
             "title": "Trames d'ombres", 
             "subtitle": "Tisser les fils du Destin",
             "style_dir_name": "Trames d'ombres",
-            "footer": "Trames - Trames d'ombres"
+            "footer": "Trames - Trames d'ombres",
+            "document_type_text": "Supplément d'univers"
         },
         {
             "lang": "en", 
@@ -28,7 +29,8 @@ def main():
             "title": "Shadow Threads", 
             "subtitle": "Weaving the Threads of Fate",
             "style_dir_name": "Trames d'ombres", # English uses the French style directory
-            "footer": "Threads - Shadow Threads"
+            "footer": "Threads - Shadow Threads",
+            "document_type_text": "Setting Supplement"
         }
     ]
     
@@ -54,7 +56,7 @@ def main():
             
             final_noir_css = custom_noir_css if os.path.exists(custom_noir_css) else default_noir_css
             final_print_css = custom_print_css if os.path.exists(custom_print_css) else default_print_css
-
+ 
             # 1. Version Noir
             pdf_generator_core.generate_pdf(
                 playwright=playwright,
@@ -65,7 +67,8 @@ def main():
                 cover_subtitle=config["subtitle"],
                 source_dir=source_dir,
                 theme_css_path=final_noir_css,
-                footer_text=config["footer"]
+                footer_text=config["footer"],
+                document_type_text=config["document_type_text"]
             )
             
             # 2. Version Print
@@ -78,7 +81,8 @@ def main():
                 cover_subtitle=config["subtitle"],
                 source_dir=source_dir,
                 theme_css_path=final_print_css,
-                footer_text=config["footer"]
+                footer_text=config["footer"],
+                document_type_text=config["document_type_text"]
             )
             
     print("\nSuccès ! Vos PDFs Trames d'ombres sont disponibles dans le dossier 'Générations'.")

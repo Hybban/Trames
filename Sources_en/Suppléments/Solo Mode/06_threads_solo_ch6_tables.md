@@ -7,7 +7,7 @@ All tables use the d12, consistent with the rest of the system.
 ---
 
 ## TABLE A — ACTION & OBJECT
-*From the SRD*
+*From the Core Rulebook*
 
 To give direction to a scene or an intention to an event. Roll once for the Verb, once for the Noun — or only once if you need just one column.
 
@@ -29,7 +29,7 @@ To give direction to a scene or an intention to an event. Roll once for the Verb
 ---
 
 ## TABLE B — AMBIANCE
-*From the SRD*
+*From the Core Rulebook*
 
 To sensorially color a place or an encounter. Roll once for the Feeling, once for the Scent — or combine both into an overall impression.
 

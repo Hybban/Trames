@@ -1,6 +1,6 @@
 # III. STRUCTURES DE CAMPAGNE
 
-Le SRD propose des horloges courtes — 4 à 6 segments — pour représenter des menaces immédiates ou des objectifs de scène. En solo, une campagne a besoin de structures plus longues qui donnent du relief, de la direction, et un sentiment de progression sur plusieurs sessions.
+Le livre de base propose des horloges courtes — 4 à 6 segments — pour représenter des menaces immédiates ou des objectifs de scène. En solo, une campagne a besoin de structures plus longues qui donnent du relief, de la direction, et un sentiment de progression sur plusieurs sessions.
 
 Ce chapitre propose trois outils complémentaires : l'Arc Narratif pour suivre la progression du Destin, l'Horloge du Péché pour donner du poids aux invocations d'Atropos, et les Fils Croisés pour gérer les factions et les forces en opposition.
 
@@ -24,7 +24,7 @@ Si vous ne savez pas encore quelle durée vous visez, commencez à 8. Il est tou
 
 ### Progresser dans l'Arc
 
-Un segment est coché lorsqu'un **nœud d'arc** est atteint — tel que défini dans le SRD (section V). Rappel : un nœud d'arc est reconnu quand l'un des trois Fils a été honoré, éprouvé, ou tiré de façon significative.
+Un segment est coché lorsqu'un **nœud d'arc** est atteint — tel que défini dans le livre de base (section V). Rappel : un nœud d'arc est reconnu quand l'un des trois Fils a été honoré, éprouvé, ou tiré de façon significative.
 
 En solo, c'est vous qui évaluez si un nœud a été atteint. Posez-vous la question honnêtement après chaque scène importante : *"Est-ce que quelque chose a changé dans qui est mon héros, ou dans la direction que prend son histoire ?"* Si oui, cochez un segment. Si vous hésitez, consultez l'Oracle — *"Ce moment mérite-t-il un nœud d'arc ?"*
 

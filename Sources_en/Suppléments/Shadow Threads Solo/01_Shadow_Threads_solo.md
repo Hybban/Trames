@@ -7,7 +7,7 @@
 
 *The Solitary Thread — Shadows* is a solo supplement specific to the Shadow Threads setting. It requires two documents:
 
-- **The base SRD** — for all fundamental rules.
+- **The core rulebook** — for all fundamental rules.
 - **Shadow Threads** — for the setting, occult maneuvers, and Fractures.
 
 This document replaces and adapts certain tools from *The Solitary Thread* (the generic solo supplement) to tint them with the atmosphere of the Abyss. Where *The Solitary Thread* offers a neutral Oracle, this supplement offers a corrupted Oracle. Where the generic tables offer open inspiration, the tables in this document are deliberately ambiguous and unsettling.

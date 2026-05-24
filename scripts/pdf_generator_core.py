@@ -58,7 +58,7 @@ def embed_images_in_html(html_content, base_dir):
         return match.group(0)
     return re.sub(r'src=["\'](.*?)["\']', replacer, html_content)
 
-def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_subtitle, source_dir, theme_css_path, footer_text, cover_logo_path=None, srd_text=None):
+def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_subtitle, source_dir, theme_css_path, footer_text, cover_logo_path=None, document_type_text=None):
     """Génère un PDF à partir du contenu HTML et du thème spécifié utilisant Playwright."""
     html_body = embed_images_in_html(html_body, source_dir)
     
@@ -77,8 +77,8 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
     base_css = base_css.replace("FOOTER_TEXT_PLACEHOLDER", footer_text)
 
     # Texte de couverture de référence
-    if srd_text is None:
-        srd_text = "Document de Référence (SRD)" if lang == "fr" else "System Reference Document (SRD)"
+    if document_type_text is None:
+        document_type_text = "Livre de base" if lang == "fr" else "Core Rulebook"
     
     # Rendu du logo de couverture s'il existe
     logo_html = ""
@@ -106,7 +106,7 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
         <div class="cover-page">
             <h1 class="cover-title">{cover_title}</h1>
             <p class="cover-subtitle">{cover_subtitle}</p>
-            <p class="cover-subtitle">{srd_text}</p>
+            <p class="cover-subtitle">{document_type_text}</p>
             {logo_html}
         </div>
         <div class="content">
