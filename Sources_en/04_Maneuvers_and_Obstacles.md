@@ -12,8 +12,8 @@ Of course, there are many other possible actions. Those presented here are the o
     * **9-12:** The obstacle is overcome. Increase a used trait by one level.
     * **5-8:** You succeed, but a trait decreases by one level or you receive a Frayed Thread.
     * **1-4:** The threat hits you full force. Immediate consequences.
-* **Reading the Plot (analyzing, observing a situation or a character):**
-    * **9-12:** Clear information. The Storyteller must answer a question honestly.
+* **Read the Pattern (analyzing, observing a situation or a character):**
+    * **9-12:** Clear information. The Game Master must answer a question honestly.
     * **5-8:** The information is found, but it takes time or draws attention.
     * **1-4:** Wrong conclusion or a trap is set.
 * **Cut the Thread (Assert yourself through force, magic, or rhetoric.) :** 
@@ -60,10 +60,10 @@ Each level also corresponds to a number of spaces to fill on a clock in the case
 **The Context:** Kael (Pilot), Jaxx (Engineer), and Vex (Gunner) are space pirates. They’re racing toward a mineral-rich asteroid, but a corporate cruiser is hot on their heels.
 **The Timers:** The Game Master sets two opposing timers. *Reach the Asteroid* (Players’ Objective: 4 segments) and *Cruiser Interception* (Threat: 6 segments).
 
-* **Action 1:** Kael wants to weave through a field of magnetic debris to buy time. He makes a **Walk a Tightrope** roll and gets a **10 (Total Success)**.
+* **Action 1:** Kael wants to weave through a field of magnetic debris to buy time. He makes a **Tighten the Thread** roll and gets a **10 (Total Success)**.
 * **Resolution 1:** Perfect maneuver. Kael increases his *Master Pilot* trait by one level (until the end of the scene), and the Game Master marks **1 segment** on the *Reach the Asteroid* timer.
-* **Action 2:** Jaxx attempts to overload the engines with **Weave a New Thread** using her *Illegal Plasma Generator* resource (which allows her to roll two dice). She rolls a **6 (Success with a Price)**, but one of her dice shows a **1 (The Glitch)**.
-* **Resolution 2:** The action succeeds: the ship lurches forward, marking a **2nd segment** on their objective. But the cost applies (Jaxx marks 1 *Frayed Thread* due to overheating in the engine room) AND the Glitch triggers: the generator blows. The *Illegal Plasma Generator* resource becomes unusable for the rest of the scene.
+* **Action 2:** Jaxx attempts to overload the engines with **Weave a New Thread** using her *Illegal Plasma Generator* resource (which allows her to roll two dice). She rolls a **6 (Success with a Price)**, but one of her dice shows a **1 (The Snag)**.
+* **Resolution 2:** The action succeeds: the ship lurches forward, marking a **2nd segment** on their objective. But the cost applies (Jaxx marks 1 *Frayed Thread* due to overheating in the engine room) AND the Snag triggers: the generator blows. The *Illegal Plasma Generator* resource becomes unusable for the rest of the scene.
 
 
 
@@ -78,4 +78,4 @@ Each level also corresponds to a number of spaces to fill on a clock in the case
 * **Resolution 1:** Thorne lands a powerful blow (the Game Master marks **1 space** on the Golem’s clock). The cost: the monster strikes back hard. Thorne marks **2 Frayed Thread boxes** because the opponent is formidable.
 * **The Impact of the Silk Thread:** Despite the violence of the blow, Thorne has 5 light wound boxes. He smiles, spits out a little blood, and remains mechanically at 100% of his abilities, illustrating the pulp and heroic aspect of this mode.
 * **Action 2:** Elara casts a frost spell, but rolls a **3 (Failure)**.
-* **Resolution 2:** The spell bounces off the obsidian. The Golem hurls shards of rock. Since the threat is *Deadly*, the Leader doesn’t hold back: Elara immediately suffers a **Tightrope** (Serious Injury). She must now add +1d4 to her rolls, representing the pain of the stone shard lodged in her shoulder.
+* **Resolution 2:** The spell bounces off the obsidian. The Golem hurls shards of rock. Since the threat is *Deadly*, the Game Master doesn’t hold back: Elara immediately suffers a **Taut Thread** (Serious Injury). She must now add +1d4 to her rolls, representing the pain of the stone shard lodged in her shoulder.

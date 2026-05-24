@@ -1,6 +1,6 @@
 # II. Resolution Mechanics
 
-The TRAMES system is based on rolling a pool of dice and directly using the highest result. This system handles success, failure, and the wear and tear on your abilities through physical damage to the dice.
+The THREADS system is based on rolling a pool of dice and directly using the highest result. This system handles success, failure, and the wear and tear on your abilities through physical damage to the dice.
 
 [IMG](Images/Trames/Images02.png)
 
@@ -66,14 +66,14 @@ Sometimes, the Fates decide that your story is not over—but they demand a pric
 
 The “Loom” replaces traditional luck points and was introduced in the previous section. It is a system of exchange between your convictions, your destiny, and your flaws. The three Moirai do not intervene in your story in the same way. Clotho spins—it costs you something, because creation requires effort. Lachesis measures—she aligns with you for free, because Fate cannot be forced; it must be recognized. Atropos cuts—she gives you energy in exchange for a risk, because yielding to your dark instincts invigorates you while fraying your thread.
 
-These three dynamics are not equivalent. They are complementary—and it is this tension that makes the heart of TRAMES beat.
+These three dynamics are not equivalent. They are complementary—and it is this tension that makes the heart of THREADS beat.
 
 ### A. Invoking the Threads
 Using the threads allows you to exceed the usual limit of 3 dice per roll.
 
-* **Lachesis’ Thread (Fate):** Once per session, if you act to fulfill your destiny, add **+1d12** to your roll. This use does not cost Craft points, but is limited by its rarity.
+* **Lachesis’ Thread (Fate):** Once per session, if you act to fulfill your destiny, add **+1d12** to your roll. This use does not cost Loom tokens, but is limited by its rarity.
 
-* **The Thread of Clotho (Conviction):** If your action is driven by deep conviction, spend **1 token** from the Craft to add **+1d12** to your roll. The token is then given to the GM (or “committed” in a solo session).
+* **The Thread of Clotho (Conviction):** If your action is driven by deep conviction, spend **1 token** from the Loom to add **+1d12** to your roll. The token is then given to the GM (or “committed” in a solo session).
 
 * **The Thread of Atropos (Sin):** If you give in to your evil instincts or your vice, you can **regain 1 token** (taken from the GM or "reactivated" in solo play). By invoking Atropos, you let the scissors come close to your thread. Add **+1d4** to your roll. This die cannot help you, but it can complicate everything. That is the price of surrender.
 

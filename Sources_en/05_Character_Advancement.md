@@ -1,6 +1,6 @@
 # V. Evolution and Progression
 
-In TRAMES, evolution is purely narrative: it does not depend on calculations, but on the impact of events on the story.
+In THREADS, evolution is purely narrative: it does not depend on calculations, but on the impact of events on the story.
 
 ## 1. Improvement Through Feats of Arms
 A hero does not progress by accumulating experience. He progresses because the Moirai have noticed that his thread has changed. This occurs when an **arc node** is reached—a pivotal moment where the story shifts, and the hero emerges changed.
@@ -31,7 +31,7 @@ The heroes have acted. The world has taken note. A previously passive force ente
 
 **Mid-campaign — The Turning Point**
 
-Something the heroes believed to be true turns out to be false, incomplete, or more complex than expected. A Thread changes form without disappearing. The Destiny of one of the heroes may be reframed—not erased, but seen from a different angle. It is often here that the first Burnt Plots become a real possibility. And above all, new opportunities arise to connect the various Threads of all the heroes with the threads of the other characters.
+Something the heroes believed to be true turns out to be false, incomplete, or more complex than expected. A Thread changes form without disappearing. The Destiny of one of the heroes may be reframed—not erased, but seen from a different angle. It is often here that the first Burnt Threads become a real possibility. And above all, new opportunities arise to connect the various Threads of all the heroes with the threads of the other characters.
 
 **Final Third — The Price Becomes Visible**
 
@@ -48,7 +48,7 @@ The campaign enters its final phase. The stakes are clear, resources are deplete
 > **Final Note:** Prioritize consistency, flexibility, and narrative impact over a rigid leveling system. The hero must bear the marks of their journey.
 
 ## 3. Campaign Endings
-A TRAMES campaign does not end when the players have had enough—it ends when the Moirai have finished weaving. Three types of endings are possible. They are not mutually exclusive, and a campaign may combine several depending on the heroes who journey through it.
+A THREADS campaign does not end when the players have had enough—it ends when the Moirai have finished weaving. Three types of endings are possible. They are not mutually exclusive, and a campaign may combine several depending on the heroes who journey through it.
 
 ### Destiny Fulfilled
 *Lachesis has measured; the thread was exactly the right length.*
@@ -67,6 +67,6 @@ If the player chooses to continue with this hero, their Thread of Atropos must b
 ### The Final Burnt Thread
 *Clotho spun to the very end; even when there was nothing left to give.*
 
-The hero survived the impossible by sacrificing a part of himself. This ending triggers the Burnt Fate rule one last time, in the context of conclusion. What is burned here is final, not just for the scene, but for the entire story. The Fates demanded the highest price. It has been paid.
+The hero survived the impossible by sacrificing a part of himself. This ending triggers the Burnt Thread rule one last time, in the context of conclusion. What is burned here is final, not just for the scene, but for the entire story. The Fates demanded the highest price. It has been paid.
 
 > **Note:** A campaign may end without all heroes sharing the same fate. One fulfills their Destiny while another succumbs to their Sin. This is a thread, not a collective outcome, and the Fates weave each thread in their own way.

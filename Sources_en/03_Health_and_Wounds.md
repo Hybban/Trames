@@ -1,6 +1,6 @@
 # III. The Strength of the Thread
 
-In TRAMES, the Moirai do not distinguish between what wears down your thread. A blade, a humiliation, a sleepless night—it all accumulates on the same warp. What matters is the condition of the thread, not the nature of the wound.
+In THREADS, the Moirai do not distinguish between what wears down your thread. A blade, a humiliation, a sleepless night—it all accumulates on the same warp. What matters is the condition of the thread, not the nature of the wound.
 
 It is up to the Game Master and the players to define what each checked box represents. A serious injury could be a broken leg, a ruined reputation, or a shaken conviction. The mechanics are the same. The narrative, however, must be precise.
 
@@ -11,7 +11,7 @@ Damage is cumulative based on its severity. As long as the damage is minor, ther
 
 * **Frayed Thread (3 notches):** The wounds are minor and superficial, with no immediate mechanical impact. If you take damage while these boxes are full, you move up to severe damage.
 * **Taut Thread (3 notches):** The wounds are serious and debilitating, but the character can still hold on. You add **1d4** to all your dice rolls. 
-* **Thread at the limit (3 notches):** The wounds are severe, and the character is on the verge of breaking. You add **3d4** to all your dice rolls.
+* **Thread at Breaking Point (3 notches):** The wounds are severe, and the character is on the verge of breaking. You add **3d4** to all your dice rolls.
 
 [IMG](Images/Trames/Images03.png)
 
@@ -32,18 +32,18 @@ Depending on the context, this may involve physical, psychological, or social da
 The time and resources needed to heal depend on the severity of the aftereffects:
 
 * **Light Recovery:** All **frayed** injury boxes are automatically cleared at the **end of the scene**. If the character has only sustained **frayed** injuries, they also recover all their traits to their maximum level.
-* **Deep Recovery:** To clear **strained** or **critical** injury boxes, a simple break is not enough. The hero must engage in a dedicated rest scene and demonstrate adequate support (medical care, therapy, sanctuary, use of resources, or help from a specialized ally).
+* **Deep Recovery:** To clear **Taut** or **at Breaking Point** injury boxes, a simple break is not enough. The hero must engage in a dedicated rest scene and demonstrate adequate support (medical care, therapy, sanctuary, use of resources, or help from a specialized ally).
 
-> **Note on narrative recovery:** Tiles recover mechanically according to the usual rules. But a social wound cannot be treated by a doctor, and mental trauma does not disappear after a night’s rest. The Game Master and the players will ensure that the fiction of recovery is consistent with the fiction of the wound.
+> **Note on narrative recovery:** Boxes recover mechanically according to the usual rules. But a social wound cannot be treated by a doctor, and mental trauma does not disappear after a night’s rest. The Game Master and the players will ensure that the fiction of recovery is consistent with the fiction of the wound.
 
 ### The Thickness of the Thread
 Before the first scene, the Fates have already chosen the thickness of your thread. Some heroes are woven to last—they take hits, they bounce back; their weave is dense and resilient. Others are fine threads, stretched to the limit, where every knot could be the last. The Game Master chooses the weave’s thickness in accordance with the campaign’s tone.
 
 * **Linen Thread:** Heroes are mortal. Every wound matters. The story is dark, and the scars are permanent.
-* **Woolen Thread:** The TRAMES standard. Heroes are sturdy but vulnerable. Losses carry weight.
+* **Woolen Thread:** The THREADS standard. Heroes are sturdy but vulnerable. Losses carry weight.
 * **Silken Thread:** Heroes are cut out for adventure. They fall, but they rise again. Epic triumphs over tragedy.
 * **Golden Thread:** The heroes are legendary. Fate protects them as much as it tests them. The Fates themselves are watching.
-| Level | Frayed Thread | Taut Thread | Thread at the Limit | Light Recovery | Deep Recovery |
+| Level | Frayed Thread | Taut Thread | Thread at Breaking Point | Light Recovery | Deep Recovery |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Linen Thread** | 1 | 2 | 2 | End of scene | Rest scene + Help  |
 | **Woolen Thread** | 3 | 3 | 3 | End of scene | 1 rest scene |

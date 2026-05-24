@@ -49,7 +49,7 @@ In addition to their traits, a hero possesses between **1 and 5 resources** (uni
 > **Note on resources:** Resources are defined by the player, but must be approved by the Game Master to ensure they are consistent with the setting and the scenario. Also, just as with traits, it is possible to define resources during the game as narrative needs arise, while respecting the limit of 5.
 
 ## 5. The Loom of the Moirai: The Three Threads
-In Greek mythology, the Moirai are the goddesses of fate. There are three of them: Clotho, Lachesis, and Atropos. They spin, measure, and cut the thread of every mortal’s life. TRAMES draws on this imagery to define the hero’s destiny. 
+In Greek mythology, the Moirai are the goddesses of fate. There are three of them: Clotho, Lachesis, and Atropos. They spin, measure, and cut the thread of every mortal’s life. THREADS draws on this imagery to define the hero’s destiny. 
 
 At character creation, you define three narrative statements that represent your character’s soul. These are your Threads—and they are not merely fiction. They interact directly with the Weaving Loom token reserve, the game’s engine of dramatic energy.
 
@@ -58,7 +58,7 @@ At character creation, you define three narrative statements that represent your
 ### Clotho’s Thread (Conviction)
 A sentence describing what your hero believes in or their moral compass. This is what drives them to push themselves. 
 
-* **Clotho spins the thread.** She creates; she provides momentum. Acting from your Conviction means drawing on your own reserves, burning a part of yourself to move forward. It costs a token because faith takes a toll. When your action is driven by this deep Conviction, you may spend 1 Craft token to add +1d12 to your roll. The token is given to the Game Master. Clotho spins—she costs you something, because creation requires effort.
+* **Clotho spins the thread.** She creates; she provides momentum. Acting from your Conviction means drawing on your own reserves, burning a part of yourself to move forward. It costs a token because faith takes a toll. When your action is driven by this deep Conviction, you may spend 1 Loom token to add +1d12 to your roll. The token is given to the Game Master. Clotho spins—she costs you something, because creation requires effort.
 
 ### The Thread of Lachesis (Destiny)
 A prophecy, a quest, or an ultimate goal. It is the direction your life takes.
@@ -76,7 +76,7 @@ A vice, a weakness, or a dark instinct. This is what will cause their downfall o
 Before the first scene, the Fates have already chosen the thickness of your thread. Some heroes are woven to last—they take hits, they bounce back; their weave is dense and resilient. Others are fine threads, stretched to the limit, where every knot could be the last. The Game Master chooses the thread gauge to match the campaign’s tone.
 
 * **Linen Thread:** The heroes are mortal. Every wound matters. The story is dark, and the scars are permanent.
-* **Woolen Thread:** The TRAMES standard. The heroes are sturdy but vulnerable. Losses carry weight.
+* **Woolen Thread:** The THREADS standard. The heroes are sturdy but vulnerable. Losses carry weight.
 * **Silken Thread:** The heroes are cut out for adventure. They fall, but they get back up. Epic triumphs over tragedy.
 * **Golden Thread:** Heroes are legendary. Fate protects them as much as it tests them. The Fates themselves are watching.
 

@@ -23,7 +23,7 @@ The end of a scene is not just a narrative transition; it is a central mechanism
 
 ## 3. Rest Scenes
 
-To heal from more serious aftereffects (*Tightrope* or *On the Edge*), the natural transition from one scene to the next is not enough. Players must explicitly request and frame a **Rest Scene**.
+To heal from more serious aftereffects (*Taut Thread* or *at Breaking Point*), the natural transition from one scene to the next is not enough. Players must explicitly request and frame a **Rest Scene**.
 
 * **Justification:** The hero must demonstrate adequate support to trigger this deep recovery: medical care, therapy, returning to a sanctuary, using a specific resource, or help from an ally.
 
