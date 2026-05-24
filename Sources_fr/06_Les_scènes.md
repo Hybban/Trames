@@ -2,6 +2,10 @@
 
 Dans **TRAMES**, l'histoire ne s'écoule pas comme un fleuve continu, mais se tisse par séquences successives appelées « scènes ». Comme au théâtre ou au cinéma, une scène est une unité de temps, de lieu et d'action qui permet de rythmer la partie et de déclencher les mécanismes de récupération du système.
 
+[IMG](Images/Trames/Images06.png)
+
+--pb--
+
 ## 1. Qu'est-ce qu'une Scène ?
 
 Une scène commence lorsque les héros sont confrontés à une situation avec des enjeux clairs (une négociation tendue, une exploration dangereuse, un combat, une enquête sur une scène de crime). Elle se termine naturellement lorsque l'enjeu principal est résolu, que les héros changent de lieu, ou qu'une ellipse temporelle importante se produit.

@@ -21,8 +21,8 @@ def aggregate_html(directory):
         # Convert [IMG](...) (without exclamation mark) to standard markdown image ![IMG](...)
         content = re.sub(r'(?<!\!)\[IMG\]\((.*?)\)', r'![IMG](\1)', content, flags=re.IGNORECASE)
         
-        # Replace --pb-- tag with a page break div before markdown conversion
-        content = content.replace('--pb--', '<div class="page-break"></div>')
+        # Replace --pb-- tag (with optional spaces) with a page break div before markdown conversion
+        content = re.sub(r'--\s*pb\s*--', '<div class="page-break"></div>', content)
             
         html_segment = markdown2.markdown(content, extras=['tables', 'fenced-code-blocks', 'header-ids'])
         full_html += f"\n{html_segment}\n"
