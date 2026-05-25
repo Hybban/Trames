@@ -30,6 +30,7 @@ Scan the relevant source files (in `Sources_fr/` and/or `Sources_en/`) for commo
   - Real people at the table (players, GM) must use feminine forms: *la joueuse*, *la MJ*, *les joueuses*.
   - Fictional characters in the game world must use masculine forms: *le héros*, *le personnage*.
   - Flag any inconsistencies you find and suggest corrections.
+  - Avoid "—" at all costs in the texts.
 
 Report all issues found before proceeding. If there are critical issues (broken paths, malformed page breaks), ask the user to fix them first.
 

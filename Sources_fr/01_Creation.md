@@ -81,3 +81,5 @@ Avant la première scène, les Moires ont déjà choisi l'épaisseur de votre fi
 * **Fil d'Or :** Les héros sont légendaires. Le destin les protège autant qu'il les éprouve. Les Moires elles-mêmes regardent.
 
 Ces 4 modes de jeu impactent certains aspects de la mécanique de jeu, décrits dans les chapitres suivants.
+
+Des exemples plus concrets de création de personnages se trouvent en annexe à la fin du livre. Les modes Lin, Laine, et Soie sont couverts. Les fiches de ces "pré-tirés" sont également disponibles avec ce livret de règles. Les exemples de jeu donnés dans le livre feront références à ces personnages.
