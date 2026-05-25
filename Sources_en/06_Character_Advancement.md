@@ -1,4 +1,4 @@
-# V. Evolution and Progression
+# VI. Evolution and Progression
 
 In THREADS, evolution is purely narrative: it does not depend on calculations, but on the impact of events on the story.
 

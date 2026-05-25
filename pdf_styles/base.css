@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Inter:wght@400;700&display=swap');
+/* Utilisation de polices système de haute qualité pour optimiser le rendu et la taille du PDF */
 
 :root {
     /* Default variables (will be overridden by theme files) */
@@ -26,14 +26,14 @@
 
     @bottom-right {
         content: counter(page);
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Century Gothic', Futura, sans-serif;
         color: var(--accent-color);
         font-weight: bold;
     }
 
     @bottom-left {
         content: "FOOTER_TEXT_PLACEHOLDER";
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Century Gothic', Futura, sans-serif;
         font-size: 7pt;
         color: var(--muted-text);
     }
@@ -42,9 +42,9 @@
 body {
     background-color: var(--primary-bg);
     color: var(--text-color);
-    font-family: 'Inter', sans-serif;
+    font-family: Garamond, Georgia, serif;
     line-height: 1.6;
-    font-size: 9pt;
+    font-size: 9.5pt; /* Les polices serif étant légèrement plus compactes visuellement, on ajuste à 9.5pt */
     margin: 0;
     padding: 0;
 }
@@ -73,7 +73,7 @@ h3,
 h4,
 .h3,
 .h4 {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Century Gothic', Futura, sans-serif;
     color: var(--accent-color);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -146,7 +146,7 @@ th {
     color: var(--table-header-text);
     text-align: left;
     padding: 0.2cm;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Century Gothic', Futura, sans-serif;
 }
 
 td {

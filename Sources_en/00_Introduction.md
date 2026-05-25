@@ -1,4 +1,4 @@
-# I. Introduction
+# Introduction
 
 THREADS is a narrative role-playing system that incorporates mechanical elements from more traditional role-playing games. It is designed to facilitate the quick setup of campaigns and to allow for great flexibility in interpretation. In THREADS, a hero’s identity is defined by a set of free traits that can evolve as the story unfolds.
 

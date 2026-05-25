@@ -1,4 +1,4 @@
-# V. Évolution et Progression
+# VI. Évolution et Progression
 
 Dans TRAMES, l'évolution est purement narrative : elle ne dépend pas de calculs, mais de l'impact des événements sur le récit.
 
@@ -12,8 +12,6 @@ Un nœud d'arc est reconnu lorsqu'au moins l'une de ces conditions est remplie :
 
 La Meneuse valide le nœud d'arc en accord avec la table. Ce n'est pas une récompense automatique, c'est une reconnaissance collective que quelque chose d'important vient de se tisser. Si c'est le cas, la joueuse peut augmenter la valeur maximale de l'un de ses traits d'un cran. La trame de son destin devient plus solide, avec une forme plus complexe et plus belle. Elle peut aussi créer un nouveau trait. Si elle le crée, il commence généralement à la valeur **d6**.
 
-[IMG](Images/Trames/Images05.png)
-
 ### Les Niveaux de Traits
 * **d6 :** Découverte. Le héros commence à développer une compétence ou une aptitude.
 * **d8 :** Maîtrise. Le héros est compétent et fiable dans ce domaine.
@@ -25,15 +23,15 @@ La Meneuse valide le nœud d'arc en accord avec la table. Ce n'est pas une réco
 ### Les Seuils d'Arc
 Une campagne n'est pas une succession uniforme de **nœuds d'arc**. Elle a un rythme, des moments où l'histoire bascule, où les enjeux changent de nature, où ce qui était vrai au début ne l'est plus tout à fait. Ces moments sont les **seuils d'arc**. La Meneuse n'a pas besoin de les planifier à l'avance. Elle les reconnaît quand ils arrivent, en observant l'évolution des Fils à la table.
 
-**Premier tiers de la campagne — Le Monde Réagit**
+**Premier tiers de la campagne : Le Monde Réagit**
 
 Les héros ont agi. Le monde a pris note. Une force jusqu'ici passive entre en jeu, une faction, un rival, une menace que les actions des héros ont réveillée. Introduisez une nouvelle horloge courte pour cette force, et commencez à la faire progresser. La résolution de  chaque horloge pourra donner lieu à une progression.
 
-**Mi-campagne — Le Tournant**
+**Mi-campagne : Le Tournant**
 
 Quelque chose que les héros croyaient vrai se révèle faux, incomplet, ou plus complexe que prévu. Un Fil change de forme sans disparaître. Le Destin de l'un des héros peut être reformulé, non pas effacé, mais vu sous un autre angle. C'est souvent ici que les premières Trames Brûlées deviennent une possibilité réelle. Et surtout de nouvelles opportunités de mettre en relation les différents Fils de tous les héros avec les fils des autres personnages.
 
-**Dernier tiers — Le Prix Devient Visible**
+**Dernier tiers : Le Prix Devient Visible**
 
 La campagne entre dans sa phase finale. Les enjeux sont clairs, les ressources entamées, les Fils tendus à l'extrême. La Meneuse durcit les obstacles, non pas pour punir les joueuses, mais parce que les Moires n'offrent jamais leurs dénouements sans exiger quelque chose en retour. On peut utiliser les horloges pour représenter l'évolution de la campagne, les objectifs adverses, les conséquences des actions des joueurs... 
 
@@ -48,7 +46,7 @@ La campagne entre dans sa phase finale. Les enjeux sont clairs, les ressources e
 > **Note finale :** Privilégiez la cohérence, la souplesse et l’impact narratif plutôt qu’un système de niveaux rigide. Le héros doit porter les marques de son voyage.
 
 ## 3. Les Fins de Campagne
-Une campagne de TRAMES ne se termine pas quand les joueuses en ont assez — elle se termine quand les Moires ont fini de tisser. Trois types de fins sont possibles. Elles ne s'excluent pas mutuellement, et une campagne peut en combiner plusieurs selon les héros qui la traversent.
+Une campagne de TRAMES ne se termine pas quand les joueuses en ont assez ; elle se termine quand les Moires ont fini de tisser. Trois types de fins sont possibles. Elles ne s'excluent pas mutuellement, et une campagne peut en combiner plusieurs selon les héros qui la traversent.
 
 ### Le Destin Accompli
 *Lachésis a mesuré; le fil avait exactement la bonne longueur.*

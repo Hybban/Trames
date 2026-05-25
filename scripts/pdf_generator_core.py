@@ -3,6 +3,8 @@ import glob
 import markdown2
 import base64
 import re
+import io
+from PIL import Image
 from playwright.sync_api import sync_playwright
 
 # Configuration
@@ -30,7 +32,7 @@ def aggregate_html(directory):
     return full_html
 
 def embed_images_in_html(html_content, base_dir):
-    """Recherche les balises images et encode les fichiers locaux en Base64."""
+    """Recherche les balises images, les compresse en WebP en mémoire, et les encode en Base64."""
     def replacer(match):
         img_src = match.group(1)
         if img_src.startswith('http') or img_src.startswith('data:'):
@@ -47,13 +49,28 @@ def embed_images_in_html(html_content, base_dir):
             img_path = os.path.normpath(os.path.join(os.getcwd(), clean_src))
             
         if os.path.exists(img_path):
-            with open(img_path, 'rb') as img_file:
-                encoded = base64.b64encode(img_file.read()).decode('utf-8')
             ext = os.path.splitext(img_path)[1].lower()
-            mime = 'image/jpeg' if ext in ['.jpg', '.jpeg'] else 'image/png'
-            if ext == '.svg': mime = 'image/svg+xml'
-            elif ext == '.gif': mime = 'image/gif'
-            return f'src="data:{mime};base64,{encoded}"'
+            if ext == '.svg':
+                with open(img_path, 'rb') as img_file:
+                    encoded = base64.b64encode(img_file.read()).decode('utf-8')
+                return f'src="data:image/svg+xml;base64,{encoded}"'
+            
+            try:
+                with Image.open(img_path) as img:
+                    if img.mode in ('RGBA', 'LA') or (img.mode == 'P' and 'transparency' in img.info):
+                        img = img.convert('RGB')
+                    img_byte_arr = io.BytesIO()
+                    img.save(img_byte_arr, format='JPEG', quality=70)
+                    encoded = base64.b64encode(img_byte_arr.getvalue()).decode('utf-8')
+                return f'src="data:image/jpeg;base64,{encoded}"'
+            except Exception as compress_err:
+                print(f"Échec de la compression WebP pour {img_path} : {compress_err}. Utilisation brute.")
+                with open(img_path, 'rb') as img_file:
+                    encoded = base64.b64encode(img_file.read()).decode('utf-8')
+                mime = 'image/jpeg' if ext in ['.jpg', '.jpeg'] else 'image/png'
+                if ext == '.gif': mime = 'image/gif'
+                return f'src="data:{mime};base64,{encoded}"'
+                
         print(f"Image introuvable : {img_path} (source: {img_src})")
         return match.group(0)
     return re.sub(r'src=["\'](.*?)["\']', replacer, html_content)
@@ -83,13 +100,27 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
     # Rendu du logo de couverture s'il existe
     logo_html = ""
     if cover_logo_path and os.path.exists(cover_logo_path):
-        with open(cover_logo_path, 'rb') as img_file:
-            encoded_logo = base64.b64encode(img_file.read()).decode('utf-8')
         ext = os.path.splitext(cover_logo_path)[1].lower()
-        mime = 'image/jpeg' if ext in ['.jpg', '.jpeg'] else 'image/png'
-        if ext == '.svg': mime = 'image/svg+xml'
-        elif ext == '.gif': mime = 'image/gif'
-        logo_html = f'<img src="data:{mime};base64,{encoded_logo}" class="cover-logo" alt="Logo">'
+        if ext == '.svg':
+            with open(cover_logo_path, 'rb') as img_file:
+                encoded_logo = base64.b64encode(img_file.read()).decode('utf-8')
+            logo_html = f'<img src="data:image/svg+xml;base64,{encoded_logo}" class="cover-logo" alt="Logo">'
+        else:
+            try:
+                with Image.open(cover_logo_path) as img:
+                    if img.mode in ('RGBA', 'LA') or (img.mode == 'P' and 'transparency' in img.info):
+                        img = img.convert('RGB')
+                    img_byte_arr = io.BytesIO()
+                    img.save(img_byte_arr, format='JPEG', quality=70)
+                    encoded_logo = base64.b64encode(img_byte_arr.getvalue()).decode('utf-8')
+                logo_html = f'<img src="data:image/jpeg;base64,{encoded_logo}" class="cover-logo" alt="Logo">'
+            except Exception as compress_err:
+                print(f"Échec de la compression du logo : {compress_err}")
+                with open(cover_logo_path, 'rb') as img_file:
+                    encoded_logo = base64.b64encode(img_file.read()).decode('utf-8')
+                mime = 'image/jpeg' if ext in ['.jpg', '.jpeg'] else 'image/png'
+                if ext == '.gif': mime = 'image/gif'
+                logo_html = f'<img src="data:{mime};base64,{encoded_logo}" class="cover-logo" alt="Logo">'
 
     # Template HTML complet
     full_html = f"""
@@ -133,7 +164,7 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
             format="A5",
             print_background=True,
             outline=True,
-            tagged=True,
+            tagged=False,
             margin={
                 "top": "0px", # Marges déjà gérées dans le CSS @page
                 "bottom": "0px",
@@ -141,6 +172,23 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
                 "right": "0px"
             }
         )
+        
+        # Compression post-génération avec PyMuPDF si installé
+        temp_output = None
+        try:
+            import fitz
+            temp_output = output_file + ".tmp"
+            doc = fitz.open(output_file)
+            doc.save(temp_output, garbage=3, deflate=True)
+            doc.close()
+            os.replace(temp_output, output_file)
+            print("  -> Taille du PDF optimisée avec PyMuPDF.")
+        except ImportError:
+            pass
+        except Exception as compression_error:
+            print(f"  -> Avertissement : Échec de l'optimisation PyMuPDF : {compression_error}")
+            if temp_output and os.path.exists(temp_output):
+                os.remove(temp_output)
     except Exception as e:
         print(f"Erreur lors de l'écriture du fichier {output_file} : {e}")
         print("Astuce : Le fichier est peut-être ouvert dans un autre programme (ex: lecteur PDF). Fermez-le et réessayez.")

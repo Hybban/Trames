@@ -2,13 +2,14 @@
 
 ## Mécaniques de règles
 
--   Un chapitre de la Meuneuse en général. (déjà commencé avec la base des explications sur les scènes)
 -   Expliquer comment fonctionne un scénario type et comment le scénario se développe au fil de la partie.
--   Parler des exemples de personnages fourni dans le document "Fiches de personnages" comme aide pour la création de personnages.
--   Et il seront aussi utiles pour suivre les exemples donnés dans le jeu.
--   Retirer les exemples du chapitre 4, et faire le lien vers le chapitre 6.
--   Etoffer le chapitre 4 et le mettre à jour.
 -   Traduire les fichier html pour générer les fiches de personnages et les feuilles de personnages en anglais.
+-   Réécrire les manoeuvres de manière plus cohérente. (utilisation des ressources de tisser un fil par exemple)
+
+Une réorganisation possible
+
+Chapitre II : mécanique de base + manœuvres + actions collectives
+Chapitre V : horloges + PNJ + conseils de cadrage
 
 ## Spécifique Trames d'Ombres
 

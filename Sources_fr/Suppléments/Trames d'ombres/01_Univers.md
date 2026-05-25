@@ -12,7 +12,7 @@ Dans cet univers, la magie n'est pas un don divin, mais une Corruption. Utiliser
 
 Le jeu se situe à la croisée de l'enquête occulte et de l'horreur viscérale :
 
-**Horreur Charnelle :** Le corps est une matière malléable — les cicatrices, les mutations et la douleur sont les monnaies d'échange du pouvoir.
+**Horreur Charnelle :** Le corps est une matière malléable ; les cicatrices, les mutations et la douleur sont les monnaies d'échange du pouvoir.
 
 **Corruption Urbaine :** La ville est un organisme vivant, souvent malade, où chaque ruelle peut mener à un espace limbique ou à un culte oublié.
 
@@ -27,7 +27,7 @@ Selon votre campagne, vous choisirez le degré d'implication des personnages fac
 | 2 | **L'Initiée** | Fil de Laine | Normal (3 cases légères par type) |
 | 3 | **La Transfuge** | Fil de Soie | Héroïque (5 cases légères par type) |
 
-> **Note :** Le calibre Fil d'Or du livre de base n'est pas utilisé dans TRAMES d'Ombres. Dans cet univers, personne n'est légendaire — on est simplement plus ou moins corrompu.
+> **Note :** Le calibre Fil d'Or du livre de base n'est pas utilisé dans TRAMES d'Ombres. Dans cet univers, personne n'est légendaire ; on est simplement plus ou moins corrompu.
 
 ## 4. GLOSSAIRE DE L'OMBRE
 
@@ -42,9 +42,9 @@ Selon votre campagne, vous choisirez le degré d'implication des personnages fac
 ## 5. La Promesse de Chronique
 Avant de créer vos personnages, la table doit s'accorder sur deux choses.
 
-## Première question — Qu'est-ce qu'on veut explorer ?
+## Première question : Qu'est-ce qu'on veut explorer ?
 
-L'intention de la chronique. Pas l'intrigue — ce que vous voulez *ressentir* ou *traverser* ensemble.
+L'intention de la chronique. Pas l'intrigue ; ce que vous voulez *ressentir* ou *traverser* ensemble.
 
 > *Exemples :*
 > *"Nous voulons explorer la paranoïa de ne plus savoir ce qui est réel."*
@@ -53,9 +53,9 @@ L'intention de la chronique. Pas l'intrigue — ce que vous voulez *ressentir* o
 
 ---
 
-## Deuxième question — Jusqu'où on va ?
+## Deuxième question : Jusqu'où on va ?
 
-TRAMES d'Ombres peut aller de l'inquiétant au viscéralement perturbant. La table choisit ensemble son niveau de registre avant de commencer — et ce choix engage la Meneuse autant que les joueuses.
+TRAMES d'Ombres peut aller de l'inquiétant au viscéralement perturbant. La table choisit ensemble son niveau de registre avant de commencer, et ce choix engage la Meneuse autant que les joueuses.
 
 | Registre | Ce que ça implique |
 |---|---|
@@ -65,7 +65,7 @@ TRAMES d'Ombres peut aller de l'inquiétant au viscéralement perturbant. La tab
 
 ---
 
-Ces deux réponses constituent la **Promesse de Chronique**. Notez-les quelque part où tout le monde peut les voir — et revenez-y si la table a l'impression que le registre a dérivé.
+Ces deux réponses constituent la **Promesse de Chronique**. Notez-les quelque part où tout le monde peut les voir, et revenez-y si la table a l'impression que le registre a dérivé.
 
 > **Note :** La Promesse de Chronique peut évoluer entre deux arcs narratifs, si la table le décide ensemble. Elle ne peut pas changer en cours de session.
 

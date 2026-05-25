@@ -1,8 +1,14 @@
-# I. Introduction
+# Introduction
 
 TRAMES est un système de jeu de rôle narratif, mais qui intègre des éléments mécaniques de jeux de rôle plus classiques. Il est conçu pour faciliter la mise en place rapide de campagnes et pour permettre une grande souplesse d'interprétation. Dans TRAMES, l'identité du héros est définie par un ensemble de traits libres qui peuvent évoluer au fil de l'histoire.
 
-[IMG](Images/Trames/Images00.png)
+## Présentation rapide
+
+Dans Trames, les personnages sont définis par un ensemble de traits libres qui peuvent évoluer au fil de l'histoire. Les personnages sont des héros et héroïnes qui doivent faire face à des situations exceptionnelles. Les situations peuvent être variées et peuvent se dérouler dans n'importe quel genre et univers imaginables. Le système de jeu est conçu pour être flexible et adaptable à tous les genres et univers, qu'il s'agisse de fantasy, de science-fiction, d'horreur, ou de tout autre genre. Les règles sont conçues pour être simples et rapides à apprendre, tout en permettant une grande richesse d'interprétation.
+
+A ces traits sont associés des dés (du d6 au d12) qui indiquent à quel point ce trait est important pour le héros. Les actions des personnages sont résolues en lançant un pool de dés composé des traits pertinents du personnage à l'action en cours. On conserve le plus haut résultat. Les informations liées au système de jeu seront détaillées dans le chapitre 2 et suivants. Mais cette base devrait vous suffire pour comprendre comment jouer à TRAMES. Ainsi le chapitre 1 est entièrement consacré à la création de personnages.
+
+## Avertissements
 
 **De l'utilisation des genres :** Autour de la table de jeu, qu'elle soit virtuelle ou physique, se trouvent des personnes de tous genres possibles. Mais comme ce sont des personnes et que ce mot est féminin, nous aurons donc des joueuses à la table. Dans la fiction, nous aurons des personnages et ce mot, lui, est masculin. Donc, quelque soit leur genre, les personnages seront des héros. Donc pour faire simple, quand on parle de personnes humaines, on utilise le féminin. Quand on parle de personnage de fiction, on utilise le masculin. Et oui, la meneuse est une joueuse comme les autres.
 

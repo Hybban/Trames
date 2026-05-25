@@ -1,4 +1,4 @@
-# VI. STRUCTURING THE THREADS: MANAGING SCENES
+# III. STRUCTURING THE THREADS: MANAGING SCENES
 
 In **THREADS**, the story does not flow like a continuous stream, but is woven together through successive sequences called "scenes." Just like in theater or film, a scene is a unit of time, place, and action that helps set the pace of the game and triggers the system's recovery mechanisms.
 

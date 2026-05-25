@@ -1,6 +1,6 @@
 # III. LE GÉNÉRATEUR D'ENQUÊTES EN SOLO
 
-Pour lancer une nouvelle session ou un nouvel arc narratif, tirez 1d6 sur les trois colonnes suivantes. Ce générateur est identique à celui du document setting — il est reproduit ici pour éviter les allers-retours en cours de partie.
+Pour lancer une nouvelle session ou un nouvel arc narratif, tirez 1d6 sur les trois colonnes suivantes. Ce générateur est identique à celui du document setting ; il est reproduit ici pour éviter les allers-retours en cours de partie.
 
 ## A. Le Déclencheur (La Victime ou l'Incident)
 
@@ -28,11 +28,11 @@ Pour lancer une nouvelle session ou un nouvel arc narratif, tirez 1d6 sur les tr
 
 | d6 | Faction |
 |---|---|
-| 1 | **La Pègre Nécromantique** — Trafiquantes d'organes infusés de magie. |
-| 2 | **L'Ordo Puritas** — Des inquisitrices fanatiques prêtes à brûler un quartier pour tuer un démon. |
-| 3 | **Les Architectes de Chair** — Une secte de chirurgiennes clandestines et d'artistes corporelles. |
-| 4 | **Le Conseil de Verre** — Des démons en costumes sur mesure dirigeant de puissantes multinationales. |
-| 5 | **L'Essaim Oublié** — Une intelligence collective formée par les exclus et les marginaux possédés. |
+| 1 | **La Pègre Nécromantique** : Trafiquantes d'organes infusés de magie. |
+| 2 | **L'Ordo Puritas** : Des inquisitrices fanatiques prêtes à brûler un quartier pour tuer un démon. |
+| 3 | **Les Architectes de Chair** : Une secte de chirurgiennes clandestines et d'artistes corporelles. |
+| 4 | **Le Conseil de Verre** : Des démons en costumes sur mesure dirigeant de puissantes multinationales. |
+| 5 | **L'Essaim Oublié** : Une intelligence collective formée par les exclus et les marginaux possédés. |
 | 6 | Une Initiée rivale, persuadée que sa survie passe par votre mort ou votre sacrifice. |
 
 ---

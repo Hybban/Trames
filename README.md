@@ -13,6 +13,14 @@ Le projet suit une règle stricte de féminisation des termes techniques :
 - Quand des modifications ont été validées, il faut noter les impacts dans le fichier README.md.
 
 ### 📝 Modifications récentes et impacts (Session en cours)
+- **Réorganisation des chapitres de règles** :
+  - Le Chapitre II (`02_Mecanique_de_Resolution.md`) regroupe désormais la mécanique de base, les **Manœuvres Fondamentales** (*Tendre le Fil*, *Lire la Trame*, *Couper le Fil*, *Nouer un Fil*) et les **Actions Collectives** (structure, lancer commun et table des conséquences) pour une référence facilitée côté joueurs.
+  - Le Chapitre V (`05_Outils_de_la_meneuse.md`) est exclusivement centré sur la Meneuse de jeu et s'enrichit de deux nouvelles sections majeures : **Conseils de Cadrage** (découpage de scènes, intégration narrative et visuelle des horloges, sécurité émotionnelle à la table) et **Préparer et Développer un Scénario** (les 4 piliers d'un scénario type et conseils de maîtrise).
+- **Nettoyage typographique complet (Tirets cadratifs)** : Retrait de l'ensemble des tirets cadratifs (`—`) dans tous les fichiers Markdown sources français au profit d'une ponctuation sémantique plus fluide et rigoureuse (virgules doubles pour les incises, deux-points et points-virgules).
+- **Optimisation Extrême de la taille des PDFs (JPEG + tagged=False + PyMuPDF)** :
+  - **Images & Logos** : Remplacement de la compression WebP par une compression **JPEG (qualité 70)** avec conversion automatique RVB pour toutes les images opaques. Cela permet au moteur de rendu Chromium d'injecter nativement les images dans le PDF (`/Filter /DCTDecode`) sans devoir les décompresser en bitmaps bruts stockés sous format PNG/FlateDecode lourd. Le poids des 7 illustrations du livre anglais dans le PDF est réduit de **92%** (passant de 2 045 Ko à seulement 160 Ko).
+  - **Structure & Accessibilité** : Désactivation des balises d'accessibilité redondantes (`tagged=False`), supprimant **5 289 objets `/StructElem` inutiles** (~570 Ko de métadonnées de structure) tout en préservant le sommaire interactif.
+  - **Polices & Nettoyage final** : Utilisation des polices système élégantes (Century Gothic, Garamond) et traitement par `pymupdf` (`fitz`) pour fusionner les ressources dupliquées. Les livres de base descendent ainsi à seulement **0.63 Mo / 649 Ko** (FR) et **0.70 Mo / 714 Ko** (EN) !
 - **Retrait complet de la mention "SRD"** : Remplacement par "Livre de base" (fr) et "Core Rulebook" (en) dans l'ensemble des sources Markdown, documentations et scripts.
 - **Renommage du script principal** : Le script de génération du livre de base `generate_srd.py` a été renommé en `generate_base.py`.
 - **Nouveaux noms de PDFs générés** : Les PDFs générés pour le Livre de base s'appellent désormais `Trames_Livre_de_base_[Theme]_FR.pdf` (FR) et `Threads_Core_Rulebook_[Theme]_EN.pdf` (EN).
@@ -29,10 +37,14 @@ Trames/
 │   ├── 00_Introduction.md
 │   ├── 01_Creation.md
 │   ├── 02_Mecanique_de_Resolution.md
-│   ├── 03_Sante_et_Blessures.md
-│   ├── 04_Manoeuvres_et_Obstacles.md
-│   ├── 05_Evolution_du_Personnage.md
-│   ├── 99_fiche_de_personnage.md
+│   ├── 03_Les_scènes.md
+│   ├── 04_Sante_et_Blessures.md
+│   ├── 05_Outils_de_la_meneuse.md
+│   ├── 06_Evolution_du_Personnage.md
+│   ├── 90_creation_groupe_fil_de_lin.md
+│   ├── 91_creation_groupe_fil_de_laine.md
+│   ├── 92_creation_groupe_fil_de_soie.md
+│   ├── 99_recapitulatifs.md
 │   └── Suppléments/
 │       ├── Mode solo/                   # Le Fil Solitaire (6 chapitres)
 │       ├── Trames d'ombres/             # Supplément d'univers urban fantasy
@@ -87,7 +99,7 @@ Le rendu est géré par **Playwright (Chromium)** pour garantir un support parfa
 
 ### Dépendances
 - Python 3.x
-- `playwright`, `markdown2`
+- `playwright`, `markdown2`, `pymupdf`
 
 ### Commandes de génération
 Avant la première utilisation :

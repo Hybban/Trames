@@ -2,7 +2,7 @@
 
 Ces tables remplacent les Tables A et B du *Fil Solitaire* pour les parties dans l'univers de TRAMES d'Ombres. Elles sont volontairement ambiguës et dérangeantes.
 
-## TABLE A — L'ACTION ET L'OBJET
+## TABLE A : L'ACTION ET L'OBJET
 
 Pour définir l'intention d'un PNJ, le but d'un culte ou l'effet d'un artefact.
 
@@ -21,7 +21,7 @@ Pour définir l'intention d'un PNJ, le but d'un culte ou l'effet d'un artefact.
 | 11 | Punir / Juger | Culpabilité / Péché |
 | 12 | Éveiller / Invoquer | Cauchemar / Vide |
 
-## TABLE B — L'AMBIANCE VISCÉRALE
+## TABLE B : L'AMBIANCE VISCÉRALE
 
 Pour colorer une scène de crime, un espace limbique ou l'apparition d'une entité.
 

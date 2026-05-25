@@ -1,4 +1,4 @@
-# IV. Maneuvers and Game Actions
+# V. Maneuvers and Game Actions
 
 The Moirai do not dictate every move, but they weave moments of tension. Maneuvers are knots in the fabric—the moments when your thread crosses that of an obstacle, an opponent, or the world. Each maneuver has two sides: a fixed mechanic that always applies, and a narrative flavor that belongs to your story. The first is a rule. The second is an invitation.
 

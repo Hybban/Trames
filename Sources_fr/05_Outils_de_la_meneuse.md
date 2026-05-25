@@ -1,80 +1,9 @@
-# IV. Outils de la meneuse
-Ce chapitre couvre les actions de jeu possibles avec les personnages. Il sert de base pour créer de nombreuses situations. Les manœuvres sont des actions qui permettent de représenter des situations variées. Quelques manœuvres fondamentales sont proposées ici, mais elles ne doivent pas limiter les actions des joueuses. Elles servent de cadre à la façon dont le système de jeu supporte la narration. 
+# V. Outils de la meneuse
+Ce chapitre présente les outils exclusifs de la Meneuse de jeu pour animer et gérer la campagne. Contrairement aux joueuses qui agissent à travers les traits et Fils de leurs héros, la Meneuse utilise les horloges pour matérialiser la progression du monde, configure les PNJ pour donner de la vie et de l'opposition à l'intrigue, et cadre les scènes pour intensifier le drame narrativement.
 
-On y présente aussi les horloges qui représentent la progression d'une force dans le monde, comme une menace qui approche, un objectif qui avance, ou un processus en cours. Les horloges rendent le monde tangible : elles montrent aux joueuses que leurs actions ont un impact, et que leur inaction en a un aussi. Une horloge ne simule pas un adversaire. Elle simule **le temps et la conséquence**. Elles sont souvent liées aux résultats des manoeuvres des joueuses.
+On y présente les horloges qui représentent la progression d'une force dans le monde, comme une menace qui approche, un objectif qui avance, ou un processus en cours. Les horloges rendent le monde tangible : elles montrent aux joueuses que leurs actions ont un impact, et que leur inaction en a un aussi. Une horloge ne simule pas un adversaire. Elle simule **le temps et la conséquence**. Elles sont souvent liées aux résultats des manœuvres des joueuses.
 
-[IMG](Images/Trames/Images04.png)
-
-## 1. Les Manœuvres Fondamentales
-
-Les Moires ne dictent pas chaque geste, mais elles tissent des moments de tension. Les manœuvres sont des nœuds dans la trame, les moments où le fil d'un personnage croise celui d'un obstacle, d'un adversaire, ou du monde. Chaque manœuvre a deux visages : une mécanique fixe qui s'applique toujours, et une coloration narrative qui appartient à l'histoire. La première est une règle. La seconde est une invitation.
-
-Bien sûr, il existe bien d'autres actions possibles. Celles présentées ici sont celles qui définissent la plupart des interactions possibles. Elles servent de base pour créer de nombreuses situations nouvelles.
-
-* **Tendre le Fil (affronter une menace immédiate) :** 
-    * **9-12 :** L'obstacle est surmonté. Augmentez un trait utilisé d'un cran.
-    * **5-8 :** Vous passez, mais un trait diminue d'un cran ou vous recevez un Fil Effiloché.
-    * **1-4 :** La menace vous frappe de plein fouet. Conséquences immédiates.
-* **Lire la Trame (analyser, observer une situation ou un personnage) :** 
-    * **9-12 :** Informations claires. La Meneuse doit répondre honnêtement à une question.
-    * **5-8 :** L'information est trouvée, mais cela prend du temps ou attire l'attention.
-    * **1-4 :** Conclusion erronée ou piège tendu. 
-* **Couper le Fil (S'imposer par la force, la magie ou la rhétorique.) :** 
-    * **9-12 :** L'adversaire est repoussé ou vaincu.
-    * **5-8 :** Victoire amère, un trait diminue d'un cran et vous recevez un Fil Effiloché.
-    * **1-4 :** L'adversaire prend le dessus (blessure sérieuse ou pire).
-* **Tisser un nouveau Fil (agir, utiliser ses ressources) :** Pour obtenir de l'aide ou utiliser un équipement rare.
-    * **9-12 :** La ressource est parfaitement employée et reste disponible.
-    * **5-8 :** L'objectif est atteint, mais la ressource est entamée ou temporairement inaccessible.
-    * **1-4 :** La ressource fait défaut ou se retourne contre vous.
-
-## 2. Les Actions Collectives
-
-Certaines situations dépassent ce qu'un héros peut accomplir seul. Convaincre un roi, forcer une porte enchantée, stabiliser un vaisseau en perdition, autant de situations où l'équipe entière peut contribuer à un même jet, en partageant les risques.
-
-### A. La Structure de l'Action Collective
-
-Une action collective repose toujours sur **une lanceuse principale**, le héros dont l'action est au cœur de la scène, et sur **des contributrices** qui l'appuient.
-
-**La lanceuse principale** constitue son pool de dés normalement : elle choisit entre 1 et 3 de ses propres traits pertinents. C'est elle qui porte l'action.
-
-**Chaque contributrice** peut offrir un dé supplémentaire en désignant l'un de ses traits et en expliquant narrativement comment son personnage soutient l'action. Ce dé est ajouté au pool de la lanceuse principale.
-
-> *Exemple : Elara tente de convaincre le roi avec son trait Éloquence (d6). Lyra peut offrir son trait Opportuniste mais pas sans honneur (d10) en arguant qu'elle a des informations sur la menace qui pèse sur le trône. Thorne peut offrir son trait Guerrier Légendaire (d12) : sa seule présence silencieuse renforce le poids des mots d'Elara.*
-
-### B. La Validation de la Meneuse
-
-Avant de lancer, la Meneuse valide chaque contribution. Le trait offert doit être **narrativement cohérent** avec la façon dont le personnage aide et pas juste mécaniquement utile.
-
-Un trait fort dans un contexte sans rapport ne justifie pas une contribution. Thorne qui offre son trait *Combat à l'épée* pour aider Elara à négocier n'est pas recevable, sauf si la menace implicite de violence fait partie de la stratégie, et si la situation s'y prête.
-
-Si une contribution est refusée, la joueuse peut en proposer un autre trait ou choisir de ne pas participer.
-
-### C. Le Lancer
-
-Une fois le pool constitué, toutes les dés sont lancés ensemble : les traits de la lanceuse et les dés des contributrices. On conserve **le résultat le plus élevé**, comme pour tout jet.
-
-Plus il y a de contributrices, plus le pool est grand et plus les chances de succès augmentent. Mais le risque augmente aussi.
-
-### D. Les Conséquences
-
-| Résultat | Lanceuse principale | Contributrices |
-|---|---|---|
-| **9 – 12** | Peut augmenter un de ses traits d'un cran. | Aucune conséquence. |
-| **5 – 8** | Diminue un de ses traits d'un cran. | **Chacune diminue le trait qu'elle a offert d'un cran.** |
-| **1 – 4** | Diminue un de ses traits d'un cran. | Aucune conséquence directe. |
-
-**La règle du "1" :** si un ou plusieurs dés affichent 1 (quelle que soit leur origine : trait de la lanceuse ou dé offert par une contributrice), seule la **lanceuse principale** en subit les conséquences. Les contributrices ne sont pas affectées par le "1".
-
-### E. La Logique du Risque
-
-Contribuer à une action collective, c'est prendre un risque calculé. En cas de réussite totale, les contributrices n'obtiennent aucun bénéfice. En cas de réussite avec prix, elles paient le même tarif que la lanceuse. C'est le prix de la solidarité.
-
-Une joueuse qui hésite à offrir un dé devrait se poser la question honnêtement : *mon personnage est-il prêt à payer si ça se passe mal ?*
-
-> **Note :** Une contributrice dont le trait offert est déjà au minimum (d6) peut quand même participer. Si ce trait doit descendre suite à un 5-8, il devient inutilisable pour le reste de la scène, comme pour tout trait au minimum.
-
-## 3. Les Horloges
+## 1. Les Horloges
 Une horloge est un cercle divisé en segments qui représente la progression d'une force dans le monde : une menace qui approche, un objectif qui avance, un processus en cours. Les horloges rendent le monde tangible : elles montrent aux joueuses que leurs actions ont un impact, et que leur inaction en a un aussi.
 
 Une horloge ne simule pas un adversaire. Elle simule **le temps et la conséquence**.
@@ -241,11 +170,9 @@ Des horloges peuvent se déclencher mutuellement ou se nourrir l'une de l'autre.
 
 **Laissez les joueuses créer des horloges.** Si une joueuse propose un objectif ambitieux qui s'étend sur plusieurs scènes, une horloge d'objectif est l'outil naturel pour le matérialiser. Les horloges ne sont pas que des outils de Meneuse, elles peuvent appartenir aux deux côtés de la table.
 
+## 2. Les Personnages Non-Joueurs
 
-
-## 4. Les Personnages Non-Joueurs
-
-Dans TRAMES, la Meneuse ne lance jamais de dés. Ce sont toujours les joueuses qui testent leurs héros contre le monde, et c'est le résultat de leurs jets qui détermine ce qui arrive à tous, y compris aux adversaires et aux alliés. Les PNJ ne sont pas des combattants symétriques : ce sont des forces narratives dotées de méchaniques légères.
+Dans TRAMES, la Meneuse ne lance jamais de dés. Ce sont toujours les joueuses qui testent leurs héros contre le monde, et c'est le résultat de leurs jets qui détermine ce qui arrive à tous, y compris aux adversaires et aux alliés. Les PNJ ne sont pas des combattants symétriques : ce sont des forces narratives dotées de mécaniques légères.
 
 ### A. DEUX TYPES DE PNJ
 
@@ -269,7 +196,7 @@ Les PNJ nommés sont les personnages qui comptent : antagonistes, alliés ambiva
 
 Un PNJ nommé peut avoir jusqu'à deux horloges indépendantes.
 
-**L'Horloge de Résistance** représente sa capacité à encaisser — physiquement, mentalement, ou socialement selon le contexte. Chaque succès des héros contre ce PNJ coche des segments.
+**L'Horloge de Résistance** représente sa capacité à encaisser ; physiquement, mentalement, ou socialement selon le contexte. Chaque succès des héros contre ce PNJ coche des segments.
 
 **L'Horloge de Conviction** représente sa résistance à être convaincu, manipulé ou retourné. Elle s'utilise lors des scènes d'interaction et de négociation. Quand elle est pleine, le PNJ change de camp, révèle une information décisive, ou capitule.
 
@@ -281,7 +208,7 @@ La taille des horloges dépend de l'importance du PNJ dans le récit. La Meneuse
 
 Puisque la Meneuse ne lance pas de dés, c'est toujours le résultat du jet d'une joueuse qui détermine ce qui arrive :
 
-**Réussite totale (9-12) :** Le héros impose sa volonté. L'horloge pertinente du PNJ avance selon la manœuvre utilisée — généralement 2 segments.
+**Réussite totale (9-12) :** Le héros impose sa volonté. L'horloge pertinente du PNJ avance selon la manœuvre utilisée ; généralement 2 segments.
 
 **Réussite avec prix (5-8) :** Le héros réussit partiellement, mais le PNJ contre-attaque ou impose une condition. L'horloge avance d'1 segment, mais le héros subit les conséquences habituelles. En combat, c'est ici que le PNJ inflige des dommages selon son niveau de menace.
 
@@ -330,6 +257,40 @@ Pour un PNJ non préparé, trois questions suffisent :
 
 1. **Quel est son niveau de menace ?** (Légère / Sérieuse / Mortelle)
 2. **Qu'est-ce qu'il veut dans cette scène ?** (Son Désir immédiat)
-3. **Qu'est-ce qu'il ne fera pas ?** (Sa limite — sa Conviction ou sa Faille)
+3. **Qu'est-ce qu'il ne fera pas ?** (Sa limite ; sa Conviction ou sa Faille)
 
 Ces trois éléments permettent de jouer n'importe quel PNJ de façon cohérente, même sans préparation.
+
+## 3. Conseils de Cadrage
+Le rôle de la Meneuse dans TRAMES n'est pas de raconter une histoire toute faite, mais de poser des cadres stimulants où les héros et leurs Fils peuvent se révéler. Cadrer, c'est choisir où commence la tension et où elle s'arrête.
+
+### A. Découper et Cadrer des Scènes
+Comme au cinéma ou dans un roman dramatique, chaque scène de TRAMES doit avoir un objectif clair et un enjeu établi dès son ouverture.
+- **Entrez tard, sortez tôt :** Évitez les temps morts. Ne jouez pas le voyage de trois heures si rien d'important ne s'y passe. Cadrez directement sur le moment où la route est bloquée par l'éboulis ou sur la confrontation dans la taverne. Dès que l'enjeu d'une scène est résolu (victoire amère, fuite, objectif atteint), coupez la scène et passez à la phase de transition ou à la scène suivante.
+- **Mettre en valeur les traits :** Observez la fiche des héros. Si un héros possède le trait *Sang-froid sous la pression*, offrez-lui une scène où tout le monde panique autour de lui. S'il est *Loyal jusqu'à l'obstination*, mettez-le face à un dilemme où sa loyauté lui coûtera cher. La Meneuse cadre la fiction pour faire réagir les traits.
+
+### B. Intégrer les Horloges dans la Narration
+Les horloges ne sont pas de simples barres de progression cachées sous votre écran de Meneuse : ce sont des moteurs de tension fictionnels.
+- **La Visibilité comme Outil :** Sauf cas exceptionnel d'enquête occulte mystérieuse, gardez vos horloges visibles et nommées sur la table. Quand les joueuses voient physiquement les segments d'une horloge "L'effondrement de la station" ou "L'inquisition approche" se remplir, la tension grimpe naturellement sans que vous ayez besoin de forcer le trait.
+- **Doser l'Urgence :** Utilisez le rythme des segments pour refléter l'environnement. Une horloge de 4 segments pour une scène d'urgence crée une action frénétique. N'hésitez pas à faire avancer les horloges autonomes entre les scènes pour signifier aux joueuses que leur inaction ou leurs discussions prolongées ont un coût réel dans le monde.
+
+### C. La Sécurité Émotionnelle à la Table
+TRAMES traite de destins brisés, de péchés et de sacrifices tragiques. Ces thématiques sombres demandent un respect et une attention particulière envers toutes les personnes autour de la table.
+- **En écho à la Session Zéro :** La session zéro sert à définir la Promesse de Campagne et le calibre des Fils, mais elle doit aussi servir à poser les limites de la table. Utilisez des outils simples comme les voiles et les lignes (définir ce qui est acceptable de raconter et ce qui doit être passé sous silence) ou la Carte X pour garantir que le jeu reste un plaisir partagé.
+- **Le consentement dans le sacrifice :** Des règles comme la *Trame Brûlée* exigent que la table entière reconnaisse le poids de la perte. La Meneuse doit s'assurer que ce sacrifice est consenti, esthétique et porteur de sens pour la joueuse concernée, plutôt que de l'imposer de manière purement punitive.
+
+## 4. Préparer et Développer un Scénario
+Dans TRAMES, un scénario n'est pas un script linéaire d'événements. C'est une situation instable, un ensemble de forces en tension que les actions des joueuses vont faire basculer dans un sens ou dans un autre.
+
+### A. La Structure d'un Scénario Type
+Un scénario de TRAMES s'articule généralement autour de quatre piliers fondamentaux :
+
+1. **La Situation Initiale (L'Accroche) :** Présentez immédiatement une situation conflictuelle ou un mystère lié aux traits ou aux Fils des personnages. Évitez les longues scènes d'introduction passive. Placez un enjeu clair sur la table dès les premières minutes.
+2. **L'Horloge de Menace Active :** Chaque scénario possède au moins une Horloge de Menace active (généralement de 4 ou 6 segments) représentant l'objectif de l'adversaire ou la complication environnementale majeure. C'est cette horloge qui donne le tempo de la session.
+3. **Les PNJ Clés :** Définissez 2 ou 3 PNJ nommés avec leur Désir immédiat et leur Faille (comme présenté dans la section précédente). Ce sont eux qui vont réagir aux héros.
+4. **La Confrontation Finale :** Le moment de bascule où les horloges arrivent à terme ou lorsque les héros parviennent à coincer leur cible. C'est ici que les sacrifices (comme la Trame Brûlée) ou les jets d'Atropos prennent tout leur sens dramatique.
+
+### B. Développer l'Arc Narratif au Fil de la Partie
+Ne planifiez jamais les solutions aux problèmes que vous posez. Si les héros doivent s'introduire dans le manoir de Sir Ashworth, ne décidez pas à l'avance par où ils passeront. Posez le manoir, ses défenses (Horloge d'Urgence "Alerte des Gardes"), et laissez les joueuses improviser.
+- **Suivre les Fils :** Laissez les Fils des joueurs (Conviction, Destin, Péché) dicter la direction de l'intrigue. Si un héros tente de réaliser son Destin, faites-en le cœur de la scène suivante. Si un joueur invoque son Péché pour regagner un jeton, intégrez immédiatement cette faiblesse morale comme un nouvel obstacle narratif dans la pièce suivante.
+- **L'Évolution du Monde :** À la fin de chaque session, ajustez l'attitude des PNJ et faites progresser les horloges autonomes. Le monde de TRAMES est vivant, réactif et impitoyable : il porte les marques de chaque choix fait à la table.

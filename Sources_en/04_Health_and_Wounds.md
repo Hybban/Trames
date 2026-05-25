@@ -1,4 +1,4 @@
-# III. The Strength of the Thread
+# IV. The Strength of the Thread
 
 In THREADS, the Moirai do not distinguish between what wears down your thread. A blade, a humiliation, a sleepless night—it all accumulates on the same warp. What matters is the condition of the thread, not the nature of the wound.
 
@@ -37,12 +37,9 @@ The time and resources needed to heal depend on the severity of the aftereffects
 > **Note on narrative recovery:** Boxes recover mechanically according to the usual rules. But a social wound cannot be treated by a doctor, and mental trauma does not disappear after a night’s rest. The Game Master and the players will ensure that the fiction of recovery is consistent with the fiction of the wound.
 
 ### The Thickness of the Thread
-Before the first scene, the Fates have already chosen the thickness of your thread. Some heroes are woven to last—they take hits, they bounce back; their weave is dense and resilient. Others are fine threads, stretched to the limit, where every knot could be the last. The Game Master chooses the weave’s thickness in accordance with the campaign’s tone.
 
-* **Linen Thread:** Heroes are mortal. Every wound matters. The story is dark, and the scars are permanent.
-* **Woolen Thread:** The THREADS standard. Heroes are sturdy but vulnerable. Losses carry weight.
-* **Silken Thread:** Heroes are cut out for adventure. They fall, but they rise again. Epic triumphs over tragedy.
-* **Golden Thread:** The heroes are legendary. Fate protects them as much as it tests them. The Fates themselves are watching.
+The thread’s thickness is chosen during character creation (see Chapter I, section 6). It determines the number of boxes available at each damage tier and the pace of recovery.
+
 | Level | Frayed Thread | Taut Thread | Thread at Breaking Point | Light Recovery | Deep Recovery |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Linen Thread** | 1 | 2 | 2 | End of scene | Rest scene + Help  |
