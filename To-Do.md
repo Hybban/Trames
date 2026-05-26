@@ -48,7 +48,7 @@ Les Calibres : très bien !
 Système : très bien.
 manœuvres : très bien
 
-trame Brûlée : très bien. Mais il faudra des exemples de personnage qui perd son essence et ce qu’il advient de lui. Peut être des exemples tirés de personnages existants (romans, films, autre)
+trame Brûlée : très bien. Mais il faudra des exemples de personnage qui perd son essence et ce qu’il advient de lui. Peut être des exemples tirés de personnages existants (romans, films, autre). Rajouter mon exemple Midnight de la discussion Signal avec Laurent comme note d'inttention.
 
 Horloge du péché : pareil, très bien. Mais il faudra un ou des exemples sur ce que peut être une conséquence majeure et irréversible.
 
