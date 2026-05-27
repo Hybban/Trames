@@ -77,12 +77,8 @@ def embed_images_in_html(html_content, base_dir):
 
 def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_subtitle, source_dir, theme_css_path, footer_text, cover_logo_path=None, document_type_text=None):
     """Génère un PDF à partir du contenu HTML et du thème spécifié utilisant Playwright."""
+    # Embed images
     html_body = embed_images_in_html(html_body, source_dir)
-    
-    # Transform h3-h6 into divs so only h1 and h2 are picked up by the PDF outline (bookmarks)
-    for i in range(3, 7):
-        html_body = re.sub(rf'<h{i}\b([^>]*)>', rf'<div class="h{i}"\1>', html_body)
-        html_body = re.sub(rf'</h{i}>', '</div>', html_body)
     
     # Lecture des CSS pour injection directe
     with open(os.path.join(STYLE_DIR, "base.css"), 'r', encoding='utf-8') as f:
@@ -164,7 +160,7 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
             format="A5",
             print_background=True,
             outline=True,
-            tagged=False,
+            tagged=True,
             margin={
                 "top": "0px", # Marges déjà gérées dans le CSS @page
                 "bottom": "0px",

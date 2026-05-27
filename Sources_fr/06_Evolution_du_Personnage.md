@@ -12,15 +12,18 @@ Un nœud d'arc est reconnu lorsqu'au moins l'une de ces conditions est remplie :
 
 La Meneuse valide le nœud d'arc en accord avec la table. Ce n'est pas une récompense automatique, c'est une reconnaissance collective que quelque chose d'important vient de se tisser. Si c'est le cas, la joueuse peut augmenter la valeur maximale de l'un de ses traits d'un cran. La trame de son destin devient plus solide, avec une forme plus complexe et plus belle. Elle peut aussi créer un nouveau trait. Si elle le crée, il commence généralement à la valeur **d6**.
 
-### Les Niveaux de Traits
+### A. Les Niveaux de Traits
+
 * **d6 :** Découverte. Le héros commence à développer une compétence ou une aptitude.
 * **d8 :** Maîtrise. Le héros est compétent et fiable dans ce domaine.
 * **d10 :** Expertise. Le héros est reconnu pour son haut niveau de compétence.
-* **d12 :** Perfection. Le héros atteint le sommet de son art. C'est le plus haut niveau de maîtrise possible et doit être justifié par l'histoire. Ce sont les fils les plus solides et les plus complexes de la trame du héros.
+* **d12 :** Perfection. Le héros atteint le sommet de son art. 
+
+Le d12 est le plus haut niveau de maîtrise possible et doit être justifié par l'histoire. Ce sont les fils les plus solides et les plus complexes de la trame du héros. C'est pour celà que ce dé représente l'archétype du héros au début de l'histoire.
 
 * **Nouveaux Traits :** L'histoire peut justifier l'apparition d'un nouveau trait (apprentissage, nouveau titre). Il commence généralement à la valeur **d6**. On rajoute des fils à la trame du héros, renforçant sa complexité et sa beauté.
 
-### Les Seuils d'Arc
+### B. Les Seuils d'Arc
 Une campagne n'est pas une succession uniforme de **nœuds d'arc**. Elle a un rythme, des moments où l'histoire bascule, où les enjeux changent de nature, où ce qui était vrai au début ne l'est plus tout à fait. Ces moments sont les **seuils d'arc**. La Meneuse n'a pas besoin de les planifier à l'avance. Elle les reconnaît quand ils arrivent, en observant l'évolution des Fils à la table.
 
 **Premier tiers de la campagne : Le Monde Réagit**
@@ -48,23 +51,30 @@ La campagne entre dans sa phase finale. Les enjeux sont clairs, les ressources e
 ## 3. Les Fins de Campagne
 Une campagne de TRAMES ne se termine pas quand les joueuses en ont assez ; elle se termine quand les Moires ont fini de tisser. Trois types de fins sont possibles. Elles ne s'excluent pas mutuellement, et une campagne peut en combiner plusieurs selon les héros qui la traversent.
 
-### Le Destin Accompli
+### A. Le Destin Accompli
 *Lachésis a mesuré; le fil avait exactement la bonne longueur.*
 
 Le héros a atteint ce pour quoi il était destiné. Son Fil de Lachésis s'est accompli, dans sa forme originale ou dans la forme qu'il a prise au tournant de mi-campagne. C'est une fin de victoire, mais pas nécessairement une fin heureuse. Un destin accompli peut coûter cher, et les Moires ne doivent rien aux héros qui arrivent au bout.
 
 Une joueuse dont le héros connaît cette fin peut choisir de continuer avec lui dans une nouvelle campagne. Son Arc repart à zéro, son Destin est réécrit, mais ses traits, ses ressources, et ses Fils de Clotho et d'Atropos portent les marques de ce qu'il a traversé.
 
-### Le Péché Victorieux
+### B. Le Péché Victorieux
 *Atropos a coupé; le fil n'était pas ce qu'on croyait.*
 
 L'Horloge du Péché s'est remplie une fois de trop, ou le héros a fait un choix final qui place son Péché au-dessus de tout le reste. Ce n'est pas nécessairement la mort, c'est la transformation. Le héros n'est plus le même personnage moral qu'au début de la campagne. Cette fin est valide, et peut être belle. Certaines des meilleures histoires se terminent ainsi.
 
 Si la joueuse choisit de continuer avec ce héros, son Fil d'Atropos doit être réécrit pour refléter ce qu'il est devenu, et sa Conviction devra répondre de ce changement.
 
-### La Trame Brûlée Finale
+### C. La Trame Brûlée Finale
 *Clotho a filé jusqu'au bout; même quand il ne restait plus rien à donner.*
 
 Le héros a survécu à l'impossible en sacrifiant une part de lui-même. Cette fin active la règle de la Trame Brûlée une dernière fois, en contexte de conclusion. Ce qui est brûlé ici est définitif, pas seulement pour la scène, mais pour l'histoire entière. Les Moires ont exigé le prix maximum. Il a été payé.
 
 > **Note :** Une campagne peut se terminer sans que tous les héros connaissent la même fin. L'un accomplit son Destin pendant qu'un autre cède à son Péché. C'est une trame, pas un résultat collectif, et les Moires tissent chaque fil à sa façon.
+
+## 4. Changement de Calibre
+Dans beaucoup d'univers de jeu, le niveau de pouvoir des héros sur le monde est constant. Ils restent au sommet de leur art, quel que soit le niveau atteint. En effet leur **Calibre** reste constant pendant toute la durée de leur évolution. Un héros débutant aussi bien qu'un héros de haut niveau lance les mêmes dés, avec les mêmes probabilités. C'est surtout parce que le jeu considère les personnage déjà compétents à la base.
+
+Mais certaines campagnes peuvent nécessiter une progression plus franche des héros. Dans le style d'une campagne médiévale fantastique classique, les personnages débutent généralement au plus bas niveau et évoluent vers des niveaux plus élevés. De ce fait, il est possible de "monter de Calibre" dans le cours d'une campagne. Par contre, cette progression à un prix. Il faut forcément **brûler sa trame**, et donc perdre un trait, pour évoluer. Et principalement son **Archétype** puisqu'il représente la spécialité du héros. 
+
+Cela représente une évolution qui coûte au héros, comme abandonner une partie de son passé pour construire un futur pour les autres. Ainsi, on passera de *Apprentti de l'académie* à *Mage confirmé* puis *Archimage de l'Empire*. Le *Médium* deviendra peut être un *Sorcier Occulte* avant de finir en *Connaisseur des Arcanes secrètes*. Le *Marine Colonial* grimpera les rangs pour devenir *Vétéran des guerres Martiennes* puis *Chef de Guerre de la révolution Solaire*, etc... 

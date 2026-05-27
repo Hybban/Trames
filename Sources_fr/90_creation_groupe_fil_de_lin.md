@@ -3,7 +3,7 @@
 
 *Ces trois personnages sont utilisés comme exemples tout au long du livre de base.
 Ils jouent dans un contexte d'horreur et d'enquête occulte dans le Londres de l'entre-deux-guerres.
-En Fil de Lin, chaque blessure compte : les héros n'ont qu'une seule case de Fil Effiloché.*
+En Fil de Lin, chaque blessure compte : les héros n'ont qu'une seule case de Blessure Légère.*
 
 ---
 
@@ -36,7 +36,7 @@ En Fil de Lin, chaque blessure compte : les héros n'ont qu'une seule case de Fi
 | **Lachésis ; Le Destin** | "Trouver la paix avec ce que j'ai fait là-bas." | 1×/session, gratuit → +1d12 |
 | **Atropos ; Le Péché** | La violence comme seule réponse ; agir avant de réfléchir quand la pression monte. | Gagner 1 jeton → +1d4 au jet |
 
-**Réserve du Métier :** `○ ○ ○ ○ ○ ○ ○`
+**Réserve du Fuseau :** `○ ○ ○ ○ ○ ○ ○`
 
 | Nom du Trait | Catégorie | Max | État actuel |
 |---|---|---|---|
@@ -49,20 +49,20 @@ En Fil de Lin, chaque blessure compte : les héros n'ont qu'une seule case de Fi
 | Résistance à la douleur | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Commandement | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 
-**Solidité du Fil :**
+**État de Santé :**
 
 | Palier | Cases | Malus |
 |---|---|---|
-| Fil Effiloché | `☐` | Aucun |
-| Fil Tendu | `☐ ☐` | +1d4 |
-| Fil à la Limite | `☐ ☐` | +3d4 |
+| Blessure Légère | `☐` | Aucun |
+| Blessure Grave | `☐ ☐` | +1d4 |
+| Blessure Mortelle | `☐ ☐` | +3d4 |
 
 **Ressources :**
 1. Revolver de service *(arme dissimulée, toujours chargée)*
 2. Médaille militaire *(réseau des anciens combattants ; ouvre des portes)*
 3. Carnet de terrain *(croquis, noms, positions ; mémoire de guerre)*
 
----
+--pb--
 
 ## BÉATRICE : Médium
 
@@ -93,7 +93,7 @@ En Fil de Lin, chaque blessure compte : les héros n'ont qu'une seule case de Fi
 | **Lachésis ; Le Destin** | "Comprendre pourquoi j'entends les voix depuis l'accident de mon enfance." | 1×/session, gratuit → +1d12 |
 | **Atropos ; Le Péché** | L'addiction aux visions ; aller trop loin pour voir plus, rester trop longtemps dans l'entre-deux. | Gagner 1 jeton → +1d4 au jet |
 
-**Réserve du Métier :** `○ ○ ○ ○ ○ ○ ○`
+**Réserve du Fuseau :** `○ ○ ○ ○ ○ ○ ○`
 
 | Nom du Trait | Catégorie | Max | État actuel |
 |---|---|---|---|
@@ -106,20 +106,20 @@ En Fil de Lin, chaque blessure compte : les héros n'ont qu'une seule case de Fi
 | Persuasion | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Connaissance des rituels | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 
-**Solidité du Fil :**
+**État de Santé :**
 
 | Palier | Cases | Malus |
 |---|---|---|
-| Fil Effiloché | `☐` | Aucun |
-| Fil Tendu | `☐ ☐` | +1d4 |
-| Fil à la Limite | `☐ ☐` | +3d4 |
+| Blessure Légère | `☐` | Aucun |
+| Blessure Grave | `☐ ☐` | +1d4 |
+| Blessure Mortelle | `☐ ☐` | +3d4 |
 
 **Ressources :**
 1. Journal des visions *(notes et croquis de chaque contact : archive personnelle)*
 2. Pendule en cristal *(hérité de sa grand-mère ; amplifie la perception)*
 3. Réseau spirite londonien *(cercle de contacts qui croient, et parfois savent)*
 
----
+--pb--
 
 ## CHARLES : Érudit
 
@@ -150,7 +150,7 @@ En Fil de Lin, chaque blessure compte : les héros n'ont qu'une seule case de Fi
 | **Lachésis ; Le Destin** | "Publier une thèse qui prouve l'existence du surnaturel sans être ridiculisé." | 1×/session, gratuit → +1d12 |
 | **Atropos ; Le Péché** | L'orgueil intellectuel ; ne jamais admettre qu'il ne comprend pas, même quand c'est dangereux. | Gagner 1 jeton → +1d4 au jet |
 
-**Réserve du Métier :** `○ ○ ○ ○ ○ ○ ○`
+**Réserve du Fuseau :** `○ ○ ○ ○ ○ ○ ○`
 
 | Nom du Trait | Catégorie | Max | État actuel |
 |---|---|---|---|
@@ -163,13 +163,13 @@ En Fil de Lin, chaque blessure compte : les héros n'ont qu'une seule case de Fi
 | Médecine de terrain | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Éloquence | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 
-**Solidité du Fil :**
+**État de Santé :**
 
 | Palier | Cases | Malus |
 |---|---|---|
-| Fil Effiloché | `☐` | Aucun |
-| Fil Tendu | `☐ ☐` | +1d4 |
-| Fil à la Limite | `☐ ☐` | +3d4 |
+| Blessure Légère | `☐` | Aucun |
+| Blessure Grave | `☐ ☐` | +1d4 |
+| Blessure Mortelle | `☐ ☐` | +3d4 |
 
 **Ressources :**
 1. Bibliothèque personnelle *(grimoires et archives inaccessibles ailleurs)*

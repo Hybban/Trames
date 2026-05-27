@@ -38,6 +38,8 @@ Elle avance sur les **échecs et les réussites avec prix** des héros dans les 
 
 > *Exemples : L'Arrivée de Scotland Yard, Le Rituel s'Achève, Le Vaisseau Coule, L'Incendie Atteint les Réserves.*
 
+--pb--
+
 #### L'Horloge d'Objectif
 
 Elle représente la progression des héros vers un but. C'est eux qui la remplissent, chaque succès coché est une étape accomplie.
@@ -71,7 +73,7 @@ Des forces physiques qui évoluent indépendamment de la volonté des héros.
 > **L'incendie** (Menace, 6 segments)
 > *Ce qui le fait avancer :* chaque échec ou réussite avec prix lors d'actions dans le bâtiment. Aussi : 1 segment automatique à chaque fois que les héros changent de pièce sans agir contre le feu.
 > *Résolution :* le bâtiment entier est en flammes. Tout le monde doit fuir immédiatement.
-> *Niveau de menace :* Sérieuse : Fil Tendu en cas d'échec direct.
+> *Niveau de menace :* Sérieuse : Blessure Grave en cas d'échec direct.
 
 > **La tempête en mer** (Menace, 4 segments)
 > *Ce qui la fait avancer :* chaque échec ou réussite avec prix lors de manœuvres nautiques.
@@ -106,6 +108,8 @@ Des problèmes à résoudre qui ne se résolvent pas seuls.
 > **Le système de survie en panne** (Objectif, 6 segments)
 > *Ce qui le fait avancer :* réussites des héros avec les traits appropriés (ingénierie, mécanique).
 > *Résolution :* le système est réparé. S'il ne l'est pas avant que l'horloge de menace "Oxygène" (4 segments, autonome) se remplisse, les héros perdent connaissance.
+
+--pb--
 
 ### D. Les horloges autonomes
 
@@ -184,9 +188,9 @@ La Meneuse leur attribue simplement un **niveau de menace** qui détermine les d
 
 | Niveau | Dommages infligés en cas d'échec | Horloge de résistance |
 |---|---|---|
-| Légère | Fil Effiloché (1 case) | 2 segments |
-| Sérieuse | Fil Tendu (direct) | 4 segments |
-| Mortelle | Fil à la Limite (direct) | 6 segments |
+| Légère | Blessure Légère (1 case) | 2 segments |
+| Sérieuse | Blessure Grave (direct) | 4 segments |
+| Mortelle | Blessure Mortelle (direct) | 6 segments |
 
 #### Les PNJ Nommés
 
@@ -233,7 +237,7 @@ Un PNJ nommé peut avoir jusqu'à trois Fils, définis librement selon leur rôl
 > - *Désir : Achever le Grand Rituel avant que quiconque ne comprenne ce qu'il fait.*
 > - *Faille : Sa fille unique, qui ne sait rien de ses activités.*
 
-Ces Fils n'interagissent pas avec le Métier des Moires des joueuses, ils sont des outils de Meneuse, pas des mécaniques de table. Mais ils peuvent informer des moments importants : si les héros découvrent la Faille d'un PNJ, c'est potentiellement un levier narratif majeur.
+Ces Fils n'interagissent pas avec le Fuseau des Moires des joueuses, ils sont des outils de Meneuse, pas des mécaniques de table. Mais ils peuvent informer des moments importants : si les héros découvrent la Faille d'un PNJ, c'est potentiellement un levier narratif majeur.
 
 ### E. L'ATTITUDE DES PNJ
 

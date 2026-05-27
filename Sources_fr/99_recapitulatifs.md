@@ -8,7 +8,7 @@
 **2. Lancer** les dés correspondants (d6 / d8 / d10 / d12).
 **3. Conserver** uniquement le résultat le plus élevé.
 
-> Plus de traits = plus de chances, mais plus de risque de complication.
+> Plus de traits = plus de chances, mais plus de risque d'Accrocs.
 
 ---
 
@@ -24,15 +24,15 @@
 
 **Limites des traits :** un trait ne dépasse jamais sa valeur maximale. Un trait ne descend pas normalement sous d6 ; s'il le doit, il devient inutilisable pour le reste de la scène.
 
-**À la place d'une dégradation :** sacrifier une ressource ou prendre un Fil Effiloché. Si un trait devait augmenter mais est déjà au max : guérir une case de blessure à la place.
+**À la place d'une dégradation :** sacrifier une ressource ou prendre une Blessure Légère. Si un trait devait augmenter mais est déjà au max : guérir une case de blessure à la place.
 
----
+--pb--
 
 ## LES MANŒUVRES
 
 **Tendre le Fil** *(affronter une menace)*
 - 9-12 : L'obstacle est surmonté, un trait augmente.
-- 5-8 : Vous passez, mais un trait diminue ou Fil Effiloché.
+- 5-8 : Vous passez, mais un trait diminue ou Blessure Légère.
 - 1-4 : La menace vous frappe de plein fouet.
 
 **Lire la Trame** *(analyser, observer)*
@@ -42,8 +42,8 @@
 
 **Couper le Fil** *(s'imposer par la force ou la rhétorique)*
 - 9-12 : L'adversaire est repoussé ou vaincu.
-- 5-8 : Victoire amère ; trait diminue et Fil Effiloché.
-- 1-4 : L'adversaire prend le dessus (Fil Tendu ou pire).
+- 5-8 : Victoire amère ; trait diminue et Blessure Légère.
+- 1-4 : L'adversaire prend le dessus (Blessure Grave ou pire).
 
 **Tisser un nouveau Fil** *(utiliser une ressource)*
 - 9-12 : La ressource est parfaitement employée et reste disponible.
@@ -60,7 +60,7 @@
 
 ---
 
-## LE MÉTIER DES MOIRES
+## LE FUSEAU DES MOIRES
 
 | Fil | Effet | Coût |
 |---|---|---|
@@ -73,13 +73,13 @@ Les d4 d'Atropos sont des **Fils Emmêlés** : ils ne peuvent pas dépasser 4 et
 
 ---
 
-## LA SOLIDITÉ DU FIL
+## ÉTAT DE SANTÉ
 
 | Palier | Effet mécanique | Récupération |
 |---|---|---|
-| **Fil Effiloché** | Aucun malus | Fin de scène (automatique) |
-| **Fil Tendu** | +1d4 à tous les jets | Scène de repos + soutien |
-| **Fil à la Limite** | +3d4 à tous les jets | Scène de repos + soutien |
+| **Blessure Légère** | Aucun malus | Fin de scène (automatique) |
+| **Blessure Grave** | +1d4 à tous les jets | Scène de repos + soutien |
+| **Blessure Mortelle** | +3d4 à tous les jets | Scène de repos + soutien |
 
 ---
 
@@ -104,7 +104,6 @@ Les Accrocs (dés à 1) n'affectent que la lanceuse principale.
 Face à une issue fatale : transforme l'action en Réussite Totale.
 **Prix :** effacer définitivement un trait ; il ne peut plus être utilisé, renommé ou augmenté. Ce fil est coupé.
 
----
 ---
 
 # Récapitulatifs de Jeu : LA MENEUSE
@@ -131,9 +130,9 @@ La Meneuse ne lance jamais de dés. Seuls les jets des joueuses déterminent ce 
 
 | Niveau | Dommages infligés (sur échec ou 5-8) | Horloge |
 |---|---|---|
-| Légère | Fil Effiloché (1 case) | 2 segments |
-| Sérieuse | Fil Tendu (direct) | 4 segments |
-| Mortelle | Fil à la Limite (direct) | 6 segments |
+| Légère | Blessure Légère (1 case) | 2 segments |
+| Sérieuse | Blessure Grave (direct) | 4 segments |
+| Mortelle | Blessure Mortelle (direct) | 6 segments |
 
 **Avancement de l'horloge adverse :**
 - Réussite totale (9-12) : 2 segments cochés.
@@ -191,7 +190,7 @@ Une campagne peut se terminer différemment pour chaque héros.
 
 ## LES CALIBRES DE TRAME
 
-| Calibre | Effiloché | Tendu | Limite | Récup. légère | Récup. profonde |
+| Calibre | Légère | Grave | Mortelle | Récup. légère | Récup. profonde |
 |---|---|---|---|---|---|
 | Fil de Lin | 1 | 2 | 2 | Fin de scène | Scène + aide |
 | Fil de Laine | 3 | 3 | 3 | Fin de scène | 1 scène de repos |
@@ -200,7 +199,7 @@ Une campagne peut se terminer différemment pour chaque héros.
 
 ---
 
-## RAPPEL : LA RÉSERVE DU MÉTIER
+## RAPPEL : LA RÉSERVE DU FUSEAU
 
 En début de session : **nombre de joueuses + 1** jetons au centre de la table.
 - Clotho invoquée → la joueuse donne 1 jeton à la Meneuse.

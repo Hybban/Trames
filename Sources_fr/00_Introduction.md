@@ -22,8 +22,7 @@ A ces traits sont associés des dés (du d6 au d12) qui indiquent à quel point 
 
 **Illustrations :**
 
-- La plupart des illustrations sont des créations assistées par IA, en attendant d'avoir les moyens de payer un artiste digne de ce nom.
-- Le logo de TRAMES est aussi une création assistée par IA.
+- Le logo de TRAMES est une création assistée par IA. Si le jeu rencontre du succès, je serai ravi d'embaucher un artiste pour le refaire !
 
 Merci à toutes ces personnes pour leur contribution, même partielle, à TRAMES :
 

@@ -12,15 +12,15 @@ La fin d'une scène marque une respiration dans le récit, un moment où la pous
 
 La fin d'une scène n'est pas qu'une transition narrative, c'est un rouage central de l'attrition et de la survie des héros. Lorsqu'une scène se termine, appliquez les effets suivants :
 
-* **Récupération Légère :** Toutes les cases de blessures de type *Fil Effiloché* sont effacées automatiquement.
+* **Récupération Légère :** Toutes les cases de **Blessures Légères** sont effacées automatiquement.
 
 * **Restauration des Traits :** Si un trait (Comportement ou Capacité) était tombé en dessous du d6 et devenu inutilisable, le changement de contexte narratif de la nouvelle scène lui permet de redevenir actif à d6.
 
-* **Souffle Retrouvé :** Si le personnage n'a subi que des blessures effilochées durant la scène, il récupère également tous ses traits à leur niveau maximum pour entamer la scène suivante. A l'exception, bien sûr des traits qui viennent d'être restaurés.
+* **Souffle Retrouvé :** Si le personnage n'a subi que des blessures légères durant la scène, il récupère également tous ses traits à leur niveau maximum pour entamer la scène suivante. A l'exception, bien sûr des traits qui viennent d'être restaurés.
 
 ## 3. Les Scènes de Repos
 
-Pour guérir des séquelles plus graves (*Fil Tendu* ou *Fil à la Limite*), le passage naturel d'une scène à l'autre ne suffit pas. Les joueuses doivent demander et cadrer explicitement une **Scène de Repos**.
+Pour guérir des blessures plus graves (*Blessure Grave* ou *Blessure Mortelle*), le passage naturel d'une scène à l'autre ne suffit pas. Les joueuses doivent demander et cadrer explicitement une **Scène de Repos**.
 
 * **Justification :** Le héros doit justifier d'un soutien adéquat pour déclencher cette récupération profonde : soins médicaux, thérapie, retour dans un sanctuaire, utilisation d'une ressource spécifique, ou aide d'un allié.
 
@@ -35,6 +35,8 @@ Pour guérir des séquelles plus graves (*Fil Tendu* ou *Fil à la Limite*), le 
 Il est important de noter que les Scènes de Repos ne sont pas automatiques, même si le contexte s'y prête. Les joueuses doivent en faire la demande et justifier par la narration du soutien adéquat. Par ailleurs, le contexte narratif doit être cohérent avec la blessure. Par exemple, une blessure physique grave ne peut être soignée dans un contexte de fuite effrénée, et une blessure psychologique ne peut être guérie sans un dialogue ou un soutien adapté.
 
 Et il faut prendre en compte l'avancement des horloges. En effet, le reste du monde évolue pendant que les joueuses décident de prendre un repos mérité pour leurs personnages.
+
+--pb--
 
 ## 4. Cadrer et Couper (Conseils à la Meneuse)
 
@@ -55,6 +57,8 @@ Repérez l'instant précis où l'enjeu principal de la scène est résolu (victo
 Ne laissez pas la situation s'éterniser. Une fois l'objectif atteint, concluez la scène sans attendre.
 
 La fin de scène est le moment idéal pour appliquer la *Récupération Légère*, offrant un bol d'air frais aux personnages avant la prochaine séquence.
+
+--pb--
 
 ## 5. Types de scènes 
 
@@ -78,9 +82,9 @@ L'enjeu est clair : survivre et mettre en fuite les agresseurs sans alerter Scot
 
 **L'Action :** Arthur prend la tête de l'affrontement avec la manœuvre **Couper le Fil**, en combinant son Archétype *Vétéran de la Grande Guerre* (d12) et son trait *Combat au corps à corps* (d10). Il obtient un 8 ; réussite avec prix.
 
-**La Résolution :** Il repousse deux assaillants, mais encaisse un coup de matraque. La Meneuse lui propose le choix : un trait diminue d'un cran, ou il coche une case de **Fil Effiloché**. En Fil de Lin, il n'a qu'une seule case ; il préfère diminuer *Combat au corps à corps* de d10 à d8 pour le reste de la scène. En parallèle, l'horloge avance d'un segment : quelqu'un a entendu.
+**La Résolution :** Il repousse deux assaillants, mais encaisse un coup de matraque. La Meneuse lui propose le choix : un trait diminue d'un cran, ou il coche une case de **Blessure Légère**. En Fil de Lin, il n'a qu'une seule case ; il préfère diminuer *Combat au corps à corps* de d10 à d8 pour le reste de la scène. En parallèle, l'horloge avance d'un segment : quelqu'un a entendu.
 
-**L'Impact du Fil de Lin :** Béatrice, dont la seule case de Fil Effiloché est déjà cochée depuis le manoir, ne peut pas se permettre un autre coup. Si elle reçoit un dégât, elle bascule directement en **Fil Tendu** : et dans ce mode, +1d4 sur tous ses jets peut être fatal.
+**L'Impact du Fil de Lin :** Béatrice, dont la seule case de Blessure Légère est déjà cochée depuis le manoir, ne peut pas se permettre un autre coup. Si elle reçoit un dégât, elle bascule directement en **Blessure Grave** : et dans ce mode, +1d4 sur tous ses jets peut être fatal.
 
 ---
 
@@ -94,9 +98,9 @@ Kael, Jaxx et Vex sont pris au piège dans une station minière dont la section 
 
 **L'Action 2 :** Jaxx doit stabiliser le système de pressurisation depuis un panneau endommagé. Elle utilise **Tisser un nouveau Fil** avec son Archétype *Ingénieure de Génie* (d12) et sa ressource **Générateur à plasma illégal** : ce qui lui permet de doubler un dé. Elle obtient un 6, et l'un de ses dés affiche un 1 ; **L'Accroc**.
 
-**La Résolution 2 :** La pressurisation est partiellement stabilisée ; la Meneuse coche 2 segments sur l'horloge mais ne la remplit pas encore. Le prix : Jaxx coche une case de **Fil Effiloché** (brûlure de plasma) ET l'Accroc se déclenche ; le générateur surchauffe. La ressource **Générateur à plasma illégal** devient inaccessible pour le reste de la scène.
+**La Résolution 2 :** La pressurisation est partiellement stabilisée ; la Meneuse coche 2 segments sur l'horloge mais ne la remplit pas encore. Le prix : Jaxx coche une case de **Blessure Légère** (brûlure de plasma) ET l'Accroc se déclenche ; le générateur surchauffe. La ressource **Générateur à plasma illégal** devient inaccessible pour le reste de la scène.
 
----
+--pb--
 
 ### B. EXEMPLES DE SCÈNES D'ENQUÊTE
 
@@ -106,9 +110,9 @@ Dans la morgue municipale, Béatrice et Charles examinent le corps d'une victime
 
 **L'Action :** Béatrice tente une lecture psychométrique du corps avec **Lire la Trame**, en combinant son Archétype *Médium* (d12) et *Perception des présences* (d10). Elle obtient un 7 ; réussite avec prix.
 
-**La Résolution :** Les derniers instants de la victime lui parviennent : elle obtient une information cruciale sur le rituel. Mais le prix est double : la vision lui inflige une case de **Fil Effiloché** (choc mental), et Charles, qui avait trop insisté pour analyser les symboles en même temps, a attiré l'attention : la Meneuse coche 1 segment sur l'horloge.
+**La Résolution :** Les derniers instants de la victime lui parviennent : elle obtient une information cruciale sur le rituel. Mais le prix est double : la vision lui inflige une case de **Blessure Légère** (choc mental), et Charles, qui avait trop insisté pour analyser les symboles en même temps, a attiré l'attention : la Meneuse coche 1 segment sur l'horloge.
 
-*Charles aurait pu invoquer son Péché, l'orgueil intellectuel, pour ne pas céder la priorité à Béatrice et tenter sa propre analyse. Il aurait regagné 1 jeton du Métier, mais ajouté +1d4 à son jet, avec le risque que l'Accroc déclenche une complication supplémentaire.*
+*Charles aurait pu invoquer son Péché, l'orgueil intellectuel, pour ne pas céder la priorité à Béatrice et tenter sa propre analyse. Il aurait regagné 1 jeton du Fuseau, mais ajouté +1d4 à son jet, avec le risque que l'Accroc déclenche une complication supplémentaire.*
 
 ---
 
@@ -146,7 +150,7 @@ Elle enchaîne avec **Tisser un nouveau Fil** : en utilisant son **Réseau d'inf
 
 Le groupe a capturé un sbire du culte. Béatrice et Charles ont échoué à lui soutirer quoi que ce soit par la parole. Arthur reste seul avec lui dans la cave.
 
-**Le Moment du Péché :** La Meneuse demande comment Arthur procède. La joueuse décide qu'il cède à son Péché ; *la violence comme seule réponse*. Il invoque le **Fil d'Atropos** : il regagne 1 jeton du Métier, mais ajoute +1d4 à son jet de **Couper le Fil** *(s'imposer par l'intimidation et la pression physique)*.
+**Le Moment du Péché :** La Meneuse demande comment Arthur procède. La joueuse décide qu'il cède à son Péché ; *la violence comme seule réponse*. Il invoque le **Fil d'Atropos** : il regagne 1 jeton du Fuseau, mais ajoute +1d4 à son jet de **Couper le Fil** *(s'imposer par l'intimidation et la pression physique)*.
 
 **L'Action :** Il combine *Vétéran de la Grande Guerre* (d12) et *Commandement* (d6), plus le +1d4 de son Péché. Il lance trois dés et obtient 9, 5, et 2 ; il conserve le 9, réussite totale. Mais le d4 affiche 1 ; **L'Accroc**.
 
@@ -158,11 +162,11 @@ Le groupe a capturé un sbire du culte. Béatrice et Charles ont échoué à lui
 
 #### Le dispensaire de fortune *(Fil de Soie : Thorne)*
 
-Après l'affrontement contre le Golem d'Obsidienne, Thorne a un **Fil Tendu** : la blessure sérieuse à l'épaule l'empêche d'utiliser son bouclier correctement. Elara a localisé un guérisseur allié à deux heures de marche.
+Après l'affrontement contre le Golem d'Obsidienne, Thorne a une **Blessure Grave** : la blessure sérieuse à l'épaule l'empêche d'utiliser son bouclier correctement. Elara a localisé un guérisseur allié à deux heures de marche.
 
 **La Scène :** Le guérisseur examine la blessure et utilise des herbes rares ; une Ressource qu'il possède. La scène est dédiée à la convalescence. Thorne n'est pas à l'aise avec l'immobilité, et la joueuse choisit de jouer ce moment : il tente de quitter le lit trop tôt. La Meneuse lui propose un jet de *Résistance physique* (d8) ou accepter de rester ; il reste.
 
-**La Résolution :** Une case de **Fil Tendu** est effacée. La Meneuse note que pendant ce temps, l'Horloge de la menace principale a avancé d'un segment : le monde ne s'est pas arrêté.
+**La Résolution :** Une case de **Blessure Grave** est effacée. La Meneuse note que pendant ce temps, l'Horloge de la menace principale a avancé d'un segment : le monde ne s'est pas arrêté.
 
 *Note : Thorne aurait pu invoquer son Péché, l'orgueil du guerrier, pour tenter de partir malgré tout, en regagnant un jeton mais en ajoutant +1d4 à tous ses jets pour le reste de la scène suivante (la douleur non soignée).*
 
@@ -170,11 +174,11 @@ Après l'affrontement contre le Golem d'Obsidienne, Thorne a un **Fil Tendu** : 
 
 #### Le retour à la lumière *(Fil de Lin : Béatrice)*
 
-Après deux scènes d'enquête consécutives et deux cases de **Fil Effiloché** mental cochées, Béatrice est au bord du basculement en Fil Tendu. Elle a besoin de s'ancrer dans la réalité humaine.
+Après deux scènes d'enquête consécutives et deux cases de **Blessure Légère** mentale cochées, Béatrice est au bord du basculement en Blessure Grave. Elle a besoin de s'ancrer dans la réalité humaine.
 
 **La Scène :** Elle retrouve sa sœur ; une femme qui ne sait rien de l'occulte et qui croit que Béatrice est chercheuse en folklore. Elles passent une soirée ensemble. Aucun jet n'est demandé si la joueuse joue la scène honnêtement.
 
-**La Résolution :** Les cases de Fil Effiloché sont effacées. Mais la Meneuse fait une note : la sœur a posé des questions inhabituelles ce soir. Quelque chose dans ses yeux n'allait pas tout à fait. Le repos a été réel, et peut-être a-t-il attiré quelque chose vers ce qui compte le plus pour Béatrice.
+**La Résolution :** Les cases de Blessures Légères sont effacées. Mais la Meneuse fait une note : la sœur a posé des questions inhabituelles ce soir. Quelque chose dans ses yeux n'allait pas tout à fait. Le repos a été réel, et peut-être a-t-il attiré quelque chose vers ce qui compte le plus pour Béatrice.
 
 *Cette scène illustre la règle de récupération narrative : la blessure mentale ne disparaît pas sous une douche froide. Elle se soigne par le contact humain, et dans TRAMES, le contact humain a toujours un coût.*
 
@@ -218,7 +222,7 @@ La Lanterne Brisée doit traverser une ceinture d'astéroïdes magnétisés pour
 
 **L'Action 2 :** Jaxx doit compenser les interférences magnétiques sur les moteurs en temps réel. Elle combine *Ingénieure de Génie* (d12) et *Fabrication improvisée* (d8). Elle obtient un 6 ; réussite avec prix.
 
-**La Résolution 2 :** Les moteurs tiennent. 1 segment coché. Mais le prix : Jaxx doit sacrifier l'une de ses ressources, **Atelier portable** endommagé, inaccessible jusqu'à réparation, ou cocher un **Fil Effiloché** physique (brûlure de circuit). Elle choisit la ressource.
+**La Résolution 2 :** Les moteurs tiennent. 1 segment coché. Mais le prix : Jaxx doit sacrifier l'une de ses ressources, **Atelier portable** endommagé, inaccessible jusqu'à réparation, ou cocher une **Blessure Légère** physique (brûlure de circuit). Elle choisit la ressource.
 
 *Pendant ce temps, Vex surveille les communications corporatistes. La Meneuse lui donne une information sans jet ; le croiseur a localisé leur dernier point connu. La Horloge de Détection avance d'un segment de façon autonome, rappelant que le monde évolue sans attendre les actions des joueuses.*
 

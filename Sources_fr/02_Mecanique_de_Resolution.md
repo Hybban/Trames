@@ -18,6 +18,8 @@ Le score obtenu sur le dé conservé détermine l'issue de l'action et l'évolut
 | **5 – 8** | **Réussite avec prix** | L’action réussit, mais avec une conséquence. **Diminuez** d'un cran la valeur d'un seul des traits utilisés. |
 | **1 – 4** | **Échec** | L’action échoue. **Diminuez** d'un cran la valeur d'un des traits utilisés. |
 
+--pb--
+
 **Notes :** 
 
 * Un trait ne peut pas dépasser sa valeur maximale. 
@@ -35,16 +37,20 @@ Les Moires ne dictent pas chaque geste, mais elles tissent des moments de tensio
 
 Bien sûr, il existe bien d'autres actions possibles. Celles présentées ici sont celles qui définissent la plupart des interactions possibles. Elles servent de base pour créer de nombreuses situations nouvelles.
 
-### Tendre le Fil
+**Note :** Dans le résultat des manoeuvres, on parle parfois de blessures. On y reviendra dans le chapitre IV.
+
+--pb--
+
+### A. Tendre le Fil
 *Résister, encaisser, tenir bon face à une menace qui vous dépasse.*
 
 Tendre le Fil, c'est choisir de ne pas plier. Pas d'attaque, pas de fuite ; une résistance. Le fil se tend à l'extrême, et quelque chose finit toujours par céder : l'obstacle, ou vous.
 
 - **9-12 :** Vous tenez. L'obstacle est surmonté ou repoussé. Augmentez un trait utilisé d'un cran ; la pression vous a renforcé.
-- **5-8 :** Vous passez, mais le fil a souffert. Diminuez un trait d'un cran ou prenez un Fil Effiloché ; vous avez encaissé quelque chose.
-- **1-4 :** Le fil cède. La menace vous frappe de plein fouet. Les conséquences sont immédiates et proportionnelles.
+- **5-8 :** Vous passez, mais vous avez souffert. Diminuez un trait d'un cran ou prenez une Blessure Légère ; vous avez encaissé quelque chose.
+- **1-4 :** Vous flanchez. La menace vous frappe de plein fouet. Les conséquences sont immédiates et proportionnelles.
 
-### Lire la Trame
+### B. Lire la Trame
 *Observer, analyser, comprendre ce que la situation ou un personnage révèle sans le dire.*
 
 Lire la Trame, c'est faire confiance à ce que vous percevez. Pas une action ; une attention. Les fils du monde sont là, il faut savoir lesquels tirer.
@@ -53,16 +59,16 @@ Lire la Trame, c'est faire confiance à ce que vous percevez. Pas une action ; u
 - **5-8 :** Vous saisissez quelque chose, mais pas sans conséquence. L'information est réelle, mais obtenue trop lentement, ou au prix d'une attention qui a été remarquée.
 - **1-4 :** Vous avez lu la mauvaise trame. La conclusion est erronée, ou pire, quelqu'un a vu que vous cherchiez.
 
-### Couper le Fil
+### C. Couper le Fil
 *S'imposer par la force, la magie, l'autorité ou la rhétorique. Mettre fin à quelque chose.*
 
 Couper le Fil, c'est choisir la rupture. Vous ne négociez pas, vous ne résistez pas ; vous tranchez. C'est la manœuvre la plus directe, et souvent la plus coûteuse.
 
 - **9-12 :** L'adversaire est repoussé, vaincu ou réduit au silence. Vous imposez votre volonté sans reste.
-- **5-8 :** Victoire amère. L'objectif est atteint, mais le fil vous a entaillé en passant ; diminuez un trait d'un cran et prenez un Fil Effiloché.
+- **5-8 :** Victoire amère. L'objectif est atteint, mais l'effort vous a épuisé ; diminuez un trait d'un cran et prenez une Blessure Légère.
 - **1-4 :** Vous avez coupé trop vite, ou pas assez fort. L'adversaire prend le dessus. Les dégâts sont sérieux.
 
-### Nouer un Fil
+### D. Nouer un Fil
 *Créer quelque chose qui n'existait pas : un plan, un lien, une solution improvisée, une alliance.*
 
 Là où les autres manœuvres réagissent au monde, Nouer un Fil le modifie. C'est l'action de celui qui voit une possibilité là où les autres voient une impasse. Le résultat n'est jamais garanti, mais ce qui est créé appartient désormais à la fiction.
@@ -99,6 +105,8 @@ Si une contribution est refusée, la joueuse peut en proposer un autre trait ou 
 Une fois le pool constitué, toutes les dés sont lancés ensemble : les traits de la lanceuse et les dés des contributrices. On conserve **le résultat le plus élevé**, comme pour tout jet.
 
 Plus il y a de contributrices, plus le pool est grand et plus les chances de succès augmentent. Mais le risque augmente aussi.
+
+--pb--
 
 ### D. Les Conséquences
 
@@ -149,18 +157,32 @@ Parfois, les Moires décident que votre histoire n'est pas terminée, mais elles
 * **Note sur l'Archétype :** Brûler son Archétype est théoriquement possible, mais c'en est la forme la plus tragique. Le héros survit, mais perd son essence. Il devra se reconstruire autour d'un nouvel Archétype, qui commencera à d6.
 * **Note groupe :** La table entière doit sentir le poids de ce moment. Prenez le temps que les autres joueuses reconnaissent ce qui vient d'être perdu ; c'est un fait narratif permanent, pas une simple règle technique.
 
-## 8. Le Métier des Moires
+Et comme le concept peut être difficile à appréhender, voici trois exemple basés sur les personnages pre-tirés fournis avec cet ouvrage.
 
-Le "Métier à Tisser" remplace les points de chance classiques et a été présenté dans la partie précédente. C'est un système d'échange entre vos convictions, votre destinée et vos failles. Les trois Moires n'interviennent pas de la même façon dans votre histoire. Clotho file : elle vous coûte quelque chose, parce que créer demande un effort. Lachésis mesure : elle s'aligne sur vous gratuitement, parce que le Destin ne se force pas, il se reconnaît. Atropos coupe : elle vous donne de l'énergie en échange d'un risque, parce que céder à vos instincts sombres vous revigore tout en effilochant votre fil.
+### A. Groupe Fil de Lin (Horreur Occulte) : Le sacrifice d'Arthur
+
+Alors qu'une abomination occulte s'apprête à éviscérer Charles dans les sous-sols d'un manoir londonien, Arthur s'interpose pour encaisser le coup fatal à la place de son camarade, déclenchant une Trame Brûlée. L'action devient instantanément une réussite totale : Arthur décharge son revolver à bout touchant et détruit la créature, mais la joueuse choisit d'effacer définitivement le trait **"Sang-froid sous la pression"**. Le prix narratif est lourd : Arthur survit physiquement, mais sa carapace psychologique, qui le protégeait depuis les tranchées de 1917, vole en éclats. Pour le reste de la campagne, il sera incapable de réagir posément face au danger, devenant sujet à la panique et à la paranoïa, compliquant drastiquement ses futures scènes d'action.
+
+### B. Groupe Fil de Laine (Science-Fiction) : Le prix de Jaxx
+
+*La Lanterne Brisée* est touchée par un tir de croiseur corporatiste et le générateur à plasma entre en fusion critique, condamnant l'équipage. Pour éviter l'explosion imminente, Jaxx plonge littéralement ses mains sans protection dans les circuits en surchauffe pour dériver l'énergie. Le vaisseau est stabilisé in extremis , mais la joueuse doit rayer à jamais le trait **"Fabrication improvisée"**. En conséquence, les nerfs de ses mains sont irrémédiablement calcinés par la brûlure des circuits. Jaxx conserve son intelligence et ses autres compétences, mais son corps ne lui permet plus de bricoler dans l'urgence : elle perd cette indépendance manuelle qui la caractérisait et devra désormais s'en remettre aux autres pour les tâches physiques minutieuses.
+
+### C. Groupe Fil de Soie (Heroic Fantasy) : La perte d'Elara
+
+Au cœur du tombeau scellé , un piège arcanique libère une onde de mort inévitable qui s'apprête à vaporiser Thorne et Lyra. Elara s'interpose, lève son cristal de focalisation et absorbe l'entièreté de la charge brute. L'onde est neutralisée dans une réussite éclatante , mais l'effort fracasse son esprit et la joueuse sacrifie le trait **"Méthodique et prudente"**. L'esprit d'Elara, autrefois si structuré, est désormais fracturé par le traumatisme arcanique. Elle survit, mais elle ne sait plus analyser, préparer ni lancer ses sorts avec la rigueur d'antan. Sa magie deviendra instinctive, erratique et dangereuse pour elle-même, bouleversant totalement son approche tactique pour la suite de la campagne.
+
+## 8. Le Fuseau des Moires
+
+Le "Fuseau" remplace les points de chance classiques et a été présenté dans la partie précédente. C'est un système d'échange entre vos convictions, votre destinée et vos failles. Les trois Moires n'interviennent pas de la même façon dans votre histoire. Clotho file : elle vous coûte quelque chose, parce que créer demande un effort. Lachésis mesure : elle s'aligne sur vous gratuitement, parce que le Destin ne se force pas, il se reconnaît. Atropos coupe : elle vous donne de l'énergie en échange d'un risque, parce que céder à vos instincts sombres vous revigore tout en effilochant votre fil.
 
 Ces trois dynamiques ne sont pas équivalentes. Elles sont complémentaires, et c'est cette tension qui fait battre le cœur de TRAMES.
 
 ### A. Invoquer les Fils
 L'utilisation des fils permet de dépasser la limite habituelle de 3 dés par jet.
 
-* **Le Fil de Lachésis (Le Destin) :** Une fois par session, si vous agissez en lien avec votre destinée, ajoutez **+1d12** à votre jet. Cet usage ne coûte pas de point du métier, mais est limité par sa rareté. Ça peut être pour la réaliser, la combattre, ou la comprendre.
+* **Le Fil de Lachésis (Le Destin) :** Une fois par session, si vous agissez en lien avec votre destinée, ajoutez **+1d12** à votre jet. Cet usage ne coûte pas de point du fuseau, mais est limité par sa rareté. Ça peut être pour la réaliser, la combattre, ou la comprendre.
 
-* **Le Fil de Clotho (La Conviction) :** Si votre action est portée par votre conviction profonde, dépensez **1 jeton** du Métier pour ajouter **+1d12** à votre jet. Le jeton est alors donné à la Meneuse (ou "engagé" en solo).
+* **Le Fil de Clotho (La Conviction) :** Si votre action est portée par votre conviction profonde, dépensez **1 jeton** du Fuseau pour ajouter **+1d12** à votre jet. Le jeton est alors donné à la Meneuse (ou "engagé" en solo).
 
 * **Le Fil d'Atropos (Le Péché) :** Si vous cédez à vos mauvais instincts ou à votre vice, vous pouvez **regagner 1 jeton** (pris à la Meneuse ou "réactivé" en solo). En invoquant Atropos, vous laissez le ciseau s'approcher de votre fil. Ajoutez **+1d4** à votre jet. Ce dé ne peut pas vous aider car sa valeur ne dépassera jamais 4, mais il peut tout compliquer car il a plus de chance de générer un **1**. C'est le prix de l'abandon.
 
@@ -184,3 +206,23 @@ Un segment est coché à chaque invocation d'Atropos.
 Une fois la conséquence déclenchée, l'horloge se remet à zéro. Atropos a coupé, mais le fil continue, abîmé. La conséquence reste dans la fiction.
 
 > **Note :** L'Horloge du Péché n'est pas une punition. C'est la matérialisation de la promesse du Fil d'Atropos - que le Péché causera la perte du héros, ou le fera chuter. Sans cette horloge, cette promesse reste de la fiction décorative. Avec elle, elle devient mécanique.
+
+Voici trois exemples qui s'appuient sur les Péchés des personnages pré-tirés qui sont fournis avec cet ouvrage.
+
+### A. Groupe Fil de Lin : Le point de non-retour d'Arthur
+
+* **Son Péché :** La violence comme seule réponse ; agir avant de réfléchir quand la pression monte.
+* **La situation :** Le groupe a coincé un jeune acolyte terrifié du culte qui possède des informations vitales. L'acolyte, paniqué, commence à hurler et menace d'alerter tout le quartier. Arthur invoque son Péché pour le faire taire physiquement, et la joueuse coche le dernier segment de son Horloge du Péché.
+* **La conséquence irréversible :** Arthur frappe trop fort, beaucoup trop fort. L'acolyte meurt sur le coup sans avoir parlé. La conséquence n'est pas qu'une information perdue : Scotland Yard a maintenant un meurtre brutal sur les bras et Arthur devient un suspect recherché. De plus, la nature de cet acte brise la dynamique avec ses camarades (notamment Béatrice, dont la Conviction est que "Les morts méritent que leur vérité soit entendue" ). La tache sur son âme et son statut de fugitif sont désormais des données permanentes de la campagne.
+
+### B. Groupe Fil de Laine : Le chef-d'œuvre toxique de Jaxx
+
+* **Son Péché :** L'obsession du travail ; sacrifier tout le reste pour le projet en cours.
+* **La situation :** *La Lanterne Brisée* est poursuivie dans un champ d'astéroïdes. Jaxx s'est enfermée dans la salle des machines pour pousser son Générateur à plasma illégal au-delà de ses limites afin de leur donner la poussée nécessaire. Elle coche le dernier segment de son horloge pour réussir sa manipulation coûte que coûte.
+* **La conséquence irréversible :** Le vaisseau s'échappe, mais l'obsession de Jaxx l'a poussée à ignorer sciemment les alarmes de radiations pour ne pas interrompre son flux de travail. Le compartiment de soute adjacent est inondé de plasma brut. Leurs réserves, ou pire, un PNJ allié qui s'y trouvait, sont perdus à jamais. De plus, cette section du vaisseau est définitivement irradiée et condamnée ; *La Lanterne Brisée* perd une partie de ses fonctionnalités de façon permanente, rappelant chaque jour à Jaxx le prix de son obsession.
+
+### C. Groupe Fil de Soie : Le bris de l'Orgueil de Thorne
+
+* **Son Péché :** L'orgueil du guerrier ; refuser toute aide, même quand elle est nécessaire.
+* **La situation :** Lors d'un assaut de créatures corrompues, Thorne décide de tenir un goulet d'étranglement seul pour laisser Elara et Lyra accomplir un rituel. Les monstres sont trop nombreux, mais il invoque son Péché pour refuser de battre en retraite ou d'appeler à l'aide. Son horloge se remplit.
+* **La conséquence irréversible :** Thorne survit à l'affrontement et maintient sa ligne, mais à quel prix. Pour bloquer le coup cataclysmique du chef de la meute qu'il aurait pu esquiver avec l'aide de ses camarades, il pare de toute sa force. Son épée ancestrale, *Fil d'Acier* — une lame familiale de qualité incomparable transmise depuis sept générations  — se brise net. Ce n'est pas une arme qu'on peut forger à nouveau. La Ressource est définitivement rayée de sa fiche, et le poids symbolique de ce bris entache son héritage pour le reste de l'épopée.

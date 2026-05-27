@@ -3,7 +3,7 @@
 
 *Ces trois personnages sont utilisés comme exemples tout au long du livre de base.
 Ils jouent dans un contexte de pirates de l'espace dans un futur proche et cynique.
-En Fil de Laine, le mode standard : 3 cases de Fil Effiloché, des héros compétents mais vulnérables.*
+En Fil de Laine, le mode standard : 3 cases de Blessure Légère, des héros compétents mais vulnérables.*
 
 ---
 
@@ -36,7 +36,7 @@ En Fil de Laine, le mode standard : 3 cases de Fil Effiloché, des héros compé
 | **Lachésis ; Le Destin** | "Rembourser la dette qui pèse sur ma tête et voler libre enfin." | 1×/session, gratuit → +1d12 |
 | **Atropos ; Le Péché** | Le jeu ; parier sur tout, même sa propre vie, même celle des autres. | Gagner 1 jeton → +1d4 au jet |
 
-**Réserve du Métier :** `○ ○ ○ ○ ○ ○ ○`
+**Réserve du Fuseau :** `○ ○ ○ ○ ○ ○ ○`
 
 | Nom du Trait | Catégorie | Max | État actuel |
 |---|---|---|---|
@@ -49,20 +49,20 @@ En Fil de Laine, le mode standard : 3 cases de Fil Effiloché, des héros compé
 | Intimidation | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Sens de l'orientation | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 
-**Solidité du Fil :**
+**État de Santé :**
 
 | Palier | Cases | Malus |
 |---|---|---|
-| Fil Effiloché | `☐ ☐ ☐` | Aucun |
-| Fil Tendu | `☐ ☐ ☐` | +1d4 |
-| Fil à la Limite | `☐ ☐ ☐` | +3d4 |
+| Blessure Légère | `☐ ☐ ☐` | Aucun |
+| Blessure Grave | `☐ ☐ ☐` | +1d4 |
+| Blessure Mortelle | `☐ ☐ ☐` | +3d4 |
 
 **Ressources :**
 1. Vaisseau "La Lanterne Brisée" *(vieux, rafistolé, irremplaçable)*
 2. Faux papiers d'identité *(trois identités distinctes et crédibles)*
 3. Carte des routes non officielles *(couloirs entre les checkpoints corporatistes)*
 
----
+--pb--
 
 ## JAXX : Ingénieure de Génie
 
@@ -93,7 +93,7 @@ En Fil de Laine, le mode standard : 3 cases de Fil Effiloché, des héros compé
 | **Lachésis ; Le Destin** | "Concevoir une technologie qui changera le cours de l'humanité." | 1×/session, gratuit → +1d12 |
 | **Atropos ; Le Péché** | L'obsession du travail ; sacrifier tout le reste pour le projet en cours. | Gagner 1 jeton → +1d4 au jet |
 
-**Réserve du Métier :** `○ ○ ○ ○ ○ ○ ○`
+**Réserve du Fuseau :** `○ ○ ○ ○ ○ ○ ○`
 
 | Nom du Trait | Catégorie | Max | État actuel |
 |---|---|---|---|
@@ -106,20 +106,20 @@ En Fil de Laine, le mode standard : 3 cases de Fil Effiloché, des héros compé
 | Négociation technique | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Médecine de terrain | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 
-**Solidité du Fil :**
+**État de Santé :**
 
 | Palier | Cases | Malus |
 |---|---|---|
-| Fil Effiloché | `☐ ☐ ☐` | Aucun |
-| Fil Tendu | `☐ ☐ ☐` | +1d4 |
-| Fil à la Limite | `☐ ☐ ☐` | +3d4 |
+| Blessure Légère | `☐ ☐ ☐` | Aucun |
+| Blessure Grave | `☐ ☐ ☐` | +1d4 |
+| Blessure Mortelle | `☐ ☐ ☐` | +3d4 |
 
 **Ressources :**
 1. Générateur à plasma illégal *(modifié ; performances impossibles selon les manuels)*
 2. Atelier portable *(valise qui se déplie en établi complet)*
 3. Contacts marché noir technologique *(pièces introuvables, composants interdits)*
 
----
+--pb--
 
 ## VEX : Artilleur Mercenaire
 
@@ -150,7 +150,7 @@ En Fil de Laine, le mode standard : 3 cases de Fil Effiloché, des héros compé
 | **Lachésis ; Le Destin** | "Trouver qui a trahi son ancienne unité et obtenir justice." | 1×/session, gratuit → +1d12 |
 | **Atropos ; Le Péché** | La violence comme première réponse ; l'élégance des solutions simples et définitives. | Gagner 1 jeton → +1d4 au jet |
 
-**Réserve du Métier :** `○ ○ ○ ○ ○ ○ ○`
+**Réserve du Fuseau :** `○ ○ ○ ○ ○ ○ ○`
 
 | Nom du Trait | Catégorie | Max | État actuel |
 |---|---|---|---|
@@ -163,13 +163,13 @@ En Fil de Laine, le mode standard : 3 cases de Fil Effiloché, des héros compé
 | Crochetage | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Premiers secours | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 
-**Solidité du Fil :**
+**État de Santé :**
 
 | Palier | Cases | Malus |
 |---|---|---|
-| Fil Effiloché | `☐ ☐ ☐` | Aucun |
-| Fil Tendu | `☐ ☐ ☐` | +1d4 |
-| Fil à la Limite | `☐ ☐ ☐` | +3d4 |
+| Blessure Légère | `☐ ☐ ☐` | Aucun |
+| Blessure Grave | `☐ ☐ ☐` | +1d4 |
+| Blessure Mortelle | `☐ ☐ ☐` | +3d4 |
 
 **Ressources :**
 1. Arsenal personnel *(trois armes ; une discrète, une lourde, une de précision)*

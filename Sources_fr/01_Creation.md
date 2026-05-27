@@ -21,9 +21,9 @@ Un héros est composé de **huit traits** maximum au départ. Le nombre de trait
 
 Répartissez vos huit traits selon la structure suivante :
 
-* **L’Archétype (1 trait) :** Il définit votre rôle principal ou votre essence (ex: "Mage de bataille", "Voleur repenti").
-* **Le Comportement (2 à 3 traits) :** Ils décrivent votre personnalité, votre manière d’agir, votre savoir-être (ex: "Diplomate naturel", "Méfiant envers l’autorité").
-* **Capacités & Talents (le reste) :** Vos compétences techniques, pouvoirs ou dons particuliers, et autre savoir-faire (ex: "Maître archer", "Sens aiguisés").
+* **L’Archétype (1 trait) :** Il définit votre rôle principal ou votre essence (ex: "Mage de bataille", "Voleur repenti", "Pirate de l'espace", "Chasseur de trésors").
+* **Le Comportement (2 à 3 traits) :** Ils décrivent votre personnalité, votre manière d’agir, votre savoir-être (ex: "Diplomate naturel", "Méfiant envers l’autorité", "Intelligent", "Consciencieux").
+* **Capacités & Talents (le reste) :** Vos compétences techniques, pouvoirs ou dons particuliers, et autre savoir-faire (ex: "Archer émérite", "Combat à deux mains", "Compagnon animal", "Sens aiguisés").
 
 ## 3. Attribution des Scores
 Chaque trait possède une valeur de dé qui représente son potentiel maximal. À la création, vous disposez d'une réserve (pool) de dés à répartir parmi vos huit traits :
@@ -46,27 +46,31 @@ En plus de ses traits, un héros possède entre **1 et 5 ressources** (objets un
 
 > **Note sur les ressources :** Les ressources sont définies par la joueuse, mais doivent être validées par la Meneuse de jeu pour garantir qu'elles sont cohérentes avec l'univers et le scénario. Aussi, tout comme pour les traits, il est possible de définir des ressources au cours de la partie au gré des besoins narratifs et en respectant la limite de 5.
 
-## 5. Le Métier des Moires : Les Trois Fils
+--pb--
+
+## 5. Le Fuseau des Moires : Les Trois Fils
 Dans la mythologie grecque, les Moires sont les déesses du destin. Elles sont trois : Clotho, Lachésis et Atropos. Elles filent, mesurent et coupent le fil de la vie de chaque mortel. TRAMES reprend cette imagerie pour définir le destin du héros. 
 
-À la création, vous définissez trois énoncés narratifs qui représentent l'âme de votre personnage. Ce sont vos Fils, et ils ne sont pas que de la fiction. Ils interagissent directement avec la réserve de jetons du Métier à Tisser, le moteur d'énergie dramatique du jeu.
+À la création, vous définissez trois énoncés narratifs qui représentent l'âme de votre personnage. Ce sont vos Fils, et ils ne sont pas que de la fiction. Ils interagissent directement avec la réserve de jetons du Fuseau, le moteur d'énergie dramatique du jeu.
 
-**La Réserve du Métier** : En début de session, la Meneuse place au centre de la table un nombre de jetons égal au nombre de joueuses + 1. Cette réserve appartient aux joueuses au départ, mais peut vite se retrouver entre les mains de la Meneuse au fil des Fils invoqués.
+**La Réserve du Fuseau** : En début de session, la Meneuse place au centre de la table un nombre de jetons égal au nombre de joueuses + 1. Cette réserve appartient aux joueuses au départ, mais peut vite se retrouver entre les mains de la Meneuse au fil des Fils invoqués.
 
-### Le Fil de Clotho (La Conviction)
+### A. Le Fil de Clotho (La Conviction)
 Une phrase décrivant ce en quoi votre héros croit ou sa boussole morale. C'est ce qui le pousse à se dépasser. 
 
-* **Clotho file le fil.** Elle crée, elle donne de l'élan. Agir depuis sa Conviction, c'est puiser dans ses propres réserves, brûler quelque chose de soi pour avancer. Ça coûte un jeton parce que la foi se dépense. Quand votre action est portée par cette Conviction profonde, vous pouvez dépenser 1 jeton du Métier pour ajouter +1d12 à votre jet. Le jeton est donné à la Meneuse. Clotho file : elle vous coûte quelque chose, parce que créer demande un effort.
+* **Clotho file le fil.** Elle crée, elle donne de l'élan. Agir depuis sa Conviction, c'est puiser dans ses propres réserves, brûler quelque chose de personnel pour avancer. Ça coûte un jeton parce que la foi se dépense. Quand votre action est portée par cette Conviction profonde, vous pouvez dépenser 1 jeton du Fuseau pour ajouter +1d12 à votre jet. Le jeton est donné à la Meneuse. Clotho file : elle vous coûte quelque chose, parce que créer demande un effort.
 
-### Le Fil de Lachésis (Le Destin)
+### B. Le Fil de Lachésis (Le Destin)
 Une prophétie, une quête ou un but ultime. C'est la direction que prend sa vie.
 
-* **Lachésis mesure le fil.** Elle ne crée pas, elle reconnaît. Quand le Destin s'accomplit, ce n'est pas le héros qui force ; c'est l'univers qui s'aligne. Si vous agissez directement pour accomplir votre Destin, ajoutez +1d12 à votre jet. Cet usage est gratuit ; Lachésis mesure, elle reconnaît. Mais attention, les moments où le Destin s'accomplit sont rares : une seule fois par session.
+* **Lachésis mesure le fil.** Elle ne crée pas, elle reconnaît. Quand le Destin s'accomplit, deux choses se produisent : le héros qui force le destin, et l'univers qui s'aligne en retour. Si vous agissez directement pour accomplir votre Destin, ajoutez +1d12 à votre jet. Cet usage est gratuit ; Lachésis mesure, elle reconnaît. Mais attention, les moments où le Destin s'accomplit sont rares : une seule fois par session.
 
-### Le Fil d'Atropos (Le Péché)
-Un vice, une faiblesse ou un instinct sombre. C'est ce qui causera sa perte ou le fera chuter.
+### C. Le Fil d'Atropos (Le Péché)
+Un vice, une faiblesse ou un instinct sombre. C'est ce qui causera la perte ou la chute du Héros.
 
-* **Atropos coupe le fil.** Elle est la plus redoutée des trois. Céder au Péché, c'est l'inviter à s'approcher de votre trame. Si vous laissez Atropos guider votre main, si vous cédez à votre vice ou à vos instincts sombres, vous regagnez 1 jeton pris à la Meneuse. En contrepartie, ajoutez +1d4 à votre jet actuel. Ce dé ne peut pas vous aider, mais il peut tout compliquer. Atropos coupe : elle vous revigore tout en effilochant votre fil.
+* **Atropos coupe le fil.** Elle est la plus redoutée des trois. Céder au Péché, c'est l'inviter à s'approcher de votre trame. Si vous laissez Atropos guider votre main, si vous cédez à votre vice ou à vos instincts sombres, vous regagnez 1 jeton pris à la Meneuse. En contrepartie, ajoutez +1d4 à votre jet actuel. 
+
+Vous le verrez en détail dans le chapitre 2, mais rajouter 1d4 à votre jet est un risque à prendre. Un risque d'accroc dans la trame de votre histoire. Ce dé ne vous aidera jamais car sa valeur ne dépassera jamais 4, ce qui ne permet jamais de réussir un test, mais il a plus de chance de générer un 1. Et comme vous le verrez dans le chapitre 2, ce n'est pas vraiment le signe d'une bonne nouvelle.
 
 > **Note sur les Fils :** Les Fils sont définis par la joueuse, mais doivent être validés par la Meneuse de jeu, et les autres joueuses si nécessaire, pour garantir qu'ils sont cohérents avec l'univers et le scénario. Il est également possible de définir des Fils au cours de la partie au gré des besoins narratifs, mais attention, cela ne doit pas se faire à la légère.
 

@@ -3,7 +3,7 @@
 
 *Ces trois personnages sont utilisés comme exemples tout au long du livre de base.
 Ils jouent dans un contexte d'épopée héroïque dans un monde de fantasy classique.
-En Fil de Soie, les héros sont des légendes en devenir : 5 cases de Fil Effiloché,
+En Fil de Soie, les héros sont des légendes en devenir : 5 cases de Blessure Légère,
 ils encaissent beaucoup avant de commencer à fléchir.*
 
 ---
@@ -37,7 +37,7 @@ ils encaissent beaucoup avant de commencer à fléchir.*
 | **Lachésis ; Le Destin** | "Trouver rédemption pour la bataille perdue et les soldats sacrifiés." | 1×/session, gratuit → +1d12 |
 | **Atropos ; Le Péché** | L'orgueil du guerrier ; refuser toute aide, même quand elle est nécessaire. | Gagner 1 jeton → +1d4 au jet |
 
-**Réserve du Métier :** `○ ○ ○ ○ ○ ○ ○`
+**Réserve du Fuseau :** `○ ○ ○ ○ ○ ○ ○`
 
 | Nom du Trait | Catégorie | Max | État actuel |
 |---|---|---|---|
@@ -50,20 +50,20 @@ ils encaissent beaucoup avant de commencer à fléchir.*
 | Équitation | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Commandement au combat | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 
-**Solidité du Fil :**
+**État de Santé :**
 
 | Palier | Cases | Malus |
 |---|---|---|
-| Fil Effiloché | `☐ ☐ ☐ ☐ ☐` | Aucun |
-| Fil Tendu | `☐ ☐ ☐ ☐` | +1d4 |
-| Fil à la Limite | `☐ ☐ ☐` | +3d4 |
+| Blessure Légère | `☐ ☐ ☐ ☐ ☐` | Aucun |
+| Blessure Grave | `☐ ☐ ☐ ☐` | +1d4 |
+| Blessure Mortelle | `☐ ☐ ☐` | +3d4 |
 
 **Ressources :**
 1. Épée ancestrale "Fil d'Acier" *(qualité incomparable ; lame familiale depuis sept générations)*
 2. Armure de plates familiale *(réparée cent fois, chaque marque raconte une bataille)*
 3. Titre de chevalier errant *(réseau de cours et de casernes ; portes ouvertes partout)*
 
----
+--pb--
 
 ## ELARA : Mage de Bataille
 
@@ -94,7 +94,7 @@ ils encaissent beaucoup avant de commencer à fléchir.*
 | **Lachésis ; Le Destin** | "Percer le secret de la catastrophe magique qui a détruit ma famille." | 1×/session, gratuit → +1d12 |
 | **Atropos ; Le Péché** | La curiosité sans limite ; tester ses propres limites jusqu'à la rupture. | Gagner 1 jeton → +1d4 au jet |
 
-**Réserve du Métier :** `○ ○ ○ ○ ○ ○ ○`
+**Réserve du Fuseau :** `○ ○ ○ ○ ○ ○ ○`
 
 | Nom du Trait | Catégorie | Max | État actuel |
 |---|---|---|---|
@@ -107,20 +107,20 @@ ils encaissent beaucoup avant de commencer à fléchir.*
 | Alchimie | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Éloquence | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 
-**Solidité du Fil :**
+**État de Santé :**
 
 | Palier | Cases | Malus |
 |---|---|---|
-| Fil Effiloché | `☐ ☐ ☐ ☐ ☐` | Aucun |
-| Fil Tendu | `☐ ☐ ☐ ☐` | +1d4 |
-| Fil à la Limite | `☐ ☐ ☐` | +3d4 |
+| Blessure Légère | `☐ ☐ ☐ ☐ ☐` | Aucun |
+| Blessure Grave | `☐ ☐ ☐ ☐` | +1d4 |
+| Blessure Mortelle | `☐ ☐ ☐` | +3d4 |
 
 **Ressources :**
 1. Grimoire personnel *(vingt ans de recherches, d'expériences et d'annotations)*
 2. Cristal de focalisation *(amplifie et précise les sorts ; irremplaçable)*
 3. Appartenance à la Guilde des Mages *(réseau et légitimité ; avec obligations)*
 
----
+--pb--
 
 ## LYRA : Voleuse de l'Ombre
 
@@ -151,7 +151,7 @@ ils encaissent beaucoup avant de commencer à fléchir.*
 | **Lachésis ; Le Destin** | "Retrouver l'objet volé à ma famille et restaurer notre honneur perdu." | 1×/session, gratuit → +1d12 |
 | **Atropos ; Le Péché** | L'appât du gain ; la tentation du coup parfait, même quand c'est trop risqué. | Gagner 1 jeton → +1d4 au jet |
 
-**Réserve du Métier :** `○ ○ ○ ○ ○ ○ ○`
+**Réserve du Fuseau :** `○ ○ ○ ○ ○ ○ ○`
 
 | Nom du Trait | Catégorie | Max | État actuel |
 |---|---|---|---|
@@ -164,13 +164,13 @@ ils encaissent beaucoup avant de commencer à fléchir.*
 | Mensonge et déguisement | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Connaissance du milieu criminel | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 
-**Solidité du Fil :**
+**État de Santé :**
 
 | Palier | Cases | Malus |
 |---|---|---|
-| Fil Effiloché | `☐ ☐ ☐ ☐ ☐` | Aucun |
-| Fil Tendu | `☐ ☐ ☐ ☐` | +1d4 |
-| Fil à la Limite | `☐ ☐ ☐` | +3d4 |
+| Blessure Légère | `☐ ☐ ☐ ☐ ☐` | Aucun |
+| Blessure Grave | `☐ ☐ ☐ ☐` | +1d4 |
+| Blessure Mortelle | `☐ ☐ ☐` | +3d4 |
 
 **Ressources :**
 1. Réseau d'informateurs *(yeux et oreilles dans chaque quartier de la ville)*
