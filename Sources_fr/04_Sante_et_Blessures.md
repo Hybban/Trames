@@ -40,5 +40,5 @@ Le calibre de la trame est choisi à la création du personnage (voir Chapitre I
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Fil de Lin** | 1 | 2 | 2 | Fin de scène | Scène de repos + Aide  |
 | **Fil de Laine** | 3 | 3 | 3 | Fin de scène | 1 scène de repos |
-| **Fil de Soie** | 5 | 4 | 3 | Immédiat (post-conflit) | Scène de repos simple |
-| **Fil d'or** | 6 | 6 | 4 | Immédiat (post-jet) | Automatique (fin de scène) |
+| **Fil de Soie** | 5 | 4 | 3 | Immédiat (à la fin de la scène) | Scène de repos simple |
+| **Fil d'or** | 6 | 6 | 4 | Immédiat (à la fin de la scène) | Automatique (fin de la scène) |

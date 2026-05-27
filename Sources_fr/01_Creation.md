@@ -53,7 +53,7 @@ Dans la mythologie grecque, les Moires sont les déesses du destin. Elles sont t
 
 À la création, vous définissez trois énoncés narratifs qui représentent l'âme de votre personnage. Ce sont vos Fils, et ils ne sont pas que de la fiction. Ils interagissent directement avec la réserve de jetons du Fuseau, le moteur d'énergie dramatique du jeu.
 
-**La Réserve du Fuseau** : En début de session, la Meneuse place au centre de la table un nombre de jetons égal au nombre de joueuses + 1. Cette réserve appartient aux joueuses au départ, mais peut vite se retrouver entre les mains de la Meneuse au fil des Fils invoqués.
+**La Réserve du Fuseau** : A chaque début de session, la Meneuse place au centre de la table un nombre de jetons égal au nombre de joueuses + 1. Cette réserve appartient aux joueuses au départ, mais peut vite se retrouver entre les mains de la Meneuse au fil des Fils invoqués. Si ces jetons ne sont pas utilisés, ils seront perdus.
 
 ### A. Le Fil de Clotho (La Conviction)
 Une phrase décrivant ce en quoi votre héros croit ou sa boussole morale. C'est ce qui le pousse à se dépasser. 
@@ -82,6 +82,8 @@ Avant la première scène, les Moires ont déjà choisi l'épaisseur de votre fi
 * **Fil de Soie :** Les héros sont taillés pour l'aventure. Ils tombent, mais se relèvent. L'épopée prime sur la tragédie.
 * **Fil d'Or :** Les héros sont légendaires. Le destin les protège autant qu'il les éprouve. Les Moires elles-mêmes regardent.
 
-Ces 4 modes de jeu impactent certains aspects de la mécanique de jeu, décrits dans les chapitres suivants.
+Ces 4 modes de jeu impactent certains aspects de la mécanique de jeu, décrits dans les chapitres suivants. Leur plus gros impact est sur la quantité de dégats que les personnages peuvent subir et comment les soigner. Le chapitre IV répondra à tous ces points.
 
 Des exemples plus concrets de création de personnages se trouvent en annexe à la fin du livre. Les modes Lin, Laine, et Soie sont couverts. Les fiches de ces "pré-tirés" sont également disponibles avec ce livret de règles. Les exemples de jeu donnés dans le livre feront références à ces personnages.
+
+Le mode Fil d'or est un mode avancé qui n'est pas couvert par les exemples. Il est recommandé de n'y jouer qu'après avoir bien compris le jeu. Des suppléments à Trames aideront les Meneuses à proposer des scénarios adaptés à ce mode de jeu.

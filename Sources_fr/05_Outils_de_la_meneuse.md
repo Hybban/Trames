@@ -3,7 +3,22 @@ Ce chapitre présente les outils exclusifs de la Meneuse de jeu pour animer et g
 
 On y présente les horloges qui représentent la progression d'une force dans le monde, comme une menace qui approche, un objectif qui avance, ou un processus en cours. Les horloges rendent le monde tangible : elles montrent aux joueuses que leurs actions ont un impact, et que leur inaction en a un aussi. Une horloge ne simule pas un adversaire. Elle simule **le temps et la conséquence**. Elles sont souvent liées aux résultats des manœuvres des joueuses.
 
-## 1. Les Horloges
+## 1. La Question Ouverte
+Les dés tranchent les actions des héros. Mais certaines questions que se pose la Meneuse ne sont pas des actions, mais plutôt des questions qui portent sur l'état du monde, les intentions d'un PNJ, ou la direction que prend l'histoire. Pour ces moments, une autre procédure s'impose.
+
+Quand une question est trop complexe pour être tranchée directement, décomposez-la en plusieurs questions fermées enchaînées, dont la réponse est *Oui* ou *Non*, et lancez 1d12 pour chacune.
+
+| Résultat | Réponse |
+|---|---|
+| 9 – 12 | **Oui** : L'élément est présent, positif, ou favorable. |
+| 5 – 8 | **Oui, mais…** : L'élément est présent, mais avec une nuance ou une complication. |
+| 1 – 4 | **Non** : L'élément est absent, négatif, ou défavorable. |
+
+Assemblez les réponses en une image cohérente qui servira de base à la narration.
+
+**Note :** La Question Ouverte n'est pas un substitut à la préparation. C'est un outil pour les moments où l'histoire prend une direction que la Meneuse n'avait pas anticipée et où le monde doit répondre de façon cohérente sans que tout soit décidé à l'avance.
+
+## 2. Les Horloges
 Une horloge est un cercle divisé en segments qui représente la progression d'une force dans le monde : une menace qui approche, un objectif qui avance, un processus en cours. Les horloges rendent le monde tangible : elles montrent aux joueuses que leurs actions ont un impact, et que leur inaction en a un aussi.
 
 Une horloge ne simule pas un adversaire. Elle simule **le temps et la conséquence**.
@@ -174,7 +189,7 @@ Des horloges peuvent se déclencher mutuellement ou se nourrir l'une de l'autre.
 
 **Laissez les joueuses créer des horloges.** Si une joueuse propose un objectif ambitieux qui s'étend sur plusieurs scènes, une horloge d'objectif est l'outil naturel pour le matérialiser. Les horloges ne sont pas que des outils de Meneuse, elles peuvent appartenir aux deux côtés de la table.
 
-## 2. Les Personnages Non-Joueurs
+## 3. Les Personnages Non-Joueurs
 
 Dans TRAMES, la Meneuse ne lance jamais de dés. Ce sont toujours les joueuses qui testent leurs héros contre le monde, et c'est le résultat de leurs jets qui détermine ce qui arrive à tous, y compris aux adversaires et aux alliés. Les PNJ ne sont pas des combattants symétriques : ce sont des forces narratives dotées de mécaniques légères.
 
@@ -265,7 +280,7 @@ Pour un PNJ non préparé, trois questions suffisent :
 
 Ces trois éléments permettent de jouer n'importe quel PNJ de façon cohérente, même sans préparation.
 
-## 3. Conseils de Cadrage
+## 4. Conseils de Cadrage
 Le rôle de la Meneuse dans TRAMES n'est pas de raconter une histoire toute faite, mais de poser des cadres stimulants où les héros et leurs Fils peuvent se révéler. Cadrer, c'est choisir où commence la tension et où elle s'arrête.
 
 ### A. Découper et Cadrer des Scènes
@@ -283,7 +298,7 @@ TRAMES traite de destins brisés, de péchés et de sacrifices tragiques. Ces th
 - **En écho à la Session Zéro :** La session zéro sert à définir la Promesse de Campagne et le calibre des Fils, mais elle doit aussi servir à poser les limites de la table. Utilisez des outils simples comme les voiles et les lignes (définir ce qui est acceptable de raconter et ce qui doit être passé sous silence) ou la Carte X pour garantir que le jeu reste un plaisir partagé.
 - **Le consentement dans le sacrifice :** Des règles comme la *Trame Brûlée* exigent que la table entière reconnaisse le poids de la perte. La Meneuse doit s'assurer que ce sacrifice est consenti, esthétique et porteur de sens pour la joueuse concernée, plutôt que de l'imposer de manière purement punitive.
 
-## 4. Préparer et Développer un Scénario
+## 5. Préparer et Développer un Scénario
 Dans TRAMES, un scénario n'est pas un script linéaire d'événements. C'est une situation instable, un ensemble de forces en tension que les actions des joueuses vont faire basculer dans un sens ou dans un autre.
 
 ### A. La Structure d'un Scénario Type

@@ -19,7 +19,7 @@ La Meneuse valide le nœud d'arc en accord avec la table. Ce n'est pas une réco
 * **d10 :** Expertise. Le héros est reconnu pour son haut niveau de compétence.
 * **d12 :** Perfection. Le héros atteint le sommet de son art. 
 
-Le d12 est le plus haut niveau de maîtrise possible et doit être justifié par l'histoire. Ce sont les fils les plus solides et les plus complexes de la trame du héros. C'est pour celà que ce dé représente l'archétype du héros au début de l'histoire.
+Le d12 est le plus haut niveau de maîtrise possible et doit être justifié par l'histoire. Ce sont les fils les plus solides et les plus complexes de la trame du héros. C'est pour celà que ce dé représente l'archétype du héros au début de l'histoire. Et bien qu'au début de sa carrière, seul l'archétype du personnage est à d12, au fil des arcs, d'autres traits peuvent atteindre ce niveau.
 
 * **Nouveaux Traits :** L'histoire peut justifier l'apparition d'un nouveau trait (apprentissage, nouveau titre). Il commence généralement à la valeur **d6**. On rajoute des fils à la trame du héros, renforçant sa complexité et sa beauté.
 

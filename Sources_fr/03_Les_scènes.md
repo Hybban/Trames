@@ -96,7 +96,7 @@ Kael, Jaxx et Vex sont pris au piège dans une station minière dont la section 
 
 **La Résolution 1 :** La porte cède. Kael augmente *Mécanique de base* d'un cran pour le reste de la scène. La Meneuse ne coche pas l'horloge.
 
-**L'Action 2 :** Jaxx doit stabiliser le système de pressurisation depuis un panneau endommagé. Elle utilise **Tisser un nouveau Fil** avec son Archétype *Ingénieure de Génie* (d12) et sa ressource **Générateur à plasma illégal** : ce qui lui permet de doubler un dé. Elle obtient un 6, et l'un de ses dés affiche un 1 ; **L'Accroc**.
+**L'Action 2 :** Jaxx doit stabiliser le système de pressurisation depuis un panneau endommagé. Elle utilise **Tendre le Fil** avec son Archétype *Ingénieure de Génie* (d12) et sa ressource **Générateur à plasma illégal** : ce qui lui permet de doubler un dé. Elle obtient un 6, et l'un de ses dés affiche un 1 ; **L'Accroc**.
 
 **La Résolution 2 :** La pressurisation est partiellement stabilisée ; la Meneuse coche 2 segments sur l'horloge mais ne la remplit pas encore. Le prix : Jaxx coche une case de **Blessure Légère** (brûlure de plasma) ET l'Accroc se déclenche ; le générateur surchauffe. La ressource **Générateur à plasma illégal** devient inaccessible pour le reste de la scène.
 
@@ -138,7 +138,7 @@ Lyra doit convaincre un passeur notoire, **Moran le Borgne**, disposition initia
 
 **La Résolution :** La Meneuse révèle que Moran a peur ; pas de Lyra, mais d'une dette qu'il doit à la même faction que Lyra traque. Elle choisit alors de l'aborder non pas comme une acheteuse, mais comme quelqu'un qui peut régler son problème en même temps que le sien.
 
-Elle enchaîne avec **Tisser un nouveau Fil** : en utilisant son **Réseau d'informateurs** comme monnaie d'échange (doubler un dé). Elle obtient un 8 ; réussite avec prix.
+Elle enchaîne avec **Nouer un Fil** : en utilisant son **Réseau d'informateurs** comme monnaie d'échange (doubler un dé). Elle obtient un 8 ; réussite avec prix.
 
 **La Résolution :** Moran parle. Mais la ressource est entamée ; un de ses informateurs est désormais connu de Moran, ce qui crée un risque pour les sessions suivantes.
 

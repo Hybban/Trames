@@ -48,7 +48,7 @@ Tendre le Fil, c'est choisir de ne pas plier. Pas d'attaque, pas de fuite ; une 
 
 - **9-12 :** Vous tenez. L'obstacle est surmonté ou repoussé. Augmentez un trait utilisé d'un cran ; la pression vous a renforcé.
 - **5-8 :** Vous passez, mais vous avez souffert. Diminuez un trait d'un cran ou prenez une Blessure Légère ; vous avez encaissé quelque chose.
-- **1-4 :** Vous flanchez. La menace vous frappe de plein fouet. Les conséquences sont immédiates et proportionnelles.
+- **1-4 :** Vous flanchez. La menace vous frappe de plein fouet. Les conséquences sont immédiates et proportionnelles, que se soit en terme de blessure, de perte de trait, de perte de ressource ou de complications narrative.
 
 ### B. Lire la Trame
 *Observer, analyser, comprendre ce que la situation ou un personnage révèle sans le dire.*
@@ -126,29 +126,23 @@ Une joueuse qui hésite à offrir un dé devrait se poser la question honnêteme
 
 > **Note :** Une contributrice dont le trait offert est déjà au minimum (d6) peut quand même participer. Si ce trait doit descendre suite à un 5-8, il devient inutilisable pour le reste de la scène, comme pour tout trait au minimum.
 
-## 5. La Question Ouverte
-Les dés tranchent les actions des héros. Mais certaines questions que se pose la Meneuse ne sont pas des actions, mais plutôt des questions qui portent sur l'état du monde, les intentions d'un PNJ, ou la direction que prend l'histoire. Pour ces moments, une autre procédure s'impose.
+### F. Fils du destin lors des actions collectives
 
-Quand une question est trop complexe pour être tranchée directement, décomposez-la en plusieurs questions fermées enchaînées, dont la réponse est *Oui* ou *Non*, et lancez 1d12 pour chacune.
+Et si une contributrice voulait utiliser un de ses fils du destin lors d'une action collective ? Par défaut ce n'est pas dans les règles de base, puisque c'est le destin de la lanceuse qui est en ligne de mire. Mais il est possible que l'action de la lanceuse principale vienne impacter le destin d'un autre personnage. Dans ce cas, nous vous proposons plusieurs options :
 
-| Résultat | Réponse |
-|---|---|
-| 9 – 12 | **Oui** : L'élément est présent, positif, ou favorable. |
-| 5 – 8 | **Oui, mais…** : L'élément est présent, mais avec une nuance ou une complication. |
-| 1 – 4 | **Non** : L'élément est absent, négatif, ou défavorable. |
+* **Clotho et Lachesis :** Mécaniquement et narrativement, c'est parfait. Si la Conviction d'un personnage le pousse à se sacrifier pour aider un allié, dépenser 1 jeton du Métier pour ajouter un +1d12 au pool commun est logique et héroïque. De même, si le Destin de la contributrice s'aligne avec l'action, ajouter ce +1d12 gratuitement (une fois par session) est un grand moment de jeu.
+* **Atropos :** Invoquer le Péché permet de regagner 1 jeton du Métier en contrepartie d'un ajout de +1d4 au jet , ce qui augmente considérablement le risque de déclencher un Accroc (un "1"). Mais dans ce cas précis, la contributrice est la seule à subir les conséquences de l'Accroc, ce qui en fait un choix risqué mais gérable. Et surtout qui n'impacte pas la lanceuse principale.
 
-Assemblez les réponses en une image cohérente qui servira de base à la narration.
+Dans tous les cas, pour l'utilisation des fils du destin lors d'une action collective, la lanceuse principale est la seule à décider si l'utilisation des fils est pertinente ou non. Si la lanceuse principale est d'accord avec l'utilisation des fils du destin, alors le jet est effectué avec les bonus/malus adéquats.
 
-**Note :** La Question Ouverte n'est pas un substitut à la préparation. C'est un outil pour les moments où l'histoire prend une direction que la Meneuse n'avait pas anticipée et où le monde doit répondre de façon cohérente sans que tout soit décidé à l'avance.
-
-## 6. Dégradation et Épuisement
+## 5. Dégradation et Épuisement
 La valeur d'un trait fluctue durant la partie. Le chapitre 03 décrit les règles de santé et de récupération des traits.
 
 * **L'Archétype :** Ce trait est le cœur de votre identité ; il ne peut **jamais descendre en dessous du d6** et donc il ne peut jamais être désactivé.
 * **Autres Traits :** Si un trait (Comportement ou Capacité) doit descendre en dessous du d6, il devient **inutilisable** au moins pour le reste de la scène. Il ne pourra être sollicité à nouveau qu'après une période de repos ou un changement de contexte narratif.
 * **Autres cas :** Si un trait doit descendre et que vous n'avez pas envie de le descendre (ou que vous ne pouvez pas) : on pourra aussi sacrifier une ressource ou prendre une blessure légère à la place. De même, si vous deviez augmenter un trait et que celui-ci atteint son maximum, le joueur ou la joueuse pourra guérir une case de blessure à la place ou récupérer l'usage d'une ressource. Utilisez à bon escient ces flexibilités pour servir le récit.
 
-## 7. La Trame Brûlée : le Sacrifice Ultime
+## 6. La Trame Brûlée : le Sacrifice Ultime
 Parfois, les Moires décident que votre histoire n'est pas terminée, mais elles exigent un prix. La Trame Brûlée est le moment où un héros sacrifie une part de lui-même pour que son fil continue. Ce n'est pas une victoire. C'est une survie qui laisse une cicatrice permanente dans le tissu du personnage.
 
 * **L'Activation :** La Trame Brûlée ne peut être invoquée que face à une issue véritablement fatale ; une blessure mortelle finale, ou l'échec irréversible d'un objectif de fin d'arc.
@@ -182,16 +176,16 @@ L'utilisation des fils permet de dépasser la limite habituelle de 3 dés par je
 
 * **Le Fil de Lachésis (Le Destin) :** Une fois par session, si vous agissez en lien avec votre destinée, ajoutez **+1d12** à votre jet. Cet usage ne coûte pas de point du fuseau, mais est limité par sa rareté. Ça peut être pour la réaliser, la combattre, ou la comprendre.
 
-* **Le Fil de Clotho (La Conviction) :** Si votre action est portée par votre conviction profonde, dépensez **1 jeton** du Fuseau pour ajouter **+1d12** à votre jet. Le jeton est alors donné à la Meneuse (ou "engagé" en solo).
+* **Le Fil de Clotho (La Conviction) :** Si votre action est portée par votre conviction profonde, dépensez **1 jeton** du Fuseau pour ajouter **+1d12** à votre jet. Le jeton est alors donné à la Meneuse.
 
-* **Le Fil d'Atropos (Le Péché) :** Si vous cédez à vos mauvais instincts ou à votre vice, vous pouvez **regagner 1 jeton** (pris à la Meneuse ou "réactivé" en solo). En invoquant Atropos, vous laissez le ciseau s'approcher de votre fil. Ajoutez **+1d4** à votre jet. Ce dé ne peut pas vous aider car sa valeur ne dépassera jamais 4, mais il peut tout compliquer car il a plus de chance de générer un **1**. C'est le prix de l'abandon.
+* **Le Fil d'Atropos (Le Péché) :** Si vous cédez à vos mauvais instincts ou à votre vice, vous pouvez **regagner 1 jeton**. En invoquant Atropos, vous laissez le ciseau s'approcher de votre fil. Ajoutez **+1d4** à votre jet. Ce dé ne peut pas vous aider car sa valeur ne dépassera jamais 4, mais il peut tout compliquer car il a plus de chance de générer un **1**. C'est le prix de l'abandon.
 
 --pb--
 
 ### B. L'Horloge du Péché
 Chaque invocation d'Atropos laisse une marque. Prise isolément, elle n'est qu'un jeton regagné, un d4 ajouté, une faiblesse assumée. Mais les Moires comptent. Et ce qui s'accumule finit toujours par peser.
 
-En début de campagne, la Meneuse crée une **Horloge du Péché** pour chaque héros ; un cercle de 4, 6, ou 8 segments, calibré selon le rapport que la joueuse veut entretenir avec le vice de son personnage. Le mode de jeu choisi (fil de lin, de laine, de soie ou d'or) peut aussi impacter la taille de cette horloge.
+En début de campagne, la Meneuse crée une **Horloge du Péché** pour chaque héros ; un cercle de 4, 6, ou 8 segments, calibré selon le rapport que la joueuse veut entretenir avec le vice de son personnage.
 
 | Taille | Ce que ça signifie |
 |---|---|
@@ -209,19 +203,19 @@ Une fois la conséquence déclenchée, l'horloge se remet à zéro. Atropos a co
 
 Voici trois exemples qui s'appuient sur les Péchés des personnages pré-tirés qui sont fournis avec cet ouvrage.
 
-### A. Groupe Fil de Lin : Le point de non-retour d'Arthur
+#### Groupe Fil de Lin : Le point de non-retour d'Arthur
 
 * **Son Péché :** La violence comme seule réponse ; agir avant de réfléchir quand la pression monte.
 * **La situation :** Le groupe a coincé un jeune acolyte terrifié du culte qui possède des informations vitales. L'acolyte, paniqué, commence à hurler et menace d'alerter tout le quartier. Arthur invoque son Péché pour le faire taire physiquement, et la joueuse coche le dernier segment de son Horloge du Péché.
 * **La conséquence irréversible :** Arthur frappe trop fort, beaucoup trop fort. L'acolyte meurt sur le coup sans avoir parlé. La conséquence n'est pas qu'une information perdue : Scotland Yard a maintenant un meurtre brutal sur les bras et Arthur devient un suspect recherché. De plus, la nature de cet acte brise la dynamique avec ses camarades (notamment Béatrice, dont la Conviction est que "Les morts méritent que leur vérité soit entendue" ). La tache sur son âme et son statut de fugitif sont désormais des données permanentes de la campagne.
 
-### B. Groupe Fil de Laine : Le chef-d'œuvre toxique de Jaxx
+#### Groupe Fil de Laine : Le chef-d'œuvre toxique de Jaxx
 
 * **Son Péché :** L'obsession du travail ; sacrifier tout le reste pour le projet en cours.
 * **La situation :** *La Lanterne Brisée* est poursuivie dans un champ d'astéroïdes. Jaxx s'est enfermée dans la salle des machines pour pousser son Générateur à plasma illégal au-delà de ses limites afin de leur donner la poussée nécessaire. Elle coche le dernier segment de son horloge pour réussir sa manipulation coûte que coûte.
 * **La conséquence irréversible :** Le vaisseau s'échappe, mais l'obsession de Jaxx l'a poussée à ignorer sciemment les alarmes de radiations pour ne pas interrompre son flux de travail. Le compartiment de soute adjacent est inondé de plasma brut. Leurs réserves, ou pire, un PNJ allié qui s'y trouvait, sont perdus à jamais. De plus, cette section du vaisseau est définitivement irradiée et condamnée ; *La Lanterne Brisée* perd une partie de ses fonctionnalités de façon permanente, rappelant chaque jour à Jaxx le prix de son obsession.
 
-### C. Groupe Fil de Soie : Le bris de l'Orgueil de Thorne
+#### Groupe Fil de Soie : Le bris de l'Orgueil de Thorne
 
 * **Son Péché :** L'orgueil du guerrier ; refuser toute aide, même quand elle est nécessaire.
 * **La situation :** Lors d'un assaut de créatures corrompues, Thorne décide de tenir un goulet d'étranglement seul pour laisser Elara et Lyra accomplir un rituel. Les monstres sont trop nombreux, mais il invoque son Péché pour refuser de battre en retraite ou d'appeler à l'aide. Son horloge se remplit.

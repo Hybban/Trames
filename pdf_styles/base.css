@@ -211,3 +211,9 @@ img {
     margin: 0.5cm auto;
     border-radius: 4px;
 }
+
+/* Hyperliens */
+a {
+    color: var(--accent-color);
+    text-decoration: underline;
+}

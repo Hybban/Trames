@@ -23,6 +23,12 @@ def aggregate_html(directory):
         # Convert [IMG](...) (without exclamation mark) to standard markdown image ![IMG](...)
         content = re.sub(r'(?<!\!)\[IMG\]\((.*?)\)', r'![IMG](\1)', content, flags=re.IGNORECASE)
         
+        # Convert [URL="text"][url] or [URL=text][url] to standard markdown link [text](url)
+        content = re.sub(r'\[URL=["\'](.*?)["\']\]\[(https?://.*?)\]', r'[\1](\2)', content, flags=re.IGNORECASE)
+        content = re.sub(r'\[URL=([^"\'].*?)\]\[(https?://.*?)\]', r'[\1](\2)', content, flags=re.IGNORECASE)
+        # Fallback for old format [URL][url] -> [URL](url)
+        content = re.sub(r'\[URL\]\[(https?://.*?)\]', r'[URL](\1)', content, flags=re.IGNORECASE)
+        
         # Replace --pb-- tag (with optional spaces) with a page break div before markdown conversion
         content = re.sub(r'--\s*pb\s*--', '<div class="page-break"></div>', content)
             

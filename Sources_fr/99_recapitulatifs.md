@@ -45,10 +45,10 @@
 - 5-8 : Victoire amère ; trait diminue et Blessure Légère.
 - 1-4 : L'adversaire prend le dessus (Blessure Grave ou pire).
 
-**Tisser un nouveau Fil** *(utiliser une ressource)*
-- 9-12 : La ressource est parfaitement employée et reste disponible.
-- 5-8 : Objectif atteint, ressource entamée ou temporairement inaccessible.
-- 1-4 : La ressource fait défaut ou se retourne contre vous.
+**Nouer un Fil** *(créer un plan, un lien, une alliance, une solution)*
+- 9-12 : La création tient (plan solide, alliance acquise). Augmentez un trait utilisé d'un cran (ou remontez le trait d'un allié soutenu).
+- 5-8 : La création existe mais est fragile ou incomplète (coût narratif, ou diminution d'un trait en cas de soutien).
+- 1-4 : Le nœud ne prend pas (complication, la création vous échappe).
 
 ---
 
@@ -190,13 +190,12 @@ Une campagne peut se terminer différemment pour chaque héros.
 
 ## LES CALIBRES DE TRAME
 
-| Calibre | Légère | Grave | Mortelle | Récup. légère | Récup. profonde |
-|---|---|---|---|---|---|
-| Fil de Lin | 1 | 2 | 2 | Fin de scène | Scène + aide |
-| Fil de Laine | 3 | 3 | 3 | Fin de scène | 1 scène de repos |
-| Fil de Soie | 5 | 4 | 3 | Immédiat (post-conflit) | Scène simple |
-| Fil d'Or | 6 | 6 | 4 | Immédiat (post-jet) | Automatique (fin de scène) |
-
+| Niveau | Blessure Légère | Blessure Grave | Blessure Mortelle | Récupération légère | Récupération profonde |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Fil de Lin** | 1 | 2 | 2 | Fin de scène | Scène de repos + Aide  |
+| **Fil de Laine** | 3 | 3 | 3 | Fin de scène | 1 scène de repos |
+| **Fil de Soie** | 5 | 4 | 3 | Immédiat (à la fin de la scène) | Scène de repos simple |
+| **Fil d'or** | 6 | 6 | 4 | Immédiat (à la fin de la scène) | Automatique (fin de la scène) |
 ---
 
 ## RAPPEL : LA RÉSERVE DU FUSEAU
