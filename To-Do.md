@@ -4,6 +4,7 @@
 
 -   Expliquer comment fonctionne un scénario type et comment le scénario se développe au fil de la partie.
 -   Traduire les fichier html pour générer les fiches de personnages et les feuilles de personnages en anglais.
+-   Mettre à jour les fiches de personnage html pour prendre en compte les changements des fichiers (tableau des blessures, etc.)
 -   Réécrire les manoeuvres de manière plus cohérente. (utilisation des ressources de tisser un fil par exemple)
 
 Une réorganisation possible

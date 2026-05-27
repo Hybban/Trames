@@ -165,7 +165,7 @@ Alors qu'une abomination occulte s'apprête à éviscérer Charles dans les sous
 
 Au cœur du tombeau scellé , un piège arcanique libère une onde de mort inévitable qui s'apprête à vaporiser Thorne et Lyra. Elara s'interpose, lève son cristal de focalisation et absorbe l'entièreté de la charge brute. L'onde est neutralisée dans une réussite éclatante , mais l'effort fracasse son esprit et la joueuse sacrifie le trait **"Méthodique et prudente"**. L'esprit d'Elara, autrefois si structuré, est désormais fracturé par le traumatisme arcanique. Elle survit, mais elle ne sait plus analyser, préparer ni lancer ses sorts avec la rigueur d'antan. Sa magie deviendra instinctive, erratique et dangereuse pour elle-même, bouleversant totalement son approche tactique pour la suite de la campagne.
 
-## 8. Le Fuseau des Moires
+## 7. Le Fuseau des Moires
 
 Le "Fuseau" remplace les points de chance classiques et a été présenté dans la partie précédente. C'est un système d'échange entre vos convictions, votre destinée et vos failles. Les trois Moires n'interviennent pas de la même façon dans votre histoire. Clotho file : elle vous coûte quelque chose, parce que créer demande un effort. Lachésis mesure : elle s'aligne sur vous gratuitement, parce que le Destin ne se force pas, il se reconnaît. Atropos coupe : elle vous donne de l'énergie en échange d'un risque, parce que céder à vos instincts sombres vous revigore tout en effilochant votre fil.
 

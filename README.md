@@ -13,13 +13,28 @@ Le projet suit une règle stricte de féminisation des termes techniques :
 - Quand des modifications ont été validées, il faut noter les impacts dans le fichier README.md.
 
 ### 📝 Modifications récentes et impacts (Session en cours)
+- **Mise à jour complète des terminologies de Blessures et du Fuseau** :
+  - **Système de Blessures** : Remplacement de "Fil Effiloché" par **Blessure Légère**, "Fil Tendu" par **Blessure Grave**, "Fil à la Limite" par **Blessure Mortelle**, et de "Solidité du Fil" par **État de Santé** (avec correction des accords de genre féminin et pluriels associés) dans tous les fichiers sources Markdown et aides de jeu.
+  - **Réserve du Fuseau** : Remplacement dramatique de "Le Métier des Moires" par **Le Fuseau des Moires**, "La Réserve du Métier" par **La Réserve du Fuseau**, et de "point du métier" / "jeton du Métier" par **point du fuseau** / **jeton du Fuseau**.
+  - **Le Fuseau** : Remplacement de "Le Métier à Tisser" par simplement **Le Fuseau** pour éviter l'anachronisme avec les métaphores de la fileuse.
+- **Harmonisation et nomenclature de la manœuvre "Nouer un Fil"** :
+  - Renommage de l'ancienne formulation "Tisser un nouveau Fil" par **"Nouer un Fil"** dans les exemples de jeu (`03_Les_scènes.md`) et dans les fiches récapitulatives (`99_recapitulatifs.md`).
+  - Alignement complet des conséquences mécaniques de "Nouer un Fil" (création de plans, liens, alliances ou solutions avec réussites totale 9-12, partielle avec coût 5-8 et échec 1-4) au lieu de l'explication obsolète liée à la dépense d'une ressource.
+  - Remplacement dans l'exemple de Jaxx de "Tisser un nouveau Fil" par **Tendre le Fil** (manœuvre défensive cohérente avec la stabilisation du panneau face à une menace d'implosion).
+  - Validation automatique par recherche de sécurité (0 occurrence résiduelle de l'ancienne formulation).
+- **Prise en charge de la balise URL dynamique cliquable** :
+  - Support dans le moteur de rendu `pdf_generator_core.py` du format de balise `[URL="texte à afficher dans le pdf"][lien url complet]` (avec ou sans guillemets optionnels) pour l'intégration de liens hypertextes actifs et cliquables lors de la génération PDF par Playwright.
+  - Stylisation des hyperliens (`a`) dans `base.css` utilisant le bleu ardoise du thème (`--accent-color`) et le souligné d'hyperlien classique.
+  - Mise en application dans `00_Introduction.md` pour un lien cliquable renvoyant vers l'article sur la sécurité émotionnelle.
+- **Restauration et perfectionnement des signets/bookmarks PDF** :
+  - Modification de `pdf_generator_core.py` pour supprimer la conversion des titres `h3` à `h6` en balises `div`, permettant à Playwright/Chromium d'inclure la totalité des titres dans l'outline (sommaire interactif) des PDFs générés.
 - **Réorganisation des chapitres de règles** :
   - Le Chapitre II (`02_Mecanique_de_Resolution.md`) regroupe désormais la mécanique de base, les **Manœuvres Fondamentales** (*Tendre le Fil*, *Lire la Trame*, *Couper le Fil*, *Nouer un Fil*) et les **Actions Collectives** (structure, lancer commun et table des conséquences) pour une référence facilitée côté joueurs.
-  - Le Chapitre V (`05_Outils_de_la_meneuse.md`) est exclusivement centré sur la Meneuse de jeu et s'enrichit de deux nouvelles sections majeures : **Conseils de Cadrage** (découpage de scènes, intégration narrative et visuelle des horloges, sécurité émotionnelle à la table) et **Préparer et Développer un Scénario** (les 4 piliers d'un scénario type et conseils de maîtrise).
+  - Le Chapitre V (`05_Outils_de_la_meneuse.md`) est exclusivement centré sur la Meneuse de jeu et s'enrichit de deux nouvelles sections majeures : **La Question Ouverte** (II.5 déplacé ici pour plus de cohérence), **Conseils de Cadrage** (découpage de scènes, sécurité émotionnelle à la table) et **Préparer et Développer un Scénario**.
 - **Nettoyage typographique complet (Tirets cadratifs)** : Retrait de l'ensemble des tirets cadratifs (`—`) dans tous les fichiers Markdown sources français au profit d'une ponctuation sémantique plus fluide et rigoureuse (virgules doubles pour les incises, deux-points et points-virgules).
-- **Optimisation Extrême de la taille des PDFs (JPEG + tagged=False + PyMuPDF)** :
+- **Optimisation Extrême de la taille des PDFs (JPEG + tagged=True + PyMuPDF)** :
   - **Images & Logos** : Remplacement de la compression WebP par une compression **JPEG (qualité 70)** avec conversion automatique RVB pour toutes les images opaques. Cela permet au moteur de rendu Chromium d'injecter nativement les images dans le PDF (`/Filter /DCTDecode`) sans devoir les décompresser en bitmaps bruts stockés sous format PNG/FlateDecode lourd. Le poids des 7 illustrations du livre anglais dans le PDF est réduit de **92%** (passant de 2 045 Ko à seulement 160 Ko).
-  - **Structure & Accessibilité** : Désactivation des balises d'accessibilité redondantes (`tagged=False`), supprimant **5 289 objets `/StructElem` inutiles** (~570 Ko de métadonnées de structure) tout en préservant le sommaire interactif.
+  - **Structure & Accessibilité** : Activation de l'accessibilité (`tagged=True`), assurant la bonne capture des outlines/bookmarks par Playwright et PyMuPDF tout en optimisant la structure.
   - **Polices & Nettoyage final** : Utilisation des polices système élégantes (Century Gothic, Garamond) et traitement par `pymupdf` (`fitz`) pour fusionner les ressources dupliquées. Les livres de base descendent ainsi à seulement **0.63 Mo / 649 Ko** (FR) et **0.70 Mo / 714 Ko** (EN) !
 - **Retrait complet de la mention "SRD"** : Remplacement par "Livre de base" (fr) et "Core Rulebook" (en) dans l'ensemble des sources Markdown, documentations et scripts.
 - **Renommage du script principal** : Le script de génération du livre de base `generate_srd.py` a été renommé en `generate_base.py`.
