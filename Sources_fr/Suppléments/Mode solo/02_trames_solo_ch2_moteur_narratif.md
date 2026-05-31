@@ -1,4 +1,4 @@
-# II. LE MOTEUR NARRATIF
+# II. Le Moteur Narratif
 
 En solo, le Moteur Narratif remplace la Meneuse de jeu. Il ne raconte pas à votre place ; il *répond* à vos questions, *réagit* à vos actions, et *relance* les scènes quand l'inspiration manque. C'est un outil de résistance contre la tentation de toujours choisir ce qui arrange votre héros.
 
@@ -6,7 +6,7 @@ Le Moteur repose sur trois mécanismes : l'Oracle du Destin pour les questions f
 
 ---
 
-## 1. L'ORACLE DU DESTIN
+## 1. L'Oracle du Destin
 
 Quand vous posez une question fermée à l'univers, une question dont la réponse est *Oui* ou *Non*, lancez 1d12 et lisez le résultat.
 
@@ -54,7 +54,13 @@ Consultez l'Oracle quand la réponse vous importe *et* quand vous ne savez genui
 
 ---
 
-## 2. LA QUESTION OUVERTE
+### Gérer les conséquences sans Meneuse
+
+Lorsque vous obtenez une Réussite avec prix (5-8), c'est à vous de définir la conséquence. Si le niveau de menace d'un PNJ n'est pas évident, ou si vous manquez d'inspiration pour un prix purement narratif, ne bloquez pas l'action : infligez-vous une case de Fil Effiloché, bloquez l'utilisation d'une ressource, ou consultez immédiatement la **Table F, Complications** (chapitre VI) pour laisser le hasard dicter le contrecoup de votre action.
+
+---
+
+## 2. La Question Ouverte
 
 Certaines situations sont trop complexes pour une question fermée. *"Que se passe-t-il dans cette ville ?"* ou *"Quelle est la vraie motivation de ce PNJ ?"* ne peuvent pas être tranchées par un simple Oui ou Non.
 
@@ -77,7 +83,7 @@ Si les réponses enchaînées restent trop vagues, consultez la **Table A, Actio
 
 ---
 
-## 3. L'ATTITUDE DES PNJ
+## 3. L'Attitude des PNJ
 
 Quand vous rencontrez un PNJ dont la disposition n'est pas établie par le contexte, lancez 1d12 pour déterminer son attitude initiale.
 
@@ -99,7 +105,7 @@ Pour générer rapidement un PNJ au-delà de son attitude, consultez la **Table 
 
 ---
 
-## 4. RELANCER UNE SCÈNE QUI STAGNE
+## 4. Relancer une Scène qui Stagne
 
 Parfois, l'histoire s'immobilise. Vous ne savez pas quoi faire de votre héros, l'Oracle répond *Oui, mais…* sans que rien ne s'impose, et la fiction tourne en rond. C'est normal ; cela arrive même aux meilleures Meneuses.
 
@@ -110,7 +116,3 @@ Quand cela se produit, dans l'ordre :
 **Étape 2, Consultez la Table C.** La **Table C, Coup de Théâtre** (chapitre VI) est conçue pour exactement ce moment. Elle injecte un événement extérieur qui change les paramètres de la scène sans vous demander de l'inventer.
 
 **Étape 3, Clôturez la scène.** Si rien ne fonctionne, consultez la **Table H, Fins de Scène** (chapitre VI) pour trouver comment refermer proprement cette scène et en ouvrir une nouvelle. Une scène qui se termine est toujours préférable à une scène qui tourne à vide.
-
----
-
-* ; Chapitre suivant : III. Structures de Campagne*

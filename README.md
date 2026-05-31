@@ -13,7 +13,15 @@ Le projet suit une règle stricte de féminisation des termes techniques :
 - Quand des modifications ont été validées, il faut noter les impacts dans le fichier README.md.
 
 ### 📝 Modifications récentes et impacts (Session en cours)
+- **Génération automatique d'une Table des matières (TOC) interactive** :
+  - **Algorithme double-passe robuste** : Le moteur de rendu `pdf_generator_core.py` effectue désormais un premier rendu temporaire (brouillon) pour analyser la pagination réelle des titres `h1` via `PyMuPDF`, puis injecte une table des matières rigoureusement paginée lors de la seconde passe.
+  - **Esthétique premium adaptative** : Ajout d'une mise en page raffinée avec pointillés extensibles (dot leaders) reliant chaque chapitre à sa page. La table des matières hérite dynamiquement de la charte graphique et des couleurs du thème actif (Noir, Print, ou thèmes spécifiques des suppléments).
+  - **Multilingue et interactive** : Titrage dynamique en français (`Table des matières`) ou anglais (`Table of Contents`), avec des hyperliens PDF internes cliquables facilitant la navigation.
 - **Mise à jour complète des terminologies de Blessures et du Fuseau** :
+  - **Feuilles de personnages HTML (vierges & exemples / avec ou sans fond)** : 
+    - Mise à jour de `trames_fiches_vierges.html` et `trames_fiches_personnages.html` avec les nouveaux termes (**Le Fuseau des Moires**, **La Réserve du Fuseau**, **État de Santé**, **Blessures Légères/Graves/Mortelles**), et nettoyage structurel complet (retrait des sections obsolètes *Trame Brûlée* et *Notes* sur les fiches vierges).
+    - Création des fiches alternatives **sans couleur de fond** (`trames_fiches_vierges_print.html` et `trames_fiches_personnages_print.html`) dotées de bordures élégantes, idéales pour l'impression domestique afin d'économiser l'encre des joueuses.
+    - Compilation automatisée par Playwright de l'ensemble des 4 versions en PDF A4 vectoriel haute fidélité.
   - **Système de Blessures** : Remplacement de "Fil Effiloché" par **Blessure Légère**, "Fil Tendu" par **Blessure Grave**, "Fil à la Limite" par **Blessure Mortelle**, et de "Solidité du Fil" par **État de Santé** (avec correction des accords de genre féminin et pluriels associés) dans tous les fichiers sources Markdown et aides de jeu.
   - **Réserve du Fuseau** : Remplacement dramatique de "Le Métier des Moires" par **Le Fuseau des Moires**, "La Réserve du Métier" par **La Réserve du Fuseau**, et de "point du métier" / "jeton du Métier" par **point du fuseau** / **jeton du Fuseau**.
   - **Le Fuseau** : Remplacement de "Le Métier à Tisser" par simplement **Le Fuseau** pour éviter l'anachronisme avec les métaphores de la fileuse.

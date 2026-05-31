@@ -81,7 +81,7 @@ def embed_images_in_html(html_content, base_dir):
         return match.group(0)
     return re.sub(r'src=["\'](.*?)["\']', replacer, html_content)
 
-def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_subtitle, source_dir, theme_css_path, footer_text, cover_logo_path=None, document_type_text=None):
+def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_subtitle, source_dir, theme_css_path, footer_text, cover_logo_path=None, document_type_text=None, add_toc=True):
     """Génère un PDF à partir du contenu HTML et du thème spécifié utilisant Playwright."""
     # Embed images
     html_body = embed_images_in_html(html_body, source_dir)
@@ -124,7 +124,186 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
                 if ext == '.gif': mime = 'image/gif'
                 logo_html = f'<img src="data:{mime};base64,{encoded_logo}" class="cover-logo" alt="Logo">'
 
-    # Template HTML complet
+    # Extraction des chapitres H1 pour la Table des Matières
+    h1_pattern = re.compile(r'<h1\s+id="([^"]+)"[^>]*>(.*?)</h1>', re.IGNORECASE)
+    h1_headers = []
+    for match in h1_pattern.finditer(html_body):
+        h1_id = match.group(1)
+        h1_text = re.sub(r'<[^>]+>', '', match.group(2)).strip()
+        h1_headers.append({"id": h1_id, "text": h1_text})
+
+    has_h1s = len(h1_headers) >= 1
+    generate_toc = add_toc and has_h1s
+
+    # Lancement du navigateur
+    browser = playwright.chromium.launch()
+    page = browser.new_page()
+
+    final_html_body = html_body
+
+    if generate_toc:
+        # --- PASSE 1 : Génération d'un brouillon pour extraire la pagination ---
+        toc_placeholder = '<div class="table-of-contents" style="visibility: hidden; break-after: page; min-height: 100vh;"></div>'
+        draft_html_body = toc_placeholder + html_body
+        
+        draft_full_html = f"""
+        <!DOCTYPE html>
+        <html lang="{lang}">
+        <head>
+            <meta charset="UTF-8">
+            <style>
+                {base_css}
+                {theme_css}
+            </style>
+        </head>
+        <body>
+            <div class="cover-page">
+                <h1 class="cover-title">{cover_title}</h1>
+                <p class="cover-subtitle">{cover_subtitle}</p>
+                <p class="cover-subtitle">{document_type_text}</p>
+                {logo_html}
+            </div>
+            <div class="content">
+                {draft_html_body}
+            </div>
+        </body>
+        </html>
+        """
+        
+        draft_pdf_path = output_file + ".draft"
+        page.set_content(draft_full_html)
+        page.wait_for_load_state("networkidle")
+        
+        try:
+            page.pdf(
+                path=draft_pdf_path,
+                format="A5",
+                print_background=True,
+                outline=True,
+                tagged=True,
+                margin={"top": "0px", "bottom": "0px", "left": "0px", "right": "0px"}
+            )
+            
+            # Lecture des numéros de page depuis les signets du PDF brouillon
+            import fitz
+            doc = fitz.open(draft_pdf_path)
+            pdf_toc = doc.get_toc()
+            doc.close()
+            
+            # Filtrer les signets H1 (niveau 1)
+            pdf_h1s = [entry for entry in pdf_toc if entry[0] == 1]
+            # Ignorer le titre de couverture sur la page 1 si présent
+            if pdf_h1s and pdf_h1s[0][2] == 1:
+                pdf_h1s = pdf_h1s[1:]
+                
+            # Associer les numéros de page par ordre d'apparition
+            for i, h1 in enumerate(h1_headers):
+                if i < len(pdf_h1s):
+                    h1["page"] = pdf_h1s[i][2]
+                else:
+                    h1["page"] = "?"
+        except Exception as draft_err:
+            print(f"  -> Avertissement : Échec de l'extraction de la pagination pour la table des matières : {draft_err}")
+            for h1 in h1_headers:
+                h1["page"] = "?"
+        finally:
+            if os.path.exists(draft_pdf_path):
+                try:
+                    os.remove(draft_pdf_path)
+                except Exception:
+                    pass
+                    
+        # Construction de la TOC stylisée
+        toc_title = "Table des matières" if lang == "fr" else "Table of Contents"
+        entries_html = ""
+        for h1 in h1_headers:
+            entries_html += f"""
+            <div class="toc-item">
+                <a href="#{h1['id']}" class="toc-link">
+                    <span class="toc-text">{h1['text']}</span>
+                    <span class="toc-dots"></span>
+                    <span class="toc-page">{h1['page']}</span>
+                </a>
+            </div>
+            """
+            
+        toc_html = f"""
+        <div class="table-of-contents">
+            <div class="toc-title">{toc_title}</div>
+            <div class="toc-divider"></div>
+            <div class="toc-items">
+                {entries_html}
+            </div>
+        </div>
+        """
+        final_html_body = toc_html + html_body
+
+    # --- PASSE 2 : Génération finale du PDF ---
+    toc_css = """
+            /* Styles de la Table des Matières */
+            .table-of-contents {
+                break-after: page;
+                page-break-after: always;
+                padding-top: 0.5cm;
+                display: flex;
+                flex-direction: column;
+            }
+            .toc-title {
+                font-family: 'Century Gothic', Futura, sans-serif;
+                font-size: 20pt;
+                color: var(--accent-color);
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+                margin-bottom: 0.1cm;
+            }
+            .toc-divider {
+                height: 4px;
+                background-color: var(--accent-color);
+                margin-bottom: 0.8cm;
+                width: 100%;
+            }
+            .toc-items {
+                display: flex;
+                flex-direction: column;
+                gap: 0.35cm;
+            }
+            .toc-item {
+                break-inside: avoid;
+            }
+            .toc-link {
+                display: flex;
+                align-items: baseline;
+                text-decoration: none !important;
+                color: var(--text-color) !important;
+                font-family: 'Century Gothic', Futura, sans-serif;
+                font-size: 10.5pt;
+            }
+            .toc-link:hover {
+                opacity: 0.85;
+            }
+            .toc-text {
+                font-weight: bold;
+                color: var(--accent-color);
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+            .toc-dots {
+                flex-grow: 1;
+                border-bottom: 2px dotted var(--muted-text);
+                margin: 0 0.2cm;
+                position: relative;
+                top: -4px;
+            }
+            .toc-page {
+                font-weight: bold;
+                color: var(--accent-color);
+                font-size: 11pt;
+                text-align: right;
+                min-width: 0.5cm;
+            }
+    """ if generate_toc else ""
+
     full_html = f"""
     <!DOCTYPE html>
     <html lang="{lang}">
@@ -133,6 +312,7 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
         <style>
             {base_css}
             {theme_css}
+            {toc_css}
         </style>
     </head>
     <body>
@@ -143,17 +323,13 @@ def generate_pdf(playwright, html_body, output_file, lang, cover_title, cover_su
             {logo_html}
         </div>
         <div class="content">
-            {html_body}
+            {final_html_body}
         </div>
     </body>
     </html>
     """
     
-    # Lancement du navigateur et génération
-    browser = playwright.chromium.launch()
-    page = browser.new_page()
-    
-    # On définit le contenu HTML
+    # On définit le contenu HTML final
     page.set_content(full_html)
     
     # On attend que les polices (Google Fonts) soient chargées si possible

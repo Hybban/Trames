@@ -1,4 +1,4 @@
-# V. OUTILS DE GESTION
+# V. Outils de Gestion
 
 Le jeu solo s'étale dans le temps. Entre deux sessions, la fiction refroidit, les détails s'estompent, et les fils se perdent. Ce chapitre propose trois outils simples pour garder votre campagne vivante et lisible d'une session à l'autre.
 
@@ -6,7 +6,7 @@ Ces outils ne sont pas des obligations ; ce sont des habitudes. Adoptez ceux qui
 
 ---
 
-## 1. LE JOURNAL DE TRAME
+## 1. Le Journal de Trame
 
 Le Journal de Trame est votre mémoire de campagne. Son principe est minimaliste : **une phrase par scène.**
 
@@ -36,7 +36,7 @@ La question ouverte est l'élément le plus important. Elle transforme la fin de
 
 ---
 
-## 2. LE LEXIQUE DES FILS
+## 2. Le Lexique des Fils
 
 Le Lexique des Fils est une liste vivante de tous les PNJ significatifs rencontrés au fil de la campagne. Il remplace la mémoire de la Meneuse ; en solo, personne d'autre ne se souvient de qui était qui.
 
@@ -65,7 +65,7 @@ Ne listez pas tous les PNJ rencontrés. Seuls ceux qui sont susceptibles de réa
 
 ---
 
-## 3. LES HORLOGES EN VUE
+## 3. Les Horloges en Vue
 
 Les horloges sont l'outil de gestion le plus visible de TRAMES. En solo, elles remplissent un rôle supplémentaire : elles vous rappellent à tout moment où en est votre histoire.
 
@@ -98,12 +98,10 @@ N'hésitez pas à créer de nouvelles horloges courtes en cours de campagne dès
 
 ---
 
-## Un mot sur la régularité
+## 4. Un mot sur la régularité
 
 Ces trois outils fonctionnent mieux si vous jouez avec une certaine régularité. Une session par semaine, même courte, vaut mieux qu'une longue session mensuelle suivie de trois semaines de silence. Le fil se maintient quand on le tient souvent.
 
 Si une longue interruption est inévitable, relisez l'intégralité de votre journal avant de reprendre, pas seulement les cinq dernières entrées. Et consultez l'Oracle avec la question : *"Quelque chose a-t-il changé pendant mon absence ?"* Le monde ne s'arrête pas quand vous posez les dés.
 
----
 
-* ; Chapitre suivant : VI. Tables*
