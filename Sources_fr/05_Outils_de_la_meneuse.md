@@ -3,7 +3,7 @@ Ce chapitre présente les outils exclusifs de la Meneuse de jeu pour animer et g
 
 On y présente les horloges qui représentent la progression d'une force dans le monde, comme une menace qui approche, un objectif qui avance, ou un processus en cours. Les horloges rendent le monde tangible : elles montrent aux joueuses que leurs actions ont un impact, et que leur inaction en a un aussi. Une horloge ne simule pas un adversaire. Elle simule **le temps et la conséquence**. Elles sont souvent liées aux résultats des manœuvres des joueuses.
 
-## 1. La Question Ouverte
+## 1. L'Oracle du Destin
 Les dés tranchent les actions des héros. Mais certaines questions que se pose la Meneuse ne sont pas des actions, mais plutôt des questions qui portent sur l'état du monde, les intentions d'un PNJ, ou la direction que prend l'histoire. Pour ces moments, une autre procédure s'impose.
 
 Quand une question est trop complexe pour être tranchée directement, décomposez-la en plusieurs questions fermées enchaînées, dont la réponse est *Oui* ou *Non*, et lancez 1d12 pour chacune.

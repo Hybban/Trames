@@ -1,4 +1,4 @@
-# IV. LA TRAME BRÛLÉE EN SOLO
+# IV. La Trame Brûlée en Solo
 
 La Trame Brûlée est définie dans le livre de base. Ce chapitre n'en réexplique pas la mécanique ; il traite d'une question spécifique au solo : **quand l'activer ?**
 
@@ -6,7 +6,7 @@ En groupe, la table régule naturellement ce moment. Une joueuse qui voudrait ac
 
 ---
 
-## Le risque spécifique au solo
+## 1. Le Risque Spécifique au Solo
 
 Il existe deux façons de mal utiliser la Trame Brûlée en solo, et elles sont opposées.
 
@@ -18,7 +18,7 @@ L'Oracle est là pour trancher.
 
 ---
 
-## La consultation de l'Oracle
+## 2. La Consultation de l'Oracle
 
 Avant d'activer la Trame Brûlée, consultez l'Oracle du Destin avec cette question précise :
 
@@ -45,7 +45,7 @@ Posez-vous alors ces questions dans l'ordre :
 
 ---
 
-## Choisir le trait à brûler
+## 3. Choisir le trait à brûler
 
 Quand la Trame Brûlée est activée, vous devez choisir quel trait sacrifier. En solo, personne n'est là pour peser ce choix avec vous ; c'est à la fois une liberté et une responsabilité.
 
@@ -65,7 +65,7 @@ En solo, ce moment mérite une pause. Avant de continuer, écrivez dans votre jo
 
 ---
 
-## La Trame Brûlée et les fins de campagne
+## 4. La Trame Brûlée et les Fins de Campagne
 
 La Trame Brûlée interagit directement avec les trois fins de campagne définies au chapitre III.
 
@@ -75,12 +75,8 @@ Si la Trame Brûlée est activée **au dernier segment**, c'est la fin de campag
 
 ---
 
-## Une règle d'honnêteté
+## 5. Une règle d'honnêteté
 
 La Trame Brûlée en solo repose entièrement sur votre bonne foi. L'Oracle vous aide à trancher, mais il ne peut pas vous empêcher de relancer le dé jusqu'à obtenir un OUI, ou d'ignorer un NON qui vous dérange.
 
 Rappelez-vous la promesse de votre campagne (chapitre I). Si la Trame Brûlée trahit cette promesse, si elle efface une conséquence qui aurait dû exister, alors les Moires n'ont pas été respectées. Et une histoire où les Moires ne sont pas respectées n'est pas une trame. C'est un brouillon.
-
----
-
-* ; Chapitre suivant : V. Outils de Gestion*

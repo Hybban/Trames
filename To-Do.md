@@ -26,5 +26,4 @@ Chapitre V : horloges + PNJ + conseils de cadrage
 
 ## Mise en forme
 
--   Rajouter une table des matières cliquable et des signets dans le pdf
 -   Rajouter des en-têtes de page qui correspondent au chapitre

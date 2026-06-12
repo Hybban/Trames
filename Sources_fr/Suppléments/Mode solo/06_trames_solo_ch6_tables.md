@@ -1,4 +1,4 @@
-# VI. TABLES
+# VI. Tables
 
 Les tables sont des réservoirs d'inspiration, pas des oracles. Consultez-les quand le monde se tait, quand une scène stagne, ou quand vous avez besoin d'un élément que votre imagination seule ne produit pas. Ignorez les résultats qui ne servent pas votre histoire ; relancez, combinez, ou interprétez librement.
 
@@ -6,7 +6,7 @@ Toutes les tables utilisent le d12, cohérent avec le reste du système.
 
 ---
 
-## TABLE A : ACTION & OBJET
+## 1. Table A : Action & Objet
 *Reprise du livre de base*
 
 Pour donner une direction à une scène ou une intention à un événement. Lancez une fois pour le Verbe, une fois pour le Nom, ou une seule fois si vous n'avez besoin que d'une colonne.
@@ -28,7 +28,7 @@ Pour donner une direction à une scène ou une intention à un événement. Lanc
 
 ---
 
-## TABLE B : AMBIANCE
+## 2. Table B : Ambiance
 *Reprise du livre de base*
 
 Pour colorer sensoriellement un lieu ou une rencontre. Lancez une fois pour le Sentiment, une fois pour l'Odeur, ou combinez les deux en une impression d'ensemble.
@@ -50,7 +50,7 @@ Pour colorer sensoriellement un lieu ou une rencontre. Lancez une fois pour le S
 
 ---
 
-## TABLE C : LE COUP DE THÉÂTRE
+## 3. Table C : Le Coup de Théâtre
 
 Quand une scène stagne et que les étapes 1 et 2 de la procédure de relance (chapitre II, section 4) n'ont pas suffi. Cette table injecte un événement extérieur qui change les paramètres de la scène sans que vous ayez à l'inventer.
 
@@ -73,7 +73,7 @@ Interprétez le résultat au service de votre fiction ; adaptez les détails à 
 
 ---
 
-## TABLE D : LE PNJ IMPROVISÉ
+## 4. Table D : Le PNJ Improvisé
 
 Pour générer rapidement un personnage secondaire. Lancez une fois par colonne, ou seulement pour les colonnes dont vous avez besoin.
 
@@ -94,7 +94,7 @@ Pour générer rapidement un personnage secondaire. Lancez une fois par colonne,
 
 ---
 
-## TABLE E : LIEUX
+## 5. Table E : Lieux
 
 Pour générer rapidement l'atmosphère et le détail distinctif d'un endroit. Lancez une fois pour l'Ambiance, une fois pour l'Élément distinctif. Combinez les deux en une image cohérente.
 
@@ -115,7 +115,7 @@ Pour générer rapidement l'atmosphère et le détail distinctif d'un endroit. L
 
 ---
 
-## TABLE F : COMPLICATIONS
+## 6. Table F : Complications
 
 À consulter quand un Accroc survient (un "1" obtenu sur n'importe quel dé) et que la fiction ne suggère pas spontanément ce qui se complique. Cette table décrit *ce qui déraille*, pas *comment le résoudre*.
 
@@ -136,7 +136,7 @@ Pour générer rapidement l'atmosphère et le détail distinctif d'un endroit. L
 
 ---
 
-## TABLE G : SECRETS
+## 7. Table G : Secrets
 
 Pour nourrir les révélations tardives d'une campagne. Cette table est conçue pour être consultée *en amont*, en début de campagne ou d'arc, pour poser des vérités cachées qui émergeront en temps voulu. Elle peut aussi être consultée à la volée quand une scène demande une révélation que vous n'aviez pas anticipée.
 
@@ -157,7 +157,7 @@ Pour nourrir les révélations tardives d'une campagne. Cette table est conçue 
 
 ---
 
-## TABLE H : FINS DE SCÈNE
+## 8. Table H : Fins de Scène
 
 Quand une scène s'étire sans trouver de conclusion naturelle. Cette table propose une façon de la refermer proprement et d'ouvrir la suivante. Une scène qui se termine, même incomplètement, vaut toujours mieux qu'une scène qui tourne à vide.
 
@@ -176,6 +176,3 @@ Quand une scène s'étire sans trouver de conclusion naturelle. Cette table prop
 | 11 | Une révélation partielle ouvre plus de questions qu'elle n'en ferme. La prochaine scène commence déjà. |
 | 12 | La scène se termine sur une menace voilée ; formulée ou sous-entendue. De part ou d'autre. |
 
----
-
-* ; Fin du supplément Le Fil Solitaire*

@@ -1,4 +1,4 @@
-# III. STRUCTURES DE CAMPAGNE
+# III. Structures de Campagne
 
 Le livre de base propose des horloges courtes, 4 à 6 segments, pour représenter des menaces immédiates ou des objectifs de scène. En solo, une campagne a besoin de structures plus longues qui donnent du relief, de la direction, et un sentiment de progression sur plusieurs sessions.
 
@@ -6,7 +6,7 @@ Ce chapitre propose trois outils complémentaires : l'Arc Narratif pour suivre l
 
 ---
 
-## 1. L'ARC NARRATIF
+## 1. L'Arc Narratif
 
 L'Arc Narratif est une horloge longue de **8 à 12 segments** qui représente la progression de votre héros vers l'accomplissement de son Destin ; son Fil de Lachésis. Elle se dessine au début de la campagne et reste visible en permanence.
 
@@ -42,7 +42,7 @@ En solo, c'est vous qui évaluez si un nœud a été atteint. Posez-vous la ques
 
 ---
 
-## 2. L'HORLOGE DU PÉCHÉ
+## 2. L'Horloge du Péché
 
 L'Horloge du Péché est une horloge parallèle à l'Arc Narratif. Elle se remplit chaque fois qu'Atropos est invoquée ; chaque fois que votre héros laisse son Péché guider sa main.
 
@@ -81,7 +81,7 @@ Si l'Horloge du Péché se remplit *avant* que l'Arc Narratif atteigne son seuil
 
 ---
 
-## 3. LES FILS CROISÉS
+## 3. Les Fils Croisés
 
 Les Fils Croisés permettent de gérer des forces extérieures au héros ; factions rivales, menaces actives, alliés qui poursuivent leurs propres objectifs. En solo, ces forces ont besoin de structures pour exister indépendamment de vos actions.
 
@@ -114,7 +114,7 @@ Ne surpeuplez pas votre campagne. Deux ou trois forces extérieures actives simu
 
 ---
 
-## 4. LA FIN DE CAMPAGNE
+## 4. La Fin de Campagne
 
 Quand l'Arc Narratif atteint son dernier segment, la campagne entre dans sa conclusion. Il n'y a pas une seule façon de terminer ; les Moires ont tissé trois types de fins possibles.
 
@@ -139,6 +139,3 @@ Le héros a survécu à l'impossible en sacrifiant une part de lui-même. Cette 
 
 C'est la fin la plus dramatiquement chargée. Elle demande que la joueuse accepte que son héros soit sorti de l'aventure changé de façon permanente et irréversible. Les Moires ont exigé le prix maximum, et il a été payé.
 
----
-
-* ; Chapitre suivant : IV. La Trame Brûlée en Solo*
