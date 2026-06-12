@@ -8,6 +8,7 @@ import pdf_generator_core
 
 OUTPUT_DIR = "Générations"
 STYLE_DIR = "pdf_styles"
+LONDRES_1920 = "Londres 1920"
 
 def main():
     if not os.path.exists(OUTPUT_DIR):
@@ -16,11 +17,11 @@ def main():
     configs = [
         {
             "lang": "fr", 
-            "dir": "Sources_fr/Suppléments/Londres 1920", 
-            "title": "Londres 1920", 
+            "dir": f"Sources_fr/Suppléments/{LONDRES_1920}", 
+            "title": LONDRES_1920, 
             "subtitle": "The Severance Club",
-            "style_dir_name": "Londres 1920",
-            "footer": "Trames - Londres 1920",
+            "style_dir_name": LONDRES_1920,
+            "footer": f"Trames - {LONDRES_1920}",
             "document_type_text": "Supplément d'univers"
         },
         {
@@ -28,7 +29,7 @@ def main():
             "dir": "Sources_en/Suppléments/London 1920", 
             "title": "London 1920", 
             "subtitle": "The Severance Club",
-            "style_dir_name": "Londres 1920", # English uses the same style directory name
+            "style_dir_name": LONDRES_1920, # English uses the same style directory name
             "footer": "Threads - London 1920",
             "document_type_text": "Setting Supplement"
         }

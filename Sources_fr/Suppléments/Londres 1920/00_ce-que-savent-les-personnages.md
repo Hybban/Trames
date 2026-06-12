@@ -1,11 +1,13 @@
-# THE SEVERANCE CLUB
+# CE QUE SAVENT LES PERSONNAGES
+
+## THE SEVERANCE CLUB
 *Fondé en 1919, Londres*
 *Document à usage strictement interne*
 *Niveau d'accès : Initié*
 
 ---
 
-## RAPPORT D'ORIENTATION À L'ATTENTION DES NOUVEAUX MEMBRES
+#### RAPPORT D'ORIENTATION À L'ATTENTION DES NOUVEAUX MEMBRES
 *Rédigé par le Bureau des Affaires Courantes*
 *Année 1920*
 

@@ -21,7 +21,7 @@ Assemblez les réponses en une image cohérente qui servira de base à la narrat
 ## 2. Les Horloges
 Une horloge est un cercle divisé en segments qui représente la progression d'une force dans le monde : une menace qui approche, un objectif qui avance, un processus en cours. Les horloges rendent le monde tangible : elles montrent aux joueuses que leurs actions ont un impact, et que leur inaction en a un aussi.
 
-Une horloge ne simule pas un adversaire. Elle simule **le temps et la conséquence**.
+Une horloge ne simule pas un adversaire. Elle simule **le temps et la conséquence**. Ainsi, la meneuse peut avoir les horloge visible, et ainsi remplir les segments. Elle peut le faire sans nommer l'horloge ou sans en expliquer la signification aux joueuses. Celles-ci se rendent juste compte que le temps passe.
 
 ### A. Anatomie d'une horloge
 

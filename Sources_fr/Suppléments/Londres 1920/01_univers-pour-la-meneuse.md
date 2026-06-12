@@ -1,6 +1,6 @@
-# II. L'UNIVERS POUR LA MENEUSE
+# I. L'UNIVERS POUR LA MENEUSE
 
-## Note d'intention
+## 1. Note d'intention
 
 Cet univers n'est pas un univers de monstres.
 
@@ -8,13 +8,23 @@ C'est un univers de gens ordinaires, ou presque ordinaires, qui font des choses 
 
 Votre rôle en tant que Meneuse n'est pas de terrifier vos joueuses avec des créatures indicibles. C'est de les placer face à des choix impossibles, dans une ville qui observe et qui se souvient.
 
+Ce livre vous propose beaucoup d'outils, mais ne vous sentez pas obligé de les utiliser tous. Choisissez ceux qui correspondent à votre campagne et à votre style de jeu. Si une horloge, un PNJ, un lieu, ne semble pas pertinent pour votre campagne, ne l'utilisez pas ou modifiez-le selon vos besoins. Ce n'est pas un péché.
+
+Aussi, vous n'aurez pas toutes les réponses aux questions qui sont posées ici. Ce n'est pas grave. Ce livre n'est pas là pour vous imposer une vision, mais pour vous offrir des pistes. C'est à vous de choisir ce qui résonne avec votre campagne. Il en va de même pour les joueuses. N'hésitez pas à leur poser des questions, à les laisser développer le monde avec vous. Et surtout, amusez-vous. C'est le but premier d'un jeu de rôle.
+
+**Avertissements :**
+
+Bien que ce jeu soit conçu pour être joué dans une ambiance sombre et tendue, il aborde des thématiques qui peuvent être difficiles pour certaines personnes. Les personnages sont confrontés à des traumatismes de guerre, à la violence, à la corruption, à la pauvreté, à la maladie mentale, et à des horreurs psychologiques. Il est important de discuter avec vos joueuses avant de commencer une campagne pour s'assurer que tout le monde est à l'aise avec ces thématiques. N'hésitez pas à adapter le contenu de la campagne pour qu'il corresponde aux sensibilités de votre groupe. N'hésitez pas à utiliser des outils comme les lignes et les voiles pour vous assurer que tout le monde se sent en sécurité pendant la partie.
+
 ---
 
-## Ton et esthétique
+## 2. Ton et esthétique
 
 **Cinq mots pour cadrer l'ambiance :** élégance, transgression, cicatrice, brouillard, rupture.
 
 Londres 1920 est une ville en deuil qui refuse de le montrer. La Grande Guerre a tué une génération entière et personne ne sait comment en parler. Alors on ne parle pas. On boit, on danse, on travaille, on surveille, on survit. Et sous cette surface polie et fonctionnelle, quelque chose s'effiloche.
+
+Dans le cadre de Trames, c'est le fil d'Atropos qui est le plus présent ici (→ 5). Ceci est là pour donner une saveur, le péché, à l'univers et n'a pas à être annoncé aux joueuses. C'est simplement une indication pour vous, pour orienter vos choix narratifs. Et qui sait, peut-être que l'auteur commettra le péché de l'utiliser de façon plus importante plus tard dans la gamme.
 
 L'esthétique de cet univers se situe entre deux pôles :
 
@@ -28,7 +38,7 @@ L'horreur de cet univers n'est jamais spectaculaire. Elle est toujours plausible
 
 ---
 
-## Le Smog — mécanique narrative
+## 3. Le Smog : mécanique narrative
 
 Le Smog de Londres n'est pas que de la pollution industrielle. C'est la manifestation physique des Fils Emmêlés de la ville, une accumulation visible de transgressions, de ruptures et de péchés commis dans ses rues depuis la fin de la guerre.
 
@@ -48,7 +58,20 @@ Ne l'expliquez jamais aux joueuses. Ne le nommez jamais dans la fiction. C'est s
 
 ---
 
-## Les quatre axes du Péché
+## 4. Sur l'utilisation des horloges
+
+La suite de ce livre propose de nombreuses horloges : par lieu, par PNJ, par faction. Elles sont des outils disponibles, pas des obligations.
+
+N'essayez pas de toutes les gérer en parallèle. Une campagne qui fait tourner simultanément quinze horloges devient une feuille de calcul, pas une histoire. Choisissez celles qui sont pertinentes pour ce que vous voulez raconter, activez-les au moment où elles deviennent utiles, et laissez les autres de côté.
+
+Une horloge qui ne sert pas votre campagne n'existe pas. Une horloge activée au bon moment peut changer une session entière.
+
+La règle pratique : au début d'une campagne, n'activez pas plus de trois ou quatre horloges simultanément. Ajoutez-en quand les personnages s'engagent dans un nouveau lieu ou une nouvelle relation. Retirez-en quand une situation se résout ou devient secondaire.
+
+---
+
+## 5. Les quatre axes du Péché
+
 
 Dans cet univers, le Péché, au sens du Fil d'Atropos, ne désigne pas une faute morale ordinaire. C'est une **transgression des limites de la condition humaine** : une tentative, consciente ou non, de déchirer le voile d'une réalité devenue insupportable après le traumatisme de la guerre.
 
@@ -56,7 +79,7 @@ Ces transgressions prennent quatre formes dans Londres 1920. Elles ne s'excluent
 
 ---
 
-### Axe 1 — La Chair et le Vide
+### A. La Chair et le Vide
 *Le Péché de l'extase transgressive*
 
 La jeunesse dorée de Mayfair et de Soho cherche à s'extirper de la léthargie spirituelle de l'après-guerre par des expériences sensorielles de plus en plus extrêmes. Ce n'est pas de la simple décadence; c'est une quête désespérée pour *se sentir vivant* dans un monde qui a perdu tout sens.
@@ -65,12 +88,12 @@ Dans les clubs clandestins de Soho, cette quête prend des formes que la plupart
 
 **Pour la Meneuse :** les personnages liés à cet axe montrent les premiers signes de leur Horloge du Péché dans leur corps. La chair sous les vêtements commence à changer : des textures, des ouvertures, des envies de sensations de plus en plus intenses pour que le personnage continue à se sentir ancré dans la réalité.
 
-*Lieux associés : Soho (→ IV.1), les clubs privés de Mayfair*
+*Lieux associés : Soho (→ III), les clubs privés de Mayfair*
 *Faction associée : Le Severance Club (certains membres), le Bloomsbury Ésotérique*
 
 ---
 
-### Axe 2 — L'Ordre et l'Hypocrisie
+### B. L'Ordre et l'Hypocrisie
 *Le Péché de la cruauté bureaucratique*
 
 Derrière la façade impeccable des administrations de Whitehall et des cellules de Scotland Yard, l'Empire maintient son illusion d'ordre par des méthodes que ses propres lois condamneraient. Surveillance occulte, torture psychologique des dissidents, falsification méthodique de la réalité pour les témoins gênants.
@@ -79,12 +102,12 @@ Ce péché est particulièrement insidieux parce qu'il ne se ressent pas comme u
 
 **Pour la Meneuse :** les personnages liés à cet axe ne deviennent pas des monstres sauvages quand leur Horloge se remplit. Ils perdent leur humanité progressivement, méthodiquement. Leur peau prend une texture légèrement cireuse. Leurs yeux restent fixes un moment de trop dans les conversations. Ils commencent à percevoir la ville non plus comme des rues et des gens, mais comme une grille géométrique dont ils sont un rouage.
 
-*Lieux associés : Whitehall (→ IV.2), Scotland Yard*
+*Lieux associés : Whitehall (→ IV), Scotland Yard*
 *Faction associée : L'Appareil d'État*
 
 ---
 
-### Axe 3 — La Reconstruction Impie
+### C. La Reconstruction Impie
 *Le Péché du refus de la finitude*
 
 Les rues de Londres sont hantées par les mutilés de guerre, les amputés, les survivants pulmonaires de la grippe espagnole. Face à l'abandon de l'État, qui a promis un pays digne des héros et livré une récession et des taudis, des cliniques clandestines proposent des miracles aux désespérés.
@@ -93,12 +116,12 @@ Des chirurgiens de tranchées marginaux recousent de la chair humaine fraîche s
 
 **Pour la Meneuse :** les greffes issues de ces cliniques ne sont jamais neutres. La chair greffée a une mémoire, des impulsions, parfois une volonté propre. Un bras mort implanté peut avoir ses propres réflexes. Un nouveau morceau de visage peut murmurer des vérités que le porteur aurait préféré ne pas entendre. Utilisez cela avec parcimonie : c'est une bombe narrative, pas un effet de décor.
 
-*Lieux associés : L'East End (→ IV.4), les asiles périphériques (→ IV.6)*
+*Lieux associés : L'East End (→ VI), les asiles périphériques (→ VIII)*
 *Faction associée : Les Chirurgiens de l'Ombre*
 
 ---
 
-### Axe 4 — La Trahison Routinière
+### D. La Trahison Routinière
 *Le Péché de la délation ordinaire*
 
 La paranoïa ambiante autour des espions bolcheviques et des cellules de l'IRA a transformé les voisins en informateurs potentiels. Mais dans cet univers, la trahison n'est pas seulement politique; c'est une économie souterraine qui irrigue toutes les strates de la société londonienne.
@@ -107,12 +130,12 @@ Pour obtenir un logement décent, éviter la prison, assurer la sécurité de sa
 
 **Pour la Meneuse :** à mesure que l'Horloge du Péché progresse sur cet axe, le voile de la réalité se déchire pour le traître de façon très précise. Les murs commencent à suinter quelque chose qui ressemble à de la culpabilité. Les murmures des personnes vendues se matérialisent dans les bruits du métro. Des ombres tranchantes tapies dans le Smog commencent à suivre le personnage, pas à l'attaquer, juste à le suivre. Pour l'instant.
 
-*Lieux associés : Le réseau du Underground (→ IV.7), Trafalgar Square (→ IV.8)*
+*Lieux associés : Le réseau du Underground (→ IX), Trafalgar Square (→ X)*
 *Faction associée : The Frayed, L'Appareil d'État*
 
 ---
 
-## Ce qui ne va pas : les graines de conflit
+## 6. Ce qui ne va pas : les graines de conflit
 
 Voici cinq situations de départ que vous pouvez semer en début de campagne, indépendamment du scénario d'introduction. Ce sont des fils que les personnages trouveront, et qu'ils pourront tirer ou laisser.
 
