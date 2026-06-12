@@ -1,0 +1,18 @@
+:root {
+    --primary-bg: #fdfbf7; /* Warm tea-stained paper / Antique parchment */
+    --text-color: #292524; /* Warm coal / Dark typewriter ink */
+    --accent-color: #8c6239; /* Warm bronze / Mahogany club wood */
+    --box-bg: #f5efe6; /* Slightly darker aged beige */
+    --box-border: #a16207; /* Antique copper / Ochre brass */
+    --table-header-bg: #443e38; /* Dark sepia */
+    --table-header-text: #fdfbf7;
+    --muted-text: #78716c; /* Muted slate/stone */
+}
+
+tr:nth-child(even) {
+    background-color: #f7f3eb;
+}
+
+td {
+    border-bottom: 1px solid #e7e5e4;
+}

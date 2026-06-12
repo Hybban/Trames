@@ -22,7 +22,8 @@ def main():
         "scripts/generate_base.py",
         "scripts/generate_solo.py",
         "scripts/generate_trames_d_ombres.py",
-        "scripts/generate_trames_d_ombres_solo.py"
+        "scripts/generate_trames_d_ombres_solo.py",
+        "scripts/generate_londres_1920.py"
     ]
     
     success = True
