@@ -125,6 +125,8 @@ Le héros a atteint ce pour quoi il était destiné. Son Fil de Lachésis s'est 
 
 Mécaniquement, la campagne se termine après la scène de conclusion. La joueuse peut choisir de démarrer une nouvelle campagne avec le même héros ; son Arc repart à zéro, son Destin est réécrit, mais ses traits et ses Fils d'Atropos et de Clotho sont conservés.
 
+--pb--
+
 ### Le Péché Victorieux
 *Atropos a coupé ; le fil n'était pas ce qu'on croyait.*
 

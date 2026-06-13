@@ -28,6 +28,8 @@ Pour donner une direction à une scène ou une intention à un événement. Lanc
 
 ---
 
+--pb--
+
 ## 2. Table B : Ambiance
 *Reprise du livre de base*
 
@@ -49,6 +51,8 @@ Pour colorer sensoriellement un lieu ou une rencontre. Lancez une fois pour le S
 | 12 | Émerveillé | Odeur de pluie (Pétrichor) |
 
 ---
+
+--pb--
 
 ## 3. Table C : Le Coup de Théâtre
 
@@ -73,6 +77,8 @@ Interprétez le résultat au service de votre fiction ; adaptez les détails à 
 
 ---
 
+--pb--
+
 ## 4. Table D : Le PNJ Improvisé
 
 Pour générer rapidement un personnage secondaire. Lancez une fois par colonne, ou seulement pour les colonnes dont vous avez besoin.
@@ -93,6 +99,8 @@ Pour générer rapidement un personnage secondaire. Lancez une fois par colonne,
 | 12 | Voyageur ou étranger | Curiosité incontrôlable | Vit sur un mensonge fondateur |
 
 ---
+
+--pb--
 
 ## 5. Table E : Lieux
 
@@ -115,6 +123,8 @@ Pour générer rapidement l'atmosphère et le détail distinctif d'un endroit. L
 
 ---
 
+--pb--
+
 ## 6. Table F : Complications
 
 À consulter quand un Accroc survient (un "1" obtenu sur n'importe quel dé) et que la fiction ne suggère pas spontanément ce qui se complique. Cette table décrit *ce qui déraille*, pas *comment le résoudre*.
@@ -136,6 +146,8 @@ Pour générer rapidement l'atmosphère et le détail distinctif d'un endroit. L
 
 ---
 
+--pb--
+
 ## 7. Table G : Secrets
 
 Pour nourrir les révélations tardives d'une campagne. Cette table est conçue pour être consultée *en amont*, en début de campagne ou d'arc, pour poser des vérités cachées qui émergeront en temps voulu. Elle peut aussi être consultée à la volée quand une scène demande une révélation que vous n'aviez pas anticipée.
@@ -156,6 +168,8 @@ Pour nourrir les révélations tardives d'une campagne. Cette table est conçue 
 | 12 | Ce que le héros cherche à protéger est déjà perdu. Il l'apprendra au moment le moins propice. |
 
 ---
+
+--pb--
 
 ## 8. Table H : Fins de Scène
 

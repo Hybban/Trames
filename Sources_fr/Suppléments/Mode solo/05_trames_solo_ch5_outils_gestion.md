@@ -98,6 +98,8 @@ N'hésitez pas à créer de nouvelles horloges courtes en cours de campagne dès
 
 ---
 
+--pb--
+
 ## 4. Un mot sur la régularité
 
 Ces trois outils fonctionnent mieux si vous jouez avec une certaine régularité. Une session par semaine, même courte, vaut mieux qu'une longue session mensuelle suivie de trois semaines de silence. Le fil se maintient quand on le tient souvent.

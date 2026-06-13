@@ -33,6 +33,8 @@ Toutes les questions ne se valent pas. Certaines sont improbables par nature, *"
 
 ---
 
+--pb--
+
 ### Interpréter le OUI, MAIS…
 
 Le *Oui, mais…* est la réponse la plus riche du Moteur, et la plus délicate à interpréter. Voici quelques façons de le lire selon le contexte :
@@ -82,6 +84,8 @@ Dans ces cas, décomposez la situation en plusieurs questions fermées enchaîn�
 Si les réponses enchaînées restent trop vagues, consultez la **Table A, Action & Objet** ou la **Table C, Coup de Théâtre** (chapitre VI) pour injecter un élément concret qui débloque la situation.
 
 ---
+
+--pb--
 
 ## 3. L'Attitude des PNJ
 
