@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRAMES — Fiches de Personnages</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    background: #1a1a1a;
+    color: #2C1810;
+  }
+
+  .sheet {
+    width: 794px;
+    min-height: 1123px;
+    margin: 0 auto 2rem;
+    padding: 36px 40px 32px;
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+  }
+
+  /* ─── CALIBRES ─── */
+  .lin  { background: #F5EDD8; --accent: #7A5C2E; --accent-light: #EDD8A8; --accent-mid: #B8965A; --badge-bg: #7A5C2E; --badge-text: #F5EDD8; }
+  .laine{ background: #E8EEF5; --accent: #2B5278; --accent-light: #BDD2E8; --accent-mid: #5B8DB8; --badge-bg: #2B5278; --badge-text: #E8EEF5; }
+  .soie { background: #EDE8F5; --accent: #4A2D6E; --accent-light: #C8B8E8; --accent-mid: #8B5DB8; --badge-bg: #4A2D6E; --badge-text: #EDE8F5; }
+
+  /* ─── DECORATIVE THREADS ─── */
+  .sheet::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 6px;
+    background: var(--accent);
+  }
+  .sheet::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--accent-mid);
+    opacity: 0.5;
+  }
+
+  /* ─── HEADER ─── */
+  .sheet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1.5px solid var(--accent-mid);
+  }
+
+  .calibre-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--badge-bg);
+    color: var(--badge-text);
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+
+  .header-right {
+    text-align: right;
+  }
+
+  .game-title {
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .game-subtitle {
+    font-size: 10px;
+    color: var(--accent-mid);
+    letter-spacing: 0.08em;
+    font-style: italic;
+    margin-top: 2px;
+  }
+
+  /* ─── CHARACTER NAME ─── */
+  .char-identity {
+    margin-bottom: 18px;
+  }
+
+  .char-name {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+  }
+
+  .char-archetype {
+    font-size: 16px;
+    font-style: italic;
+    color: var(--accent-mid);
+    margin-top: 4px;
+    font-weight: 500;
+  }
+
+  /* ─── SECTION TITLES ─── */
+  .section-title {
+    font-family: 'Cinzel', serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border-bottom: 1px solid var(--accent-light);
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+  }
+
+  /* ─── MOIRES ─── */
+  .moires-box {
+    background: var(--accent);
+    border-radius: 4px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+  }
+
+  .moires-title {
+    font-family: 'Cinzel', serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent-light);
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+
+  .fil-row {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 8px;
+  }
+
+  .fil-row:last-child { margin-bottom: 0; }
+
+  .fil-label {
+    font-family: 'Cinzel', serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: var(--accent-light);
+    text-transform: uppercase;
+    white-space: nowrap;
+    min-width: 80px;
+    padding-top: 1px;
+  }
+
+  .fil-content {
+    flex: 1;
+  }
+
+  .fil-text {
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.4;
+    font-style: italic;
+  }
+
+  .fil-mechanic {
+    font-size: 10px;
+    color: var(--accent-light);
+    margin-top: 2px;
+    opacity: 0.75;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.05em;
+  }
+
+  .fil-divider {
+    width: 1px;
+    background: var(--accent-light);
+    opacity: 0.25;
+    align-self: stretch;
+    min-height: 32px;
+  }
+
+  /* Réserve */
+  .reserve-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+  }
+
+  .reserve-label {
+    font-family: 'Cinzel', serif;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: var(--accent-light);
+    opacity: 0.75;
+    text-transform: uppercase;
+  }
+
+  .jetons {
+    display: flex;
+    gap: 5px;
+  }
+
+  .jeton {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1.5px solid var(--accent-light);
+    opacity: 0.6;
+  }
+
+  /* ─── TRAITS ─── */
+  .traits-section { margin-bottom: 16px; }
+
+  .traits-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .traits-table th {
+    font-family: 'Cinzel', serif;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent-mid);
+    padding: 0 6px 6px;
+    text-align: left;
+    border-bottom: 1px solid var(--accent-light);
+  }
+
+  .traits-table th:last-child { text-align: center; }
+
+  .traits-table td {
+    padding: 5px 6px;
+    font-size: 13px;
+    border-bottom: 0.5px solid var(--accent-light);
+    vertical-align: middle;
+  }
+
+  .trait-row.archetype-row td {
+    background: rgba(0,0,0,0.04);
+    font-weight: 600;
+    font-size: 13.5px;
+  }
+
+  .trait-name-cell { width: 42%; color: #2C1810; }
+  .trait-type-cell { width: 22%; }
+  .trait-max-cell  { width: 8%; text-align: center; }
+  .trait-state-cell{ width: 28%; text-align: right; }
+
+  .type-badge {
+    font-family: 'Cinzel', serif;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent-mid);
+    opacity: 0.8;
+  }
+
+  .max-die {
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .archetype-row .max-die {
+    font-size: 13px;
+  }
+
+  .state-boxes {
+    display: flex;
+    gap: 4px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .state-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+  }
+
+  .state-sq {
+    width: 13px;
+    height: 13px;
+    border: 1.5px solid var(--accent-mid);
+    border-radius: 1px;
+    opacity: 0.5;
+  }
+
+  .state-sq.active {
+    opacity: 1;
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+
+  .state-label {
+    font-size: 7px;
+    color: var(--accent-mid);
+    font-family: 'Cinzel', serif;
+    opacity: 0.6;
+  }
+
+  /* ─── BOTTOM TWO COLUMNS ─── */
+  .bottom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 4px;
+  }
+
+  /* ─── HEALTH ─── */
+  .health-palier {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .palier-info { flex: 1; }
+
+  .palier-name {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+  }
+
+  .palier-malus {
+    font-size: 10px;
+    font-style: italic;
+    color: var(--accent-mid);
+    margin-top: 1px;
+  }
+
+  .health-boxes {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 2px;
+  }
+
+  .health-box {
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid var(--accent-mid);
+    border-radius: 2px;
+    opacity: 0.6;
+  }
+
+  /* ─── RESOURCES ─── */
+  .resource-item {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    margin-bottom: 7px;
+    font-size: 12.5px;
+    line-height: 1.35;
+  }
+
+  .resource-num {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--accent);
+    min-width: 14px;
+    padding-top: 1px;
+  }
+
+  .resource-text {
+    color: #2C1810;
+    font-style: italic;
+  }
+
+  .resource-note {
+    display: block;
+    font-size: 11px;
+    color: var(--accent-mid);
+    font-style: normal;
+    margin-top: 1px;
+    opacity: 0.8;
+  }
+
+  /* ─── PRINT ─── */
+  @media print {
+    body { background: white; }
+    .sheet { margin: 0; page-break-after: always; }
+  }
+
+  @page { size: A4; margin: 0; }
+
+  /* Group separator */
+  .group-label {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #888;
+    padding: 1.5rem 0 0.5rem;
+  }
+</style>
+</head>
+<body>
+<script>
+const dice = ['d12','d10','d8','d6'];
+
+function boxes(n, color) {
+  return Array(n).fill(`<div class="health-box"></div>`).join('');
+}
+
+function stateBoxes(maxDie) {
+  return `<div class="state-boxes">
+    ${dice.map(d => `<div class="state-box">
+      <div class="state-sq${d===maxDie?' active':''}"></div>
+      <span class="state-label">${d}</span>
+    </div>`).join('')}
+  </div>`;
+}
+
+function jetons(n) {
+  return Array(n).fill('<div class="jeton"></div>').join('');
+}
+
+function renderSheet(c) {
+  const isArchetype = (t) => t.type === 'Archétype';
+  return `
+<div class="sheet ${c.group}">
+  <div class="sheet-header">
+    <div>
+      <div class="calibre-badge">${c.groupLabel}</div>
+    </div>
+    <div class="header-right">
+      <div class="game-title">TRAMES</div>
+      <div class="game-subtitle">Tisser les fils du Destin</div>
+    </div>
+  </div>
+
+  <div class="char-identity">
+    <div class="char-name">${c.name}</div>
+    <div class="char-archetype">${c.archetype}</div>
+  </div>
+
+  <div class="moires-box">
+    <div class="moires-title">Le Fuseau des Moires</div>
+    <div class="fil-row">
+      <div class="fil-label">Clotho<br>Conviction</div>
+      <div class="fil-divider"></div>
+      <div class="fil-content">
+        <div class="fil-text">${c.moires.clotho}</div>
+        <div class="fil-mechanic">Dépenser 1 jeton → +1d12</div>
+      </div>
+    </div>
+    <div class="fil-row">
+      <div class="fil-label">Lachésis<br>Destin</div>
+      <div class="fil-divider"></div>
+      <div class="fil-content">
+        <div class="fil-text">${c.moires.lachesis}</div>
+        <div class="fil-mechanic">1×/session, gratuit → +1d12</div>
+      </div>
+    </div>
+    <div class="fil-row">
+      <div class="fil-label">Atropos<br>Péché</div>
+      <div class="fil-divider"></div>
+      <div class="fil-content">
+        <div class="fil-text">${c.moires.atropos}</div>
+        <div class="fil-mechanic">Gagner 1 jeton → +1d4 au jet</div>
+      </div>
+    </div>
+    <div class="reserve-row">
+      <div class="reserve-label">La Réserve du Fuseau</div>
+      <div class="jetons">${jetons(7)}</div>
+    </div>
+  </div>
+
+  <div class="traits-section">
+    <div class="section-title">Traits</div>
+    <table class="traits-table">
+      <thead>
+        <tr>
+          <th class="trait-name-cell">Nom du trait</th>
+          <th class="trait-type-cell">Catégorie</th>
+          <th class="trait-max-cell">Max</th>
+          <th class="trait-state-cell">État actuel (scène)</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${c.traits.map(t => `
+        <tr class="trait-row${t.type==='Archétype'?' archetype-row':''}">
+          <td class="trait-name-cell">${t.name}</td>
+          <td class="trait-type-cell"><span class="type-badge">${t.type}</span></td>
+          <td class="trait-max-cell"><span class="max-die">${t.max}</span></td>
+          <td class="trait-state-cell">${stateBoxes(t.max)}</td>
+        </tr>`).join('')}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="bottom-grid">
+    <div>
+      <div class="section-title">État de Santé</div>
+      <div class="health-palier">
+        <div class="palier-info">
+          <div class="palier-name">Blessure Légère</div>
+          <div class="palier-malus">Aucun malus</div>
+        </div>
+        <div class="health-boxes">${boxes(c.health.effiloche)}</div>
+      </div>
+      <div class="health-palier">
+        <div class="palier-info">
+          <div class="palier-name">Blessure Grave</div>
+          <div class="palier-malus">+1d4 (Fils Emmêlés)</div>
+        </div>
+        <div class="health-boxes">${boxes(c.health.tendu)}</div>
+      </div>
+      <div class="health-palier">
+        <div class="palier-info">
+          <div class="palier-name">Blessure Mortelle</div>
+          <div class="palier-malus">+3d4 (Fils Emmêlés)</div>
+        </div>
+        <div class="health-boxes">${boxes(c.health.limite)}</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-title">Ressources</div>
+      ${c.resources.map((r,i) => {
+        const [main, note] = r.split(' — ');
+        return `<div class="resource-item">
+          <span class="resource-num">${i+1}.</span>
+          <span class="resource-text">${main}${note?`<span class="resource-note">${note}</span>`:''}</span>
+        </div>`;
+      }).join('')}
+    </div>
+  </div>
+</div>`;
+}
+
+const characters = [
+  {
+    group:'lin', groupLabel:'Fil de Lin — Londres, années 1920',
+    name:'Arthur Pemberton', archetype:'Vétéran de la Grande Guerre',
+    moires:{
+      clotho:'"On ne laisse pas ses camarades derrière."',
+      lachesis:'"Trouver la paix avec ce que j\'ai fait là-bas."',
+      atropos:'La violence comme seule réponse — agir avant de réfléchir quand la pression monte.'
+    },
+    traits:[
+      {name:'Vétéran de la Grande Guerre',type:'Archétype',max:'d12'},
+      {name:'Sang-froid sous la pression',type:'Comportement',max:'d10'},
+      {name:'Loyal jusqu\'à l\'obstination',type:'Comportement',max:'d8'},
+      {name:'Combat au corps à corps',type:'Capacité',max:'d10'},
+      {name:'Premiers secours',type:'Capacité',max:'d8'},
+      {name:'Connaissance du terrain',type:'Capacité',max:'d6'},
+      {name:'Résistance à la douleur',type:'Capacité',max:'d6'},
+      {name:'Commandement',type:'Capacité',max:'d6'},
+    ],
+    health:{effiloche:1,tendu:2,limite:2},
+    resources:[
+      'Revolver de service — arme dissimulée, toujours chargée',
+      'Médaille militaire — réseau des anciens combattants',
+      'Carnet de terrain — croquis, noms, positions'
+    ]
+  },
+  {
+    group:'lin', groupLabel:'Fil de Lin — Londres, années 1920',
+    name:'Béatrice Halloway', archetype:'Médium',
+    moires:{
+      clotho:'"Les morts méritent que leur vérité soit entendue."',
+      lachesis:'"Comprendre pourquoi j\'entends les voix depuis l\'accident de mon enfance."',
+      atropos:'L\'addiction aux visions — aller trop loin pour voir plus, rester trop longtemps dans l\'entre-deux.'
+    },
+    traits:[
+      {name:'Médium',type:'Archétype',max:'d12'},
+      {name:'Curieuse de l\'invisible',type:'Comportement',max:'d10'},
+      {name:'Émotionnellement perméable',type:'Comportement',max:'d8'},
+      {name:'Perception des présences',type:'Capacité',max:'d10'},
+      {name:'Psychologie',type:'Capacité',max:'d8'},
+      {name:'Déchiffrement de symboles',type:'Capacité',max:'d6'},
+      {name:'Persuasion',type:'Capacité',max:'d6'},
+      {name:'Connaissance des rituels',type:'Capacité',max:'d6'},
+    ],
+    health:{effiloche:1,tendu:2,limite:2},
+    resources:[
+      'Journal des visions — notes et croquis de chaque contact',
+      'Pendule en cristal — hérité de sa grand-mère',
+      'Réseau spirite londonien — cercle de contacts'
+    ]
+  },
+  {
+    group:'lin', groupLabel:'Fil de Lin — Londres, années 1920',
+    name:'Charles Whitmore', archetype:'Érudit en ésotérisme',
+    moires:{
+      clotho:'"La connaissance est la seule arme contre les ténèbres."',
+      lachesis:'"Publier une thèse qui prouve l\'existence du surnaturel sans être ridiculisé."',
+      atropos:'L\'orgueil intellectuel — ne jamais admettre qu\'il ne comprend pas, même quand c\'est dangereux.'
+    },
+    traits:[
+      {name:'Érudit en ésotérisme',type:'Archétype',max:'d12'},
+      {name:'Rationnel même face à l\'irrationnel',type:'Comportement',max:'d10'},
+      {name:'Condescendant envers les non-initiés',type:'Comportement',max:'d8'},
+      {name:'Langues anciennes',type:'Capacité',max:'d10'},
+      {name:'Recherche en archives',type:'Capacité',max:'d8'},
+      {name:'Cryptographie',type:'Capacité',max:'d6'},
+      {name:'Médecine de terrain',type:'Capacité',max:'d6'},
+      {name:'Éloquence',type:'Capacité',max:'d6'},
+    ],
+    health:{effiloche:1,tendu:2,limite:2},
+    resources:[
+      'Bibliothèque personnelle — grimoires et archives rares',
+      'Réseau académique d\'Oxford — contacts savants',
+      'Instruments d\'analyse — loupe, hygromètre, balance'
+    ]
+  },
+  {
+    group:'laine', groupLabel:'Fil de Laine — Science-Fiction spatiale',
+    name:'Kael Drennan', archetype:'Pilote Émérite',
+    moires:{
+      clotho:'"La liberté vaut plus que la sécurité."',
+      lachesis:'"Rembourser la dette qui pèse sur ma tête et voler libre enfin."',
+      atropos:'Le jeu — parier sur tout, même sa propre vie, même celle des autres.'
+    },
+    traits:[
+      {name:'Pilote Émérite',type:'Archétype',max:'d12'},
+      {name:'Impulsif sous pression',type:'Comportement',max:'d10'},
+      {name:'Loyal à son équipage',type:'Comportement',max:'d8'},
+      {name:'Navigation spatiale',type:'Capacité',max:'d10'},
+      {name:'Mécanique de base',type:'Capacité',max:'d8'},
+      {name:'Combat rapproché',type:'Capacité',max:'d6'},
+      {name:'Intimidation',type:'Capacité',max:'d6'},
+      {name:'Sens de l\'orientation',type:'Capacité',max:'d6'},
+    ],
+    health:{effiloche:3,tendu:3,limite:3},
+    resources:[
+      'Vaisseau "La Lanterne Brisée" — vieux, rafistolé, irremplaçable',
+      'Faux papiers d\'identité — trois identités distinctes',
+      'Carte des routes non officielles — couloirs entre checkpoints'
+    ]
+  },
+  {
+    group:'laine', groupLabel:'Fil de Laine — Science-Fiction spatiale',
+    name:'Jaxx Orvaine', archetype:'Ingénieure de Génie',
+    moires:{
+      clotho:'"Une solution technique existe toujours — il suffit de la trouver."',
+      lachesis:'"Concevoir une technologie qui changera le cours de l\'humanité."',
+      atropos:'L\'obsession du travail — sacrifier tout le reste pour le projet en cours.'
+    },
+    traits:[
+      {name:'Ingénieure de Génie',type:'Archétype',max:'d12'},
+      {name:'Pragmatique avant tout',type:'Comportement',max:'d10'},
+      {name:'Parle aux machines mieux qu\'aux gens',type:'Comportement',max:'d8'},
+      {name:'Hacking',type:'Capacité',max:'d10'},
+      {name:'Fabrication improvisée',type:'Capacité',max:'d8'},
+      {name:'Sciences appliquées',type:'Capacité',max:'d6'},
+      {name:'Négociation technique',type:'Capacité',max:'d6'},
+      {name:'Médecine de terrain',type:'Capacité',max:'d6'},
+    ],
+    health:{effiloche:3,tendu:3,limite:3},
+    resources:[
+      'Générateur à plasma illégal — performances impossibles selon les manuels',
+      'Atelier portable — valise qui se déplie en établi complet',
+      'Contacts marché noir technologique — pièces introuvables'
+    ]
+  },
+  {
+    group:'laine', groupLabel:'Fil de Laine — Science-Fiction spatiale',
+    name:'Vex Carano', archetype:'Artilleur Mercenaire',
+    moires:{
+      clotho:'"Un contrat est sacré — la parole donnée aussi."',
+      lachesis:'"Trouver qui a trahi son ancienne unité et obtenir justice."',
+      atropos:'La violence comme première réponse — l\'élégance des solutions simples et définitives.'
+    },
+    traits:[
+      {name:'Artilleur Mercenaire',type:'Archétype',max:'d12'},
+      {name:'Calme en toutes circonstances',type:'Comportement',max:'d10'},
+      {name:'Cynique sur les motivations humaines',type:'Comportement',max:'d8'},
+      {name:'Maîtrise des armes lourdes',type:'Capacité',max:'d10'},
+      {name:'Tactique de combat',type:'Capacité',max:'d8'},
+      {name:'Survie en milieu hostile',type:'Capacité',max:'d6'},
+      {name:'Crochetage',type:'Capacité',max:'d6'},
+      {name:'Premiers secours',type:'Capacité',max:'d6'},
+    ],
+    health:{effiloche:3,tendu:3,limite:3},
+    resources:[
+      'Arsenal personnel — trois armes pour trois situations',
+      'Réseau de contacts mercenaires — travail, info, extraction',
+      'Armure légère modifiée — protection maximale, discrétion'
+    ]
+  },
+  {
+    group:'soie', groupLabel:'Fil de Soie — Heroic Fantasy',
+    name:'Thorne Ashveil', archetype:'Guerrier Légendaire',
+    moires:{
+      clotho:'"Protéger les innocents, même au prix de ma vie."',
+      lachesis:'"Trouver rédemption pour la bataille perdue et les soldats sacrifiés."',
+      atropos:'L\'orgueil du guerrier — refuser toute aide, même quand elle est nécessaire.'
+    },
+    traits:[
+      {name:'Guerrier Légendaire',type:'Archétype',max:'d12'},
+      {name:'Droit comme une lame',type:'Comportement',max:'d10'},
+      {name:'Porté par la gloire passée',type:'Comportement',max:'d8'},
+      {name:'Combat à l\'épée',type:'Capacité',max:'d10'},
+      {name:'Résistance physique',type:'Capacité',max:'d8'},
+      {name:'Connaissance des monstres',type:'Capacité',max:'d6'},
+      {name:'Équitation',type:'Capacité',max:'d6'},
+      {name:'Commandement au combat',type:'Capacité',max:'d6'},
+    ],
+    health:{effiloche:5,tendu:4,limite:3},
+    resources:[
+      'Épée ancestrale "Fil d\'Acier" — qualité incomparable, sept générations',
+      'Armure de plates familiale — chaque marque raconte une bataille',
+      'Titre de chevalier errant — portes ouvertes partout'
+    ]
+  },
+  {
+    group:'soie', groupLabel:'Fil de Soie — Heroic Fantasy',
+    name:'Elara Vayne', archetype:'Mage de Bataille',
+    moires:{
+      clotho:'"La magie est une responsabilité, pas un droit."',
+      lachesis:'"Percer le secret de la catastrophe magique qui a détruit ma famille."',
+      atropos:'La curiosité sans limite — tester ses propres limites jusqu\'à la rupture.'
+    },
+    traits:[
+      {name:'Mage de Bataille',type:'Archétype',max:'d12'},
+      {name:'Méthodique et prudente',type:'Comportement',max:'d10'},
+      {name:'Distante avec ceux qu\'elle ne connaît pas',type:'Comportement',max:'d8'},
+      {name:'Magie élémentaire',type:'Capacité',max:'d10'},
+      {name:'Connaissance arcanique',type:'Capacité',max:'d8'},
+      {name:'Perception magique',type:'Capacité',max:'d6'},
+      {name:'Alchimie',type:'Capacité',max:'d6'},
+      {name:'Éloquence',type:'Capacité',max:'d6'},
+    ],
+    health:{effiloche:5,tendu:4,limite:3},
+    resources:[
+      'Grimoire personnel — vingt ans de recherches et annotations',
+      'Cristal de focalisation — amplifie et précise les sorts',
+      'Appartenance à la Guilde des Mages — réseau et légitimité'
+    ]
+  },
+  {
+    group:'soie', groupLabel:'Fil de Soie — Heroic Fantasy',
+    name:'Lyra Cassel', archetype:'Voleuse de l\'Ombre',
+    moires:{
+      clotho:'"Voler aux riches pour survivre — et parfois pour les autres."',
+      lachesis:'"Retrouver l\'objet volé à ma famille et restaurer notre honneur perdu."',
+      atropos:'L\'appât du gain — la tentation du coup parfait, même quand c\'est trop risqué.'
+    },
+    traits:[
+      {name:'Voleuse de l\'Ombre',type:'Archétype',max:'d12'},
+      {name:'Opportuniste mais pas sans honneur',type:'Comportement',max:'d10'},
+      {name:'Méfiante envers l\'autorité',type:'Comportement',max:'d8'},
+      {name:'Discrétion',type:'Capacité',max:'d10'},
+      {name:'Crochetage et désamorçage de pièges',type:'Capacité',max:'d8'},
+      {name:'Acrobaties',type:'Capacité',max:'d6'},
+      {name:'Mensonge et déguisement',type:'Capacité',max:'d6'},
+      {name:'Connaissance du milieu criminel',type:'Capacité',max:'d6'},
+    ],
+    health:{effiloche:5,tendu:4,limite:3},
+    resources:[
+      'Réseau d\'informateurs — yeux et oreilles dans chaque quartier',
+      'Kit de crochetage de maître — chaque serrure a sa clé',
+      'Identité secrète de marchande — couverture entretenue depuis trois ans'
+    ]
+  }
+];
+
+document.body.innerHTML = characters.map(renderSheet).join('');
+</script>
+</body>
+</html>

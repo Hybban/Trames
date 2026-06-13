@@ -58,7 +58,7 @@ Consultez l'Oracle quand la réponse vous importe *et* quand vous ne savez genui
 
 ### Gérer les conséquences sans Meneuse
 
-Lorsque vous obtenez une Réussite avec prix (5-8), c'est à vous de définir la conséquence. Si le niveau de menace d'un PNJ n'est pas évident, ou si vous manquez d'inspiration pour un prix purement narratif, ne bloquez pas l'action : infligez-vous une case de Fil Effiloché, bloquez l'utilisation d'une ressource, ou consultez immédiatement la **Table F, Complications** (chapitre VI) pour laisser le hasard dicter le contrecoup de votre action.
+Lorsque vous obtenez une Réussite avec prix (5-8), c'est à vous de définir la conséquence. Si le niveau de menace d'un PNJ n'est pas évident, ou si vous manquez d'inspiration pour un prix purement narratif, ne bloquez pas l'action : infligez-vous une case de blessure légère, bloquez l'utilisation d'une ressource, ou consultez immédiatement la **Table F, Complications** (chapitre VI) pour laisser le hasard dicter le contrecoup de votre action.
 
 ---
 

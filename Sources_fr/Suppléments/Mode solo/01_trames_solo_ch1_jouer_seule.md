@@ -14,7 +14,7 @@ Deux conséquences pratiques découlent de cette dualité.
 
 **Première conséquence ; vous ne pouvez pas vous surprendre vous-même.** Vous savez ce qui se cache derrière la porte avant même de l'ouvrir. Le Moteur Narratif (chapitre II) est là pour contourner ce problème : il introduit de l'imprévisible là où votre imagination seule bouclerait en rond.
 
-**Deuxième conséquence, personne ne valide vos décisions.** En groupe, la table régule naturellement les excès, une joueuse qui force trop le destin en son favour sera freinée par les autres. En solo, cette régulation vient de vous. Le respect de vos Fils, et notamment du Fil d'Atropos, est la colonne vertébrale de votre honnêteté narrative. Un héros qui ne cède jamais à son Péché ne joue pas vraiment à TRAMES.
+**Deuxième conséquence, personne ne valide vos décisions.** En groupe, la table régule naturellement les excès, une joueuse qui force trop le destin en sa faveur sera freinée par les autres. En solo, cette régulation vient de vous. Le respect de vos Fils, et notamment du Fil d'Atropos, est la colonne vertébrale de votre honnêteté narrative. Un héros qui ne cède jamais à son Péché ne joue pas vraiment à TRAMES.
 
 > **Note sur la réserve du Fuseau en solo :** En solo, on considère que vous avez accès à toute la réserve du Fuseau, mais vous devez la dépenser de manière cohérente avec votre personnage. Comme vous jouez seule, vous disposez de 2 jetons pour commencer (1+1). Rien ne vous empêche d'en utiliser plus. Vous jouez seule et aucune meneuse ou autre joueuse ne va venir vous demander des comptes.
 
@@ -47,6 +47,6 @@ Notez votre promesse en tête de votre journal de campagne, juste sous le nom de
 
 ## 4. Le Calibre de Votre Trame
 
-L'absence de groupe signifie que toutes les conséquences et tous les dégâts tombent sur vos seules épaules. Si c'est votre première partie en solo, il est recommandé de choisir le calibre **Fil de Soie** (5 cases de Fil Effiloché). Si vous tenez à jouer en **Fil de Laine** ou **Fil de Lin**, envisagez de trouver rapidement un PNJ Allié ou d'utiliser vos Ressources de manière préventive pour éviter l'attrition prématurée de votre héros.
+L'absence de groupe signifie que toutes les conséquences et tous les dégâts tombent sur vos seules épaules. Si c'est votre première partie en solo, il est recommandé de choisir le calibre **Fil de Soie** (pour avoir plus de cases pour gérer les conséquences de vos échecs et les dégâts subis). Si vous tenez à jouer en **Fil de Laine** ou **Fil de Lin**, envisagez de trouver rapidement un PNJ Allié ou d'utiliser vos Ressources de manière préventive pour éviter l'attrition prématurée de votre héros.
 
 Dans tous les cas, vous êtes les maîtresse du Calibre de la destinée de votre héros. N'hésitez pas à ajuster le calibre en cours de partie si vous le trouvez trop ou pas assez exigeant, personne ne vous jugera. Les règles de progression de personnage pour augmenter le calibre sont les mêmes qu'en jeu groupé. Sauf si vous déterminez simplement qu'à un certain point de votre histoire, le destin de votre héros doit être plus périlleux ou plus héroïque.
