@@ -127,7 +127,7 @@ Hale détermine si le Severance Club est une ressource ou une menace. Cette horl
 - Segment 3 : une opération de l'Appareil d'État affecte directement un contact ou un allié des personnages.
 - Segment 4 : Hale a décidé.
 
-**Résolution — deux options selon les actions des personnages :**
+**Résolution : deux options selon les actions des personnages :**
 
 *Ressource :* Hale propose une collaboration formelle, avec des conditions. Les personnages auraient accès à des informations et des ressources de l'Appareil d'État. En échange, ils rendraient compte de leurs activités. Les fondateurs du Severance Club ne seraient probablement pas d'accord.
 

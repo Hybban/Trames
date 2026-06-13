@@ -152,7 +152,7 @@ Esperanza développe une compréhension de plus en plus précise de ce que le Sm
 - Segments 6-7 : sa perception s'étend au-delà de Limehouse. Elle commence à percevoir des choses dans d'autres quartiers de la ville, ce qui l'inquiète.
 - Segment 8 : Esperanza comprend quelque chose sur la nature du Smog londonien que personne d'autre n'a encore formulé. Ce qu'elle fait de cette compréhension dépend de l'état de ses relations avec les personnages.
 
-**Résolution — deux options selon les actions des personnages :**
+**Résolution : deux options selon les actions des personnages :**
 
 *Avec les personnages :* Esperanza devient une ressource précieuse, peut-être la personne la mieux placée de Londres pour percevoir et interpréter les Fils Emmêlés. Sa perspective, ancrée dans une tradition que le Severance Club ne connaît pas, complète et parfois contredit les cadres d'interprétation du Club d'une façon qui force les personnages à reconsidérer ce qu'ils croyaient savoir.
 

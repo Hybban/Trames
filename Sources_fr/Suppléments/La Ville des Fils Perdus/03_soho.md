@@ -103,7 +103,7 @@ Horloge à l'entière discrétion de la Meneuse. Elle progresse quand l'histoire
 **Ce que les joueuses peuvent faire :**
 Les personnages peuvent lancer leur propre horloge de réponse : étouffer les rumeurs via leurs contacts, détourner l'attention de Scotland Yard, avertir Vivienne, ou au contraire faciliter l'intervention policière.
 
-**Résolution — trois options selon la campagne :**
+**Résolution : trois options selon la campagne :**
 
 *La descente ordinaire qui tourne mal :* Scotland Yard arrive pour des raisons banales mais tombe sur quelque chose qu'il n'est pas équipé pour gérer. The Red Thread ferme, mais le problème se déplace ailleurs dans la ville.
 
@@ -131,7 +131,7 @@ Horloge de progression de Vivienne : sa perception du Fil d'Atropos, et ce qu'el
 - Segment 7 : Vivienne contacte activement le Severance Club, ou cherche à le faire. Pas pour coopérer : pour négocier.
 - Segment 8 : Vivienne a pris une décision. Laquelle dépend de l'état de ses relations avec les personnages.
 
-**Résolution — trois options selon la campagne :**
+**Résolution : trois options selon la campagne :**
 
 *L'alliée troublée :* les personnages ont maintenu un lien de confiance avec Vivienne. Elle leur apporte ce qu'elle a appris, y compris des informations sur le Severance Club que même eux ne connaissent pas. Le prix de cette alliance reste à négocier.
 

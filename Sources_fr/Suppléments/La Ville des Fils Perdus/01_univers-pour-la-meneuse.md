@@ -8,27 +8,17 @@ C'est un univers de gens ordinaires, ou presque ordinaires, qui font des choses 
 
 Votre rôle en tant que Meneuse n'est pas de terrifier vos joueuses avec des créatures indicibles. C'est de les placer face à des choix impossibles, dans une ville qui observe et qui se souvient.
 
-Ce livre vous propose beaucoup d'outils, mais ne vous sentez pas obligé de les utiliser tous. Choisissez ceux qui correspondent à votre campagne et à votre style de jeu. Si une horloge, un PNJ, un lieu, ne semble pas pertinent pour votre campagne, ne l'utilisez pas ou modifiez-le selon vos besoins. Ce n'est pas un péché.
-
-Aussi, vous n'aurez pas toutes les réponses aux questions qui sont posées ici. Ce n'est pas grave. Ce livre n'est pas là pour vous imposer une vision, mais pour vous offrir des pistes. C'est à vous de choisir ce qui résonne avec votre campagne. Il en va de même pour les joueuses. N'hésitez pas à leur poser des questions, à les laisser développer le monde avec vous. Et surtout, amusez-vous. C'est le but premier d'un jeu de rôle.
-
-**Avertissements :**
-
-Bien que ce jeu soit conçu pour être joué dans une ambiance sombre et tendue, il aborde des thématiques qui peuvent être difficiles pour certaines personnes. Les personnages sont confrontés à des traumatismes de guerre, à la violence, à la corruption, à la pauvreté, à la maladie mentale, et à des horreurs psychologiques. Il est important de discuter avec vos joueuses avant de commencer une campagne pour s'assurer que tout le monde est à l'aise avec ces thématiques. N'hésitez pas à adapter le contenu de la campagne pour qu'il corresponde aux sensibilités de votre groupe. N'hésitez pas à utiliser des outils comme les lignes et les voiles pour vous assurer que tout le monde se sent en sécurité pendant la partie.
-
 ---
 
 ## 2. Ton et esthétique
 
 **Cinq mots pour cadrer l'ambiance :** élégance, transgression, cicatrice, brouillard, rupture.
 
-Londres 1920 est une ville en deuil qui refuse de le montrer. La Grande Guerre a tué une génération entière et personne ne sait comment en parler. Alors on ne parle pas. On boit, on danse, on travaille, on surveille, on survit. Et sous cette surface polie et fonctionnelle, quelque chose s'effiloche.
-
-Dans le cadre de Trames, c'est le fil d'Atropos qui est le plus présent ici (→ 5). Ceci est là pour donner une saveur, le péché, à l'univers et n'a pas à être annoncé aux joueuses. C'est simplement une indication pour vous, pour orienter vos choix narratifs. Et qui sait, peut-être que l'auteur commettra le péché de l'utiliser de façon plus importante plus tard dans la gamme.
+A City of Severed Things est une ville en deuil qui refuse de le montrer. La Grande Guerre a tué une génération entière et personne ne sait comment en parler. Alors on ne parle pas. On boit, on danse, on travaille, on surveille, on survit. Et sous cette surface polie et fonctionnelle, quelque chose s'effiloche.
 
 L'esthétique de cet univers se situe entre deux pôles :
 
-**L'élégance de façade** : costumes impeccables, clubs privés lambrissés, thé servi à cinq heures précises, formules de politesse qui permettent de ne jamais dire ce qu'on pense. Londres 1920 est une ville qui sait se tenir. C'est précisément ce qui la rend inquiétante.
+**L'élégance de façade** : costumes impeccables, clubs privés lambrissés, thé servi à cinq heures précises, formules de politesse qui permettent de ne jamais dire ce qu'on pense. A City of Severed Things est une ville qui sait se tenir. C'est précisément ce qui la rend inquiétante.
 
 **La chair en dessous** : ce qui se passe quand le vernis craque. Les corps mutilés des anciens combattants. La sueur et le sang des cliniques clandestines. La scarification esthétique des clubs de Soho. Ce que les gens font à eux-mêmes et aux autres quand ils pensent que personne ne regarde.
 
@@ -75,7 +65,7 @@ La règle pratique : au début d'une campagne, n'activez pas plus de trois ou qu
 
 Dans cet univers, le Péché, au sens du Fil d'Atropos, ne désigne pas une faute morale ordinaire. C'est une **transgression des limites de la condition humaine** : une tentative, consciente ou non, de déchirer le voile d'une réalité devenue insupportable après le traumatisme de la guerre.
 
-Ces transgressions prennent quatre formes dans Londres 1920. Elles ne s'excluent pas; un personnage peut en incarner plusieurs, et les factions naviguent souvent entre deux axes à la fois.
+Ces transgressions prennent quatre formes dans A City of Severed Things. Elles ne s'excluent pas; un personnage peut en incarner plusieurs, et les factions naviguent souvent entre deux axes à la fois.
 
 ---
 

@@ -129,7 +129,7 @@ Miriam cherche une sortie de son arrangement avec l'Appareil d'État. L'horloge 
 - Segment 4 : elle approche discrètement l'un des personnages. Elle a des informations. Elle veut savoir ce qu'elles valent.
 - Segments 5-6 : Miriam a pris une décision sur ce qu'elle va faire. Ce qu'elle décide dépend de ce que les personnages lui ont offert.
 
-**Résolution — trois options selon les actions des personnages :**
+**Résolution : trois options selon les actions des personnages :**
 
 *Avec protection :* Miriam devient une informatrice pour les personnages plutôt que pour l'Appareil d'État. Ce qu'elle sait sur les opérations de surveillance dans le métro est précieux et immédiatement utilisable.
 

@@ -8,7 +8,9 @@ import pdf_generator_core
 
 OUTPUT_DIR = "Générations"
 STYLE_DIR = "pdf_styles"
-LONDRES_1920 = "Londres 1920"
+STYLE_DIR_NAME = "La Ville des Fils Perdus"
+TITLE_FR = "La Ville des Fils Perdus"
+TITLE_EN = "A City of Severed Thread"
 
 def main():
     if not os.path.exists(OUTPUT_DIR):
@@ -17,21 +19,21 @@ def main():
     configs = [
         {
             "lang": "fr", 
-            "dir": f"Sources_fr/Suppléments/{LONDRES_1920}", 
-            "title": LONDRES_1920, 
+            "dir": f"Sources_fr/Suppléments/{STYLE_DIR_NAME}", 
+            "title": TITLE_FR, 
             "subtitle": "The Severance Club",
-            "style_dir_name": LONDRES_1920,
-            "footer": f"Trames - {LONDRES_1920}",
-            "document_type_text": "Supplément d'univers"
+            "style_dir_name": STYLE_DIR_NAME,
+            "footer": f"Trames - {TITLE_FR}",
+            "document_type_text": "Supplément d'univers pour Trames"
         },
         {
             "lang": "en", 
-            "dir": "Sources_en/Suppléments/London 1920", 
-            "title": "London 1920", 
+            "dir": f"Sources_en/Suppléments/{TITLE_EN}", 
+            "title": TITLE_EN, 
             "subtitle": "The Severance Club",
-            "style_dir_name": LONDRES_1920, # English uses the same style directory name
-            "footer": "Threads - London 1920",
-            "document_type_text": "Setting Supplement"
+            "style_dir_name": STYLE_DIR_NAME, # English uses the same style directory name
+            "footer": f"Threads - {TITLE_EN}",
+            "document_type_text": "Setting Supplement for Threads"
         }
     ]
     
@@ -86,7 +88,7 @@ def main():
                 document_type_text=config["document_type_text"]
             )
             
-    print("\nSuccès ! Vos PDFs Londres 1920 sont disponibles dans le dossier 'Générations'.")
+    print(f"\nSuccès ! Vos PDFs {STYLE_DIR_NAME} sont disponibles dans le dossier 'Générations'.")
 
 if __name__ == "__main__":
     main()

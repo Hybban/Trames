@@ -2,7 +2,7 @@
 
 ## 1. Vue d'ensemble
 
-Londres 1920 est une ville traversée par des forces qui s'ignorent, se surveillent et parfois se heurtent sans comprendre ce qu'elles affrontent vraiment. Cinq organisations structurent le paysage occulte de la ville. Elles n'ont pas toutes conscience d'en faire partie.
+A City of Severed Things est une ville traversée par des forces qui s'ignorent, se surveillent et parfois se heurtent sans comprendre ce qu'elles affrontent vraiment. Cinq organisations structurent le paysage occulte de la ville. Elles n'ont pas toutes conscience d'en faire partie.
 
 Ces factions ne sont pas des camps. Une joueuse peut avoir de la sympathie pour les membres de n'importe laquelle d'entre elles, des contacts dans plusieurs, et des ennemis dans celle qu'elle sert. Les frontières sont poreuses, les trahisons fréquentes, et les intentions rarement simples.
 
@@ -109,7 +109,7 @@ La question de consentement divise le réseau. Certains praticiens refusent cat�
 
 ### E. Ce que cette faction pose comme questions aux personnages
 
-Les Chirurgiens de l'Ombre sont probablement la faction la plus moralement ambiguë de Londres 1920. Ils font du bien à des gens que personne d'autre n'aide. Ils font aussi des choses terribles. Ces deux réalités coexistent sans se résoudre. Les personnages qui les rencontrent devront décider ce qu'ils font de cette ambiguïté.
+Les Chirurgiens de l'Ombre sont probablement la faction la plus moralement ambiguë de A City of Severed Things. Ils font du bien à des gens que personne d'autre n'aide. Ils font aussi des choses terribles. Ces deux réalités coexistent sans se résoudre. Les personnages qui les rencontrent devront décider ce qu'ils font de cette ambiguïté.
 
 ---
 

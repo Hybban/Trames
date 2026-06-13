@@ -69,9 +69,7 @@ Trames/
 │   ├── 92_creation_groupe_fil_de_soie.md
 │   ├── 99_recapitulatifs.md
 │   └── Suppléments/
-│       ├── Londres 1920/                # Supplément d'univers historique/mystère
-│       │   ├── 01_ce-que-savent-les-personnages.md
-│       │   └── 02_univers-pour-la-meneuse.md
+│       ├── La Ville des Fils Perdus/     # Supplément d'univers historique/mystère (A City of Severed Thread)
 │       ├── Mode solo/                   # Le Fil Solitaire (6 chapitres)
 │       ├── Trames d'ombres/             # Supplément d'univers urban fantasy
 │       │   └── 01-Trames_d'Ombres-setting.md
@@ -96,7 +94,7 @@ Trames/
 │   ├── theme_noir.css                   # Thème de base (Noir)
 │   ├── theme_print.css                  # Thème de base (Print)
 │   └── Suppléments/                     # Thèmes des suppléments
-│       ├── Londres 1920/
+│       ├── La Ville des Fils Perdus/
 │       ├── Mode solo/
 │       ├── Trames d'ombres/
 │       └── Trames d'ombres Solo/
@@ -110,7 +108,7 @@ Trames/
     ├── fr/
     │   ├── Trames_Livre_de_base_Noir_FR.pdf
     │   ├── Trames_Livre_de_base_Print_FR.pdf
-    │   ├── Londres 1920/
+    │   ├── La Ville des Fils Perdus/
     │   ├── Trames Mode solo/
     │   ├── Trames d'ombres/
     │   └── Trames d'ombres Solo/
@@ -153,9 +151,9 @@ python scripts/generate_trames_d_ombres.py
 ```bash
 python scripts/generate_trames_d_ombres_solo.py
 ```
-- **Londres 1920** :
+- **La Ville des Fils Perdus** :
 ```bash
-python scripts/generate_londres_1920.py
+python scripts/generate_la_ville_des_fils_perdus.py
 ```
 
 Pour générer **tous les ouvrages** d'un coup :
@@ -172,7 +170,7 @@ Quand les fichiers du répertoire `Sources_fr` sont modifiés, il faut mettre à
 - **Sauts de page** : Automatiques avant chaque `h1` (sauf le premier du document).
 - **Encadrés** : Utiliser la syntaxe blockquote `> **Titre :** Contenu`. Vous pouvez également utiliser le préfixe `**Encadré** ` puis exécuter le script `python scripts/fix_encadres.py` pour formater automatiquement le bloc. Ils sont stylisés aux couleurs du jeu (bordure or).
 - **Thèmes (Bleu et Or)** : Le design abandonne l'ancien rouge pour un thème Bleu et Or. Il est décliné en version Print/Base (fond blanc, bleu nuit profond) et Noir (fond anthracite "full bleed", bleu ciel et or vif).
-- **Thèmes des suppléments** : Les suppléments possèdent des thèmes personnalisés. *Trames d'ombres* utilise un thème **Gris et Turquoise**, le *Mode solo* (Le Fil Solitaire) utilise un thème **Vert**, *Trames d'ombres Solo* un thème **Carmin**, et *Londres 1920* un thème **Laiton et Anthracite / Parchemin et Bronze**. Ils sont tous déclinés en version Print/Base et Noir.
+- **Thèmes des suppléments** : Les suppléments possèdent des thèmes personnalisés. *Trames d'ombres* utilise un thème **Gris et Turquoise**, le *Mode solo* (Le Fil Solitaire) utilise un thème **Vert**, *Trames d'ombres Solo* un thème **Carmin**, et *La Ville des Fils Perdus* un thème **Laiton et Anthracite / Parchemin et Bronze**. Ils sont tous déclinés en version Print/Base et Noir.
 
 ## ⚠️ Notes de formatage Markdown
 - **Listes** : Toujours laisser une **ligne vide** avant de commencer une liste (`*` ou `-`), sinon le rendu sera fusionné dans le paragraphe précédent.

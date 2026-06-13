@@ -59,7 +59,7 @@ C'est ainsi que vous avez été trouvé.
 
 Trois choses, dans l'ordre.
 
-D'abord, la discrétion. Ce que vous avez vécu, ce que vous verrez dans le cadre de vos activités pour le Club, ne doit pas quitter le cercle de ses membres. Londres 1920 est une ville sous tension. Les services de renseignement sont nerveux. La presse est avide. Ce que nous faisons ne survivrait pas à l'exposition publique; et nous non plus, très probablement.
+D'abord, la discrétion. Ce que vous avez vécu, ce que vous verrez dans le cadre de vos activités pour le Club, ne doit pas quitter le cercle de ses membres. A City of Severed Things est une ville sous tension. Les services de renseignement sont nerveux. La presse est avide. Ce que nous faisons ne survivrait pas à l'exposition publique; et nous non plus, très probablement.
 
 Ensuite, l'honnêteté. Avec vos camarades, avec le Bureau, et surtout avec vous-même. Les phénomènes que vous allez rencontrer exercent une pression particulière sur certaines zones de la personnalité humaine. Nous avons appris, à nos dépens, que les membres qui se mentent à eux-mêmes sur ce qu'ils ressentent ou ce qu'ils font deviennent rapidement un problème : pour eux d'abord, pour le groupe ensuite.
 

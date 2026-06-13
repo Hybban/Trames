@@ -9,7 +9,7 @@ Trafalgar Square est le centre de gravité émotionnel de Londres.
 
 Pas le centre géographique, pas le centre politique : le centre émotionnel. C'est là que la ville se rassemble quand elle a quelque chose à dire, quelque chose à fêter, quelque chose à pleurer. La colonne Nelson domine la place depuis 1843, entourée de ses lions de bronze, regardant vers le Parlement avec l'indifférence de quelqu'un qui a déjà gagné. Les fontaines crachent leur eau dans des bassins où les enfants jettent des pièces. Les pigeons sont partout, comme toujours, comme si la place leur appartenait plus qu'aux humains.
 
-En 1920, Trafalgar Square est rarement calme. Les grèves, les manifestations syndicales, les rassemblements politiques se succèdent dans un calendrier que les journaux suivent avec une attention croissante. Les orateurs s'installent sur des caisses ou des estrades improvisées, leurs voix portées par l'acoustique particulière de la place — une acoustique qui amplifie certains sons et en absorbe d'autres de façon inexplicable. Les foules se forment et se dissolvent, portées par des courants émotionnels qui semblent parfois dépasser les sujets qui les ont provoqués.
+En 1920, Trafalgar Square est rarement calme. Les grèves, les manifestations syndicales, les rassemblements politiques se succèdent dans un calendrier que les journaux suivent avec une attention croissante. Les orateurs s'installent sur des caisses ou des estrades improvisées, leurs voix portées par l'acoustique particulière de la place, une acoustique qui amplifie certains sons et en absorbe d'autres de façon inexplicable. Les foules se forment et se dissolvent, portées par des courants émotionnels qui semblent parfois dépasser les sujets qui les ont provoqués.
 
 Hyde Park et son Speakers' Corner, à quelques kilomètres à l'ouest, joue un rôle similaire mais plus domestiqué : les orateurs s'y succèdent depuis des décennies, dans un semblant d'ordre qui donne à la liberté d'expression l'apparence d'une institution contrôlée. Les habitués savent que certains orateurs reviennent chaque semaine depuis des années. Ils savent aussi que certains ont disparu du circuit sans explication, remplacés par des inconnus dont le style ressemble trop au leur pour être une coïncidence.
 
@@ -19,7 +19,7 @@ Hyde Park et son Speakers' Corner, à quelques kilomètres à l'ouest, joue un r
 
 La colère collective a une texture.
 
-Ce que les foules produisent à Trafalgar Square depuis des années — la frustration des anciens combattants sans pension, la rage des ouvriers licenciés, le désespoir des familles qui n'arrivent plus à payer leur loyer — ne s'évapore pas quand la manifestation se disperse. Ça reste. Ça s'accumule dans les pierres de la place, dans l'eau des fontaines, dans le métal des lions. Trafalgar Square absorbe les émotions collectives depuis trop longtemps et dans des quantités trop importantes pour que tout soit dissipé entre deux rassemblements.
+Ce que les foules produisent à Trafalgar Square depuis des années : la frustration des anciens combattants sans pension, la rage des ouvriers licenciés, le désespoir des familles qui n'arrivent plus à payer leur loyer, ne s'évapore pas quand la manifestation se disperse. Ça reste. Ça s'accumule dans les pierres de la place, dans l'eau des fontaines, dans le métal des lions. Trafalgar Square absorbe les émotions collectives depuis trop longtemps et dans des quantités trop importantes pour que tout soit dissipé entre deux rassemblements.
 
 Ce que ça produit concrètement : des entités. Pas des créatures au sens lovecraftien, pas des monstres avec une forme et un agenda. Quelque chose de plus diffus et de plus dangereux : des concentrations d'émotion collective suffisamment denses pour avoir une volonté propre, capable d'amplifier et de diriger ce que les foules ressentent déjà. Elles n'ont pas besoin d'être invoquées. Elles se forment naturellement là où les gens se rassemblent en grand nombre avec une intensité émotionnelle suffisante.
 
@@ -130,7 +130,7 @@ La connexion entre Harcastle et ce que Trafalgar Square amplifie se renforce pro
 - Segments 6-7 : Harcastle commence à se comporter légèrement différemment après ses discours : épuisé d'une façon qui ne correspond pas à l'effort physique, avec des lacunes dans ses souvenirs de ce qu'il a dit exactement.
 - Segment 8 : lors d'un rassemblement majeur, ce que la place amplifie via Harcastle devient visible pour tout le monde présent, pas seulement pour les personnages.
 
-**Résolution — deux options selon les actions des personnages :**
+**Résolution : deux options selon les actions des personnages :**
 
 *Intervention :* les personnages comprennent ce qui se passe et tentent de rompre la connexion, de protéger Harcastle, ou de contrôler ce que la place amplifie. Aucune de ces options n'est simple. Rompre la connexion peut libérer ce qui s'est accumulé d'un coup. Protéger Harcastle implique de lui expliquer ce qu'il est devenu sans le détruire. Contrôler l'amplification implique de comprendre ce qu'on contrôle.
 
@@ -154,7 +154,7 @@ Clara Voss reconstitue une image des anomalies de Trafalgar Square. Sa progressi
 - Segment 4 : elle demande une rencontre officieuse. Son carnet personnel est sur la table.
 - Segments 5-6 : Voss a compris assez pour prendre une décision sur ce qu'elle fait de ce qu'elle sait.
 
-**Résolution — trois options selon les actions des personnages :**
+**Résolution : trois options selon les actions des personnages :**
 
 *Alliée :* Voss décide que ce qu'elle observe dépasse ses responsabilités professionnelles et entre dans quelque chose d'autre. Elle ne rejoint pas le Severance Club, mais elle coopère : partage ses observations, ferme les yeux sur certaines activités des personnages, intervient pour les protéger de l'Appareil d'État dans les limites de ce qu'elle peut faire sans se compromettre.
 

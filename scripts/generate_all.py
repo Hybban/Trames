@@ -23,7 +23,7 @@ def main():
         "scripts/generate_solo.py",
         "scripts/generate_trames_d_ombres.py",
         "scripts/generate_trames_d_ombres_solo.py",
-        "scripts/generate_londres_1920.py"
+        "scripts/generate_la_ville_des_fils_perdus.py"
     ]
     
     success = True

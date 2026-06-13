@@ -152,7 +152,7 @@ Agnes Doyle reconstituait méthodiquement la liste des ouvriers disparus et cher
 - Segment 4 : la Crown Estate a remarqué ses démarches. Un avertissement lui est transmis, officieusement.
 - Segments 5-6 : Agnes a assez de preuves pour causer de sérieux problèmes à la Crown Estate et à ceux qui se cachent derrière. Ce qu'elle décide d'en faire dépend de l'état de ses relations avec les personnages.
 
-**Résolution — deux options selon les actions des personnages :**
+**Résolution : deux options selon les actions des personnages :**
 
 *Avec le soutien des personnages :* Agnes et ses preuves deviennent un levier de pression sur l'Appareil d'État. Pas suffisant pour exposer publiquement le projet, mais suffisant pour négocier, protéger des témoins, ou obtenir des informations en échange du silence.
 

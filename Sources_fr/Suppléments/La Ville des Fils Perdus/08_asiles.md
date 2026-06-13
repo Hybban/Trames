@@ -152,7 +152,7 @@ James Alderton travaille à sa propre sortie, avec ou sans l'aide des personnage
 - Segments 5-6 : il leur communique l'étendue réelle de ce qu'il perçoit et de ce qu'il a compris pendant son internement.
 - Segments 7-8 : il a un plan de sortie. Il a besoin d'aide pour l'exécuter, ou il peut l'exécuter seul avec plus de risques.
 
-**Résolution — deux options selon les actions des personnages :**
+**Résolution : deux options selon les actions des personnages :**
 
 *Avec aide :* Alderton sort légalement ou par d'autres moyens. Ce qu'il apporte au Severance Club est considérable : une perception des Fils d'Atropos affinée par dix-huit mois d'observation intensive, et des informations sur les protocoles non standard de l'Appareil d'État qu'il a observés depuis l'intérieur.
 
