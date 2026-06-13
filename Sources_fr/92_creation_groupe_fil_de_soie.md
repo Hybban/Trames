@@ -26,6 +26,8 @@ ils encaissent beaucoup avant de commencer à fléchir.*
 
 ---
 
+--pb--
+
 ### Fiche Complète
 
 **NOM :** Thorne Ashveil
@@ -49,6 +51,8 @@ ils encaissent beaucoup avant de commencer à fléchir.*
 | Connaissance des monstres | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Équitation | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Commandement au combat | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+
+--pb--
 
 **État de Santé :**
 
@@ -82,6 +86,8 @@ ils encaissent beaucoup avant de commencer à fléchir.*
 *Ses ressources : son grimoire personnel *(vingt ans de recherches et d'annotations)*, son cristal de focalisation *(amplifie et précise ses sorts)*, et son appartenance à la Guilde des Mages *(réseau, légitimité, mais aussi obligations)*.*
 
 ---
+
+--pb--
 
 ### Fiche Complète
 

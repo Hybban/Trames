@@ -42,11 +42,8 @@ En plus de ses traits, un héros possède entre **1 et 5 ressources** (objets un
 
 * **Usage Narratif :** Une ressource peut rendre une action automatiquement réussie si la situation s'y prête (ex: utiliser un "Passe-partout" pour une serrure ordinaire).
 * **Usage Mécanique :** Si vous utilisez une ressource lors d'un jet de dés, vous pouvez **doubler l'un des dés de trait lancés** (lancez deux fois le dé et gardez le meilleur résultat avant de comparer aux autres traits). Il faut que le trait choisi soit lié avec la ressource utilisée. Par exemple, si votre personnage possède un **cheval** (ressource), il est cohérent de doubler le dé du trait **Équitation**. Il ne l'est pas de doubler le dé du trait **Magie**, à moins que le cheval ne soit magique.
-* **Accessibilité :** Une ressource peut devenir inaccessible suite à un échec ou une complication.
 
 > **Note sur les ressources :** Les ressources sont définies par la joueuse, mais doivent être validées par la Meneuse de jeu pour garantir qu'elles sont cohérentes avec l'univers et le scénario. Aussi, tout comme pour les traits, il est possible de définir des ressources au cours de la partie au gré des besoins narratifs et en respectant la limite de 5.
-
---pb--
 
 ## 5. Le Fuseau des Moires : Les Trois Fils
 Dans la mythologie grecque, les Moires sont les déesses du destin. Elles sont trois : Clotho, Lachésis et Atropos. Elles filent, mesurent et coupent le fil de la vie de chaque mortel. TRAMES reprend cette imagerie pour définir le destin du héros. 
@@ -64,6 +61,8 @@ Une phrase décrivant ce en quoi votre héros croit ou sa boussole morale. C'est
 Une prophétie, une quête ou un but ultime. C'est la direction que prend sa vie.
 
 * **Lachésis mesure le fil.** Elle ne crée pas, elle reconnaît. Quand le Destin s'accomplit, deux choses se produisent : le héros qui force le destin, et l'univers qui s'aligne en retour. Si vous agissez directement pour accomplir votre Destin, ajoutez +1d12 à votre jet. Cet usage est gratuit ; Lachésis mesure, elle reconnaît. Mais attention, les moments où le Destin s'accomplit sont rares : une seule fois par session.
+
+--pb--
 
 ### C. Le Fil d'Atropos (Le Péché)
 Un vice, une faiblesse ou un instinct sombre. C'est ce qui causera la perte ou la chute du Héros.

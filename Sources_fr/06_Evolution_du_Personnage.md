@@ -40,6 +40,8 @@ La campagne entre dans sa phase finale. Les enjeux sont clairs, les ressources e
 
 > **Note :** Les noeuds d'arc ne sont pas des jalons mécaniques, ils n'ont pas de déclencheur précis. Ce sont des signaux narratifs que la Meneuse lit dans l'état de la table : comment évoluent les Fils, combien de noeuds ont été atteints, quel est le ton général des scènes récentes. Une campagne courte peut traverser ses trois seuils en trois sessions. Une épopée peut les étirer sur des mois.
 
+--pb--
+
 ## 2. Souplesse Narrative
 
 * **Retisser la Trame :** À tout moment, si un trait ne correspond plus à la réalité du héros, vous pouvez le transformer (le renommer) tout en conservant sa valeur de dé actuelle.

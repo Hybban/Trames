@@ -73,6 +73,8 @@ Les d4 d'Atropos sont des **Fils Emmêlés** : ils ne peuvent pas dépasser 4 et
 
 ---
 
+--pb--
+
 ## ÉTAT DE SANTÉ
 
 | Palier | Effet mécanique | Récupération |
@@ -144,6 +146,8 @@ La Meneuse ne lance jamais de dés. Seuls les jets des joueuses déterminent ce 
 **Les Fils des PNJ nommés :** Conviction (ce qu'il défend), Désir (ce qu'il veut), Faille (ce qui peut être utilisé contre lui).
 
 ---
+
+--pb--
 
 ## LES HORLOGES
 

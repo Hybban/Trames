@@ -18,8 +18,6 @@ Le score obtenu sur le dé conservé détermine l'issue de l'action et l'évolut
 | **5 – 8** | **Réussite avec prix** | L’action réussit, mais avec une conséquence. **Diminuez** d'un cran la valeur d'un seul des traits utilisés. |
 | **1 – 4** | **Échec** | L’action échoue. **Diminuez** d'un cran la valeur d'un des traits utilisés. |
 
---pb--
-
 **Notes :** 
 
 * Un trait ne peut pas dépasser sa valeur maximale. 
@@ -39,8 +37,6 @@ Bien sûr, il existe bien d'autres actions possibles. Celles présentées ici so
 
 **Note :** Dans le résultat des manoeuvres, on parle parfois de blessures. On y reviendra dans le chapitre IV.
 
---pb--
-
 ### A. Tendre le Fil
 *Résister, encaisser, tenir bon face à une menace qui vous dépasse.*
 
@@ -49,6 +45,8 @@ Tendre le Fil, c'est choisir de ne pas plier. Pas d'attaque, pas de fuite ; une 
 - **9-12 :** Vous tenez. L'obstacle est surmonté ou repoussé. Augmentez un trait utilisé d'un cran ; la pression vous a renforcé.
 - **5-8 :** Vous passez, mais vous avez souffert. Diminuez un trait d'un cran ou prenez une Blessure Légère ; vous avez encaissé quelque chose.
 - **1-4 :** Vous flanchez. La menace vous frappe de plein fouet. Les conséquences sont immédiates et proportionnelles, que se soit en terme de blessure, de perte de trait, de perte de ressource ou de complications narrative.
+
+--pb--
 
 ### B. Lire la Trame
 *Observer, analyser, comprendre ce que la situation ou un personnage révèle sans le dire.*
@@ -75,6 +73,9 @@ Là où les autres manœuvres réagissent au monde, Nouer un Fil le modifie. C'e
 
 - **9-12 :** Ce que vous construisez tient. Le plan est solide, l'alliance acquise, la solution fonctionne. Augmentez un trait utilisé d'un cran.
   - **Note de Soutien :** Si votre action consistait spécifiquement à secourir, soigner ou inspirer un allié, vous pouvez choisir de renoncer à cette augmentation pour faire remonter l'un des traits de cet allié d'un cran à la place.
+
+--pb--
+
 - **5-8 :** La création existe, mais elle est fragile ou incomplète. Elle fonctionne, pour l'instant, mais avec une limite ou un coût narratif à venir *(Dans le cas d'un soutien, l'allié est aidé, mais vous diminuez l'un de vos propres traits d'un cran pour l'effort fourni)*
 - **1-4 :** Le nœud ne prend pas. Ce que vous tentiez de construire vous échappe, ou se retourne contre vous d'une façon que vous n'aviez pas anticipée.
 
@@ -100,13 +101,13 @@ Un trait fort dans un contexte sans rapport ne justifie pas une contribution. Th
 
 Si une contribution est refusée, la joueuse peut en proposer un autre trait ou choisir de ne pas participer.
 
+--pb--
+
 ### C. Le Lancer
 
 Une fois le pool constitué, toutes les dés sont lancés ensemble : les traits de la lanceuse et les dés des contributrices. On conserve **le résultat le plus élevé**, comme pour tout jet.
 
 Plus il y a de contributrices, plus le pool est grand et plus les chances de succès augmentent. Mais le risque augmente aussi.
-
---pb--
 
 ### D. Les Conséquences
 
@@ -126,6 +127,8 @@ Une joueuse qui hésite à offrir un dé devrait se poser la question honnêteme
 
 > **Note :** Une contributrice dont le trait offert est déjà au minimum (d6) peut quand même participer. Si ce trait doit descendre suite à un 5-8, il devient inutilisable pour le reste de la scène, comme pour tout trait au minimum.
 
+--pb--
+
 ### F. Fils du destin lors des actions collectives
 
 Et si une contributrice voulait utiliser un de ses fils du destin lors d'une action collective ? Par défaut ce n'est pas dans les règles de base, puisque c'est le destin de la lanceuse qui est en ligne de mire. Mais il est possible que l'action de la lanceuse principale vienne impacter le destin d'un autre personnage. Dans ce cas, nous vous proposons plusieurs options :
@@ -141,6 +144,8 @@ La valeur d'un trait fluctue durant la partie. Le chapitre 03 décrit les règle
 * **L'Archétype :** Ce trait est le cœur de votre identité ; il ne peut **jamais descendre en dessous du d6** et donc il ne peut jamais être désactivé.
 * **Autres Traits :** Si un trait (Comportement ou Capacité) doit descendre en dessous du d6, il devient **inutilisable** au moins pour le reste de la scène. Il ne pourra être sollicité à nouveau qu'après une période de repos ou un changement de contexte narratif.
 * **Autres cas :** Si un trait doit descendre et que vous n'avez pas envie de le descendre (ou que vous ne pouvez pas) : on pourra aussi sacrifier une ressource ou prendre une blessure légère à la place. De même, si vous deviez augmenter un trait et que celui-ci atteint son maximum, le joueur ou la joueuse pourra guérir une case de blessure à la place ou récupérer l'usage d'une ressource. Utilisez à bon escient ces flexibilités pour servir le récit.
+
+--pb--
 
 ## 6. La Trame Brûlée : le Sacrifice Ultime
 Parfois, les Moires décident que votre histoire n'est pas terminée, mais elles exigent un prix. La Trame Brûlée est le moment où un héros sacrifie une part de lui-même pour que son fil continue. Ce n'est pas une victoire. C'est une survie qui laisse une cicatrice permanente dans le tissu du personnage.
@@ -160,6 +165,8 @@ Alors qu'une abomination occulte s'apprête à éviscérer Charles dans les sous
 ### B. Groupe Fil de Laine (Science-Fiction) : Le prix de Jaxx
 
 *La Lanterne Brisée* est touchée par un tir de croiseur corporatiste et le générateur à plasma entre en fusion critique, condamnant l'équipage. Pour éviter l'explosion imminente, Jaxx plonge littéralement ses mains sans protection dans les circuits en surchauffe pour dériver l'énergie. Le vaisseau est stabilisé in extremis , mais la joueuse doit rayer à jamais le trait **"Fabrication improvisée"**. En conséquence, les nerfs de ses mains sont irrémédiablement calcinés par la brûlure des circuits. Jaxx conserve son intelligence et ses autres compétences, mais son corps ne lui permet plus de bricoler dans l'urgence : elle perd cette indépendance manuelle qui la caractérisait et devra désormais s'en remettre aux autres pour les tâches physiques minutieuses.
+
+--pb--
 
 ### C. Groupe Fil de Soie (Heroic Fantasy) : La perte d'Elara
 

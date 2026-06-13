@@ -25,6 +25,8 @@ En Fil de Lin, chaque blessure compte : les héros n'ont qu'une seule case de Bl
 
 ---
 
+--pb--
+
 ### Fiche Complète
 
 **NOM :** Arthur Pemberton
@@ -48,6 +50,8 @@ En Fil de Lin, chaque blessure compte : les héros n'ont qu'une seule case de Bl
 | Connaissance du terrain | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Résistance à la douleur | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Commandement | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+
+--pb--
 
 **État de Santé :**
 

@@ -36,8 +36,6 @@ Il est important de noter que les Scènes de Repos ne sont pas automatiques, mê
 
 Et il faut prendre en compte l'avancement des horloges. En effet, le reste du monde évolue pendant que les joueuses décident de prendre un repos mérité pour leurs personnages.
 
---pb--
-
 ## 4. Cadrer et Couper (Conseils à la Meneuse)
 
 La maîtrise du rythme d'une partie repose sur deux actions simples : cadrer (ouvrir) et couper (fermer) une scène.
@@ -57,8 +55,6 @@ Repérez l'instant précis où l'enjeu principal de la scène est résolu (victo
 Ne laissez pas la situation s'éterniser. Une fois l'objectif atteint, concluez la scène sans attendre.
 
 La fin de scène est le moment idéal pour appliquer la *Récupération Légère*, offrant un bol d'air frais aux personnages avant la prochaine séquence.
-
---pb--
 
 ## 5. Types de scènes 
 
@@ -99,8 +95,6 @@ Kael, Jaxx et Vex sont pris au piège dans une station minière dont la section 
 **L'Action 2 :** Jaxx doit stabiliser le système de pressurisation depuis un panneau endommagé. Elle utilise **Tendre le Fil** avec son Archétype *Ingénieure de Génie* (d12) et sa ressource **Générateur à plasma illégal** : ce qui lui permet de doubler un dé. Elle obtient un 6, et l'un de ses dés affiche un 1 ; **L'Accroc**.
 
 **La Résolution 2 :** La pressurisation est partiellement stabilisée ; la Meneuse coche 2 segments sur l'horloge mais ne la remplit pas encore. Le prix : Jaxx coche une case de **Blessure Légère** (brûlure de plasma) ET l'Accroc se déclenche ; le générateur surchauffe. La ressource **Générateur à plasma illégal** devient inaccessible pour le reste de la scène.
-
---pb--
 
 ### B. EXEMPLES DE SCÈNES D'ENQUÊTE
 

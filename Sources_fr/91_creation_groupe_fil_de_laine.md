@@ -25,6 +25,8 @@ En Fil de Laine, le mode standard : 3 cases de Blessure Légère, des héros com
 
 ---
 
+--pb--
+
 ### Fiche Complète
 
 **NOM :** Kael Drennan
@@ -48,6 +50,8 @@ En Fil de Laine, le mode standard : 3 cases de Blessure Légère, des héros com
 | Combat rapproché | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Intimidation | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
 | Sens de l'orientation | Capacité | d6 | `☐ d12` `☐ d10` `☐ d8` `☐ d6` |
+
+--pb--
 
 **État de Santé :**
 

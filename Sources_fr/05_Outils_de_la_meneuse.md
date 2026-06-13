@@ -18,6 +18,8 @@ Assemblez les réponses en une image cohérente qui servira de base à la narrat
 
 **Note :** La Question Ouverte n'est pas un substitut à la préparation. C'est un outil pour les moments où l'histoire prend une direction que la Meneuse n'avait pas anticipée et où le monde doit répondre de façon cohérente sans que tout soit décidé à l'avance.
 
+--pb--
+
 ## 2. Les Horloges
 Une horloge est un cercle divisé en segments qui représente la progression d'une force dans le monde : une menace qui approche, un objectif qui avance, un processus en cours. Les horloges rendent le monde tangible : elles montrent aux joueuses que leurs actions ont un impact, et que leur inaction en a un aussi.
 
@@ -52,8 +54,6 @@ La forme la plus courante. Elle représente ce que le monde fait *contre* les h�
 Elle avance sur les **échecs et les réussites avec prix** des héros dans les actions directement liées à cette menace. Quand elle est pleine, la menace maximale se déclenche et elle ne peut plus être évitée, seulement gérée.
 
 > *Exemples : L'Arrivée de Scotland Yard, Le Rituel s'Achève, Le Vaisseau Coule, L'Incendie Atteint les Réserves.*
-
---pb--
 
 #### L'Horloge d'Objectif
 
@@ -124,8 +124,6 @@ Des problèmes à résoudre qui ne se résolvent pas seuls.
 > *Ce qui le fait avancer :* réussites des héros avec les traits appropriés (ingénierie, mécanique).
 > *Résolution :* le système est réparé. S'il ne l'est pas avant que l'horloge de menace "Oxygène" (4 segments, autonome) se remplisse, les héros perdent connaissance.
 
---pb--
-
 ### D. Les horloges autonomes
 
 Certaines horloges avancent **indépendamment des actions des héros** parce que le monde évolue pendant qu'ils font autre chose. C'est l'outil principal pour montrer que l'inaction a des conséquences.
@@ -141,6 +139,8 @@ Une horloge autonome progresse selon un rythme défini à l'avance :
 > *Résolution : la faction a consolidé son contrôle. Les héros ne peuvent plus l'affronter directement sans risquer un conflit ouvert.*
 
 Les horloges autonomes ne remplacent pas les autres : elles coexistent avec elles. Une même scène peut avoir une horloge de menace qui avance sur les échecs ET une horloge autonome qui avance sur le temps écoulé.
+
+--pb--
 
 ### E. Les horloges longues
 
@@ -192,6 +192,8 @@ Des horloges peuvent se déclencher mutuellement ou se nourrir l'une de l'autre.
 ## 3. Les Personnages Non-Joueurs
 
 Dans TRAMES, la Meneuse ne lance jamais de dés. Ce sont toujours les joueuses qui testent leurs héros contre le monde, et c'est le résultat de leurs jets qui détermine ce qui arrive à tous, y compris aux adversaires et aux alliés. Les PNJ ne sont pas des combattants symétriques : ce sont des forces narratives dotées de mécaniques légères.
+
+--pb--
 
 ### A. DEUX TYPES DE PNJ
 
@@ -313,3 +315,91 @@ Un scénario de TRAMES s'articule généralement autour de quatre piliers fondam
 Ne planifiez jamais les solutions aux problèmes que vous posez. Si les héros doivent s'introduire dans le manoir de Sir Ashworth, ne décidez pas à l'avance par où ils passeront. Posez le manoir, ses défenses (Horloge d'Urgence "Alerte des Gardes"), et laissez les joueuses improviser.
 - **Suivre les Fils :** Laissez les Fils des joueurs (Conviction, Destin, Péché) dicter la direction de l'intrigue. Si un héros tente de réaliser son Destin, faites-en le cœur de la scène suivante. Si un joueur invoque son Péché pour regagner un jeton, intégrez immédiatement cette faiblesse morale comme un nouvel obstacle narratif dans la pièce suivante.
 - **L'Évolution du Monde :** À la fin de chaque session, ajustez l'attitude des PNJ et faites progresser les horloges autonomes. Le monde de TRAMES est vivant, réactif et impitoyable : il porte les marques de chaque choix fait à la table.
+
+---
+
+## 6. Construire un Univers : Exemples Concrets
+
+Les sections précédentes posent les fondations mécaniques. Cette section montre comment ces outils prennent vie dans un univers spécifique, en utilisant *Trames : The City of Severed Threads* comme référence. Les exemples ci-dessous sont directement tirés de ce supplément et peuvent servir de modèles pour construire n'importe quel univers de la gamme.
+
+### A. Le Format d'un PNJ dans un Univers Trames
+
+Dans *The City of Severed Threads*, les PNJ n'ont pas de traits mécaniques. Ils ont une intériorité narrative : ce qu'ils veulent, pourquoi, comment ils se comportent face aux personnages, et quelles horloges leur sont associées. Ce format remplace les blocs mécaniques par une description jouable directement à la table.
+
+---
+
+**Vivienne Ashworth, 26 ans**
+
+**Concept :** Héritière d'une famille de l'aristocratie militaire qui a perdu ses deux frères dans les tranchées. Elle organise les rituels les plus avancés dans le club qu'elle finance et dirige de facto : *The Red Thread* (le Fil Rouge), une arrière-salle d'un établissement de Frith Street à Soho.
+
+**Motivation :** Vivienne ne cherche pas l'extase. Elle cherche à comprendre pourquoi ses frères sont morts et elle non, et ce que ça signifie que le fil de leur vie ait été coupé et pas le sien. Les rituels lui semblent approcher une réponse sans jamais l'atteindre tout à fait.
+
+**But en jeu :** Recruter des participants dont l'expérience fondatrice ressemble à la sienne. Elle pense que des gens qui ont vu le fil se couper de près produisent des rituels plus puissants. Elle a probablement raison.
+
+**Comportement :** Vivienne est charmante, précise et légèrement terrifiante. Elle écoute vraiment ce qu'on lui dit, ce qui est rare. Elle ne ment pas directement, mais choisit avec soin ce qu'elle dit et ce qu'elle tait. Elle n'a pas peur des personnages, même quand elle devrait.
+
+**Horloges associées :** *The Red Thread* (horloge de lieu, pression externe sur le club), *La Connexion de Vivienne* (horloge de progression, voir section B).
+
+---
+
+**Ce que ce format apporte :**
+
+La motivation répond à *pourquoi* ce personnage fait ce qu'il fait. Le but en jeu répond à *ce qu'il cherche dans chaque interaction avec les personnages*. Le comportement donne à la Meneuse une voix et une posture jouable immédiatement, sans avoir à improviser. Les horloges associées connectent le PNJ au reste du système de tension de la session.
+
+Un PNJ construit ainsi n'a pas besoin de traits mécaniques parce que ses actions découlent naturellement de son intériorité. Quand les personnages le poussent dans ses retranchements, la Meneuse sait quoi faire : Vivienne ne ment pas directement, mais elle choisit ce qu'elle dit. Elle n'a pas peur. Ces deux informations suffisent pour jouer n'importe quelle scène avec elle de façon cohérente.
+
+---
+
+### B. Le Format Complet d'une Horloge de Lieu
+
+Dans un livre d'univers, les horloges ne décrivent pas seulement ce qui se passe quand elles se remplissent. Elles guident la Meneuse sur trois axes : ce qui les fait progresser, comment signaler cette progression aux joueuses sans la nommer explicitement, et ce qui se produit à la résolution. Voici l'exemple complet de l'horloge associée à Vivienne Ashworth :
+
+---
+
+**La Connexion de Vivienne** (8 segments)
+
+*Horloge de progression d'un PNJ clé : sa perception du monde s'affine, et ses actions changent en conséquence.*
+
+**Ce qui la remplit :**
+- 1 segment par session, automatiquement : Vivienne tient ses rituels, recrute, apprend. Le monde tourne sans les personnages.
+- 1 segment supplémentaire par jour de jeu dès que les personnages enquêtent activement sur elle : chaque interaction, chaque question posée dans son cercle remonte jusqu'à elle.
+- 1 segment immédiat si un membre du Severance Club lui révèle, volontairement ou non, des informations sur le Club ou sur les personnages.
+- 1 segment quand une horloge liée atteint un seuil critique : la pression externe force Vivienne à accélérer ses expérimentations.
+
+**Les signaux pour les joueuses :**
+- Segments 1-3 : rien de visible. Les rituels semblent intenses mais ordinaires pour ce milieu.
+- Segment 4 : le Smog autour de Frith Street prend une teinte légèrement rosée après minuit. Perceptible seulement si une joueuse pose des questions précises, ou si un PNJ le mentionne en passant.
+- Segment 5 : Vivienne commence à terminer certaines phrases des personnages avant qu'ils les aient dites. Elle s'en aperçoit. Elle n'en parle pas.
+- Segment 6 : elle peut voir les fils des personnes présentes dans la pièce. Un carnet apparaît, qu'elle ne quitte plus.
+- Segment 7 : Vivienne contacte activement le Severance Club. Pas pour coopérer : pour négocier.
+- Segment 8 : Vivienne a pris une décision. Laquelle dépend de l'état de ses relations avec les personnages.
+
+**Résolution : trois options selon la campagne :**
+
+*L'alliée troublée :* les personnages ont maintenu un lien de confiance avec Vivienne. Elle leur apporte ce qu'elle a appris, y compris des informations que même eux ne connaissent pas. Le prix de cette alliance reste à négocier.
+
+*La rivale :* Vivienne a décidé que le Club est un obstacle. Elle utilise sa capacité à voir les fils pour identifier les vulnérabilités des personnages. Elle ne les attaque pas directement : elle tire des fils.
+
+*La perte :* sans intervention des personnages, Vivienne a été absorbée par ce qu'elle a déclenché. Elle voit tout, comprend tout, et n'est plus tout à fait là.
+
+---
+
+Ce format en trois blocs (ce qui la remplit / les signaux / la résolution) est la structure recommandée pour toutes les horloges d'univers. Elle donne à la Meneuse des leviers clairs sans lui imposer une trajectoire unique.
+
+**Ce que ce format apporte par rapport aux horloges de scène :**
+
+Les horloges de scène répondent à une urgence immédiate. Les horloges d'univers fonctionnent sur un temps long et servent de baromètre narratif : elles montrent que le monde évolue indépendamment des personnages, et que chaque choix des joueuses, y compris l'inaction, a des conséquences qui se déploient sur plusieurs sessions.
+
+La règle pratique : au début d'une campagne, n'activez pas plus de trois ou quatre horloges simultanément. Ajoutez-en quand les personnages s'engagent dans un nouveau lieu ou une nouvelle relation. Retirez-en quand une situation se résout ou devient secondaire. Une horloge qui ne sert pas votre campagne n'existe pas. Une horloge activée au bon moment peut changer une session entière.
+
+---
+
+--pb--
+
+### C. La Note sur les Horloges d'Univers
+
+Un livre d'univers propose naturellement de nombreuses horloges : par lieu, par PNJ, par faction. Ce n'est pas une liste d'obligations.
+
+La Meneuse choisit les horloges pertinentes pour sa campagne, les active au moment où elles deviennent utiles, et laisse les autres de côté. Gérer quinze horloges en parallèle transforme une campagne en feuille de calcul. Trois horloges bien choisies et bien activées peuvent changer l'atmosphère d'une session entière.
+
+La question à se poser pour chaque horloge proposée dans un supplément : *est-ce que ce lieu, ce PNJ, ou cette faction est central à ce que je veux raconter en ce moment ?* Si oui, activez l'horloge. Sinon, elle existera en arrière-plan comme contexte, pas comme mécanique active.
